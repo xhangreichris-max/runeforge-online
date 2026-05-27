@@ -1,0 +1,1593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kingdom Name Generator — RuneForge | 1000+ Fantasy Kingdom Names</title>
+  <meta name="description" content="Generate regal kingdom names for D&D, fantasy novels, and worldbuilding. Empire, realm, city-state, and dark kingdom names — free kingdom name generator.">
+  <link rel="canonical" href="https://runeforge.online/kingdom-name-generator">
+  <meta property="og:image" content="https://runeforge.online/assets/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a kingdom name generator?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A kingdom name generator is a creative tool that produces unique, evocative names for fantasy kingdoms, empires, realms, and city-states. It combines linguistic patterns, historical influences, and thematic elements to generate names suitable for D&D campaigns, novels, games, and worldbuilding projects."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are good fantasy kingdom names for D&D?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Good D&D kingdom names include Valdris Ironhold, Aethermere, Dravencourt, Korvanis, Eldrathor, Mourngard, Solenvale, and Vorlenn. The best names reflect the kingdom's culture, history, geography, and political structure while remaining memorable and easy to pronounce at the table."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I name a kingdom in D&D?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To name a D&D kingdom, consider its dominant culture, historical events, geography, and government type. Use strong consonants for martial empires, flowing vowels for elven realms, and harsh sounds for dark kingdoms. Blend real-world linguistic roots with fantasy elements for authenticity."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What makes a fantasy kingdom name sound real?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A believable fantasy kingdom name follows natural phonetic patterns, incorporates meaningful suffixes (-hold, -mere, -court, -vale), reflects the realm's cultural identity, and avoids overly complex spellings. Names that echo real historical regions while adding fantasy flavor feel the most authentic."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Generate Kingdom Names",
+    "description": "A simple 3-step guide to using the RuneForge Kingdom Name Generator.",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Choose Your Filter",
+        "text": "Select a category filter — Empire, Realm, City-State, Ancient, or Dark Kingdom — to narrow the style of names generated."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Click Generate",
+        "text": "Press the Generate button to instantly create a fresh set of 8 unique kingdom names matching your selected theme."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Copy and Use",
+        "text": "Click the copy icon on any name card to save it to your clipboard for use in your campaign, novel, or game."
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg:        #0C0D0E;
+      --bg-light:  #0F1115;
+      --card-bg:   #111418;
+      --gold:      #C4A052;
+      --gold-dim:  rgba(196,160,82,0.2);
+      --crimson:   #8B2020;
+      --crimson-dim: rgba(139,32,32,0.25);
+      --text:      #F0EDE6;
+      --text2:     #C8D0BC;
+      --text3:     #8A9088;
+      --border:    rgba(255,255,255,0.06);
+    }
+
+    * {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 17px;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(12,13,14,0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--gold-dim);
+      padding: 0 24px;
+    }
+
+    .navbar-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+
+    .logo-icon {
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo-icon svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .logo-text {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: 1.25rem;
+      letter-spacing: 1px;
+    }
+
+    .logo-text .rune {
+      color: var(--gold);
+    }
+
+    .logo-text .forge {
+      color: #fff;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+
+    .nav-links a {
+      font-family: 'Cinzel', serif;
+      font-size: 0.85rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--text2);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--gold);
+    }
+
+    .nav-pro {
+      font-family: 'Cinzel', serif;
+      font-size: 0.85rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--gold);
+      text-decoration: none;
+      border: 1px solid var(--gold);
+      padding: 6px 16px;
+      border-radius: 4px;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .nav-pro:hover {
+      background: var(--gold-dim);
+    }
+
+    .nav-pro .crown {
+      font-size: 0.75rem;
+    }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      width: 100%;
+      padding: 60px 24px 48px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 800px;
+      height: 400px;
+      background: radial-gradient(ellipse at center, rgba(196,160,82,0.08) 0%, rgba(139,32,32,0.06) 40%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-eyebrow {
+      font-family: 'Cinzel', serif;
+      font-size: 0.8rem;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .hero-eyebrow .line {
+      display: inline-block;
+      width: 40px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      position: relative;
+    }
+
+    .hero-eyebrow .line::after {
+      content: '◆';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 0.5rem;
+      color: var(--gold);
+    }
+
+    .hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: clamp(2.8rem, 6vw, 5.5rem);
+      color: var(--text);
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+
+    .hero-tagline {
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      color: var(--text3);
+      max-width: 520px;
+      margin: 0 auto 32px;
+      line-height: 1.5;
+    }
+
+    /* Filter Pills */
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 28px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .filter-pill {
+      font-family: 'Cinzel', serif;
+      font-size: 0.75rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text3);
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 8px 20px;
+      cursor: pointer;
+      transition: all 0.2s;
+      user-select: none;
+    }
+
+    .filter-pill:hover {
+      border-color: var(--gold-dim);
+      color: var(--text2);
+    }
+
+    .filter-pill.active {
+      border-color: var(--gold);
+      color: var(--gold);
+      background: rgba(196,160,82,0.08);
+    }
+
+    /* Generate Button */
+    .generate-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .generate-btn {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      width: 100%;
+      max-width: 520px;
+      min-width: 280px;
+      height: 64px;
+      background: linear-gradient(180deg, #1a1c20 0%, #111418 100%);
+      border: none;
+      cursor: pointer;
+      clip-path: polygon(6% 0%, 94% 0%, 100% 50%, 94% 100%, 6% 100%, 0% 50%);
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      letter-spacing: 3px;
+      color: var(--gold);
+      text-transform: uppercase;
+      transition: all 0.2s;
+    }
+
+    .generate-btn::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      clip-path: polygon(6% 0%, 94% 0%, 100% 50%, 94% 100%, 6% 100%, 0% 50%);
+      padding: 2px;
+      background: linear-gradient(135deg, var(--gold) 20%, var(--crimson) 50%, var(--gold) 80%);
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+    }
+
+    .generate-btn:hover {
+      background: linear-gradient(180deg, #1e2026 0%, #15181d 100%);
+      transform: translateY(-1px);
+    }
+
+    .generate-btn:active {
+      transform: translateY(1px);
+    }
+
+    .generate-btn .crown-icon {
+      font-size: 1.3rem;
+      line-height: 1;
+    }
+
+    /* Cards Grid */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      max-width: 1060px;
+      margin: 0 auto 56px;
+      padding: 0 24px;
+    }
+
+    .name-card {
+      background: var(--card-bg);
+      border-top: 2px solid var(--gold);
+      border-left: 2px solid var(--crimson);
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: all 0.25s ease;
+      opacity: 0;
+      transform: translateY(12px);
+    }
+
+    .name-card.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .name-card:hover {
+      transform: translateY(-2px);
+      border-top-color: #d4b06a;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 0 1px rgba(196,160,82,0.1);
+    }
+
+    .card-info {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .card-name {
+      font-family: 'Cinzel', serif;
+      font-size: 22px;
+      font-variant: small-caps;
+      color: var(--text);
+      letter-spacing: 0.5px;
+      line-height: 1.2;
+    }
+
+    .card-type {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    .copy-btn {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      cursor: pointer;
+      color: var(--text3);
+      transition: all 0.2s;
+      flex-shrink: 0;
+    }
+
+    .copy-btn:hover {
+      border-color: var(--gold-dim);
+      color: var(--gold);
+    }
+
+    .copy-btn svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .copy-btn.copied {
+      color: #4ade80;
+      border-color: rgba(74,222,128,0.3);
+    }
+
+    /* Related Tools */
+    .related-tools {
+      text-align: center;
+      padding: 0 24px 56px;
+    }
+
+    .related-eyebrow {
+      font-family: 'Cinzel', serif;
+      font-size: 0.8rem;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .related-eyebrow .line {
+      display: inline-block;
+      width: 40px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      position: relative;
+    }
+
+    .related-eyebrow .line::after {
+      content: '◆';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 0.5rem;
+      color: var(--gold);
+    }
+
+    .chips-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .tool-chip {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: var(--text2);
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 10px 20px;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .tool-chip:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+      background: rgba(196,160,82,0.05);
+    }
+
+    .tool-chip .chip-icon {
+      font-size: 1rem;
+      line-height: 1;
+    }
+
+    /* SEO Section */
+    .seo-section {
+      background: var(--bg-light);
+      border-top: 1px solid var(--border);
+      padding: 64px 24px;
+    }
+
+    .seo-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .seo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 64px;
+    }
+
+    .seo-col h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.2rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+
+    .seo-col p {
+      font-family: 'Inter', sans-serif;
+      font-size: 17px;
+      color: var(--text2);
+      margin-bottom: 16px;
+      line-height: 1.7;
+    }
+
+    .seo-subhead {
+      font-family: 'Cinzel', serif;
+      font-size: 0.85rem;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin: 28px 0 14px;
+    }
+
+    .perfect-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .perfect-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Inter', sans-serif;
+      font-size: 17px;
+      color: var(--text2);
+    }
+
+    .perfect-list .icon {
+      color: var(--gold);
+      font-size: 1.1rem;
+      width: 24px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    .tips-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .tips-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-family: 'Inter', sans-serif;
+      font-size: 17px;
+      color: var(--text2);
+      line-height: 1.6;
+    }
+
+    .tips-list .bullet {
+      color: var(--gold);
+      font-size: 0.7rem;
+      margin-top: 6px;
+      flex-shrink: 0;
+    }
+
+    /* SEO Bands */
+    .seo-band {
+      padding: 56px 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    .seo-band.alt {
+      background: rgba(255,255,255,0.015);
+    }
+
+    .band-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .band-inner h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 20px;
+    }
+
+    .band-inner p {
+      font-family: 'Inter', sans-serif;
+      font-size: 17px;
+      color: var(--text2);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+
+    .band-cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    .band-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 24px;
+    }
+
+    .band-card h4 {
+      font-family: 'Cinzel', serif;
+      font-size: 1rem;
+      color: var(--gold);
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    .band-card p {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      color: var(--text3);
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+
+    /* Table */
+    .seo-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    .seo-table th,
+    .seo-table td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+    }
+
+    .seo-table th {
+      font-family: 'Cinzel', serif;
+      font-size: 0.8rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold);
+      background: rgba(196,160,82,0.05);
+    }
+
+    .seo-table td {
+      color: var(--text2);
+    }
+
+    .seo-table tr:hover td {
+      background: rgba(255,255,255,0.02);
+    }
+
+    /* Types Grid */
+    .types-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    .type-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 24px;
+    }
+
+    .type-card h4 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      color: var(--gold);
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    .type-card p {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      color: var(--text3);
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+
+    /* Quote Cards */
+    .quote-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    .quote-card {
+      background: var(--card-bg);
+      border-left: 3px solid var(--gold);
+      border-radius: 0 8px 8px 0;
+      padding: 24px;
+    }
+
+    .quote-card .quote {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1.3rem;
+      color: var(--text);
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    .quote-card .source {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      color: var(--text3);
+    }
+
+    /* Timeline */
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-top: 24px;
+      position: relative;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 20px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(180deg, var(--gold), var(--crimson), var(--gold));
+    }
+
+    .timeline-step {
+      display: flex;
+      gap: 20px;
+      position: relative;
+      padding-left: 8px;
+    }
+
+    .timeline-number {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--card-bg);
+      border: 2px solid var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Cinzel', serif;
+      font-size: 0.9rem;
+      color: var(--gold);
+      flex-shrink: 0;
+      z-index: 1;
+    }
+
+    .timeline-content h4 {
+      font-family: 'Cinzel', serif;
+      font-size: 1rem;
+      color: var(--text);
+      margin-bottom: 6px;
+      letter-spacing: 1px;
+    }
+
+    .timeline-content p {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      color: var(--text3);
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+
+    /* FAQ */
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    .faq-item {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .faq-question {
+      width: 100%;
+      padding: 18px 24px;
+      background: transparent;
+      border: none;
+      text-align: left;
+      font-family: 'Inter', sans-serif;
+      font-size: 17px;
+      font-weight: 500;
+      color: var(--text);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: color 0.2s;
+    }
+
+    .faq-question:hover {
+      color: var(--gold);
+    }
+
+    .faq-question .chevron {
+      font-size: 0.8rem;
+      color: var(--text3);
+      transition: transform 0.3s;
+    }
+
+    .faq-item.open .faq-question .chevron {
+      transform: rotate(180deg);
+      color: var(--gold);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+    }
+
+    .faq-item.open .faq-answer {
+      max-height: 300px;
+      padding: 0 24px 18px;
+    }
+
+    .faq-answer p {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      color: var(--text3);
+      line-height: 1.7;
+    }
+
+    /* Footer */
+    .footer {
+      border-top: 1px solid var(--border);
+      padding: 40px 24px;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: 1.1rem;
+      color: var(--text3);
+      margin-bottom: 12px;
+    }
+
+    .footer-divider {
+      font-size: 1.2rem;
+      color: var(--gold-dim);
+      margin-bottom: 12px;
+    }
+
+    .footer-copy {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      color: var(--text3);
+    }
+
+    /* Scroll reveal */
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Responsive */
+    @media (max-width: 1100px) {
+      .seo-grid {
+        gap: 36px;
+      }
+      .cards-grid {
+        gap: 14px;
+      }
+    }
+
+    @media (max-width: 860px) {
+      .seo-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .band-cards,
+      .types-grid,
+      .quote-grid {
+        grid-template-columns: 1fr;
+      }
+      .seo-table {
+        display: block;
+        overflow-x: auto;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .cards-grid {
+        grid-template-columns: 1fr;
+      }
+      .nav-links a:not(.nav-pro) {
+        display: none;
+      }
+      .filters {
+        gap: 8px;
+      }
+      .filter-pill {
+        padding: 6px 14px;
+        font-size: 0.7rem;
+      }
+      .hero h1 {
+        font-size: clamp(2.2rem, 8vw, 3.5rem);
+      }
+      .hero {
+        padding: 40px 16px 36px;
+      }
+      .seo-section {
+        padding: 48px 16px;
+      }
+      .seo-band {
+        padding: 40px 16px;
+      }
+    }
+
+    @media (max-width: 420px) {
+      body {
+        font-size: 16px;
+      }
+      .navbar {
+        padding: 0 16px;
+      }
+      .navbar-inner {
+        height: 56px;
+      }
+      .hero {
+        padding: 32px 12px 28px;
+      }
+      .hero-tagline {
+        font-size: 0.9rem;
+      }
+      .cards-grid {
+        padding: 0 12px;
+        gap: 12px;
+      }
+      .name-card {
+        padding: 16px 18px;
+      }
+      .card-name {
+        font-size: 18px;
+      }
+      .card-type {
+        font-size: 10px;
+      }
+      .seo-section,
+      .seo-band {
+        padding: 36px 12px;
+      }
+      .seo-col p,
+      .band-inner p,
+      .faq-question {
+        font-size: 16px;
+      }
+      .seo-col h2 {
+        font-size: 1.8rem;
+      }
+      .band-inner h3 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+<base target="_blank">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="assets/images/favicon_io/favicon.ico">
+<link rel="manifest" href="assets/images/favicon_io/site.webmanifest">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L14 8H20L15 12L17 18L12 14L7 18L9 12L4 8H10L12 2Z" stroke="var(--gold)" stroke-width="1.5" fill="none"/>
+            <path d="M12 6V22" stroke="var(--gold)" stroke-width="1.5"/>
+            <path d="M8 10H16" stroke="var(--gold)" stroke-width="1"/>
+          </svg>
+        </div>
+        <span class="logo-text"><span class="rune">Rune</span><span class="forge">Forge</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html#names">Names</a>
+        <a href="index.html#places">Places</a>
+        <a href="index.html#creatures">Creatures</a>
+        <a href="index.html#pro" class="nav-pro"><span class="crown">♛</span> PRO</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-eyebrow">
+      <span class="line"></span>
+      ←◆→ KINGDOM NAME GENERATOR ←◆→
+      <span class="line"></span>
+    </div>
+    <h1>Realms forged in iron,<br>names carved into history.</h1>
+    <p class="hero-tagline">Generate regal kingdom names for empires, realms, and forgotten lands.</p>
+
+    <div class="filters">
+      <button class="filter-pill active" data-f="all">All</button>
+      <button class="filter-pill" data-f="empire">Empire</button>
+      <button class="filter-pill" data-f="realm">Realm</button>
+      <button class="filter-pill" data-f="citystate">City-State</button>
+      <button class="filter-pill" data-f="ancient">Ancient</button>
+      <button class="filter-pill" data-f="darkKingdom">Dark Kingdom</button>
+    </div>
+
+    <div class="generate-wrapper">
+      <button class="generate-btn" id="generateBtn">
+        <span class="crown-icon">♛</span>
+        <span>GENERATE</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Cards Grid -->
+  <section class="cards-grid" id="cardsGrid">
+    <!-- Cards injected by JS -->
+  </section>
+
+  <!-- Related Tools -->
+  <section class="related-tools">
+    <div class="related-eyebrow">
+      <span class="line"></span>
+      ←◆→ EXPLORE MORE TOOLS ←◆→
+      <span class="line"></span>
+    </div>
+    <div class="chips-row">
+      <a href="../places/city-name-generator.html" class="tool-chip"><span class="chip-icon">🏛</span> City Name Generator</a>
+      <a href="../places/tavern-name-generator.html" class="tool-chip"><span class="chip-icon">🍺</span> Tavern Name Generator</a>
+      <a href="../places/dungeon-name-generator.html" class="tool-chip"><span class="chip-icon">🏰</span> Dungeon Name Generator</a>
+      <a href="../creatures/villain-generator.html" class="tool-chip"><span class="chip-icon">💀</span> Villain Generator</a>
+      <a href="../items/weapon-generator.html" class="tool-chip"><span class="chip-icon">⚔</span> Weapon Generator</a>
+      <a href="../names/elf-name-generator.html" class="tool-chip"><span class="chip-icon">🧝</span> Elf Name Generator</a>
+    </div>
+  </section>
+
+  <!-- SEO Content -->
+  <section class="seo-section">
+    <div class="seo-inner">
+      <div class="seo-grid">
+        <div class="seo-col">
+          <h2>Kingdom Name Generator</h2>
+          <p>A great kingdom name carries power, history, and purpose. Use our generator to create unique, regal names for empires, realms, and lands that shape your world.</p>
+          <p>From ancient dynasties to dark dominions, these names are crafted to inspire legends, spark stories, and bring your worlds to life.</p>
+
+          <div class="seo-subhead">Perfect For</div>
+          <ul class="perfect-list">
+            <li><span class="icon">✦</span> D&D Campaigns</li>
+            <li><span class="icon">✦</span> Fantasy Novels</li>
+            <li><span class="icon">✦</span> Tabletop Games</li>
+            <li><span class="icon">✦</span> Game Development</li>
+            <li><span class="icon">✦</span> Worldbuilding</li>
+          </ul>
+        </div>
+        <div class="seo-col">
+          <div class="seo-subhead">How It Works</div>
+          <p>Click the generate button to instantly create unique kingdom names. Use filters to refine the style and theme. Click the copy icon on any name to save it to your clipboard.</p>
+
+          <div class="seo-subhead">Tips for Naming a Kingdom</div>
+          <ul class="tips-list">
+            <li><span class="bullet">◆</span> Reflect the culture, history, or values of the realm.</li>
+            <li><span class="bullet">◆</span> Use evocative sounds and strong syllables.</li>
+            <li><span class="bullet">◆</span> Consider the geography and resources.</li>
+            <li><span class="bullet">◆</span> Mix real-world inspiration with fantasy elements.</li>
+            <li><span class="bullet">◆</span> Keep it memorable, timeless, and easy to pronounce.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Band 1: What Makes a Good Kingdom Name? -->
+  <section class="seo-band reveal">
+    <div class="band-inner">
+      <h3>What Makes a Good Kingdom Name?</h3>
+      <p>A compelling kingdom name resonates with phonetic weight and cultural meaning. The best names balance familiarity with fantasy — they sound like places that could exist, yet carry an otherworldly gravitas. Strong consonants (V, K, R, Th) convey power and permanence, while softer sounds (L, M, S) suggest beauty, mystery, or decay.</p>
+      <p>Historical naming conventions provide a foundation: suffixes like -hold, -mere, -court, and -vale anchor a name in linguistic tradition. Prefixes drawn from Old Norse, Latin, or Gaelic roots add authenticity. The most memorable kingdom names tell a story in a single word — Mourngard evokes loss and fortification, while Aethermere suggests celestial waters.</p>
+      <div class="band-cards">
+        <div class="band-card">
+          <h4>Strong Sounds</h4>
+          <p>Hard consonants (K, V, R, Z) and sharp vowels create names that feel martial, ancient, or formidable. Valdris, Korvanis, and Draven use these sounds to project authority and strength.</p>
+        </div>
+        <div class="band-card">
+          <h4>Kingdom Name Structure</h4>
+          <p>Most great kingdom names follow a two-part structure: a root name plus a descriptor. The root establishes identity (Eldrathor), while the suffix defines character (Eternal Empire, Ironhold, Storm Crown).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Band 2: D&D Kingdom Names -->
+  <section class="seo-band alt reveal">
+    <div class="band-inner">
+      <h3>D&D Kingdom Names — Examples Table</h3>
+      <p>These kingdom names are ready to drop into your next D&D campaign, organized by type and thematic feel to help you find the perfect fit for your setting.</p>
+      <table class="seo-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Feel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Valdris Ironhold</td><td>Ancient Empire</td><td>Martial, enduring, dwarven</td></tr>
+          <tr><td>Aethermere</td><td>Sacred Kingdom</td><td>Divine, celestial, elven</td></tr>
+          <tr><td>Dravencourt</td><td>Fallen Realm</td><td>Gothic, haunted, human</td></tr>
+          <tr><td>Korvanis</td><td>Iron Dominion</td><td>Authoritarian, industrial</td></tr>
+          <tr><td>Eldrathor</td><td>Eternal Empire</td><td>Arcane, timeless, high elf</td></tr>
+          <tr><td>Mourngard</td><td>Dark Kingdom</td><td>Tragic, cursed, undead</td></tr>
+          <tr><td>Solenvale</td><td>Radiant Realm</td><td>Hopeful, pastoral, halfling</td></tr>
+          <tr><td>Vorlenn</td><td>Storm Crown</td><td>Tempestuous, coastal, human</td></tr>
+          <tr><td>Ashenveil</td><td>Cursed Kingdom</td><td>Fire-scarred, forbidden</td></tr>
+          <tr><td>Crystalvale</td><td>Arcane Empire</td><td>Magical, crystalline, gnomish</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Band 3: Types of Fantasy Kingdoms -->
+  <section class="seo-band reveal">
+    <div class="band-inner">
+      <h3>Types of Fantasy Kingdoms</h3>
+      <p>Understanding the political and cultural structure of your kingdom helps you choose a name that fits. Each type carries different expectations for governance, military, magic, and society.</p>
+      <div class="types-grid">
+        <div class="type-card">
+          <h4>Empire</h4>
+          <p>A vast, multi-ethnic state ruled by an emperor or empress. Empire names project scale, ambition, and permanence — often using hard consonants and grand suffixes like -dominion or -empire.</p>
+        </div>
+        <div class="type-card">
+          <h4>Realm</h4>
+          <p>A kingdom or territorial domain, often smaller and more culturally unified than an empire. Realm names tend toward the poetic and natural — -vale, -mere, -moor, and -wood are common.</p>
+        </div>
+        <div class="type-card">
+          <h4>City-State</h4>
+          <p>An independent sovereign city that controls surrounding territory. City-state names are compact and urban, often ending in -gate, -port, -spire, or standing as single powerful words.</p>
+        </div>
+        <div class="type-card">
+          <h4>Dark Kingdom</h4>
+          <p>A realm defined by tragedy, curse, or malevolent rule. Dark kingdom names use harsh sounds, shadowy imagery, and somber suffixes like -gard, -veil, -fen, and -mark.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Band 4: Famous Fantasy Kingdom Names -->
+  <section class="seo-band alt reveal">
+    <div class="band-inner">
+      <h3>Famous Fantasy Kingdom Names</h3>
+      <p>The most iconic fantasy kingdoms share common traits: they are easy to pronounce, visually evocative, and culturally distinctive. Studying these names helps you craft your own.</p>
+      <div class="quote-grid">
+        <div class="quote-card">
+          <div class="quote">"Gondor, Rohan, Mordor"</div>
+          <div class="source">— Middle-earth (J.R.R. Tolkien). Short, guttural, and geographically grounded.</div>
+        </div>
+        <div class="quote-card">
+          <div class="quote">"Westeros, the Seven Kingdoms"</div>
+          <div class="source">— A Song of Ice and Fire (G.R.R. Martin). Historical realism with fantasy scale.</div>
+        </div>
+        <div class="quote-card">
+          <div class="quote">"Waterdeep, Baldur's Gate, Neverwinter"</div>
+          <div class="source">— Forgotten Realms (D&D). Compound names blending geography with function.</div>
+        </div>
+        <div class="quote-card">
+          <div class="quote">"Skyrim, High Rock, Morrowind"</div>
+          <div class="source">— The Elder Scrolls. Descriptive, elemental, and culturally coded.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Band 5: How to Name Your Fantasy Kingdom -->
+  <section class="seo-band reveal">
+    <div class="band-inner">
+      <h3>How to Name Your Fantasy Kingdom — 3-Step Guide</h3>
+      <p>Follow this structured approach to create a kingdom name that feels authentic, memorable, and perfectly suited to your world.</p>
+      <div class="timeline">
+        <div class="timeline-step">
+          <div class="timeline-number">1</div>
+          <div class="timeline-content">
+            <h4>Define the Kingdom's Identity</h4>
+            <p>Determine the kingdom's government type, dominant culture, climate, and historical pivotal events. A theocracy will sound different from a merchant republic or a warlord's domain.</p>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="timeline-number">2</div>
+          <div class="timeline-content">
+            <h4>Choose Phonetic and Linguistic Roots</h4>
+            <p>Select real-world languages that match your kingdom's feel — Old Norse for northern realms, Latin for empires, Gaelic for mystical lands. Blend root words with fantasy suffixes.</p>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="timeline-number">3</div>
+          <div class="timeline-content">
+            <h4>Test and Refine</h4>
+            <p>Say the name aloud. Check for unintended meanings. Ensure it is easy to spell and remember at the gaming table. Iterate until it feels like a place with real history.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Band 6: FAQ -->
+  <section class="seo-band alt reveal">
+    <div class="band-inner">
+      <h3>Frequently Asked Questions</h3>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            What is a kingdom name generator?
+            <span class="chevron">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>A kingdom name generator is a creative tool that produces unique, evocative names for fantasy kingdoms, empires, realms, and city-states. It combines linguistic patterns, historical influences, and thematic elements to generate names suitable for D&D campaigns, novels, games, and worldbuilding projects.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            What are good fantasy kingdom names for D&D?
+            <span class="chevron">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Good D&D kingdom names include Valdris Ironhold, Aethermere, Dravencourt, Korvanis, Eldrathor, Mourngard, Solenvale, and Vorlenn. The best names reflect the kingdom's culture, history, geography, and political structure while remaining memorable and easy to pronounce at the table.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            How do I name a kingdom in D&D?
+            <span class="chevron">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>To name a D&D kingdom, consider its dominant culture, historical events, geography, and government type. Use strong consonants for martial empires, flowing vowels for elven realms, and harsh sounds for dark kingdoms. Blend real-world linguistic roots with fantasy elements for authenticity.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            What makes a fantasy kingdom name sound real?
+            <span class="chevron">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>A believable fantasy kingdom name follows natural phonetic patterns, incorporates meaningful suffixes (-hold, -mere, -court, -vale), reflects the realm's cultural identity, and avoids overly complex spellings. Names that echo real historical regions while adding fantasy flavor feel the most authentic.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Can I use these names commercially?
+            <span class="chevron">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. All names generated by RuneForge are original creations and free to use in commercial projects including published novels, video games, tabletop supplements, and other media. No attribution is required, though we appreciate credit when possible.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            What is the difference between a realm and an empire name?
+            <span class="chevron">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>An empire name typically projects scale, ambition, and multi-ethnic dominance — often grander and more authoritarian in tone. A realm name suggests a smaller, more culturally unified territory with poetic or naturalistic qualities. Empire names use harder sounds and grander suffixes; realm names favor softer phonetics and landscape-derived endings.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-logo">RuneForge</div>
+    <div class="footer-divider">⚔</div>
+    <div class="footer-copy">© 2025 RuneForge. All rights reserved.</div>
+  </footer>
+
+  <script>
+    // Name Data
+    const nameData = {
+      all: [
+        { name: "Valdris Ironhold", type: "Ancient Empire" },
+        { name: "Aethermere", type: "Sacred Kingdom" },
+        { name: "Dravencourt", type: "Fallen Realm" },
+        { name: "Korvanis", type: "Iron Dominion" },
+        { name: "Eldrathor", type: "Eternal Empire" },
+        { name: "Mourngard", type: "Dark Kingdom" },
+        { name: "Solenvale", type: "Radiant Realm" },
+        { name: "Vorlenn", type: "Storm Crown" },
+        { name: "Kaelthas Dominion", type: "Shadow Dominion" },
+        { name: "Silvenmoor", type: "Lost Kingdom" },
+        { name: "Ashenveil", type: "Cursed Kingdom" },
+        { name: "Thorngate", type: "War Dominion" },
+        { name: "Ironspire", type: "Iron Dominion" },
+        { name: "Duskveil", type: "Dark Kingdom" },
+        { name: "Ravenmark", type: "Fallen Realm" },
+        { name: "Stormveil Keep", type: "Storm Crown" },
+        { name: "Goldenmere", type: "Golden Realm" },
+        { name: "Cindral Empire", type: "Arcane Empire" },
+        { name: "Frostvane", type: "Frost Empire" },
+        { name: "Emberholt", type: "Ancient Empire" },
+        { name: "Shadowfen", type: "Shadow Dominion" },
+        { name: "Arcenmoor", type: "Arcane Empire" },
+        { name: "Obsidian Throne", type: "Dark Kingdom" },
+        { name: "Wraithmoor", type: "Cursed Kingdom" },
+        { name: "Crystalvale", type: "Sacred Kingdom" },
+        { name: "Ironveil", type: "Iron Dominion" },
+        { name: "Stonehaven", type: "Ancient Empire" },
+        { name: "Duskmore", type: "Fallen Realm" },
+        { name: "Crimsonhold", type: "War Dominion" }
+      ],
+      empire: [
+        { name: "Valdris Ironhold", type: "Ancient Empire" },
+        { name: "Eldrathor", type: "Eternal Empire" },
+        { name: "Kaelthas Dominion", type: "Shadow Dominion" },
+        { name: "Cindral Empire", type: "Arcane Empire" },
+        { name: "Emberholt", type: "Ancient Empire" },
+        { name: "Arcenmoor", type: "Arcane Empire" },
+        { name: "Frostvane", type: "Frost Empire" },
+        { name: "Stonehaven", type: "Ancient Empire" },
+        { name: "Ironspire", type: "Iron Dominion" },
+        { name: "Thorngate", type: "War Dominion" },
+        { name: "Crimsonhold", type: "War Dominion" },
+        { name: "Obsidian Throne", type: "Dark Kingdom" }
+      ],
+      realm: [
+        { name: "Aethermere", type: "Sacred Kingdom" },
+        { name: "Dravencourt", type: "Fallen Realm" },
+        { name: "Solenvale", type: "Radiant Realm" },
+        { name: "Silvenmoor", type: "Lost Kingdom" },
+        { name: "Ravenmark", type: "Fallen Realm" },
+        { name: "Goldenmere", type: "Golden Realm" },
+        { name: "Crystalvale", type: "Sacred Kingdom" },
+        { name: "Duskmore", type: "Fallen Realm" },
+        { name: "Wraithmoor", type: "Cursed Kingdom" },
+        { name: "Ashenveil", type: "Cursed Kingdom" },
+        { name: "Shadowfen", type: "Shadow Dominion" },
+        { name: "Duskveil", type: "Dark Kingdom" }
+      ],
+      citystate: [
+        { name: "Korvanis", type: "Iron Dominion" },
+        { name: "Vorlenn", type: "Storm Crown" },
+        { name: "Stormveil Keep", type: "Storm Crown" },
+        { name: "Ironveil", type: "Iron Dominion" },
+        { name: "Thorngate", type: "War Dominion" },
+        { name: "Stonehaven", type: "Ancient Empire" },
+        { name: "Emberholt", type: "Ancient Empire" },
+        { name: "Frostvane", type: "Frost Empire" },
+        { name: "Arcenmoor", type: "Arcane Empire" },
+        { name: "Cindral Empire", type: "Arcane Empire" },
+        { name: "Goldenmere", type: "Golden Realm" },
+        { name: "Crystalvale", type: "Sacred Kingdom" }
+      ],
+      ancient: [
+        { name: "Valdris Ironhold", type: "Ancient Empire" },
+        { name: "Eldrathor", type: "Eternal Empire" },
+        { name: "Emberholt", type: "Ancient Empire" },
+        { name: "Stonehaven", type: "Ancient Empire" },
+        { name: "Kaelthas Dominion", type: "Shadow Dominion" },
+        { name: "Silvenmoor", type: "Lost Kingdom" },
+        { name: "Ravenmark", type: "Fallen Realm" },
+        { name: "Ashenveil", type: "Cursed Kingdom" },
+        { name: "Wraithmoor", type: "Cursed Kingdom" },
+        { name: "Duskmore", type: "Fallen Realm" },
+        { name: "Ironspire", type: "Iron Dominion" },
+        { name: "Thorngate", type: "War Dominion" }
+      ],
+      darkKingdom: [
+        { name: "Mourngard", type: "Dark Kingdom" },
+        { name: "Duskveil", type: "Dark Kingdom" },
+        { name: "Ashenveil", type: "Cursed Kingdom" },
+        { name: "Wraithmoor", type: "Cursed Kingdom" },
+        { name: "Shadowfen", type: "Shadow Dominion" },
+        { name: "Kaelthas Dominion", type: "Shadow Dominion" },
+        { name: "Obsidian Throne", type: "Dark Kingdom" },
+        { name: "Ravenmark", type: "Fallen Realm" },
+        { name: "Duskmore", type: "Fallen Realm" },
+        { name: "Crimsonhold", type: "War Dominion" },
+        { name: "Dravencourt", type: "Fallen Realm" },
+        { name: "Frostvane", type: "Frost Empire" }
+      ]
+    };
+
+    const typePool = [
+      "Ancient Empire", "Sacred Kingdom", "Fallen Realm", "Iron Dominion",
+      "Eternal Empire", "Dark Kingdom", "Radiant Realm", "Storm Crown",
+      "Shadow Dominion", "Frost Empire", "Golden Realm", "Cursed Kingdom",
+      "War Dominion", "Arcane Empire", "Lost Kingdom"
+    ];
+
+    let currentFilter = 'all';
+    const cardsGrid = document.getElementById('cardsGrid');
+    const generateBtn = document.getElementById('generateBtn');
+    const filterPills = document.querySelectorAll('.filter-pill');
+
+    function getRandomItems(arr, count) {
+      const shuffled = [...arr].sort(() => 0.5 - Math.random());
+      return shuffled.slice(0, count);
+    }
+
+    function createCard(nameObj, index) {
+      const card = document.createElement('div');
+      card.className = 'name-card';
+      card.style.transitionDelay = `${index * 0.04}s`;
+      card.innerHTML = `
+        <div class="card-info">
+          <div class="card-name">${nameObj.name}</div>
+          <div class="card-type">${nameObj.type}</div>
+        </div>
+        <button class="copy-btn" aria-label="Copy ${nameObj.name}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+          </svg>
+        </button>
+      `;
+
+      const copyBtn = card.querySelector('.copy-btn');
+      copyBtn.addEventListener('click', () => {
+        navigator.clipboard.writeText(nameObj.name).then(() => {
+          copyBtn.classList.add('copied');
+          copyBtn.innerHTML = `
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+          `;
+          setTimeout(() => {
+            copyBtn.classList.remove('copied');
+            copyBtn.innerHTML = `
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+            `;
+          }, 1500);
+        });
+      });
+
+      return card;
+    }
+
+    function generateCards() {
+      const pool = nameData[currentFilter];
+      const selected = getRandomItems(pool, 8);
+
+      cardsGrid.innerHTML = '';
+      selected.forEach((item, i) => {
+        const card = createCard(item, i);
+        cardsGrid.appendChild(card);
+        // Trigger reflow
+        void card.offsetWidth;
+        requestAnimationFrame(() => {
+          card.classList.add('visible');
+        });
+      });
+    }
+
+    // Filter pills
+    filterPills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        filterPills.forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        currentFilter = pill.dataset.f;
+        generateCards();
+      });
+    });
+
+    // Generate button
+    generateBtn.addEventListener('click', generateCards);
+
+    // Initial load
+    generateCards();
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.faq-item');
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+        if (!isOpen) {
+          item.classList.add('open');
+        }
+      });
+    });
+
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
