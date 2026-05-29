@@ -37,4 +37,28 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+  <loc>https://runeforge.online/tavern-name-generator.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://runeforge.online/alien-name-generator.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://runeforge.online/dark-elf-name-generator.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://runeforge.online/goblin-name-generator.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
 </urlset>
