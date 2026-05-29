@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goblin Name Generator — RuneForge</title>
+<meta name="description" content="Generate funny, fierce, and creative goblin names for D&D, fantasy RPGs, and worldbuilding. Male, Female, WoW, and D&D styles — hundreds of unique goblin names free to use.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://runeforge.online/goblin-name-generator.html">
+<meta property="og:title" content="Goblin Name Generator — RuneForge">
+<meta property="og:description" content="Generate funny, fierce, and creative goblin names for D&D, fantasy RPGs, and worldbuilding.">
+<meta property="og:url" content="https://runeforge.online/goblin-name-generator.html">
+<meta property="og:image" content="assets/images/og-image.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Goblin Name Generator — RuneForge">
+<meta name="twitter:description" content="Generate funny, fierce, and creative goblin names for D&D, fantasy RPGs, and worldbuilding.">
+<meta name="twitter:image" content="assets/images/og-image.jpg">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="assets/images/favicon_io/favicon.ico">
+<link rel="manifest" href="assets/images/favicon_io/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Goblin Name Generator","url":"https://runeforge.online/goblin-name-generator.html","description":"Generate goblin names for D&D, fantasy RPGs, and worldbuilding.","applicationCategory":"GameApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I use these goblin names in my D&D campaign?","acceptedAnswer":{"@type":"Answer","text":"Yes. All names are free for personal and commercial tabletop RPG use including D&D, Pathfinder, and homebrew systems."}},{"@type":"Question","name":"Are goblin names different in D&D vs World of Warcraft?","acceptedAnswer":{"@type":"Answer","text":"Yes. D&D goblin names tend to be short and guttural. WoW goblin names are punchier and often have a chaotic, comedic energy reflecting their tinkerer culture."}},{"@type":"Question","name":"What makes a good goblin name?","acceptedAnswer":{"@type":"Answer","text":"Good goblin names are short, punchy, and fun to say aloud. They often use hard consonants, short vowels, and a slightly chaotic rhythm that matches goblin personality."}}]}
+</script>
+
+<style>
+:root {
+  --bg: #0C0D0E;
+  --card-bg: #0E1117;
+  --gold: #C4A052;
+  --gold-bright: #D4AF37;
+  --text: #F4F1EA;
+  --text-sec: #A3A9B3;
+  --text-muted: #787068;
+  --border: rgba(196,160,82,0.18);
+  --max: 1280px;
+  --gutter: 32px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; display: block; }
+
+/* NAV */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 64px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  background: rgba(12,13,14,0.85);
+  border-bottom: 1px solid var(--border);
+}
+.nav-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 var(--gutter);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(16px, 1.6vw, 22px);
+  color: var(--gold-bright);
+  letter-spacing: .04em;
+  transition: opacity .2s;
+}
+.logo:hover { opacity: .85; }
+.nav-links { display: flex; align-items: center; gap: 32px; }
+.nav-a {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(11px, 0.85vw, 13px);
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  color: var(--text-sec);
+  transition: color .2s;
+}
+.nav-a:hover { color: var(--gold); }
+.btn-pro {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(11px, 0.8vw, 12px);
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  padding: 9px 20px;
+  background: linear-gradient(135deg, #EEC060, #A87830);
+  color: #110A02;
+  border-radius: 4px;
+  font-weight: 700;
+  transition: filter .2s;
+}
+.btn-pro:hover { filter: brightness(1.1); }
+
+/* BREADCRUMB */
+.breadcrumb {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 18px var(--gutter) 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: var(--text-muted);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+.breadcrumb a { color: var(--text-muted); transition: color .2s; }
+.breadcrumb a:hover { color: var(--gold); }
+.breadcrumb span { padding: 0 2px; }
+
+/* HERO */
+.hero {
+  position: relative;
+  background: url('assets/images/hero-bg-goblin.webp') center/cover no-repeat;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom,
+    rgba(12,13,14,0.75) 0%,
+    rgba(12,13,14,0.52) 40%,
+    rgba(12,13,14,0.94) 100%);
+  z-index: 0;
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 96px var(--gutter) 76px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  font-family: 'Cinzel', serif;
+  font-size: clamp(11px, 0.9vw, 13px);
+  letter-spacing: .26em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 26px;
+}
+.eyebrow::before, .eyebrow::after {
+  content: '';
+  width: 56px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(196,160,82,.5));
+}
+.eyebrow::after { background: linear-gradient(to left, transparent, rgba(196,160,82,.5)); }
+.hero h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(38px, 5.8vw, 78px);
+  line-height: 1.08;
+  letter-spacing: -.01em;
+  max-width: 960px;
+  color: var(--text);
+  margin-bottom: 28px;
+}
+.hero-sub {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: clamp(15px, 1.2vw, 19px);
+  max-width: 560px;
+  color: var(--text-sec);
+  margin-bottom: 38px;
+  line-height: 1.75;
+}
+
+/* FILTERS */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+.filter-pill {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(10px, 0.85vw, 13px);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  padding: 11px 24px;
+  border-radius: 100px;
+  border: 1px solid rgba(196,160,82,.3);
+  color: var(--gold);
+  background: transparent;
+  cursor: pointer;
+  transition: all .25s;
+  white-space: nowrap;
+}
+.filter-pill:hover { border-color: var(--gold); }
+.filter-pill.active {
+  background: linear-gradient(135deg, #EEC060, #A87830);
+  color: #110A02;
+  border-color: transparent;
+  font-weight: 700;
+}
+
+/* GENERATE BUTTON */
+.btn-wrap { display: flex; justify-content: center; width: 100%; }
+.generate-btn {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  max-width: min(380px, calc(100vw - var(--gutter) * 2));
+  height: 88px;
+  clip-path: polygon(12px 0%, calc(100% - 12px) 0%, 100% 50%, calc(100% - 12px) 100%, 12px 100%, 0% 50%);
+  transition: transform .25s, filter .2s;
+}
+.generate-btn:hover { transform: translateY(-2px); filter: brightness(1.08); }
+.generate-btn:active { transform: scale(.98); }
+.generate-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #EEC060 0%, #A87830 50%, #4A2C0C 100%);
+  clip-path: inherit;
+}
+.generate-btn::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: linear-gradient(180deg, #D4AF37 0%, #8B6520 50%, #3A1C00 100%);
+  clip-path: inherit;
+}
+.generate-inner {
+  position: absolute;
+  inset: 4px;
+  background: linear-gradient(180deg, #C4952A 0%, #7A5010 60%, #2A0E00 100%);
+  clip-path: inherit;
+}
+.generate-btn span {
+  position: relative;
+  z-index: 5;
+  font-family: 'Cinzel', serif;
+  font-size: clamp(12px, 1vw, 15px);
+  letter-spacing: .26em;
+  text-transform: uppercase;
+  color: #fff4d8;
+  font-weight: 700;
+}
+
+/* CARDS */
+.cards-section {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 52px var(--gutter) 48px;
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.name-card {
+  background: linear-gradient(145deg, rgba(18,22,30,.6), rgba(14,17,23,.9));
+  border: 1px solid transparent;
+  border-top: 1px solid rgba(196,160,82,.2);
+  border-radius: 8px;
+  padding: 24px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  transition: border-color .3s, transform .3s, box-shadow .3s;
+}
+.name-card:hover {
+  border-color: rgba(196,160,82,.35);
+  border-top-color: rgba(196,160,82,.55);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(0,0,0,.4);
+}
+.card-info { display: flex; flex-direction: column; gap: 6px; flex: 1; min-width: 0; }
+.card-name {
+  font-family: 'Cinzel', serif;
+  font-variant: small-caps;
+  font-size: clamp(15px, 1.3vw, 20px);
+  letter-spacing: .03em;
+  color: var(--text);
+  line-height: 1.3;
+  word-break: break-word;
+}
+.card-role {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(10px, 0.75vw, 12px);
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--text-muted);
+}
+.copy-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  width: 34px;
+  height: 34px;
+  min-width: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: color .2s, border-color .2s;
+}
+.copy-btn:hover { color: var(--gold); border-color: rgba(196,160,82,.4); }
+.copy-btn.copied { color: #6BCB77; border-color: rgba(107,203,119,.4); }
+.copy-btn svg { width: 15px; height: 15px; display: block; flex-shrink: 0; }
+
+/* RELATED */
+.related {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--gutter) 60px;
+}
+.related-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-family: 'Cinzel', serif;
+  font-size: clamp(11px, 0.9vw, 13px);
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 26px;
+}
+.related-label::before, .related-label::after {
+  content: '';
+  width: 80px;
+  height: 1px;
+  background: var(--border);
+}
+.related-chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.chip {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(10px, 0.85vw, 13px);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: 11px 20px;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  color: var(--text-sec);
+  transition: all .2s;
+  white-space: nowrap;
+}
+.chip:hover { border-color: var(--gold); color: var(--gold); }
+
+/* DIVIDER */
+.divider {
+  max-width: calc(var(--max) - var(--gutter) * 2);
+  margin: 0 auto 64px;
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+/* SEO AREA */
+.seo-area {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--gutter) 80px;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 56px;
+  align-items: start;
+}
+
+.article h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(26px, 2.4vw, 36px);
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 18px;
+  margin-top: 48px;
+  line-height: 1.2;
+}
+.article h2:first-child { margin-top: 0; }
+.article h3 {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(11px, 0.9vw, 14px);
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  color: var(--gold);
+  margin: 36px 0 14px;
+}
+.article p {
+  font-family: 'EB Garamond', serif;
+  font-size: clamp(17px, 1.3vw, 21px);
+  color: var(--text-sec);
+  line-height: 1.88;
+  margin-bottom: 18px;
+}
+.article ul {
+  font-family: 'EB Garamond', serif;
+  font-size: clamp(17px, 1.3vw, 21px);
+  color: var(--text-sec);
+  line-height: 1.88;
+  margin-bottom: 18px;
+  padding-left: 22px;
+}
+.article li { margin-bottom: 7px; }
+.article strong { color: var(--text); font-weight: 500; }
+.article table { width: 100%; border-collapse: collapse; margin: 24px 0 36px; }
+.article th {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(10px, 0.8vw, 12px);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+.article td {
+  font-family: 'EB Garamond', serif;
+  font-size: clamp(15px, 1.1vw, 19px);
+  color: var(--text-sec);
+  padding: 13px 18px;
+  border-bottom: 1px solid rgba(196,160,82,.08);
+  vertical-align: top;
+}
+.article tr:last-child td { border-bottom: none; }
+.article tr:hover td { background: rgba(196,160,82,.03); }
+
+/* SIDEBAR */
+.sidebar { position: sticky; top: 84px; }
+.sidebar-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 18px;
+}
+.sidebar-card:last-child { margin-bottom: 0; }
+.sidebar-title {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(10px, 0.85vw, 12px);
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+.sidebar-card a {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(13px, 1vw, 15px);
+  color: var(--text-sec);
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(196,160,82,.07);
+  transition: color .2s;
+}
+.sidebar-card a:last-of-type { border-bottom: none; }
+.sidebar-card a:hover { color: var(--gold); }
+.sidebar-list { list-style: none; padding: 0; }
+.sidebar-list li {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(12px, 0.9vw, 14px);
+  color: var(--text-sec);
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(196,160,82,.07);
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  line-height: 1.5;
+}
+.sidebar-list li:last-child { border-bottom: none; }
+.sidebar-list li::before { content: 'u25c7'; color: var(--gold); font-size: 9px; flex-shrink: 0; margin-top: 3px; }
+.sidebar-tip {
+  font-family: 'EB Garamond', serif;
+  font-size: clamp(15px, 1.1vw, 18px);
+  font-style: italic;
+  color: var(--text-sec);
+  line-height: 1.75;
+}
+
+/* FAQ */
+.faq { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter) 80px; }
+.faq-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(30px, 2.8vw, 44px);
+  font-weight: 400;
+  font-style: italic;
+  color: var(--text);
+  margin-bottom: 36px;
+  text-align: center;
+}
+details { border-bottom: 1px solid var(--border); padding: 22px 0; }
+summary {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(12px, 1vw, 15px);
+  letter-spacing: .04em;
+  color: var(--text);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  transition: color .2s;
+}
+summary:hover { color: var(--gold); }
+summary::-webkit-details-marker { display: none; }
+summary::after {
+  content: '+';
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(20px, 1.5vw, 26px);
+  color: var(--gold);
+  flex-shrink: 0;
+  line-height: 1;
+}
+details[open] summary::after { content: 'x'; }
+.faq-answer {
+  font-family: 'EB Garamond', serif;
+  font-size: clamp(16px, 1.2vw, 20px);
+  color: var(--text-sec);
+  line-height: 1.88;
+  margin-top: 16px;
+  padding-right: 40px;
+}
+
+/* FOOTER */
+footer { border-top: 1px solid var(--border); padding: 56px 0 40px; }
+.footer-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 56px;
+  align-items: start;
+}
+.footer-logo {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(16px, 1.4vw, 20px);
+  color: var(--gold-bright);
+  display: block;
+  margin-bottom: 12px;
+}
+.footer-tagline {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(12px, 0.9vw, 14px);
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+.footer-nav-title {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(10px, 0.85vw, 12px);
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px 24px;
+}
+.footer-links a {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(12px, 0.9vw, 14px);
+  color: var(--text-muted);
+  transition: color .2s;
+}
+.footer-links a:hover { color: var(--gold); }
+.footer-copy {
+  max-width: var(--max);
+  margin: 32px auto 0;
+  padding: 24px var(--gutter) 0;
+  border-top: 1px solid rgba(196,160,82,.08);
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+/* RESPONSIVE — only --gutter and layout changes needed */
+@media (max-width: 1100px) {
+  .cards-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 900px) {
+  :root { --gutter: 24px; }
+  .cards-grid { grid-template-columns: repeat(2, 1fr); }
+  .seo-area { grid-template-columns: 1fr; }
+  .sidebar { position: static; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .sidebar-card { margin-bottom: 0; }
+  .footer-inner { grid-template-columns: 1fr; gap: 36px; }
+}
+@media (max-width: 700px) {
+  :root { --gutter: 20px; }
+  .sidebar { grid-template-columns: 1fr; }
+  .article table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .faq-answer { padding-right: 16px; }
+  .hero-content { padding-top: 72px; padding-bottom: 60px; }
+}
+@media (max-width: 600px) {
+  .cards-grid { grid-template-columns: 1fr; }
+  .generate-btn { width: 100%; }
+  .filter-pill { padding: 10px 14px; }
+  .footer-links { grid-template-columns: repeat(2, 1fr); }
+  .nav-links { gap: 18px; }
+}
+@media (max-width: 480px) {
+  :root { --gutter: 18px; }
+  .filters { gap: 8px; }
+  .filter-pill { flex: 1 1 calc(50% - 8px); text-align: center; white-space: normal; padding: 10px 12px; }
+  .nav-links { gap: 14px; }
+}
+@media (max-width: 380px) {
+  :root { --gutter: 16px; }
+  .eyebrow::before, .eyebrow::after { display: none; }
+  .faq-answer { padding-right: 0; }
+  .footer-links { grid-template-columns: 1fr; }
+  .hero-content { padding-top: 52px; padding-bottom: 44px; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">RuneForge</a>
+    <div class="nav-links">
+      <a href="index.html#names" class="nav-a">Names</a>
+      <a href="index.html#places" class="nav-a">Places</a>
+      <a href="index.html#creatures" class="nav-a">Creatures</a>
+      <a href="pro.html" class="btn-pro">♛ Pro</a>
+    </div>
+  </div>
+</nav>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <a href="index.html">RuneForge</a>
+  <span>›</span>
+  <a href="index.html#names">Names</a>
+  <span>›</span>
+  <span>Goblin Name Generator</span>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <p class="eyebrow"><span>◇</span><span>Names Generator</span><span>◇</span></p>
+    <h1>Small in stature, savage in name — goblins wear their titles like war scars.</h1>
+    <p class="hero-sub">Generate goblin names that are punchy, fierce, and unforgettable — from D&D dungeon crawlers to World of Warcraft tinkerers.</p>
+    <div class="filters">
+      <button class="filter-pill active" data-filter="all">All</button>
+      <button class="filter-pill" data-filter="male">Male</button>
+      <button class="filter-pill" data-filter="female">Female</button>
+      <button class="filter-pill" data-filter="dnd">D&D</button>
+      <button class="filter-pill" data-filter="wow">WoW</button>
+    </div>
+    <div class="btn-wrap">
+      <button class="generate-btn" id="generateBtn" aria-label="Generate goblin names">
+        <div class="generate-inner"></div>
+        <span>⚒ Generate Names</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- CARDS -->
+<div class="cards-section">
+  <div class="cards-grid" id="cardsGrid"></div>
+</div>
+
+<!-- RELATED -->
+<div class="related">
+  <p class="related-label"><span>◇</span><span>Related Tools</span><span>◇</span></p>
+  <div class="related-chips">
+    <a href="orc-name-generator.html" class="chip">Orc Names</a>
+    <a href="villain-name-generator.html" class="chip">Villain Names</a>
+    <a href="dark-elf-name-generator.html" class="chip">Dark Elf Names</a>
+    <a href="dwarf-name-generator.html" class="chip">Dwarf Names</a>
+    <a href="creature-name-generator.html" class="chip">Creature Names</a>
+    <a href="tavern-name-generator.html" class="chip">Tavern Names</a>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- SEO + SIDEBAR -->
+<div class="seo-area">
+  <article class="article">
+
+    <h2>Goblin Name Generator — D&amp;D, WoW &amp; Fantasy Names</h2>
+    <p>Goblins are one of the most beloved creatures in fantasy because they occupy a unique space between comic and dangerous. In Dungeons &amp; Dragons they are cunning, chaotic dungeon-dwellers who serve as everything from lowly minions to surprisingly clever antagonists. In World of Warcraft they are fast-talking engineers and traders driven by explosive ambition. In both settings and across countless other fantasy worlds, a goblin's name says everything about who they are — and names that fit their frantic energy make encounters, characters, and campaigns more memorable.</p>
+    <p>This goblin name generator was built for dungeon masters, players, writers, and worldbuilders who need names that feel authentically goblin — short, punchy, slightly chaotic, and impossible to forget. The generator covers five distinct styles so you can match the tone of your specific setting, from gritty D&amp;D dungeon crawls to the explosive tinkerer culture of Azeroth.</p>
+
+    <h3>What Makes a Great Goblin Name?</h3>
+    <p>The best goblin names share a few key qualities. They are almost always short — one or two syllables at most. They favor hard consonants like g, k, x, z, and r that feel aggressive and sharp. They often have a comedic edge while still sounding genuinely menacing. Names like Snik, Krax, Zibbit, and Grub work because they are easy to say quickly, they sound vaguely threatening, and they have a chaotic rhythm that matches goblin personalities. A name that makes your players laugh while also making them nervous is a perfect goblin name.</p>
+    <p>Goblin names also frequently carry function. Many goblins earn descriptive names based on their behavior, specialty, or a notable incident. A goblin who accidentally blew up three catapults might be called Boompaw or Sparktooth. This nickname tradition is especially strong in WoW goblins, where earned titles and reputations become part of the identity.</p>
+
+    <h3>Goblin Naming Conventions by Setting</h3>
+    <p><strong>D&amp;D goblins</strong> follow the naming conventions established in official sourcebooks and expanded through decades of campaign tradition. These names are guttural, short, and functional. D&amp;D goblin names rarely exceed two syllables and avoid any sense of elegance or nobility. They sound like names invented quickly by creatures who did not spend much time on the concept of identity.</p>
+    <p><strong>WoW goblins</strong> from the Bilgewater Cartel and Steamwheedle Cartel have a more energetic naming culture. Their names still favor short, punchy sounds but often include a sharper edge of personality — names that suggest greed, speed, and ambition. A WoW goblin name sounds like it belongs to someone who is always running a scheme.</p>
+    <p><strong>Male goblin names</strong> tend toward aggressive sounds — hard stops, growling consonants, and clipped endings. They suggest combat readiness and territorial aggression even in goblins who prefer coin to combat. <strong>Female goblin names</strong> carry the same energy but sometimes include slightly softer vowels — though never soft enough to suggest anything gentler than a goblin who has outsmarted everyone in the room.</p>
+
+    <h2>Goblin Name Examples by Type</h2>
+    <table>
+      <thead>
+        <tr><th>Name</th><th>Type</th><th>Role</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Snikrot</td><td>D&D Male</td><td>Cave Raider</td></tr>
+        <tr><td>Grizzix</td><td>WoW Male</td><td>Bomb Engineer</td></tr>
+        <tr><td>Zibba</td><td>Female</td><td>Hex Witch</td></tr>
+        <tr><td>Kraknub</td><td>D&D Male</td><td>Warchief</td></tr>
+        <tr><td>Nozzle</td><td>WoW Female</td><td>Trade Baron</td></tr>
+        <tr><td>Skrix</td><td>D&D Male</td><td>Shadow Scout</td></tr>
+        <tr><td>Wrixle</td><td>WoW Male</td><td>Tinker Supremo</td></tr>
+        <tr><td>Grubba</td><td>Female</td><td>Dungeon Boss</td></tr>
+      </tbody>
+    </table>
+
+    <h2>How to Use Goblin Names in Your Campaign</h2>
+
+    <h3>Naming Goblin NPCs Quickly</h3>
+    <p>Dungeon masters often need goblin names on the fly — a party ambushes a goblin camp and suddenly needs six distinct individuals. The key to fast goblin naming is keeping a mental vocabulary of sounds: sn, gr, kr, zz, ix, ub, rot, nub, ax. Combine two and you have a goblin name. This generator does exactly that systematically, so you can generate a batch before your session and have a roster ready before the dice hit the table.</p>
+
+    <h3>Goblin Bosses and Named Villains</h3>
+    <p>When a goblin becomes a recurring antagonist, their name needs to carry more weight. A goblin boss should have a name players can remember across multiple sessions — something that becomes associated with dread, or at least with begrudging respect. Names like Kraknub, Snikrot, and Zaxrix work because they are memorable enough to stick while still sounding definitively goblin. Pairing a strong name with a distinctive title — Kraknub the Unburned, Snikrot of the Bleeding Eye — transforms a random encounter into a character.</p>
+
+    <h3>Goblin Names for Player Characters</h3>
+    <p>Goblin player characters have become increasingly popular in D&amp;D 5e since the race became officially playable. A goblin PC name that balances the character's identity between comic and capable can set the tone for the entire playthrough. Many players enjoy names that hint at a backstory — a goblin named Twitchpaw might have earned the name through nervous energy or a forgotten injury. Names that reward creative interpretation give players room to define their character's history.</p>
+
+    <h2>Goblins Across Fantasy Worlds</h2>
+    <p>Goblins appear in virtually every fantasy tradition and each brings different naming conventions. In J.R.R. Tolkien's work, goblins (also called orcs in earlier texts) have harsh, guttural names that emphasize brutality. In traditional European folklore, goblins are smaller mischief-makers with names that reflect their trickster nature. In modern tabletop and video game design, goblins have evolved into one of the most culturally varied fantasy races — capable of being anything from terrifying raiders to lovable chaos agents. This diversity means goblin names can cover a wide tonal range while still feeling authentic.</p>
+
+    <h2>Free to Use — Personal and Commercial</h2>
+    <p>Every name generated on RuneForge is free to use in tabletop campaigns, novels, indie games, streaming content, podcasts, and commercial creative projects. No attribution required. Modify names, combine them with your own titles, or adapt them for original fantasy cultures.</p>
+
+  </article>
+
+  <aside class="sidebar">
+    <div class="sidebar-card">
+      <p class="sidebar-title">Other Name Generators</p>
+      <a href="orc-name-generator.html">Orc Name Generator</a>
+      <a href="dark-elf-name-generator.html">Dark Elf Generator</a>
+      <a href="villain-name-generator.html">Villain Name Generator</a>
+      <a href="dwarf-name-generator.html">Dwarf Name Generator</a>
+      <a href="alien-name-generator.html">Alien Name Generator</a>
+      <a href="tavern-name-generator.html">Tavern Name Generator</a>
+    </div>
+    <div class="sidebar-card">
+      <p class="sidebar-title">Quick Tips</p>
+      <ul class="sidebar-list">
+        <li>Keep it short — one or two syllables max</li>
+        <li>Hard consonants g, k, x, z sound most goblin</li>
+        <li>WoW goblins suit punchy, greedy-sounding names</li>
+        <li>Add a title to make boss goblins memorable</li>
+        <li>Say it fast — if it rolls off the tongue, it works</li>
+      </ul>
+    </div>
+    <div class="sidebar-card">
+      <p class="sidebar-title">Pro Tip</p>
+      <p class="sidebar-tip">Give your goblin boss a two-part name — a personal name plus an earned title. "Snikrot the Unburned" is infinitely more memorable than just "Snikrot."</p>
+    </div>
+  </aside>
+</div>
+
+<!-- FAQ -->
+<section class="faq">
+  <h2 class="faq-title">Frequently Asked Questions</h2>
+
+  <details>
+    <summary>Can I use these goblin names in my D&amp;D campaign?</summary>
+    <div class="faq-answer">Yes. All names are free for personal and commercial tabletop RPG use including D&amp;D 5e, Pathfinder, and any homebrew system. They work for everything from random encounter goblins to recurring boss villains.</div>
+  </details>
+  <details>
+    <summary>Are goblin names different in D&amp;D vs World of Warcraft?</summary>
+    <div class="faq-answer">Yes. D&amp;D goblin names are typically shorter and more guttural, reflecting cave-dwelling raiders. WoW goblin names are punchier and carry an entrepreneurial edge that reflects the goblin tinkerer and trader culture of Azeroth. The filter pills let you choose which style matches your setting.</div>
+  </details>
+  <details>
+    <summary>What makes a good goblin name?</summary>
+    <div class="faq-answer">The best goblin names are short, punchy, and satisfying to say aloud quickly. Hard consonants, short vowels, and a slightly chaotic rhythm all help. A name that makes your players smile while still sounding vaguely threatening is perfect.</div>
+  </details>
+  <details>
+    <summary>Can I use these names for goblin player characters in D&amp;D 5e?</summary>
+    <div class="faq-answer">Absolutely. Goblin became an official playable race in D&amp;D 5e and goblin PCs are increasingly popular. These names work equally well for player characters and NPCs. Many players enjoy adding a personal title or backstory element to the generated name.</div>
+  </details>
+  <details>
+    <summary>How many goblin names can this generator produce?</summary>
+    <div class="faq-answer">The generator draws from a large pool of names across five filter categories — All, Male, Female, D&amp;D, and WoW. Each session will produce non-repeating results until the pool is exhausted, at which point it resets. Thousands of combinations are possible.</div>
+  </details>
+  <details>
+    <summary>Do these names work for other goblin-like creatures?</summary>
+    <div class="faq-answer">Yes. The naming style works well for hobgoblins, bugbears, kobolds, and other small-to-medium fantasy creatures that share goblinoid naming sensibilities. The D&amp;D filter is especially versatile for the broader goblinoid family.</div>
+  </details>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <a href="index.html" class="footer-logo">RuneForge</a>
+      <p class="footer-tagline">Fantasy name generators for worldbuilders, DMs, and storytellers.</p>
+    </div>
+    <div>
+      <p class="footer-nav-title">All Generators</p>
+      <div class="footer-links">
+        <a href="villain-name-generator.html">Villain Names</a>
+        <a href="elf-name-generator.html">Elf Names</a>
+        <a href="dark-elf-name-generator.html">Dark Elf Names</a>
+        <a href="orc-name-generator.html">Orc Names</a>
+        <a href="dwarf-name-generator.html">Dwarf Names</a>
+        <a href="goblin-name-generator.html">Goblin Names</a>
+        <a href="kingdom-name-generator.html">Kingdom Names</a>
+        <a href="tavern-name-generator.html">Tavern Names</a>
+        <a href="alien-name-generator.html">Alien Names</a>
+      </div>
+    </div>
+  </div>
+  <p class="footer-copy">© 2026 RuneForge.online — All rights reserved.</p>
+</footer>
+
+<script>
+const COPY_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>`;
+const CHECK_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`;
+
+const nameData = {
+  all: [
+    {name:"Snikrot",role:"Cave Raider"},{name:"Grizzix",role:"Bomb Engineer"},
+    {name:"Zibba",role:"Hex Witch"},{name:"Kraknub",role:"Warchief"},
+    {name:"Nozzle",role:"Trade Baron"},{name:"Skrix",role:"Shadow Scout"},
+    {name:"Wrixle",role:"Tinker Supremo"},{name:"Grubba",role:"Dungeon Boss"},
+    {name:"Zaxrix",role:"Pit Fighter"},{name:"Snaggle",role:"Scrap Merchant"},
+    {name:"Krix",role:"Ambush Leader"},{name:"Bizkrak",role:"Gadget Master"},
+    {name:"Twitchpaw",role:"Night Stalker"},{name:"Grumlix",role:"Clan Elder"},
+    {name:"Skobbix",role:"Trap Setter"},{name:"Nubspark",role:"Fire Starter"},
+    {name:"Zorkrix",role:"Raider Captain"},{name:"Grix",role:"Dungeon Runner"},
+    {name:"Crumble",role:"Cave Witch"},{name:"Snix",role:"Blade Runner"},
+    {name:"Zibzak",role:"Alchemist"},{name:"Krognak",role:"War Drummer"},
+    {name:"Splixle",role:"Lurker"},{name:"Blixnub",role:"Powder Keg"}
+  ],
+  male: [
+    {name:"Snikrot",role:"Cave Raider"},{name:"Kraknub",role:"Warchief"},
+    {name:"Skrix",role:"Shadow Scout"},{name:"Zaxrix",role:"Pit Fighter"},
+    {name:"Krix",role:"Ambush Leader"},{name:"Twitchpaw",role:"Night Stalker"},
+    {name:"Grumlix",role:"Clan Elder"},{name:"Skobbix",role:"Trap Setter"},
+    {name:"Zorkrix",role:"Raider Captain"},{name:"Grix",role:"Dungeon Runner"},
+    {name:"Snix",role:"Blade Runner"},{name:"Krognak",role:"War Drummer"},
+    {name:"Splixle",role:"Lurker"},{name:"Ragnub",role:"Bone Crusher"},
+    {name:"Snarlbeak",role:"Dungeon Boss"},{name:"Grimtusk",role:"Pack Leader"},
+    {name:"Skrax",role:"Poison Blade"},{name:"Nubkrix",role:"Cave Sneak"},
+    {name:"Bograk",role:"Shield Smasher"},{name:"Ziknak",role:"Fire Caller"}
+  ],
+  female: [
+    {name:"Zibba",role:"Hex Witch"},{name:"Nozzle",role:"Trade Baron"},
+    {name:"Grubba",role:"Dungeon Boss"},{name:"Crumble",role:"Cave Witch"},
+    {name:"Snaggle",role:"Scrap Merchant"},{name:"Zibzak",role:"Alchemist"},
+    {name:"Nubspark",role:"Fire Starter"},{name:"Blixnub",role:"Powder Keg"},
+    {name:"Skribba",role:"Hex Caller"},{name:"Grizzla",role:"Clan Matron"},
+    {name:"Nixbite",role:"Poison Brewer"},{name:"Twixle",role:"Shadow Dancer"},
+    {name:"Krizba",role:"Scrap Queen"},{name:"Snarlix",role:"War Shaman"},
+    {name:"Grublix",role:"Dungeon Witch"},{name:"Zibra",role:"Smoke Caller"},
+    {name:"Nubble",role:"Trap Weaver"},{name:"Skrubba",role:"Pit Boss"},
+    {name:"Grixxle",role:"Night Hag"},{name:"Blizba",role:"Boom Maker"}
+  ],
+  dnd: [
+    {name:"Snikrot",role:"Cave Raider"},{name:"Kraknub",role:"Warchief"},
+    {name:"Skrix",role:"Shadow Scout"},{name:"Zaxrix",role:"Pit Fighter"},
+    {name:"Krix",role:"Ambush Leader"},{name:"Twitchpaw",role:"Night Stalker"},
+    {name:"Grumlix",role:"Clan Elder"},{name:"Skobbix",role:"Trap Setter"},
+    {name:"Grix",role:"Dungeon Runner"},{name:"Krognak",role:"War Drummer"},
+    {name:"Ragnub",role:"Bone Crusher"},{name:"Snarlbeak",role:"Dungeon Boss"},
+    {name:"Grimtusk",role:"Pack Leader"},{name:"Skrax",role:"Poison Blade"},
+    {name:"Bograk",role:"Shield Smasher"},{name:"Ziknak",role:"Fire Caller"},
+    {name:"Crumble",role:"Cave Witch"},{name:"Snaggle",role:"Scrap Merchant"},
+    {name:"Skribba",role:"Hex Caller"},{name:"Nixbite",role:"Poison Brewer"}
+  ],
+  wow: [
+    {name:"Grizzix",role:"Bomb Engineer"},{name:"Nozzle",role:"Trade Baron"},
+    {name:"Wrixle",role:"Tinker Supremo"},{name:"Bizkrak",role:"Gadget Master"},
+    {name:"Nubspark",role:"Fire Starter"},{name:"Zorkrix",role:"Raider Captain"},
+    {name:"Zibzak",role:"Alchemist"},{name:"Splixle",role:"Lurker"},
+    {name:"Blixnub",role:"Powder Keg"},{name:"Snix",role:"Blade Runner"},
+    {name:"Grubba",role:"Dungeon Boss"},{name:"Zibba",role:"Hex Witch"},
+    {name:"Krizba",role:"Scrap Queen"},{name:"Twixle",role:"Shadow Dancer"},
+    {name:"Grublix",role:"Dungeon Witch"},{name:"Zibra",role:"Smoke Caller"},
+    {name:"Nubble",role:"Trap Weaver"},{name:"Skrubba",role:"Pit Boss"},
+    {name:"Grixxle",role:"Night Hag"},{name:"Blizba",role:"Boom Maker"}
+  ]
+};
+
+let activeFilter = 'all';
+let usedNames = new Set();
+
+function pickNames() {
+  const pool = nameData[activeFilter];
+  if (usedNames.size >= pool.length) usedNames.clear();
+  const available = pool.filter(n => !usedNames.has(n.name));
+  const shuffled = available.sort(() => Math.random() - .5);
+  const picked = shuffled.slice(0, 8);
+  picked.forEach(n => usedNames.add(n.name));
+  return picked;
+}
+
+function renderCards() {
+  const grid = document.getElementById('cardsGrid');
+  grid.innerHTML = '';
+  pickNames().forEach(({ name, role }) => {
+    const card = document.createElement('div');
+    card.className = 'name-card';
+    card.innerHTML = `
+      <div class="card-info">
+        <span class="card-name">${name}</span>
+        <span class="card-role">${role}</span>
+      </div>
+      <button class="copy-btn" aria-label="Copy ${name}" data-name="${name}">${COPY_SVG}</button>
+    `;
+    grid.appendChild(card);
+  });
+  grid.querySelectorAll('.copy-btn').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const text = btn.dataset.name;
+      try { await navigator.clipboard.writeText(text); }
+      catch { const t = document.createElement('textarea'); t.value = text; document.body.appendChild(t); t.select(); document.execCommand('copy'); document.body.removeChild(t); }
+      btn.innerHTML = CHECK_SVG;
+      btn.classList.add('copied');
+      setTimeout(() => { btn.innerHTML = COPY_SVG; btn.classList.remove('copied'); }, 1800);
+    });
+  });
+}
+
+document.getElementById('generateBtn').addEventListener('click', () => { usedNames.clear(); renderCards(); });
+document.querySelectorAll('.filter-pill').forEach(pill => {
+  pill.addEventListener('click', () => {
+    document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+    pill.classList.add('active');
+    activeFilter = pill.dataset.filter;
+    usedNames.clear();
+    renderCards();
+  });
+});
+
+renderCards();
+</script>
+</body>
+</html>
