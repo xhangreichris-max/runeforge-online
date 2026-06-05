@@ -1,0 +1,46 @@
+name: Build RuneForge Pages
+
+# ─────────────────────────────────────────
+# Trigger: runs every time you push to main
+# ─────────────────────────────────────────
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'pages-config.json'   # Only run when config changes
+      - 'template.html'       # Or when template changes
+      - 'build.py'            # Or when build script changes
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write   # Needed to push generated files back
+
+    steps:
+      # Step 1: Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 2: Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Step 3: Run build script
+      - name: Build HTML pages
+        run: python build.py
+
+      # Step 4: Commit and push generated files
+      - name: Commit generated pages
+        run: |
+          git config --global user.name  "RuneForge Builder"
+          git config --global user.email "builder@runeforge.online"
+          git add *.html tools.js sitemap.xml
+          git diff --staged --quiet || git commit -m "Auto-build: generated pages from pages-config.json"
+          git push
