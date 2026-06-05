@@ -179,5 +179,226 @@
       "featured": false
     },
     "sitemap_priority": "0.8"
-  }
+  },
+  {
+  "id": "mage-name-generator",
+  "page_name": "Mage Name Generator",
+  "meta_title": "Mage Name Generator — Wizard, Sorcerer & Warlock Names | RuneForge",
+  "meta_desc": "Generate authentic mage names for wizards, sorcerers, and warlocks. Arcane, elemental, and dark magic traditions covered — free for D&D, fantasy RPG, and worldbuilding.",
+  "og_title": "Mage Name Generator — RuneForge",
+  "h1_text": "A mage's name is not chosen — it is earned.",
+  "hero_sub": "Generate names rooted in arcane tradition, elemental power, and dark magic — for D&D wizards, sorcerers, warlocks, and fantasy novels.",
+  "hero_bg": "hero-bg-gothic.webp",
+  "eyebrow_text": "Mage Name Generator",
+  "howto_step1": "Select All, Male, Female, Arcane, Elemental, or Dark from the filter buttons.",
+  "breadcrumb_category_name": "Name Generators",
+  "breadcrumb_category_id": "names",
+  "filters": [
+    {"label": "All",      "value": "all"},
+    {"label": "Male",     "value": "male"},
+    {"label": "Female",   "value": "female"},
+    {"label": "Arcane",   "value": "arcane"},
+    {"label": "Elemental","value": "elemental"},
+    {"label": "Dark",     "value": "dark"}
+  ],
+  "name_data": {
+    "all": [
+      {"n":"Vaelcrix the Pale",    "r":"Arcane Scholar"},
+      {"n":"Morthalek",            "r":"Void Mage"},
+      {"n":"Selendrion",           "r":"High Mage"},
+      {"n":"Kharrath",             "r":"Fire Caller"},
+      {"n":"Szyven",               "r":"Frost Mage"},
+      {"n":"Zaelric",              "r":"Storm Sorcerer"},
+      {"n":"Nyxaroth",             "r":"Shadow Mage"},
+      {"n":"Sylvarene",            "r":"Nature Witch"},
+      {"n":"Zovrath",              "r":"Necromancer"},
+      {"n":"Duskmourn",            "r":"Warlock"},
+      {"n":"Embros the Unwritten", "r":"Sorcerer"},
+      {"n":"Izvara",               "r":"Ice Arcanist"},
+      {"n":"Torrath",              "r":"Flame Sage"},
+      {"n":"Kulveth",              "r":"Death Speaker"},
+      {"n":"Stryken",              "r":"Storm Caller"},
+      {"n":"Gorvund",              "r":"Earth Shaper"},
+      {"n":"Draeven the Grey",     "r":"Archmage"},
+      {"n":"Vel'unrak",            "r":"Old One Warlock"},
+      {"n":"Sulvarn",              "r":"Ember Caster"},
+      {"n":"Frostael",             "r":"Winter Witch"},
+      {"n":"Umbrak",               "r":"Stone Mage"},
+      {"n":"Durnath",              "r":"Rune Scholar"},
+      {"n":"Ghr'aethos",           "r":"Void Walker"},
+      {"n":"Caerindra",            "r":"Fey Warlock"}
+    ],
+    "male": [
+      {"n":"Vaelcrix the Pale",    "r":"Arcane Scholar"},
+      {"n":"Morthalek",            "r":"Void Mage"},
+      {"n":"Kharrath",             "r":"Fire Caller"},
+      {"n":"Zaelric",              "r":"Storm Sorcerer"},
+      {"n":"Zovrath",              "r":"Necromancer"},
+      {"n":"Torrath",              "r":"Flame Sage"},
+      {"n":"Kulveth",              "r":"Death Speaker"},
+      {"n":"Stryken",              "r":"Storm Caller"},
+      {"n":"Gorvund",              "r":"Earth Shaper"},
+      {"n":"Draeven the Grey",     "r":"Archmage"},
+      {"n":"Sulvarn",              "r":"Ember Caster"},
+      {"n":"Umbrak",               "r":"Stone Mage"},
+      {"n":"Durnath",              "r":"Rune Scholar"},
+      {"n":"Ghr'aethos",           "r":"Void Walker"},
+      {"n":"Embros the Unwritten", "r":"Sorcerer"},
+      {"n":"Eldrix Vane",          "r":"Battle Mage"}
+    ],
+    "female": [
+      {"n":"Selendrion",           "r":"High Mage"},
+      {"n":"Szyven",               "r":"Frost Mage"},
+      {"n":"Nyxaroth",             "r":"Shadow Mage"},
+      {"n":"Sylvarene",            "r":"Nature Witch"},
+      {"n":"Izvara",               "r":"Ice Arcanist"},
+      {"n":"Duskmourn",            "r":"Warlock"},
+      {"n":"Frostael",             "r":"Winter Witch"},
+      {"n":"Caerindra",            "r":"Fey Warlock"},
+      {"n":"Elyssavel",            "r":"Fey Mage"},
+      {"n":"Lyravex",              "r":"Arcane Sage"},
+      {"n":"Aethrel",              "r":"Storm Witch"},
+      {"n":"Vyndara",              "r":"Void Sorceress"},
+      {"n":"Morvaine",             "r":"Hex Caller"},
+      {"n":"Zylindra",             "r":"Rune Weaver"},
+      {"n":"Serathix",             "r":"Flame Arcanist"},
+      {"n":"Naeris",               "r":"Moon Mage"}
+    ],
+    "arcane": [
+      {"n":"Vaelcrix the Pale",    "r":"Arcane Scholar"},
+      {"n":"Selendrion",           "r":"High Mage"},
+      {"n":"Draeven the Grey",     "r":"Archmage"},
+      {"n":"Embros the Unwritten", "r":"Sorcerer"},
+      {"n":"Durnath",              "r":"Rune Scholar"},
+      {"n":"Lyravex",              "r":"Arcane Sage"},
+      {"n":"Elyssavel",            "r":"Fey Mage"},
+      {"n":"Serathix",             "r":"Flame Arcanist"},
+      {"n":"Zylindra",             "r":"Rune Weaver"},
+      {"n":"Vexorian",             "r":"Spire Scholar"},
+      {"n":"Caelindra",            "r":"Tower Mage"},
+      {"n":"Aethron",              "r":"Lore Keeper"},
+      {"n":"Sylvorax",             "r":"Grand Arcanist"},
+      {"n":"Keldris",              "r":"The Unwritten"},
+      {"n":"Thalindra",            "r":"Arcane Weaver"},
+      {"n":"Vorithas",             "r":"Spell Sage"}
+    ],
+    "elemental": [
+      {"n":"Kharrath",             "r":"Fire Caller"},
+      {"n":"Szyven",               "r":"Frost Mage"},
+      {"n":"Zaelric",              "r":"Storm Sorcerer"},
+      {"n":"Gorvund",              "r":"Earth Shaper"},
+      {"n":"Torrath",              "r":"Flame Sage"},
+      {"n":"Izvara",               "r":"Ice Arcanist"},
+      {"n":"Stryken",              "r":"Storm Caller"},
+      {"n":"Umbrak",               "r":"Stone Mage"},
+      {"n":"Sulvarn",              "r":"Ember Caster"},
+      {"n":"Frostael",             "r":"Winter Witch"},
+      {"n":"Aethrel",              "r":"Storm Witch"},
+      {"n":"Voras",                "r":"Thunder Mage"},
+      {"n":"Thundrel",             "r":"Lightning Sage"},
+      {"n":"Storvael",             "r":"Stone Caller"},
+      {"n":"Embrix",               "r":"Lava Mage"},
+      {"n":"Glaciveth",            "r":"Blizzard Caller"}
+    ],
+    "dark": [
+      {"n":"Morthalek",            "r":"Void Mage"},
+      {"n":"Nyxaroth",             "r":"Shadow Mage"},
+      {"n":"Zovrath",              "r":"Necromancer"},
+      {"n":"Duskmourn",            "r":"Warlock"},
+      {"n":"Kulveth",              "r":"Death Speaker"},
+      {"n":"Ghr'aethos",           "r":"Void Walker"},
+      {"n":"Vel'unrak",            "r":"Old One Warlock"},
+      {"n":"Vyndara",              "r":"Void Sorceress"},
+      {"n":"Morvaine",             "r":"Hex Caller"},
+      {"n":"Naeris",               "r":"Moon Mage"},
+      {"n":"Caerindra",            "r":"Fey Warlock"},
+      {"n":"Sylvarene",            "r":"Dark Druid"},
+      {"n":"Xalveth",              "r":"Lich Initiate"},
+      {"n":"Morthex",              "r":"Soul Drinker"},
+      {"n":"Drevakh",              "r":"Shadow Weaver"},
+      {"n":"Kyr'voss",             "r":"Void Scholar"}
+    ]
+  },
+  "related_chips": [
+    {"label": "Villain Names",      "url": "villain-name-generator.html"},
+    {"label": "Necromancer Names",  "url": "necromancer-name-generator.html"},
+    {"label": "Dark Lord Names",    "url": "dark-lord-name-generator.html"},
+    {"label": "D&D Names",          "url": "dnd-name-generator.html"},
+    {"label": "Elf Names",          "url": "elf-name-generator.html"},
+    {"label": "Vampire Names",      "url": "vampire-name-generator.html"}
+  ],
+  "sidebar_links": [
+    {"label": "Villain Name Generator",     "url": "villain-name-generator.html"},
+    {"label": "Dark Elf Generator",         "url": "dark-elf-name-generator.html"},
+    {"label": "Vampire Name Generator",     "url": "vampire-name-generator.html"},
+    {"label": "D&D Name Generator",         "url": "dnd-name-generator.html"},
+    {"label": "Necromancer Names",          "url": "necromancer-name-generator.html"},
+    {"label": "Dark Lord Names",            "url": "dark-lord-name-generator.html"}
+  ],
+  "sidebar_tips": [
+    "Match consonant weight to magic — heavy stops (k, t, d) for combat mages, fricatives (s, f, v) for frost or illusion",
+    "Add an epithet instead of surname — 'Vaelcrix the Unnamed' hits harder than 'Vaelcrix Stormweaver'",
+    "Generate three times — keep only the name that makes you want to write a backstory",
+    "For warlocks, add a silent letter or archaic spelling — Kh-, Vr-, -ae — to create visual unease",
+    "Match your mage's cultural origin — Norse, Arabic, or Celtic phonemes distorted slightly sound invented but grounded"
+  ],
+  "sidebar_pro_tip": "The best dark fantasy mage names have one phonetic element that feels slightly wrong — a cluster that almost resolves but doesn't, like Ghr'aethos or Vel'unrak — because names that sound too clean belong to heroes, not people who study things that shouldn't be studied.",
+  "seo_article": "<h2>Mage Name Generator: Forge Names Worthy of Arcane Power</h2>\n\n<p>A mage's name is not chosen — it is earned. In every major fantasy tradition, from the tower-bound archmages of high fantasy to the shadowed sorcerers of grimdark fiction, the name signals the magic. Pick something soft for a fire-caller and you've already lost the room. The naming conventions that ring true are the ones tied to a specific magical tradition — and that's exactly what this guide maps out.</p>\n\n<p>Whether you're building a character for a D&D campaign, populating a novel's magical academy, or just hunting for a name that sounds like it belongs carved above a dungeon door, this <strong>mage name generator</strong> and guide covers the phonetic logic behind names that actually work.</p>\n\n<h2>How Magic Type Shapes a Mage's Name</h2>\n\n<p>This is the part most fantasy name generator guides skip. The tradition a mage comes from changes everything — the vowel sounds, the consonant weight, the syllable length. Arcane mages sound nothing like elemental warlocks. Here's the breakdown:</p>\n\n<h3>Arcane Tradition: Latin and Greek Roots, Hard Consonants</h3>\n\n<p>High arcane magic — the scholarly type, spellbooks and equations — pulls heavily from Latin and Greek phonetics. Think double-vowel combinations, hard 'c' and 'x' sounds, and names that could plausibly appear in a grimoire index. The syllable structure tends to be three to four beats, giving the name a formal, academic weight.</p>\n\n<ul>\n<li><strong>Common sounds:</strong> -ax, -ix, -or, -ael, -eon</li>\n<li><strong>Naming pattern:</strong> Two-part names with a title-like suffix (e.g., Vexorian the Pale)</li>\n<li><strong>Avoid:</strong> Soft endings (-ily, -una) — they imply nature magic, not theory</li>\n</ul>\n\n<h3>Elemental Tradition: Sharp Sibilants and Natural Consonants</h3>\n\n<p>Elemental mages — those who pull from fire, ice, storm, and stone — carry names with texture. Fire-callers lean toward hard t's, r-rolls, and open 'a' vowels. Ice mages favor sibilants and fricatives: the 's', 'sh', 'f', and 'z' sounds that feel like wind through stone. Earth-aligned names often feature grounded back-vowels: 'o', 'u', deep 'a'.</p>\n\n<ul>\n<li><strong>Fire:</strong> Kharrath, Embros, Sulvarn, Torrath</li>\n<li><strong>Ice:</strong> Szyven, Frostael, Izvara, Silvesh</li>\n<li><strong>Storm:</strong> Zaelric, Thundrel, Voras, Stryken</li>\n<li><strong>Earth:</strong> Gorvund, Umbrak, Storvael, Durnath</li>\n</ul>\n\n<h3>Dark and Necromantic Tradition: Hollow Vowels and Hard Stops</h3>\n\n<p>Necromancers, shadow-mages, and warlocks who draw from death or void energy need names with a specific hollowness to them. Long 'o' and 'u' vowels create resonance. Abrupt hard stops — 'k', 't', 'th' — give the name a death-rattle quality. Many classic fantasy names in this tradition also layer silent letters or archaic spellings to create visual unease on the page.</p>\n\n<ul>\n<li><strong>Common sounds:</strong> -oth, -kul, -veth, -mor, -drath</li>\n<li><strong>Example pattern:</strong> Single syllable or three-beat names with no soft landings</li>\n<li><strong>Strong examples:</strong> Morthalek, Zovrath, Kulveth, Duskmourn, Nyxaroth</li>\n</ul>\n\n<h2>Example Names by Magic Tradition</h2>\n\n<table>\n<thead><tr><th>Tradition</th><th>Name</th><th>Gender Lean</th><th>Use Case</th></tr></thead>\n<tbody>\n<tr><td>Arcane</td><td>Vaelcrix</td><td>Neutral</td><td>Academy scholar, D&amp;D wizard</td></tr>\n<tr><td>Arcane</td><td>Selendrion</td><td>Feminine</td><td>High mage, novel protagonist</td></tr>\n<tr><td>Fire Elemental</td><td>Kharrath</td><td>Masculine</td><td>Warlock, sorcerer NPC</td></tr>\n<tr><td>Ice Elemental</td><td>Szyven</td><td>Neutral</td><td>Frost mage, fantasy RPG</td></tr>\n<tr><td>Storm Elemental</td><td>Zaelric</td><td>Masculine</td><td>D&amp;D sorcerer, game character</td></tr>\n<tr><td>Necromantic</td><td>Morthalek</td><td>Masculine</td><td>Villain, D&amp;D warlock</td></tr>\n<tr><td>Necromantic</td><td>Nyxaroth</td><td>Feminine</td><td>Shadow-mage, novel antagonist</td></tr>\n<tr><td>Nature/Druidic</td><td>Sylvarene</td><td>Feminine</td><td>Green witch, forest mage</td></tr>\n</tbody>\n</table>\n\n<h2>Fantasy Mage Names for D&amp;D and Tabletop Campaigns</h2>\n\n<p>D&amp;D wizard names carry a different weight than sorcerer names — and that's by design. In the Player's Handbook, wizards are scholars. Their names often reflect academic lineage or self-given titles after a defining event. Sorcerers, who carry innate wild magic, often have names that sound slightly wrong, slightly too sharp or too soft for the person wearing them.</p>\n\n<p>For <strong>D&amp;D wizard names</strong>, consider adding an epithet rather than a last name: Draeven the Grey, Sylvorax of the Spire, Keldris the Unwritten. For sorcerers, the name itself should carry the aberration — something in the phonetics that doesn't quite resolve.</p>\n\n<h3>Warlock Names and Patron Influence</h3>\n\n<p>Warlocks pull from a patron, and the best <strong>warlock name generator</strong> results reflect that source. A warlock of the Archfey sounds different from one sworn to the Great Old One. Fey-patron warlocks can carry names with lyrical flows and unusual vowel clusters — Elyssavel, Caerindra. Old-One warlocks need something that sounds wrong: too many consonants, a syllable that doesn't land cleanly, like Ghr'aethos or Vel'unrak.</p>\n\n<h2>Naming Conventions Across Fantasy Cultures</h2>\n\n<p>Real-world linguistic families shape the best fantasy mage names. Arabic phonetics — heavy fricatives, guttural stops, long vowel held in the middle of a name — map cleanly to desert or djinn-bound magic traditions. Celtic and Old Welsh, with their doubled consonants and breathed stops, work for nature-aligned or bardic traditions. Latin declensions give arcane names their formal, dead-language quality. If your fantasy world has a specific cultural model, match the naming to it and the names stop feeling generated.</p>\n\n<h2>Free to Use</h2>\n\n<p>Every mage name generated on RuneForge is free for any project — D&amp;D campaigns, novels, indie games, or commercial creative work. No attribution required.</p>",
+  "faq_items": [
+    {
+      "q": "What makes a good mage name in fantasy?",
+      "a": "The phonetics need to match the magic type. Arcane scholars carry names with Latin or Greek roots and hard consonants. Elemental mages use sounds tied to their element — sibilants for ice, open vowels and r-rolls for fire. A name that sounds wrong for the tradition breaks character before the mage speaks a word."
+    },
+    {
+      "q": "What is the difference between a wizard name and a sorcerer name?",
+      "a": "In most fantasy systems, wizards study magic — their names often reflect academic tradition or a self-given title after a defining event. Sorcerers carry innate power, and their names tend to sound slightly off, slightly too sharp or too smooth, as if the magic is already leaking through the syllables."
+    },
+    {
+      "q": "How do I name a warlock based on their patron?",
+      "a": "Match the naming convention to the patron's nature. Archfey warlocks carry lyrical, unusual vowel clusters. Great Old One warlocks need names that don't resolve cleanly — too many consonants, a syllable that jars. Fiend patron warlocks lean toward hard stops and dark back-vowels: -oth, -drath, -kul."
+    },
+    {
+      "q": "Can I use these mage names for D&D characters?",
+      "a": "Yes. The generator outputs names suited for any tabletop campaign. For D&D specifically, wizard names pair well with epithets (Draeven the Grey, Sylvorax of the Spire). Sorcerer names work best when they carry some phonetic strangeness. Warlock names should reflect the patron's domain."
+    },
+    {
+      "q": "How many syllables should a fantasy mage name have?",
+      "a": "Three syllables is the sweet spot for most traditions. It's long enough to carry weight and short enough to say in combat. Necromancers and void-magic users often break this with very short names that hit like a door closing. Arcane scholars sometimes stretch to four syllables to signal formality."
+    },
+    {
+      "q": "Are these names suitable for female mage characters?",
+      "a": "The generator produces gender-neutral outputs by default, with options to lean feminine or masculine. For female mage names, arcane tradition lends itself to names ending in -ael, -ara, -enne, -yx. The tradition matters more than gender — a female necromancer should still carry a name with hollow vowels and hard stops."
+    },
+    {
+      "q": "What is the difference between a sorcerer name and a wizard name generator?",
+      "a": "Both produce fantasy mage names but draw from different phoneme sets. The sorcerer output favors names with built-in strangeness — sounds that don't quite fit together normally but work anyway. The wizard output pulls from more structured, academic phonetics. On RuneForge you can select the tradition before generating."
+    }
+  ],
+  "footer_links": [
+    {"label": "Villain Names",     "url": "villain-name-generator.html"},
+    {"label": "Vampire Names",     "url": "vampire-name-generator.html"},
+    {"label": "Elf Names",         "url": "elf-name-generator.html"},
+    {"label": "Dark Elf Names",    "url": "dark-elf-name-generator.html"},
+    {"label": "Orc Names",         "url": "orc-name-generator.html"},
+    {"label": "D&D Names",         "url": "dnd-name-generator.html"},
+    {"label": "Goblin Names",      "url": "goblin-name-generator.html"},
+    {"label": "Kingdom Names",     "url": "kingdom-name-generator.html"},
+    {"label": "Tavern Names",      "url": "tavern-name-generator.html"},
+    {"label": "Alien Names",       "url": "alien-name-generator.html"}
+  ],
+  "tools_js_entry": {
+    "id": "mage-name-generator",
+    "name": "Mage Name Generator",
+    "desc": "Arcane, elemental, and dark magic names for wizards, sorcerers, and warlocks in D&D and fantasy RPGs.",
+    "category": "names",
+    "tags": ["mage", "wizard", "sorcerer", "warlock", "dnd"],
+    "icon": "<path d='M12 2l9 4.9V17L12 22l-9-4.9V6.9z'/>",
+    "url": "mage-name-generator.html",
+    "volume": 2400,
+    "kd": 26,
+    "featured": false
+  },
+  "sitemap_priority": "0.8"
+}
 ]
+
