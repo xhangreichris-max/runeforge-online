@@ -1,3 +1,4 @@
+
 name: Build RuneForge Pages
 
 on:
@@ -32,16 +33,32 @@ jobs:
           python-version: '3.11'
 
       - name: Run build script
-        run: python build.py
+        run: |
+          echo "=== Running build.py ==="
+          python build.py
+          echo "=== Files generated ==="
+          ls -la *.html
+
+      - name: Check git status
+        run: |
+          echo "=== Git status ==="
+          git status
+          echo "=== New/modified files ==="
+          git diff --name-only
+          git ls-files --others --exclude-standard
 
       - name: Commit and push generated pages
         run: |
           git config --global user.name "RuneForge Builder"
           git config --global user.email "builder@runeforge.online"
-          git add -A
+          git add *.html tools.js sitemap.xml
+          echo "=== Staged files ==="
+          git diff --staged --name-only
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "Nothing to commit — pages already up to date"
           else
-            git commit -m "Auto-build: generated pages from pages-config.json"
+            git commit -m "Auto-build: generated pages from pages-config.json [skip ci]"
+            git pull --rebase origin main
             git push origin main
+            echo "=== Push successful ==="
           fi
