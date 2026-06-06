@@ -265,6 +265,30 @@ const RUNEFORGE_TOOLS = [
     kd: 11,
     featured: false
   },
+  {
+    id: "wood-elf-name-generator",
+    name: "Wood Elf Name Generator",
+    desc: "Forest elf names for rangers, druids, warriors, and elders in D&D 5e and fantasy fiction.",
+    category: "names",
+    tags: ["wood elf", "elf", "forest", "D&D"],
+    icon: `<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>`,
+    url: "wood-elf-name-generator.html",
+    volume: 1800,
+    kd: 13,
+    featured: false
+  },
+  {
+    id: "blood-elf-name-generator",
+    name: "Blood Elf Name Generator",
+    desc: "Lore-accurate sin'dorei names for WoW, D&D, and fantasy fiction — paladins, mages, rangers, and nobility.",
+    category: "names",
+    tags: ["blood elf", "elf", "WoW", "sin'dorei"],
+    icon: `<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>`,
+    url: "blood-elf-name-generator.html",
+    volume: 2200,
+    kd: 15,
+    featured: false
+  },
 ];
 
 // ── CATEGORY CONFIG ──────────────────────────────────────
