@@ -753,6 +753,549 @@
     "featured": false
   },
   "sitemap_priority": "0.8"
+},
+ {
+  "id": "creature-name-generator",
+  "page_name": "Creature Name Generator",
+  "meta_title": "Creature Name Generator — Fantasy Monster & Beast Names | RuneForge",
+  "meta_desc": "Generate alien and dangerous names for fantasy creatures, monsters, and beasts. Land, aquatic, aerial, and undead creature names for D&D, fiction, and worldbuilding — free to use.",
+  "og_title": "Creature Name Generator — RuneForge",
+  "h1_text": "Names for things that don't belong in the world — and know it.",
+  "hero_sub": "Generate creature names for land beasts, aquatic horrors, aerial predators, and undead monsters.",
+  "hero_bg": "hero-bg-dark-ruins.webp",
+  "eyebrow_text": "Creature Name Generator",
+  "howto_step1": "Select All, Beast, Aquatic, Aerial, or Undead from the filter buttons.",
+  "breadcrumb_category_name": "Name Generators",
+  "breadcrumb_category_id": "names",
+  "filters": [
+    {"label": "All", "value": "all"},
+    {"label": "Beast", "value": "beast"},
+    {"label": "Aquatic", "value": "aquatic"},
+    {"label": "Aerial", "value": "aerial"},
+    {"label": "Undead", "value": "undead"}
+  ],
+  "name_data": {
+    "all": [
+      {"n": "Grolvak", "r": "Land Beast"},
+      {"n": "Lurevash", "r": "Aquatic Horror"},
+      {"n": "Zyvrek", "r": "Aerial Predator"},
+      {"n": "Ossvel", "r": "Undead Creature"},
+      {"n": "Durgeth", "r": "Land Beast"},
+      {"n": "Selvaran", "r": "Aquatic Horror"},
+      {"n": "Kethali", "r": "Aerial Predator"},
+      {"n": "Morth-kael", "r": "Undead Creature"},
+      {"n": "Umbrak-fel", "r": "Land Beast"},
+      {"n": "Thaloris", "r": "Aquatic Horror"},
+      {"n": "Skravith", "r": "Aerial Predator"},
+      {"n": "Dravethis", "r": "Undead Creature"},
+      {"n": "Vorvak", "r": "Land Beast"},
+      {"n": "Narevosh", "r": "Aquatic Horror"},
+      {"n": "Zethkiv", "r": "Aerial Predator"},
+      {"n": "Ossrek-vael", "r": "Undead Creature"},
+      {"n": "Gorthvel", "r": "Land Beast"},
+      {"n": "Luraneth", "r": "Aquatic Horror"},
+      {"n": "Skythrak", "r": "Aerial Predator"},
+      {"n": "Vraek-dun", "r": "Undead Creature"}
+    ],
+    "beast": [
+      {"n": "Grolvak", "r": "Land Beast"},
+      {"n": "Durgeth", "r": "Land Beast"},
+      {"n": "Umbrak-fel", "r": "Land Beast"},
+      {"n": "Vorvak", "r": "Land Beast"},
+      {"n": "Gorthvel", "r": "Land Beast"},
+      {"n": "Drukveth", "r": "Land Beast"},
+      {"n": "Gormath", "r": "Land Beast"},
+      {"n": "Ulvrak", "r": "Land Beast"},
+      {"n": "Dravgul", "r": "Land Beast"},
+      {"n": "Krulgeth", "r": "Land Beast"},
+      {"n": "Vorvekh", "r": "Land Beast"},
+      {"n": "Brul'vast", "r": "Land Beast"}
+    ],
+    "aquatic": [
+      {"n": "Lurevash", "r": "Aquatic Horror"},
+      {"n": "Selvaran", "r": "Aquatic Horror"},
+      {"n": "Thaloris", "r": "Aquatic Horror"},
+      {"n": "Narevosh", "r": "Aquatic Horror"},
+      {"n": "Luraneth", "r": "Aquatic Horror"},
+      {"n": "Selvrek", "r": "Aquatic Horror"},
+      {"n": "Thalziv", "r": "Aquatic Horror"},
+      {"n": "Narluveth", "r": "Aquatic Horror"},
+      {"n": "Lorvulan", "r": "Aquatic Horror"},
+      {"n": "Selurath", "r": "Aquatic Horror"},
+      {"n": "Nalrevash", "r": "Aquatic Horror"},
+      {"n": "Lurvenoth", "r": "Aquatic Horror"}
+    ],
+    "aerial": [
+      {"n": "Zyvrek", "r": "Aerial Predator"},
+      {"n": "Kethali", "r": "Aerial Predator"},
+      {"n": "Skravith", "r": "Aerial Predator"},
+      {"n": "Zethkiv", "r": "Aerial Predator"},
+      {"n": "Skythrak", "r": "Aerial Predator"},
+      {"n": "Kyvrek", "r": "Aerial Predator"},
+      {"n": "Zrethak", "r": "Aerial Predator"},
+      {"n": "Skethiv", "r": "Aerial Predator"},
+      {"n": "Tyvrak", "r": "Aerial Predator"},
+      {"n": "Kethziv", "r": "Aerial Predator"},
+      {"n": "Zyvketh", "r": "Aerial Predator"},
+      {"n": "Skryvath", "r": "Aerial Predator"}
+    ],
+    "undead": [
+      {"n": "Ossvel", "r": "Undead Creature"},
+      {"n": "Morth-kael", "r": "Undead Creature"},
+      {"n": "Dravethis", "r": "Undead Creature"},
+      {"n": "Ossrek-vael", "r": "Undead Creature"},
+      {"n": "Vraek-dun", "r": "Undead Creature"},
+      {"n": "Gorv-aeth", "r": "Undead Creature"},
+      {"n": "Drakvel", "r": "Undead Creature"},
+      {"n": "Ossvreth", "r": "Undead Creature"},
+      {"n": "Morthvel", "r": "Undead Creature"},
+      {"n": "Drav-kael", "r": "Undead Creature"},
+      {"n": "Vraekoss", "r": "Undead Creature"},
+      {"n": "Ossrak-dun", "r": "Undead Creature"}
+    ]
+  },
+  "related_chips": [
+    {"label": "Dark Lord Names", "url": "dark-lord-name-generator.html"},
+    {"label": "Necromancer Names", "url": "necromancer-name-generator.html"},
+    {"label": "Goblin Names", "url": "goblin-name-generator.html"},
+    {"label": "Orc Names", "url": "orc-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Dungeon Names", "url": "dungeon-name-generator.html"}
+  ],
+  "sidebar_links": [
+    {"label": "Dark Lord Generator", "url": "dark-lord-name-generator.html"},
+    {"label": "Necromancer Generator", "url": "necromancer-name-generator.html"},
+    {"label": "Goblin Name Generator", "url": "goblin-name-generator.html"},
+    {"label": "Orc Name Generator", "url": "orc-name-generator.html"},
+    {"label": "D&D Name Generator", "url": "dnd-name-generator.html"},
+    {"label": "Dungeon Generator", "url": "dungeon-name-generator.html"}
+  ],
+  "sidebar_tips": [
+    "Land beasts need mass — guttural back-of-throat sounds and closed vowels. If the name sounds light, the creature sounds small.",
+    "Aquatic names should flow without hard stops: lean on l, r, and n consonants so the mouth barely closes between syllables.",
+    "Aerial names go short and sharp — hard k and t sounds, brief vowels. Nothing that lingers in the mouth after you say it.",
+    "Undead creature names work best with structural incompleteness — a syllable that starts and doesn't fully land.",
+    "Test the name without a visual: if someone hears it cold and already feels uneasy, the phonetics are doing their job."
+  ],
+  "sidebar_pro_tip": "A creature name that resists easy pluralization is almost always the better name — the moment players start casually saying 'the Grolvaks,' the thing stops being a monster and starts being an encounter.",
+  "seo_article": "<h2>Creature Name Generator: Names for Things That Don't Belong in the World</h2><p>The hardest part of naming a fictional creature isn't making the name sound dangerous. It's making it sound <em>unknown</em>. A creature name that feels too familiar — too close to a real animal, too obviously compound — collapses the mystery before the encounter starts. The best fantasy creature names suggest something that exists outside the taxonomy the reader already knows. This creature name generator is built around that problem, with separate phonetic logic for each creature type.</p><h2>How Environment Shapes a Creature's Name</h2><p>A creature's habitat is the most reliable guide to its naming phonetics. This isn't arbitrary — it mirrors how languages in the real world assign weight and texture to words based on what they describe. Apply the same logic to invented creatures and the names stop feeling generated.</p><ul><li><strong>Land beasts</strong> carry guttural, heavy sounds — back-of-throat consonants, closed vowels, names that feel like something large moving through undergrowth. Grolvak. Durgeth. Umbrak-fel. The name should have physical mass.</li><li><strong>Aquatic creatures</strong> use liquid consonants and flowing vowel progressions — l, r, and n sounds that move without stopping. Lurevash. Selvaran. Thaloris. Say them aloud and the mouth barely closes between sounds.</li><li><strong>Aerial creatures</strong> go sharp and light — hard k and t sounds, short vowels, names that suggest speed and altitude. Zyvrek. Kethali. Skravith. Nothing heavy, nothing that lingers.</li><li><strong>Undead creatures</strong> use hollow, broken phonetics — sounds that suggest something once whole and now interrupted. Ossvel. Morth-kael. Dravethis. A syllable that starts and doesn't quite finish.</li></ul><h2>What Makes a Monster Name Feel Alien</h2><p>Three things separate a genuinely unsettling creature name from a generic monster label. First, it should be unclassifiable on first read — not obviously a compound of two real words, not a transparent portmanteau. Grolvak doesn't suggest 'troll' plus anything. It suggests itself. Second, it should resist easy pluralization. Names that take a standard -s feel domesticated. Third, the name should work without a visual — if someone hears the name before seeing the creature, they should already feel something is wrong.</p><h2>Using Creature Names in D&D, Fiction, and Worldbuilding</h2><p>For D&D dungeon masters, introduce the creature's name before the creature. A journal entry. A warning scratched into stone. 'Do not go past the ridge after dark — the Grolvak hunts there.' The name builds dread that no stat block can manufacture. For fiction writers and worldbuilders, name your creatures the way field naturalists name species: with a precision that implies observation, not invention. The name should suggest someone survived long enough to write it down.</p>",
+  "faq_items": [
+    {
+      "q": "How do I make a creature name sound genuinely alien?",
+      "a": "Three rules: it shouldn't obviously compound two real words, it should resist easy pluralization, and it should produce unease when heard without a visual. Grolvak. Lurevash. Zyvrek. None of these suggest what the creature looks like — they only suggest that it exists and that knowing its name doesn't make it safer."
+    },
+    {
+      "q": "What sounds work best for land beast names?",
+      "a": "Guttural back-of-throat consonants and closed vowels — gr, dr, urk, vak, eth. The name should have physical mass. If you can say it softly and it still sounds threatening, you have the right phonetics. Durgeth. Umbrak-fel. Grolvak. These names feel like something heavy moving."
+    },
+    {
+      "q": "How do aquatic creature names differ from aerial ones?",
+      "a": "Aquatic names use liquid consonants — l, r, n — and vowel progressions that flow without hard stops. The mouth barely closes between sounds. Aerial names go the opposite direction: sharp k and t sounds, short vowels, nothing that lingers. Lurevash is aquatic. Zyvrek is aerial. You can hear the difference before you picture either creature."
+    },
+    {
+      "q": "What makes undead creature names work?",
+      "a": "Structural incompleteness. The name sounds like it was once whole and has since broken down — a syllable that starts and doesn't finish, an unusual consonant cluster mid-word, a hyphenated compound where the join feels wrong. Ossvel. Morth-kael. The decay is phonetic before it's visual."
+    },
+    {
+      "q": "Can I use these names for original creatures in a novel or game?",
+      "a": "Yes — that's the primary use case. The generator outputs names with no existing IP attached. For novels, pick the name that forces you to write a description rather than borrowing one. For tabletop games, pick the name your players can't easily shorten to a nickname, because familiarity kills the threat."
+    },
+    {
+      "q": "Should fictional creature names have apostrophes or hyphens?",
+      "a": "Use them sparingly and with purpose. An apostrophe mid-name signals a break in phonetics — something that doesn't connect smoothly, which works well for undead or void creatures. A hyphen suggests a compound creature, two natures joined. Overuse of either makes the name look like it's trying too hard. One per name, maximum."
+    },
+    {
+      "q": "How do I name a creature that's a hybrid of two types?",
+      "a": "Blend the phonetic traditions of both environments. An aquatic-aerial hybrid might use liquid consonants with sharp endings — Selvrek, Thalziv. A land-undead hybrid would combine guttural weight with structural incompleteness — Gorv-aeth, Drakvel. The hybrid phonetics signal the hybrid nature before any description is needed."
+    }
+  ],
+  "footer_links": [
+    {"label": "Dark Lord Names", "url": "dark-lord-name-generator.html"},
+    {"label": "Necromancer Names", "url": "necromancer-name-generator.html"},
+    {"label": "Goblin Names", "url": "goblin-name-generator.html"},
+    {"label": "Orc Names", "url": "orc-name-generator.html"},
+    {"label": "Vampire Names", "url": "vampire-name-generator.html"},
+    {"label": "Villain Names", "url": "villain-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Kingdom Names", "url": "kingdom-name-generator.html"},
+    {"label": "Dungeon Names", "url": "dungeon-name-generator.html"},
+    {"label": "Mage Names", "url": "mage-name-generator.html"}
+  ],
+  "tools_js_entry": {
+    "id": "creature-name-generator",
+    "name": "Creature Name Generator",
+    "desc": "Alien and dangerous names for fantasy creatures, monsters, and beasts in D&D, fiction, and worldbuilding.",
+    "category": "names",
+    "tags": ["creature", "monster", "beast", "dark fantasy"],
+    "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+    "url": "creature-name-generator.html",
+    "volume": 1200,
+    "kd": 9,
+    "featured": false
+  },
+  "sitemap_priority": "0.8"
+},
+ {
+  "id": "wood-elf-name-generator",
+  "page_name": "Wood Elf Name Generator",
+  "meta_title": "Wood Elf Name Generator — Forest Elf & D&D Names | RuneForge",
+  "meta_desc": "Generate authentic wood elf names for D&D, fantasy fiction, and RPG campaigns. Ranger, druid, warrior, and elder names rooted in ancient forest tradition — free to use.",
+  "og_title": "Wood Elf Name Generator — RuneForge",
+  "h1_text": "Names the forest gave them — not a court scribe.",
+  "hero_sub": "Generate wood elf names for rangers, druids, warriors, and elders in D&D and fantasy fiction.",
+  "hero_bg": "hero-bg-forest.webp",
+  "eyebrow_text": "Wood Elf Name Generator",
+  "howto_step1": "Select All, Male, Female, Ranger, or Druid from the filter buttons.",
+  "breadcrumb_category_name": "Name Generators",
+  "breadcrumb_category_id": "names",
+  "filters": [
+    {"label": "All", "value": "all"},
+    {"label": "Male", "value": "male"},
+    {"label": "Female", "value": "female"},
+    {"label": "Ranger", "value": "ranger"},
+    {"label": "Druid", "value": "druid"}
+  ],
+  "name_data": {
+    "all": [
+      {"n": "Sylrek", "r": "Ranger"},
+      {"n": "Thalindra", "r": "Druid"},
+      {"n": "Gorven", "r": "Warrior"},
+      {"n": "Elovarindae", "r": "Elder"},
+      {"n": "Tharven", "r": "Ranger"},
+      {"n": "Sylvarene", "r": "Druid"},
+      {"n": "Draveth", "r": "Warrior"},
+      {"n": "Sylthaerien", "r": "Elder"},
+      {"n": "Kael'iss", "r": "Ranger"},
+      {"n": "Eloweth", "r": "Druid"},
+      {"n": "Sylkrath", "r": "Warrior"},
+      {"n": "Thandoriel", "r": "Elder"},
+      {"n": "Varek", "r": "Ranger"},
+      {"n": "Lorvindra", "r": "Druid"},
+      {"n": "Tharolk", "r": "Warrior"},
+      {"n": "Sylvarindae", "r": "Elder"},
+      {"n": "Kaelthar", "r": "Ranger"},
+      {"n": "Elureth", "r": "Druid"},
+      {"n": "Dravketh", "r": "Warrior"},
+      {"n": "Thandorviel", "r": "Elder"}
+    ],
+    "male": [
+      {"n": "Sylrek", "r": "Ranger"},
+      {"n": "Tharven", "r": "Ranger"},
+      {"n": "Gorven", "r": "Warrior"},
+      {"n": "Draveth", "r": "Warrior"},
+      {"n": "Kael'iss", "r": "Ranger"},
+      {"n": "Sylkrath", "r": "Warrior"},
+      {"n": "Varek", "r": "Ranger"},
+      {"n": "Tharolk", "r": "Warrior"},
+      {"n": "Kaelthar", "r": "Ranger"},
+      {"n": "Dravketh", "r": "Warrior"},
+      {"n": "Thandoriel", "r": "Elder"},
+      {"n": "Sylthaerien", "r": "Elder"}
+    ],
+    "female": [
+      {"n": "Thalindra", "r": "Druid"},
+      {"n": "Sylvarene", "r": "Druid"},
+      {"n": "Eloweth", "r": "Druid"},
+      {"n": "Elovarindae", "r": "Elder"},
+      {"n": "Lorvindra", "r": "Druid"},
+      {"n": "Sylvarindae", "r": "Elder"},
+      {"n": "Elureth", "r": "Druid"},
+      {"n": "Thandorviel", "r": "Elder"},
+      {"n": "Sylvaris", "r": "Ranger"},
+      {"n": "Kaelindra", "r": "Druid"},
+      {"n": "Tharindae", "r": "Elder"},
+      {"n": "Elvreth", "r": "Warrior"}
+    ],
+    "ranger": [
+      {"n": "Sylrek", "r": "Ranger"},
+      {"n": "Tharven", "r": "Ranger"},
+      {"n": "Kael'iss", "r": "Ranger"},
+      {"n": "Varek", "r": "Ranger"},
+      {"n": "Kaelthar", "r": "Ranger"},
+      {"n": "Sylvaris", "r": "Ranger"},
+      {"n": "Dravrek", "r": "Ranger"},
+      {"n": "Tharvik", "r": "Ranger"},
+      {"n": "Kaelven", "r": "Ranger"},
+      {"n": "Sylrath", "r": "Ranger"},
+      {"n": "Vorrek", "r": "Ranger"},
+      {"n": "Tharkel", "r": "Ranger"}
+    ],
+    "druid": [
+      {"n": "Thalindra", "r": "Druid"},
+      {"n": "Sylvarene", "r": "Druid"},
+      {"n": "Eloweth", "r": "Druid"},
+      {"n": "Lorvindra", "r": "Druid"},
+      {"n": "Elureth", "r": "Druid"},
+      {"n": "Kaelindra", "r": "Druid"},
+      {"n": "Sylvoreth", "r": "Druid"},
+      {"n": "Elorvindae", "r": "Druid"},
+      {"n": "Thalureth", "r": "Druid"},
+      {"n": "Sylvendrae", "r": "Druid"},
+      {"n": "Elovaris", "r": "Druid"},
+      {"n": "Lorindrae", "r": "Druid"}
+    ]
+  },
+  "related_chips": [
+    {"label": "Elf Names", "url": "elf-name-generator.html"},
+    {"label": "Dark Elf Names", "url": "dark-elf-name-generator.html"},
+    {"label": "Blood Elf Names", "url": "blood-elf-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Half-Orc Names", "url": "half-orc-name-generator.html"},
+    {"label": "Tiefling Names", "url": "tiefling-name-generator.html"}
+  ],
+  "sidebar_links": [
+    {"label": "Elf Name Generator", "url": "elf-name-generator.html"},
+    {"label": "Dark Elf Generator", "url": "dark-elf-name-generator.html"},
+    {"label": "Blood Elf Generator", "url": "blood-elf-name-generator.html"},
+    {"label": "D&D Name Generator", "url": "dnd-name-generator.html"},
+    {"label": "Half-Orc Generator", "url": "half-orc-name-generator.html"},
+    {"label": "Tiefling Generator", "url": "tiefling-name-generator.html"}
+  ],
+  "sidebar_tips": [
+    "Wood elf names should sound like the forest named them — shorter, more consonant-interrupted than high elf equivalents, never courtly.",
+    "Rangers need efficient names: two syllables, hard natural consonants, closed endings. If it sounds musical in a throne room, it belongs to a high elf.",
+    "Druid names should flow — lean on l, r, and open vowels. The name should feel like it grew rather than was assigned.",
+    "Elder names earn their length. Three or four syllables only when the character has lived long enough to carry them.",
+    "Avoid -iel, -ael, -orn endings for wood elves — those suffixes signal high elf lineage and break the cultural distinction."
+  ],
+  "sidebar_pro_tip": "Give your wood elf character a short daily name and a longer ceremonial one — the moment another character uses the full ceremonial name, everyone at the table knows something serious just happened.",
+  "seo_article": "<h2>Wood Elf Name Generator: Names Rooted in Ancient Forest</h2><p>Wood elves are not high elves with mud on their boots. The distinction matters for naming. High elf names carry academic weight — long, formal, Tolkien-adjacent constructions that signal a civilization of towers and libraries. Wood elf names come from somewhere older and less interested in being impressive. They sound like the forest named them, not a court scribe.</p><p>This wood elf name generator separates four distinct traditions within forest elf culture, because a ranger who tracks prey through old-growth silence needs a different name than a druid who has been tending the same grove for two centuries.</p><h2>The Four Wood Elf Naming Traditions</h2><ul><li><strong>Rangers</strong> carry short, sharp names with natural consonants — sounds that move quickly and don't linger. Sylrek. Tharven. Kael'iss. These are names built for someone who moves fast and speaks rarely. The name functions like a callsign: efficient, unmistakable.</li><li><strong>Druids</strong> use flowing botanical sounds — longer names with liquid consonants and open vowels that suggest growth and slow cycles. Sylvarene. Eloweth. Thalindra. The name should feel like it grew rather than was assigned.</li><li><strong>Warriors</strong> sit between the two: nature sounds but with harder stops, names that feel grounded and physical. Gorven. Draveth. Sylkrath. The forest is still in there, but so is the weight of someone who has fought to protect it.</li><li><strong>Elders</strong> carry ceremonial names — three or four syllables, often with a nature-word embedded or implied, names that have been spoken at rites and remembered across generations. Elovarindae. Sylthaerien. Thandoriel. These names are not used casually.</li></ul><h2>What Separates Wood Elf Names from High Elf Names</h2><p>High elf names reach for formality. Wood elf names reach for specificity. The difference shows in the vowels: high elf names favor long, open 'ae' and 'el' combinations that sound musical in a hall. Wood elf names use shorter vowels and more consonant interruption — the sound of wind through branches, not a choir.</p><p>The other distinction is length. High elves accumulate names. Wood elves don't. A wood elf ranger with a four-syllable name is probably an elder or someone who earned it. Most carry two, maybe three beats. The forest doesn't waste words.</p><h2>D&D Wood Elf Names: Mechanical and Lore Context</h2><p>In D&D 5e, wood elves — the Wood Elf subrace in the Player's Handbook — share the base elf name tables with high elves but are distinguished by culture and personality. In practice, players who want lore accuracy pick names that reflect the Teu-tel-quessir tradition: nature-inflected, shorter than high elf equivalents, and without the courtly double-barreled constructions. This generator outputs names that fit that profile without needing to cross-reference the sourcebooks.</p>",
+  "faq_items": [
+    {
+      "q": "What's the difference between wood elf and high elf names?",
+      "a": "High elf names are formal and musical — long, open vowel combinations that sound at home in a throne room. Wood elf names are shorter, more consonant-interrupted, and feel like they came from the forest rather than a court. A wood elf with a four-syllable ceremonial name is an exception, not the rule."
+    },
+    {
+      "q": "What sounds define wood elf ranger names?",
+      "a": "Short, sharp, and fast. Hard natural consonants — k, t, v, r — with brief vowels. Sylrek. Tharven. Kael'iss. These names function like callsigns: efficient and unmistakable. Rangers speak rarely; their names reflect that economy."
+    },
+    {
+      "q": "How do druid wood elf names differ from ranger names?",
+      "a": "Druids carry longer, flowing names with liquid consonants and open vowels — sounds that suggest growth and slow cycles rather than quick movement. Sylvarene. Eloweth. Thalindra. The name should feel like it grew over time rather than was assigned at birth."
+    },
+    {
+      "q": "Are wood elf names gendered?",
+      "a": "In most fantasy traditions including D&D, wood elf names have loose gender associations but no strict rules. Flowing botanical names lean feminine; sharp ranger names lean masculine. In practice, the role and tradition matter more than gender — a female ranger should still carry a short, efficient name if her culture demands it."
+    },
+    {
+      "q": "What are good D&D wood elf names for a ranger character?",
+      "a": "Two to three syllables, natural consonants, no courtly suffixes. Tharven, Sylrek, Kael'iss, Gorven, Draveth. Avoid names that end in -iel, -ael, or -orn — those read as high elf or half-elf. Wood elf ranger names close on harder sounds: -rek, -ven, -eth, -rath."
+    },
+    {
+      "q": "How long should a wood elf elder name be?",
+      "a": "Three to four syllables minimum, often with a nature-word embedded or implied. Elovarindae. Sylthaerien. Thandoriel. Elder names have been spoken at rites and passed across generations — they carry weight that shorter names don't. They are not used in casual address; most elders go by a shorter daily name."
+    },
+    {
+      "q": "Can I use wood elf names for forest elf characters in non-D&D settings?",
+      "a": "Yes. The phonetic logic applies to any forest-dwelling elf archetype regardless of system. The key is matching name length and sound texture to the character's role and connection to nature. A city-dwelling wood elf in exile might carry a name that sounds slightly wrong for their environment — that friction can be a character detail."
+    }
+  ],
+  "footer_links": [
+    {"label": "Elf Names", "url": "elf-name-generator.html"},
+    {"label": "Dark Elf Names", "url": "dark-elf-name-generator.html"},
+    {"label": "Blood Elf Names", "url": "blood-elf-name-generator.html"},
+    {"label": "Vampire Names", "url": "vampire-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Half-Orc Names", "url": "half-orc-name-generator.html"},
+    {"label": "Tiefling Names", "url": "tiefling-name-generator.html"},
+    {"label": "Goblin Names", "url": "goblin-name-generator.html"},
+    {"label": "Kingdom Names", "url": "kingdom-name-generator.html"},
+    {"label": "Mage Names", "url": "mage-name-generator.html"}
+  ],
+  "tools_js_entry": {
+    "id": "wood-elf-name-generator",
+    "name": "Wood Elf Name Generator",
+    "desc": "Forest elf names for rangers, druids, warriors, and elders in D&D 5e and fantasy fiction.",
+    "category": "names",
+    "tags": ["wood elf", "elf", "forest", "D&D"],
+    "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+    "url": "wood-elf-name-generator.html",
+    "volume": 1800,
+    "kd": 13,
+    "featured": false
+  },
+  "sitemap_priority": "0.8"
+},
+ {
+  "id": "blood-elf-name-generator",
+  "page_name": "Blood Elf Name Generator",
+  "meta_title": "Blood Elf Name Generator — Sin'dorei & WoW Names | RuneForge",
+  "meta_desc": "Generate lore-accurate blood elf names for WoW, D&D, and fantasy fiction. Paladin, mage, ranger, and sin'dorei noble names built on Thalassian phonetic tradition — free to use.",
+  "og_title": "Blood Elf Name Generator — RuneForge",
+  "h1_text": "Sin'dorei names forged in arcane fire — beautiful, proud, and costing something.",
+  "hero_sub": "Generate blood elf names for paladins, mages, rangers, and sin'dorei nobility in WoW and D&D.",
+  "hero_bg": "hero-bg-forest.webp",
+  "eyebrow_text": "Blood Elf Name Generator",
+  "howto_step1": "Select All, Male, Female, Paladin, or Mage from the filter buttons.",
+  "breadcrumb_category_name": "Name Generators",
+  "breadcrumb_category_id": "names",
+  "filters": [
+    {"label": "All", "value": "all"},
+    {"label": "Male", "value": "male"},
+    {"label": "Female", "value": "female"},
+    {"label": "Paladin", "value": "paladin"},
+    {"label": "Mage", "value": "mage"}
+  ],
+  "name_data": {
+    "all": [
+      {"n": "Thalindor", "r": "Blood Knight"},
+      {"n": "Aelvaris", "r": "Magister"},
+      {"n": "Sylvareth", "r": "Farstrider"},
+      {"n": "Sorvindael", "r": "Noble"},
+      {"n": "Vaelketh", "r": "Blood Knight"},
+      {"n": "Sorvindrel", "r": "Magister"},
+      {"n": "Kael'dris", "r": "Farstrider"},
+      {"n": "Vaelkethis", "r": "Noble"},
+      {"n": "Sorvael", "r": "Blood Knight"},
+      {"n": "Maeliketh", "r": "Magister"},
+      {"n": "Thalrek", "r": "Farstrider"},
+      {"n": "Aelindorath", "r": "Noble"},
+      {"n": "Vaelindor", "r": "Blood Knight"},
+      {"n": "Sorviketh", "r": "Magister"},
+      {"n": "Kael'vareth", "r": "Farstrider"},
+      {"n": "Thalindorath", "r": "Noble"},
+      {"n": "Drevikael", "r": "Blood Knight"},
+      {"n": "Aelvindrel", "r": "Magister"},
+      {"n": "Sylvikael", "r": "Farstrider"},
+      {"n": "Vaelsorvindael", "r": "Noble"}
+    ],
+    "male": [
+      {"n": "Thalindor", "r": "Blood Knight"},
+      {"n": "Vaelketh", "r": "Blood Knight"},
+      {"n": "Sorvael", "r": "Blood Knight"},
+      {"n": "Vaelindor", "r": "Blood Knight"},
+      {"n": "Drevikael", "r": "Blood Knight"},
+      {"n": "Sorvindrel", "r": "Magister"},
+      {"n": "Maeliketh", "r": "Magister"},
+      {"n": "Aelvindrel", "r": "Magister"},
+      {"n": "Thalrek", "r": "Farstrider"},
+      {"n": "Kael'dris", "r": "Farstrider"},
+      {"n": "Sorvindael", "r": "Noble"},
+      {"n": "Thalindorath", "r": "Noble"}
+    ],
+    "female": [
+      {"n": "Aelvaris", "r": "Magister"},
+      {"n": "Sylvareth", "r": "Farstrider"},
+      {"n": "Vaelkethis", "r": "Noble"},
+      {"n": "Aelindorath", "r": "Noble"},
+      {"n": "Sorviketh", "r": "Magister"},
+      {"n": "Kael'vareth", "r": "Farstrider"},
+      {"n": "Sylvikael", "r": "Farstrider"},
+      {"n": "Vaelsorvindael", "r": "Noble"},
+      {"n": "Thalindris", "r": "Blood Knight"},
+      {"n": "Aelvindrae", "r": "Magister"},
+      {"n": "Sorvindaris", "r": "Noble"},
+      {"n": "Kael'ithael", "r": "Farstrider"}
+    ],
+    "paladin": [
+      {"n": "Thalindor", "r": "Blood Knight"},
+      {"n": "Vaelketh", "r": "Blood Knight"},
+      {"n": "Sorvael", "r": "Blood Knight"},
+      {"n": "Vaelindor", "r": "Blood Knight"},
+      {"n": "Drevikael", "r": "Blood Knight"},
+      {"n": "Thalindris", "r": "Blood Knight"},
+      {"n": "Sorvikael", "r": "Blood Knight"},
+      {"n": "Vaelkethis", "r": "Blood Knight"},
+      {"n": "Drevindor", "r": "Blood Knight"},
+      {"n": "Thalsorvael", "r": "Blood Knight"},
+      {"n": "Kael'indor", "r": "Blood Knight"},
+      {"n": "Vaelsorvael", "r": "Blood Knight"}
+    ],
+    "mage": [
+      {"n": "Aelvaris", "r": "Magister"},
+      {"n": "Sorvindrel", "r": "Magister"},
+      {"n": "Maeliketh", "r": "Magister"},
+      {"n": "Sorviketh", "r": "Magister"},
+      {"n": "Aelvindrel", "r": "Magister"},
+      {"n": "Aelvindrae", "r": "Magister"},
+      {"n": "Maelvaris", "r": "Magister"},
+      {"n": "Sorvikael", "r": "Magister"},
+      {"n": "Aelindvaris", "r": "Magister"},
+      {"n": "Maesorvindrel", "r": "Magister"},
+      {"n": "Thalindvaris", "r": "Magister"},
+      {"n": "Vaelindris", "r": "Magister"}
+    ]
+  },
+  "related_chips": [
+    {"label": "Elf Names", "url": "elf-name-generator.html"},
+    {"label": "Wood Elf Names", "url": "wood-elf-name-generator.html"},
+    {"label": "Dark Elf Names", "url": "dark-elf-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Mage Names", "url": "mage-name-generator.html"},
+    {"label": "Tiefling Names", "url": "tiefling-name-generator.html"}
+  ],
+  "sidebar_links": [
+    {"label": "Elf Name Generator", "url": "elf-name-generator.html"},
+    {"label": "Wood Elf Generator", "url": "wood-elf-name-generator.html"},
+    {"label": "Dark Elf Generator", "url": "dark-elf-name-generator.html"},
+    {"label": "Mage Name Generator", "url": "mage-name-generator.html"},
+    {"label": "D&D Name Generator", "url": "dnd-name-generator.html"},
+    {"label": "Tiefling Generator", "url": "tiefling-name-generator.html"}
+  ],
+  "sidebar_tips": [
+    "Blood elf names share high elf phonetic roots but carry strained pride — one element should be slightly too sharp, too deliberately formal.",
+    "Avoid Germanic and Norse endings: -helm, -gar, -ulf sound wrong against Thalassian. Stick to -ael, -eth, -dor, -vael, -aris.",
+    "Noble sin'dorei names don't get shortened — four syllables minimum, and the full name is used in formal address. Build that weight in from the start.",
+    "Mage names lean compound and academic; warrior names need at least one hard consonant to anchor the elegance to something physical.",
+    "The arcane-addiction subtext doesn't need to be in the name — but a name that feels slightly too proud, slightly too insistent, does the same work quietly."
+  ],
+  "sidebar_pro_tip": "The best blood elf names sound like the character chose them deliberately — not inherited, not assigned, but claimed, which is exactly what the sin'dorei did with their entire identity after Silvermoon fell.",
+  "seo_article": "<h2>Blood Elf Name Generator: Sin'dorei Names Forged in Arcane Fire</h2><p>Blood elf names carry a tension most fantasy elf names don't. They're formally beautiful — the sin'dorei were high elves first, and that aristocratic phonetic tradition didn't disappear when Silvermoon burned. But underneath the elegance there's something strained, something that pulls too hard. That's the detail that separates a good blood elf name from a generic elf name: the beauty is real, but it costs something.</p><p>This blood elf name generator is built around WoW lore accuracy and the four distinct roles within sin'dorei society, because a blood knight paladin and an arcane-addicted magister don't carry the same name weight.</p><h2>The Four Blood Elf Naming Traditions</h2><ul><li><strong>Paladins and Blood Knights</strong> carry names that blend nobility with martial weight — formal enough to reflect aristocratic lineage, hard enough to suggest someone who has fought for the right to use the title. Thalindor. Vaelketh. Sorvael. The name should sound like it belongs on a crest and on a battlefield in equal measure.</li><li><strong>Mages and Magisters</strong> lean into the arcane phonetics of high elf academic tradition — longer names with compound structures and formal suffixes that signal years of study. Aelvaris. Sorvindrel. Maeliketh. These are names that belong in a spellbook index.</li><li><strong>Rangers and Farstriders</strong> follow the same efficient logic as wood elf rangers but with a sharper, more precise edge — the sin'dorei version of brevity is still more polished than a forest elf's. Sylvareth. Kael'dris. Thalrek. Fast names, but clean.</li><li><strong>Sin'dorei Nobility</strong> carry the longest names in the tradition — four syllables minimum, often with a house prefix or suffix that signals lineage. Sorvindael. Vaelkethis. Aelindorath. These names are announced at court. They are not shortened.</li></ul><h2>What Makes Blood Elf Names Distinct from High Elf Names</h2><p>The phonetic roots are the same — both draw from the Thalassian language tradition, and both favor open vowels, liquid consonants, and formal compound structures. The difference is in how the name sits. High elf names feel settled. Blood elf names feel like they're holding something together by force. The best sin'dorei names have one element that's slightly too sharp, slightly too proud — a hard consonant that shouldn't be there in a purely musical name, a suffix that implies the name was chosen rather than inherited.</p><h2>Using Blood Elf Names in WoW and Tabletop Settings</h2><p>For WoW characters, lore-accurate blood elf names avoid human fantasy conventions — no Germanic hard stops, no Norse endings. The Thalassian phonetic tradition is distinctly elvish: musical but structured, proud but never crude. For D&D players running a high elf character with a fallen-nobility backstory, these names transfer directly. The arcane-addiction subtext can stay implied in the name or stay entirely in the character sheet — either works.</p>",
+  "faq_items": [
+    {
+      "q": "What language do blood elf names come from in WoW lore?",
+      "a": "Thalassian — the language of the high elves and their sin'dorei descendants. It's a constructed language within Warcraft lore, characterized by open vowels, liquid consonants, and formal compound structures. Blood elf names draw from this tradition but carry an additional layer of strained pride that pure high elf names don't."
+    },
+    {
+      "q": "How do blood elf names differ from night elf names?",
+      "a": "Night elf names are older and wilder — they pull from a nature-connected tradition with harder, more primal sounds. Blood elf names are formal and aristocratic, built for courts and academies. A night elf name sounds like it came from the forest. A blood elf name sounds like it was written down in a family register."
+    },
+    {
+      "q": "What makes a good blood elf paladin name?",
+      "a": "Formal enough to signal noble lineage, hard enough to suggest someone who earned their rank through combat. Two to three syllables, with at least one harder consonant that grounds the musical structure. Thalindor. Vaelketh. Sorvael. The name should work on a family crest and shouted across a battlefield."
+    },
+    {
+      "q": "Are sin'dorei noble names different from regular blood elf names?",
+      "a": "Yes — four syllables minimum, often with a house prefix or suffix that implies lineage. Sorvindael. Vaelkethis. Aelindorath. These names are not shortened in formal settings. In WoW lore, noble sin'dorei names signal both family prestige and the particular pride of a people who refused to accept that their civilization ended."
+    },
+    {
+      "q": "Can I use blood elf names for D&D high elf characters?",
+      "a": "Directly, yes. The Thalassian phonetic tradition maps cleanly onto D&D high elf naming conventions. For characters with a fallen-nobility or arcane-obsession backstory, blood elf names add a specific weight that generic elf name tables don't provide. The lore context stays in WoW; the phonetics work anywhere."
+    },
+    {
+      "q": "What endings are most common in blood elf names?",
+      "a": "For males: -iel, -eth, -dor, -vael, -rek. For females: -aris, -indra, -ael, -veth, -dris. Noble names of both genders often end in compound suffixes: -indael, -orath, -iketh. Avoid endings common in Germanic or Norse fantasy — -helm, -gar, -ulf — these sound wrong against Thalassian phonetics."
+    },
+    {
+      "q": "How do I name a blood elf mage versus a blood elf warrior?",
+      "a": "Mages carry longer compound names with academic suffixes that suggest years of study — Aelvaris, Sorvindrel, Maeliketh. Warriors and Blood Knights need something that functions on a battlefield as well as a crest — shorter, with at least one hard consonant anchoring the formal structure. Vaelketh. Thalindor. The elegance stays, but the name has edges."
+    }
+  ],
+  "footer_links": [
+    {"label": "Elf Names", "url": "elf-name-generator.html"},
+    {"label": "Wood Elf Names", "url": "wood-elf-name-generator.html"},
+    {"label": "Dark Elf Names", "url": "dark-elf-name-generator.html"},
+    {"label": "Mage Names", "url": "mage-name-generator.html"},
+    {"label": "Vampire Names", "url": "vampire-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Tiefling Names", "url": "tiefling-name-generator.html"},
+    {"label": "Half-Orc Names", "url": "half-orc-name-generator.html"},
+    {"label": "Kingdom Names", "url": "kingdom-name-generator.html"},
+    {"label": "Goblin Names", "url": "goblin-name-generator.html"}
+  ],
+  "tools_js_entry": {
+    "id": "blood-elf-name-generator",
+    "name": "Blood Elf Name Generator",
+    "desc": "Lore-accurate sin'dorei names for WoW, D&D, and fantasy fiction — paladins, mages, rangers, and nobility.",
+    "category": "names",
+    "tags": ["blood elf", "elf", "WoW", "sin'dorei"],
+    "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+    "url": "blood-elf-name-generator.html",
+    "volume": 2200,
+    "kd": 15,
+    "featured": false
+  },
+  "sitemap_priority": "0.8"
 }
 ]
 
