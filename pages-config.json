@@ -572,6 +572,187 @@
     "featured": false
   },
   "sitemap_priority": "0.8"
+},
+ {
+  "id": "dark-lord-name-generator",
+  "page_name": "Dark Lord Name Generator",
+  "meta_title": "Dark Lord Name Generator — Evil Overlord & Villain Names | RuneForge",
+  "meta_desc": "Generate powerful dark lord names for D&D, fantasy fiction, and RPG campaigns. Ancient overlords, warlords, shadow lords, and cursed rulers — hundreds of evil villain names free to use.",
+  "og_title": "Dark Lord Name Generator — RuneForge",
+  "h1_text": "Names that threatened civilizations before your story began.",
+  "hero_sub": "Generate dark lord names for ancient overlords, warlords, shadow lords, and cursed rulers.",
+  "hero_bg": "hero-bg-gothic.webp",
+  "eyebrow_text": "Dark Lord Name Generator",
+  "howto_step1": "Select All, Male, Female, Ancient, or Modern from the filter buttons.",
+  "breadcrumb_category_name": "Name Generators",
+  "breadcrumb_category_id": "names",
+  "filters": [
+    {"label": "All", "value": "all"},
+    {"label": "Male", "value": "male"},
+    {"label": "Female", "value": "female"},
+    {"label": "Ancient", "value": "ancient"},
+    {"label": "Modern", "value": "modern"}
+  ],
+  "name_data": {
+    "all": [
+      {"n": "Malavareth the Undying", "r": "Ancient Overlord"},
+      {"n": "Krath Ironvael", "r": "Warlord"},
+      {"n": "Vel'orath", "r": "Shadow Lord"},
+      {"n": "Mortenvael", "r": "Cursed Ruler"},
+      {"n": "Osphindrel", "r": "Ancient Overlord"},
+      {"n": "Durgvael the Ashen", "r": "Warlord"},
+      {"n": "Nyx'karun", "r": "Shadow Lord"},
+      {"n": "Ossrek-dain", "r": "Cursed Ruler"},
+      {"n": "Varekothaal", "r": "Ancient Overlord"},
+      {"n": "Solvek Grimfang", "r": "Warlord"},
+      {"n": "Umbrevast", "r": "Shadow Lord"},
+      {"n": "Zelveth the Broken", "r": "Cursed Ruler"},
+      {"n": "Morvaelith", "r": "Ancient Overlord"},
+      {"n": "Gorrath Duskbane", "r": "Warlord"},
+      {"n": "Vel'sundrath", "r": "Shadow Lord"},
+      {"n": "Drauvenmael", "r": "Ancient Overlord"},
+      {"n": "Krulveth", "r": "Warlord"},
+      {"n": "Umbara-dain", "r": "Cursed Ruler"},
+      {"n": "Nyx'vareth", "r": "Shadow Lord"},
+      {"n": "Ossikaroth the Last", "r": "Ancient Overlord"}
+    ],
+    "male": [
+      {"n": "Malavareth the Undying", "r": "Ancient Overlord"},
+      {"n": "Krath Ironvael", "r": "Warlord"},
+      {"n": "Vel'orath", "r": "Shadow Lord"},
+      {"n": "Osphindrel", "r": "Ancient Overlord"},
+      {"n": "Durgvael the Ashen", "r": "Warlord"},
+      {"n": "Varekothaal", "r": "Ancient Overlord"},
+      {"n": "Solvek Grimfang", "r": "Warlord"},
+      {"n": "Umbrevast", "r": "Shadow Lord"},
+      {"n": "Gorrath Duskbane", "r": "Warlord"},
+      {"n": "Drauvenmael", "r": "Ancient Overlord"},
+      {"n": "Krulveth", "r": "Warlord"},
+      {"n": "Ossikaroth the Last", "r": "Ancient Overlord"}
+    ],
+    "female": [
+      {"n": "Morvaelith", "r": "Ancient Overlord"},
+      {"n": "Zelveth the Broken", "r": "Cursed Ruler"},
+      {"n": "Umbara-dain", "r": "Cursed Ruler"},
+      {"n": "Nyx'vareth", "r": "Shadow Lord"},
+      {"n": "Vel'sundrath", "r": "Shadow Lord"},
+      {"n": "Ossrek-dain", "r": "Cursed Ruler"},
+      {"n": "Mortenvael", "r": "Cursed Ruler"},
+      {"n": "Nyx'karun", "r": "Shadow Lord"},
+      {"n": "Selvara the Ashen", "r": "Warlord"},
+      {"n": "Vorvaelith", "r": "Ancient Overlord"},
+      {"n": "Duskmareth", "r": "Shadow Lord"},
+      {"n": "Kraveth the Still", "r": "Cursed Ruler"}
+    ],
+    "ancient": [
+      {"n": "Malavareth the Undying", "r": "Ancient Overlord"},
+      {"n": "Osphindrel", "r": "Ancient Overlord"},
+      {"n": "Varekothaal", "r": "Ancient Overlord"},
+      {"n": "Drauvenmael", "r": "Ancient Overlord"},
+      {"n": "Morvaelith", "r": "Ancient Overlord"},
+      {"n": "Ossikaroth the Last", "r": "Ancient Overlord"},
+      {"n": "Vorvaelith", "r": "Ancient Overlord"},
+      {"n": "Vel'orath", "r": "Shadow Lord"},
+      {"n": "Nyx'karun", "r": "Shadow Lord"},
+      {"n": "Umbrevast", "r": "Shadow Lord"},
+      {"n": "Ossrek-dain", "r": "Cursed Ruler"},
+      {"n": "Mortenvael", "r": "Cursed Ruler"}
+    ],
+    "modern": [
+      {"n": "Krath Ironvael", "r": "Warlord"},
+      {"n": "Durgvael the Ashen", "r": "Warlord"},
+      {"n": "Solvek Grimfang", "r": "Warlord"},
+      {"n": "Gorrath Duskbane", "r": "Warlord"},
+      {"n": "Krulveth", "r": "Warlord"},
+      {"n": "Selvara the Ashen", "r": "Warlord"},
+      {"n": "Zelveth the Broken", "r": "Cursed Ruler"},
+      {"n": "Umbara-dain", "r": "Cursed Ruler"},
+      {"n": "Vel'sundrath", "r": "Shadow Lord"},
+      {"n": "Nyx'vareth", "r": "Shadow Lord"},
+      {"n": "Duskmareth", "r": "Shadow Lord"},
+      {"n": "Kraveth the Still", "r": "Cursed Ruler"}
+    ]
+  },
+  "related_chips": [
+    {"label": "Villain Names", "url": "villain-name-generator.html"},
+    {"label": "Necromancer Names", "url": "necromancer-name-generator.html"},
+    {"label": "Vampire Names", "url": "vampire-name-generator.html"},
+    {"label": "Dark Elf Names", "url": "dark-elf-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Mage Names", "url": "mage-name-generator.html"}
+  ],
+  "sidebar_links": [
+    {"label": "Villain Name Generator", "url": "villain-name-generator.html"},
+    {"label": "Necromancer Generator", "url": "necromancer-name-generator.html"},
+    {"label": "Vampire Name Generator", "url": "vampire-name-generator.html"},
+    {"label": "Dark Elf Generator", "url": "dark-elf-name-generator.html"},
+    {"label": "Mage Name Generator", "url": "mage-name-generator.html"},
+    {"label": "D&D Name Generator", "url": "dnd-name-generator.html"}
+  ],
+  "sidebar_tips": [
+    "Use back-vowels only — deep o, u, and ah sounds. Front-vowel names like 'Elith' feel approachable. Dark lords should not.",
+    "Close the name on a hard stop or dead fricative: -oth, -krath, -vael, -drath. Soft endings belong to healers and heroes.",
+    "Ancient overlord names accumulate syllables — three to five beats signals centuries of dread. Warlord names hit in two and stop.",
+    "Never give a dark lord a surname. A title extends the threat. A surname implies they belong to something. They don't.",
+    "One broken element — a hyphenated compound, an archaic spelling, a cluster that doesn't resolve — separates a dark lord name from a generic villain name."
+  ],
+  "sidebar_pro_tip": "The name your players hesitate to say aloud is the right one — if it reads cleanly and rolls off the tongue without friction, it belongs to a hero, not the thing that's been waiting at the end of the campaign.",
+  "seo_article": "<h2>Dark Lord Name Generator: Names That Command Absolute Fear</h2><p>Most fantasy villain names fail at the first test: they sound threatening but not inevitable. A truly effective dark lord name doesn't just suggest danger — it suggests permanence. Something that has existed long before the heroes arrived and will continue long after they're gone. This dark lord name generator is built around that distinction, pulling from four distinct naming traditions to match the specific type of evil you're building.</p><h2>The Four Dark Lord Sub-Types and Their Naming Logic</h2><p>Evil is not monolithic. The name that works for an ancient god-king fails completely for a warlord who clawed his way up from a battlefield. Each sub-type carries different phonetic weight.</p><ul><li><strong>Ancient overlords</strong> carry long, Latin-inflected names with formal compound structures — Malavareth, Osphindrel, Varekothaal. These are names that accumulated syllables across centuries. They don't introduce themselves. They are announced.</li><li><strong>Warlords</strong> need names that hit and end. Short, aggressive, closed on hard consonants — Krath, Durgvael, Solvek. The brevity signals someone who built their power through force, not lineage.</li><li><strong>Shadow lords</strong> use void-sounds: the hollow back-vowels, the consonant clusters that don't quite resolve — Vel'orath, Nyx'karun, Umbrevast. These names sound like something heard at the edge of sleep.</li><li><strong>Cursed rulers</strong> carry broken names — names that suggest something was there before and decayed. Mortenvael. Ossrek-dain. The decay is structural, built into how the syllables fall apart.</li></ul><h2>What Separates a Dark Lord Name from a Generic Villain Name</h2><p>Generic villain names are edgy. Dark lord names are heavy. The difference is in what the name implies about scale. A villain threatens the protagonist. A dark lord threatens the world — and the name should carry that weight without announcing it.</p><p>Three phonetic rules apply across all sub-types. First, back-vowels only: the deep 'o', 'u', and 'ah' sounds produced at the rear of the mouth. Front-vowel names feel approachable; these names should not. Second, no soft endings: -ynn, -ara, -ily belong to heroes. Dark lord names close on stops, fricatives, or silence. Third, at least one element that feels ancient — a Latin root, an archaic suffix, a spelling that suggests the name predates common language.</p><h2>Using Fantasy Villain Names in Fiction and Tabletop Campaigns</h2><p>For D&D dungeon masters, dark lord names work best when the players encounter the name before they encounter the entity. Graffiti on a dungeon wall. A warning carved into a tomb. The name as rumor, then as dread, then as presence. For fiction writers, the name should be one the reader can't easily shorten into a nickname — that informality undercuts the threat.</p><p>Generate until you find the name your players don't want to say out loud. That's the one.</p>",
+  "faq_items": [
+    {
+      "q": "What makes a dark lord name different from a regular villain name?",
+      "a": "Scale and permanence. A villain threatens individuals. A dark lord threatens civilizations — and the name should carry that without overexplaining. Back-vowels, no soft endings, and at least one element that implies age. The name should feel like it existed before the story and will outlast it."
+    },
+    {
+      "q": "What sounds work best for ancient overlord names?",
+      "a": "Long Latin-style compound structures with formal suffixes: -vareth, -drael, -kothaal, -osphel. Three to five syllables. These names accumulated weight over centuries and they should sound like it. They are announced, not introduced."
+    },
+    {
+      "q": "How do I name a warlord dark lord versus a shadow lord?",
+      "a": "Warlords built their power through force — their names are short, hard, and closed on stop consonants. Krath. Durgvael. Solvek. Shadow lords use void-sounds: hollow back-vowels and consonant clusters that don't fully resolve. Vel'orath. Nyx'karun. One implies brute ascension; the other implies something that was never entirely human."
+    },
+    {
+      "q": "Can dark lord names work for female characters?",
+      "a": "Yes, and the same phonetic rules apply — the tradition determines the name, not the gender. Feminine dark lord names should still close on hard stops and use back-vowels. Morvaelith, Zelveth, Umbara-dain. The error is softening the ending to signal femininity. It undercuts the threat."
+    },
+    {
+      "q": "How do cursed ruler names differ structurally from other dark lord names?",
+      "a": "They carry deliberate decay. Something in the name suggests it was once whole and has broken down — an unusual consonant cluster, a hyphenated compound where the join feels wrong, an archaic spelling. Mortenvael. Ossrek-dain. The corruption is phonetic before it's narrative."
+    },
+    {
+      "q": "Should a dark lord have a title or a surname?",
+      "a": "Title, not surname. A surname implies family, lineage, something that came before. Dark lords are the origin point — they don't belong to a bloodline, the bloodline belongs to them. 'Vel'orath the Undying' or 'Malavareth, Lord of the Ashen Throne' — the title extends the name, it doesn't complete it."
+    },
+    {
+      "q": "How many syllables should a dark lord name have?",
+      "a": "Warlords and shadow lords: two to three. The compression is part of the threat. Ancient overlords and cursed rulers: three to five. The additional syllables carry age and accumulation. Anything longer tips into parody unless the context is very deliberately epic — and even then, use restraint."
+    }
+  ],
+  "footer_links": [
+    {"label": "Villain Names", "url": "villain-name-generator.html"},
+    {"label": "Necromancer Names", "url": "necromancer-name-generator.html"},
+    {"label": "Vampire Names", "url": "vampire-name-generator.html"},
+    {"label": "Dark Elf Names", "url": "dark-elf-name-generator.html"},
+    {"label": "Mage Names", "url": "mage-name-generator.html"},
+    {"label": "Orc Names", "url": "orc-name-generator.html"},
+    {"label": "Dwarf Names", "url": "dwarf-name-generator.html"},
+    {"label": "Goblin Names", "url": "goblin-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Kingdom Names", "url": "kingdom-name-generator.html"}
+  ],
+  "tools_js_entry": {
+    "id": "dark-lord-name-generator",
+    "name": "Dark Lord Name Generator",
+    "desc": "Evil overlord names for ancient tyrants, warlords, shadow lords, and cursed rulers in D&D and fantasy fiction.",
+    "category": "names",
+    "tags": ["dark lord", "villain", "dark fantasy"],
+    "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+    "url": "dark-lord-name-generator.html",
+    "volume": 1400,
+    "kd": 11,
+    "featured": false
+  },
+  "sitemap_priority": "0.8"
 }
 ]
 
