@@ -229,6 +229,18 @@ const RUNEFORGE_TOOLS = [
     featured: false
   }
 
+  {
+    id: "necromancer-name-generator",
+    name: "Necromancer Name Generator",
+    desc: "Dark death-magic names for liches, undead lords, shadow mages, and necromancers in D&D and fantasy fiction.",
+    category: "names",
+    tags: ["necromancer", "lich", "dark fantasy"],
+    icon: `<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>`,
+    url: "necromancer-name-generator.html",
+    volume: 1600,
+    kd: 14,
+    featured: false
+  },
 ];
 
 // ── CATEGORY CONFIG ──────────────────────────────────────
