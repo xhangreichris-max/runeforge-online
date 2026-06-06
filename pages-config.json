@@ -1296,6 +1296,1092 @@
     "featured": false
   },
   "sitemap_priority": "0.8"
+},
+  {
+  "id": "half-orc-name-generator",
+  "page_name": "Half-Orc Name Generator",
+  "meta_title": "Half-Orc Name Generator — D&D Half-Orc Names | RuneForge",
+  "meta_desc": "Generate half-orc names for D&D, fantasy fiction, and RPG campaigns. Warrior, tribal, noble, and outlander names built for characters caught between two worlds — free to use.",
+  "og_title": "Half-Orc Name Generator — RuneForge",
+  "h1_text": "Names caught between two worlds — neither fully claimed by either.",
+  "hero_sub": "Generate half-orc names for warriors, tribal characters, city-raised nobles, and outlanders in D&D and fantasy.",
+  "hero_bg": "hero-bg-dark-ruins.webp",
+  "eyebrow_text": "Half-Orc Name Generator",
+  "howto_step1": "Select All, Male, Female, Warrior, or Tribal from the filter buttons.",
+  "breadcrumb_category_name": "Name Generators",
+  "breadcrumb_category_id": "names",
+  "filters": [
+    {"label": "All", "value": "all"},
+    {"label": "Male", "value": "male"},
+    {"label": "Female", "value": "female"},
+    {"label": "Warrior", "value": "warrior"},
+    {"label": "Tribal", "value": "tribal"}
+  ],
+  "name_data": {
+    "all": [
+      {"n": "Groth", "r": "Warrior"},
+      {"n": "Garveth", "r": "Tribal"},
+      {"n": "Doran", "r": "City-Raised"},
+      {"n": "Krag", "r": "Outlander"},
+      {"n": "Varka", "r": "Warrior"},
+      {"n": "Throka", "r": "Tribal"},
+      {"n": "Marvak", "r": "City-Raised"},
+      {"n": "Ashvorn", "r": "Outlander"},
+      {"n": "Durgash", "r": "Warrior"},
+      {"n": "Vorgun", "r": "Tribal"},
+      {"n": "Torven", "r": "City-Raised"},
+      {"n": "Dulk", "r": "Outlander"},
+      {"n": "Krolvek", "r": "Warrior"},
+      {"n": "Garvok", "r": "Tribal"},
+      {"n": "Dorvak", "r": "City-Raised"},
+      {"n": "Rulk", "r": "Outlander"},
+      {"n": "Urgveth", "r": "Warrior"},
+      {"n": "Throkvel", "r": "Tribal"},
+      {"n": "Marveth", "r": "City-Raised"},
+      {"n": "Skrag", "r": "Outlander"}
+    ],
+    "male": [
+      {"n": "Groth", "r": "Warrior"},
+      {"n": "Durgash", "r": "Warrior"},
+      {"n": "Krolvek", "r": "Warrior"},
+      {"n": "Urgveth", "r": "Warrior"},
+      {"n": "Garveth", "r": "Tribal"},
+      {"n": "Vorgun", "r": "Tribal"},
+      {"n": "Garvok", "r": "Tribal"},
+      {"n": "Doran", "r": "City-Raised"},
+      {"n": "Marvak", "r": "City-Raised"},
+      {"n": "Torven", "r": "City-Raised"},
+      {"n": "Krag", "r": "Outlander"},
+      {"n": "Dulk", "r": "Outlander"}
+    ],
+    "female": [
+      {"n": "Varka", "r": "Warrior"},
+      {"n": "Throka", "r": "Tribal"},
+      {"n": "Throkvel", "r": "Tribal"},
+      {"n": "Marveth", "r": "City-Raised"},
+      {"n": "Dorvak", "r": "City-Raised"},
+      {"n": "Ashvorn", "r": "Outlander"},
+      {"n": "Skrag", "r": "Outlander"},
+      {"n": "Gorva", "r": "Warrior"},
+      {"n": "Thrakka", "r": "Tribal"},
+      {"n": "Dorvel", "r": "City-Raised"},
+      {"n": "Rulka", "r": "Outlander"},
+      {"n": "Vurgeth", "r": "Warrior"}
+    ],
+    "warrior": [
+      {"n": "Groth", "r": "Warrior"},
+      {"n": "Varka", "r": "Warrior"},
+      {"n": "Durgash", "r": "Warrior"},
+      {"n": "Krolvek", "r": "Warrior"},
+      {"n": "Urgveth", "r": "Warrior"},
+      {"n": "Gorva", "r": "Warrior"},
+      {"n": "Vurgeth", "r": "Warrior"},
+      {"n": "Grolvak", "r": "Warrior"},
+      {"n": "Durgvek", "r": "Warrior"},
+      {"n": "Krath", "r": "Warrior"},
+      {"n": "Vorgreth", "r": "Warrior"},
+      {"n": "Ulvrak", "r": "Warrior"}
+    ],
+    "tribal": [
+      {"n": "Garveth", "r": "Tribal"},
+      {"n": "Throka", "r": "Tribal"},
+      {"n": "Vorgun", "r": "Tribal"},
+      {"n": "Garvok", "r": "Tribal"},
+      {"n": "Throkvel", "r": "Tribal"},
+      {"n": "Thrakka", "r": "Tribal"},
+      {"n": "Vorveth", "r": "Tribal"},
+      {"n": "Garvokh", "r": "Tribal"},
+      {"n": "Throkash", "r": "Tribal"},
+      {"n": "Urgvoln", "r": "Tribal"},
+      {"n": "Durgvel", "r": "Tribal"},
+      {"n": "Krolvoth", "r": "Tribal"}
+    ]
+  },
+  "related_chips": [
+    {"label": "Orc Names", "url": "orc-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Tiefling Names", "url": "tiefling-name-generator.html"},
+    {"label": "Wood Elf Names", "url": "wood-elf-name-generator.html"},
+    {"label": "Goblin Names", "url": "goblin-name-generator.html"},
+    {"label": "Villain Names", "url": "villain-name-generator.html"}
+  ],
+  "sidebar_links": [
+    {"label": "Orc Name Generator", "url": "orc-name-generator.html"},
+    {"label": "D&D Name Generator", "url": "dnd-name-generator.html"},
+    {"label": "Tiefling Generator", "url": "tiefling-name-generator.html"},
+    {"label": "Wood Elf Generator", "url": "wood-elf-name-generator.html"},
+    {"label": "Goblin Generator", "url": "goblin-name-generator.html"},
+    {"label": "Villain Generator", "url": "villain-name-generator.html"}
+  ],
+  "sidebar_tips": [
+    "The best half-orc names don't resolve the cultural tension — they inhabit it. One orcish element, one human element, neither fully winning.",
+    "Warrior names are blunt and earned: two syllables, hard consonants, closed endings. They don't explain themselves.",
+    "City-raised half-orcs need names that work in a human tavern — but the orcish heritage should still be audible somewhere in the phonetics.",
+    "Consider building two names: a public-facing human-smooth name and an orcish name used only in specific contexts. The gap between them is a character detail.",
+    "Outlander and survival names go short and functional — one or two syllables, chosen rather than given. Krag. Dulk. Names that ask nothing from anyone."
+  ],
+  "sidebar_pro_tip": "A half-orc who corrects people on how to pronounce their name — insisting on the orcish version over the human softening — has already told you everything about how they've decided to resolve the question of who they are.",
+  "seo_article": "<h2>Half-Orc Name Generator: Names Caught Between Two Worlds</h2><p>Half-orc names carry a problem no other fantasy race has to solve: they exist at an intersection that neither parent culture fully claims. A pure orc name sounds wrong on someone who grew up in a human city. A human name sounds like denial on someone who has spent their whole life being reminded they aren't quite human enough. The best half-orc names sit in that tension deliberately — they don't resolve it, they inhabit it.</p><p>This half-orc name generator separates four distinct backgrounds because where a half-orc was raised shapes their name more than their bloodline does.</p><h2>The Four Half-Orc Naming Contexts</h2><ul><li><strong>Warriors</strong> carry blunt, aggressive names that lean orcish — hard consonants, closed vowels, names that function as warnings. Groth. Varka. Durgash. These names were earned in combat or assigned by a tribe that valued force above lineage. They don't explain themselves.</li><li><strong>Tribal half-orcs</strong> raised within orc society use orcish phonetics softened slightly by human inheritance — the hard guttural stops are still there, but there's a vowel that doesn't quite belong, a syllable that sounds like an accent. Garveth. Throka. Vorgun. The orcish structure is intact; the human blood shows anyway.</li><li><strong>Noble or city-raised half-orcs</strong> carry human-influenced names — sometimes fully human, sometimes a hybrid where orcish sounds have been smoothed into something a merchant or guard captain could pronounce without flinching. Doran. Marvak. Torven. These characters often have a second, orcish name they don't use in public.</li><li><strong>Outlanders</strong> — half-orcs who belong nowhere and have stopped trying — carry survival names. Short, functional, chosen rather than given. One syllable or two. Krag. Ashvorn. Dulk. Names that don't ask for anything from anyone.</li></ul><h2>The Phonetic Logic of Half-Orc Names</h2><p>Full orc names use heavy back-of-throat consonants, closed vowels, and almost no soft sounds — the language was built for people who communicate across battlefields. Human names, by contrast, favor open vowels, liquid consonants, and endings that invite response. Half-orc names sit somewhere between: the orcish weight is usually still audible, but there's a human softening somewhere — a vowel that opens slightly, an ending that doesn't slam shut.</p><p>The most interesting half-orc names make that tension structural. Garveth has the guttural G and the hard v of orcish phonetics, but the -eth ending belongs to human naming tradition. The name doesn't pick a side. Neither does the character.</p><h2>Using Half-Orc Names in D&D 5e</h2><p>In D&D, half-orcs can use names from either the human or orc name tables in the Player's Handbook — but neither list captures the hybrid phonetics of someone who actually lives between cultures. These names are built for characters whose backstory lives in that gap: strong enough to carry orcish heritage, flexible enough to function in human society, and specific enough to tell you something about who they are before they speak.</p>",
+  "faq_items": [
+    {
+      "q": "Should a half-orc have a human name or an orc name?",
+      "a": "Neither by default — the most interesting half-orc names are hybrids that reflect both heritages without fully committing to either. Where they were raised matters most: a half-orc who grew up in a human city leans human. One raised in an orc tribe leans orcish. One who belongs to neither context often picks their own name, which tells you the most about them."
+    },
+    {
+      "q": "What sounds define orcish phonetics in half-orc names?",
+      "a": "Heavy back-of-throat consonants — gr, vr, kh, th — closed vowels, and endings that stop hard. Groth. Varka. Durgash. The language was built to carry across battlefields. A half-orc name that retains these sounds while adding one softer human element is usually the most convincing phonetic hybrid."
+    },
+    {
+      "q": "What's the difference between a warrior half-orc name and a tribal one?",
+      "a": "Warrior names are blunt and earned — they function as warnings and don't elaborate. Tribal names use orcish structure but show the human inheritance as an accent: a vowel that doesn't quite belong, a syllable that softens unexpectedly. Groth is a warrior name. Garveth is a tribal name. The difference is subtle but reads correctly."
+    },
+    {
+      "q": "Can a half-orc have two names — one human, one orcish?",
+      "a": "Yes, and this is strong character detail. A city-raised half-orc might use a human-smooth name in public and an orcish name only with family or in private. The moment another character learns the orcish name — or uses it without permission — is a character moment. Build both from the start."
+    },
+    {
+      "q": "What are good half-orc names for a D&D barbarian?",
+      "a": "Blunt, two syllables maximum, closed on a hard stop. Groth, Varka, Krag, Ashvorn, Durgash. Barbarian names should function as callsigns — efficient and unmistakable. Avoid anything with soft endings or open vowels; those read as human names for human characters."
+    },
+    {
+      "q": "How do I name a half-orc who was raised by humans?",
+      "a": "Start with a human name structure — two syllables, open vowels, soft endings — then let the orcish phonetics bleed through in one place. A harder consonant than expected. A vowel that closes slightly. Doran, Marvak, Torven. The name should be pronounceable in a human tavern without flinching, but the heritage is still audible if you listen."
+    },
+    {
+      "q": "Are half-orc names gendered in D&D?",
+      "a": "Loosely. Orcish naming traditions in most D&D lore don't apply strict gender rules — names are more often tied to deeds or context. Human influence introduces some gendering, so city-raised half-orcs may use more conventionally gendered names while tribal half-orcs don't. The generator offers both, with the note that the role and backstory matter more than the gender filter."
+    }
+  ],
+  "footer_links": [
+    {"label": "Orc Names", "url": "orc-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Tiefling Names", "url": "tiefling-name-generator.html"},
+    {"label": "Goblin Names", "url": "goblin-name-generator.html"},
+    {"label": "Villain Names", "url": "villain-name-generator.html"},
+    {"label": "Dwarf Names", "url": "dwarf-name-generator.html"},
+    {"label": "Dark Elf Names", "url": "dark-elf-name-generator.html"},
+    {"label": "Kingdom Names", "url": "kingdom-name-generator.html"},
+    {"label": "Necromancer Names", "url": "necromancer-name-generator.html"},
+    {"label": "Mage Names", "url": "mage-name-generator.html"}
+  ],
+  "tools_js_entry": {
+    "id": "half-orc-name-generator",
+    "name": "Half-Orc Name Generator",
+    "desc": "Half-orc names for warriors, tribal characters, city-raised nobles, and outlanders in D&D and fantasy fiction.",
+    "category": "names",
+    "tags": ["half-orc", "orc", "D&D"],
+    "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+    "url": "half-orc-name-generator.html",
+    "volume": 1600,
+    "kd": 10,
+    "featured": false
+  },
+  "sitemap_priority": "0.8"
+},
+{
+  "id": "tiefling-name-generator",
+  "page_name": "Tiefling Name Generator",
+  "meta_title": "Tiefling Name Generator — D&D Infernal & Virtue Names | RuneForge",
+  "meta_desc": "Generate tiefling names for D&D 5e — virtue names, infernal names, hybrid, and noble sin'dorei styles. Infernal heritage worn without apology — hundreds of names free to use.",
+  "og_title": "Tiefling Name Generator — RuneForge",
+  "h1_text": "Infernal heritage, worn without apology — names chosen, not assigned.",
+  "hero_sub": "Generate tiefling names — virtue names, infernal names, hybrid, and noble bloodline styles for D&D 5e.",
+  "hero_bg": "hero-bg-gothic.webp",
+  "eyebrow_text": "Tiefling Name Generator",
+  "howto_step1": "Select All, Male, Female, Virtue Names, or Infernal from the filter buttons.",
+  "breadcrumb_category_name": "Name Generators",
+  "breadcrumb_category_id": "names",
+  "filters": [
+    {"label": "All", "value": "all"},
+    {"label": "Male", "value": "male"},
+    {"label": "Female", "value": "female"},
+    {"label": "Virtue Names", "value": "virtue"},
+    {"label": "Infernal", "value": "infernal"}
+  ],
+  "name_data": {
+    "all": [
+      {"n": "Despair", "r": "Virtue Name"},
+      {"n": "Akmenos", "r": "Infernal"},
+      {"n": "Kelvras", "r": "Hybrid"},
+      {"n": "Mephistaran", "r": "Noble"},
+      {"n": "Ruin", "r": "Virtue Name"},
+      {"n": "Pyraxes", "r": "Infernal"},
+      {"n": "Zorindel", "r": "Hybrid"},
+      {"n": "Belzindrel", "r": "Noble"},
+      {"n": "Mercy", "r": "Virtue Name"},
+      {"n": "Mordai", "r": "Infernal"},
+      {"n": "Thyxara", "r": "Hybrid"},
+      {"n": "Asmoveth", "r": "Noble"},
+      {"n": "Spite", "r": "Virtue Name"},
+      {"n": "Ekemon", "r": "Infernal"},
+      {"n": "Kelvindel", "r": "Hybrid"},
+      {"n": "Mephistaveth", "r": "Noble"},
+      {"n": "Carnage", "r": "Virtue Name"},
+      {"n": "Pyrindos", "r": "Infernal"},
+      {"n": "Zordaxis", "r": "Hybrid"},
+      {"n": "Belzarath", "r": "Noble"}
+    ],
+    "male": [
+      {"n": "Ruin", "r": "Virtue Name"},
+      {"n": "Carnage", "r": "Virtue Name"},
+      {"n": "Akmenos", "r": "Infernal"},
+      {"n": "Pyraxes", "r": "Infernal"},
+      {"n": "Mordai", "r": "Infernal"},
+      {"n": "Ekemon", "r": "Infernal"},
+      {"n": "Kelvras", "r": "Hybrid"},
+      {"n": "Kelvindel", "r": "Hybrid"},
+      {"n": "Zordaxis", "r": "Hybrid"},
+      {"n": "Mephistaran", "r": "Noble"},
+      {"n": "Asmoveth", "r": "Noble"},
+      {"n": "Belzarath", "r": "Noble"}
+    ],
+    "female": [
+      {"n": "Despair", "r": "Virtue Name"},
+      {"n": "Mercy", "r": "Virtue Name"},
+      {"n": "Spite", "r": "Virtue Name"},
+      {"n": "Pyrindos", "r": "Infernal"},
+      {"n": "Zorindel", "r": "Hybrid"},
+      {"n": "Thyxara", "r": "Hybrid"},
+      {"n": "Belzindrel", "r": "Noble"},
+      {"n": "Mephistaveth", "r": "Noble"},
+      {"n": "Pyraxael", "r": "Infernal"},
+      {"n": "Zordaxis", "r": "Hybrid"},
+      {"n": "Mordaiveth", "r": "Noble"},
+      {"n": "Kelvindrae", "r": "Hybrid"}
+    ],
+    "virtue": [
+      {"n": "Despair", "r": "Virtue Name"},
+      {"n": "Ruin", "r": "Virtue Name"},
+      {"n": "Mercy", "r": "Virtue Name"},
+      {"n": "Spite", "r": "Virtue Name"},
+      {"n": "Carnage", "r": "Virtue Name"},
+      {"n": "Sorrow", "r": "Virtue Name"},
+      {"n": "Malice", "r": "Virtue Name"},
+      {"n": "Pity", "r": "Virtue Name"},
+      {"n": "Dread", "r": "Virtue Name"},
+      {"n": "Rancor", "r": "Virtue Name"},
+      {"n": "Anguish", "r": "Virtue Name"},
+      {"n": "Folly", "r": "Virtue Name"}
+    ],
+    "infernal": [
+      {"n": "Akmenos", "r": "Infernal"},
+      {"n": "Pyraxes", "r": "Infernal"},
+      {"n": "Mordai", "r": "Infernal"},
+      {"n": "Ekemon", "r": "Infernal"},
+      {"n": "Pyrindos", "r": "Infernal"},
+      {"n": "Pyraxael", "r": "Infernal"},
+      {"n": "Mordaikos", "r": "Infernal"},
+      {"n": "Akmenveth", "r": "Infernal"},
+      {"n": "Pyraxindos", "r": "Infernal"},
+      {"n": "Ekemvael", "r": "Infernal"},
+      {"n": "Mordaiketh", "r": "Infernal"},
+      {"n": "Akmosarel", "r": "Infernal"}
+    ]
+  },
+  "related_chips": [
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Half-Orc Names", "url": "half-orc-name-generator.html"},
+    {"label": "Dark Elf Names", "url": "dark-elf-name-generator.html"},
+    {"label": "Villain Names", "url": "villain-name-generator.html"},
+    {"label": "Necromancer Names", "url": "necromancer-name-generator.html"},
+    {"label": "Mage Names", "url": "mage-name-generator.html"}
+  ],
+  "sidebar_links": [
+    {"label": "D&D Name Generator", "url": "dnd-name-generator.html"},
+    {"label": "Half-Orc Generator", "url": "half-orc-name-generator.html"},
+    {"label": "Dark Elf Generator", "url": "dark-elf-name-generator.html"},
+    {"label": "Villain Generator", "url": "villain-name-generator.html"},
+    {"label": "Necromancer Generator", "url": "necromancer-name-generator.html"},
+    {"label": "Mage Generator", "url": "mage-name-generator.html"}
+  ],
+  "sidebar_tips": [
+    "Virtue names are armor, not confession — a tiefling named Despair has survived it, not surrendered to it. The choice of which virtue is the character detail.",
+    "Infernal phonetics: hard stops, long formal vowels, compound endings. -ax, -os, -dros, -veth. Never elvish, never Germanic.",
+    "Hybrid names work for tieflings navigating both worlds — infernal roots, common suffixes, passes in a human city but the heritage is still audible.",
+    "Noble tiefling names don't get shortened in formal settings — four syllables minimum, and the full name signals old bloodline, not street origin.",
+    "A tiefling with a fully human name carries a specific tension: the name says one thing, the appearance says another. Build that gap deliberately."
+  ],
+  "sidebar_pro_tip": "The most revealing tiefling character detail isn't the name itself — it's whether they chose it themselves or inherited it, because that single fact tells you how they've decided to relate to everything their bloodline means.",
+  "seo_article": "<h2>Tiefling Name Generator: Infernal Heritage, Worn Without Apology</h2><p>Tiefling names are an act of identity. In D&D 5e lore, tieflings are humans with infernal blood — they didn't choose the heritage, but they choose what to do with it. That choice shows up directly in naming. Some tieflings take Latinized infernal names that lean into what their bloodline is. Some adopt virtue names — abstract nouns like Despair or Ruin — as a kind of defiance, naming themselves after what others already assume about them. Both are correct. Both tell you something about the character before they speak.</p><p>This tiefling name generator covers all four naming traditions used in D&D tiefling lore, with phonetic logic for each.</p><h2>The Four Tiefling Naming Traditions</h2><ul><li><strong>Virtue names</strong> are the most distinctly tiefling convention — abstract nouns worn as names, sometimes ironic, sometimes sincere, always loaded. Despair. Ruin. Mercy. Spite. The choice of which virtue says as much as the name itself. A tiefling named Mercy has made a decision about how to be seen. A tiefling named Carnage has made a different one.</li><li><strong>Infernal names</strong> draw from Latinized demonic phonetics — hard consonants, formal compound structures, names that sound like they belong in a contract written in a language older than Common. Akmenos. Pyraxes. Mordai. These names were often given by tiefling parents who wanted their child to own their heritage rather than hide it.</li><li><strong>Hybrid names</strong> blend infernal roots with common suffixes — names that could pass in a human city but carry the infernal phonetics if you know what to listen for. Kelvras. Zorindel. Thyxara. These characters are usually navigating both worlds simultaneously.</li><li><strong>Noble tiefling names</strong> carry aristocratic infernal structures — long, formal, often with a house suffix that signals old bloodline rather than street origin. Mephistaran. Belzindrel. Asmoveth. These names belong to tieflings from families that have had centuries to decide the heritage is a feature, not a flaw.</li></ul><h2>The Virtue Name Tradition: How It Actually Works</h2><p>The virtue name convention is unique to tieflings in D&D and it's frequently misunderstood. It doesn't mean the name describes the character — it means the character chose a name that describes what the world already projects onto them, then decided to carry it differently. A tiefling named Despair isn't necessarily despairing. They're telling you that despair is something they've already survived. The name is armor, not confession.</p><h2>Infernal Phonetics: What Makes a Tiefling Name Sound Right</h2><p>Infernal names pull from Latin and invented demonic roots — hard stops, long formal vowels, compound endings that suggest something ancient and contractual. The sounds that work: -ax, -os, -ael, -dros, -veth, -imar. The sounds that don't: anything that reads as generically elvish (-iel, -wyn) or obviously Germanic (-helm, -gar). Tiefling names exist in their own phonetic register, distinct from every other D&D race, and that distinctiveness is part of the point.</p>",
+  "faq_items": [
+    {
+      "q": "What are the different types of tiefling names in D&D 5e?",
+      "a": "Four main traditions: virtue names (abstract nouns like Despair or Mercy worn as identity statements), infernal names (Latinized demonic phonetics from family or heritage), hybrid names (infernal roots with common suffixes for characters navigating both worlds), and noble tiefling names (long aristocratic infernal structures from old bloodlines). The Player's Handbook covers virtue and infernal names specifically."
+    },
+    {
+      "q": "What is a tiefling virtue name and how does it work?",
+      "a": "A virtue name is an abstract noun — Despair, Ruin, Carnage, Mercy, Spite — worn as a personal name. It doesn't describe the character's personality; it describes what the world projects onto tieflings, reclaimed deliberately. A tiefling named Despair has already survived despair. The name is armor. The choice of which virtue tells you how the character has decided to be seen."
+    },
+    {
+      "q": "What sounds define infernal tiefling names?",
+      "a": "Hard stops, long formal vowels, and compound endings that feel ancient and contractual — -ax, -os, -ael, -dros, -veth, -imar. Akmenos. Pyraxes. Mordai. Avoid elvish endings (-iel, -wyn) and Germanic endings (-helm, -gar). Tiefling infernal names exist in their own phonetic register, distinct from every other D&D race."
+    },
+    {
+      "q": "Can tieflings have human names?",
+      "a": "Yes. Tieflings raised in human families often take human names, sometimes with no infernal reference at all. In play, a tiefling with a completely human name carries a different kind of tension — the name says 'I am trying to be seen as human' and the horns say something else entirely. That gap is a character detail worth building around."
+    },
+    {
+      "q": "What's the difference between a hybrid tiefling name and an infernal one?",
+      "a": "Infernal names are fully rooted in demonic Latinized phonetics — formal, ancient-sounding, unambiguous in origin. Hybrid names blend those infernal roots with common suffixes that could pass in a human city: Kelvras, Zorindel, Thyxara. The infernal DNA is still audible, but the name functions in both worlds. Hybrid characters are usually the ones actively navigating the space between."
+    },
+    {
+      "q": "Are tiefling names gendered in D&D lore?",
+      "a": "Loosely. Virtue names are inherently gender-neutral — Despair and Ruin don't have a gender. Infernal names have soft gender leanings in the Player's Handbook examples, but nothing prescriptive. Noble tiefling names follow the aristocratic family's conventions, which vary. In practice, pick the name that fits the character's identity choice, not a gender table."
+    },
+    {
+      "q": "How do I choose between a virtue name and an infernal name for my tiefling?",
+      "a": "Ask what the character decided about their heritage. Infernal names lean into bloodline pride or acknowledgment — the character owns what they are. Virtue names are a different kind of ownership: they take what the world assumes and reframe it. A tiefling who chose their own name after leaving home almost always picks a virtue name. One named by infernal-heritage parents almost always carries an infernal name."
+    }
+  ],
+  "footer_links": [
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Half-Orc Names", "url": "half-orc-name-generator.html"},
+    {"label": "Dark Elf Names", "url": "dark-elf-name-generator.html"},
+    {"label": "Villain Names", "url": "villain-name-generator.html"},
+    {"label": "Necromancer Names", "url": "necromancer-name-generator.html"},
+    {"label": "Vampire Names", "url": "vampire-name-generator.html"},
+    {"label": "Mage Names", "url": "mage-name-generator.html"},
+    {"label": "Orc Names", "url": "orc-name-generator.html"},
+    {"label": "Kingdom Names", "url": "kingdom-name-generator.html"},
+    {"label": "Goblin Names", "url": "goblin-name-generator.html"}
+  ],
+  "tools_js_entry": {
+    "id": "tiefling-name-generator",
+    "name": "Tiefling Name Generator",
+    "desc": "D&D tiefling names — virtue names, infernal names, hybrid, and noble bloodline styles for any campaign.",
+    "category": "names",
+    "tags": ["tiefling", "infernal", "D&D"],
+    "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+    "url": "tiefling-name-generator.html",
+    "volume": 2400,
+    "kd": 12,
+    "featured": false
+  },
+  "sitemap_priority": "0.8"
+},
+{
+  "id": "fantasy-city-name-generator",
+  "page_name": "Fantasy City Name Generator",
+  "meta_title": "Fantasy City Name Generator — RPG & Worldbuilding City Names | RuneForge",
+  "meta_desc": "Generate fantasy city names for D&D, worldbuilding, and fiction. Empire capitals, coastal ports, mountain strongholds, and ancient ruins — names that feel like they have centuries behind them.",
+  "og_title": "Fantasy City Name Generator — RuneForge",
+  "h1_text": "Names that outlasted the civilizations that built them.",
+  "hero_sub": "Generate fantasy city names for empire capitals, coastal ports, mountain strongholds, and ancient ruins.",
+  "hero_bg": "hero-bg-dark-ruins.webp",
+  "eyebrow_text": "Fantasy City Name Generator",
+  "howto_step1": "Select All, Empire, Coastal, Mountain, or Ruins from the filter buttons.",
+  "breadcrumb_category_name": "Name Generators",
+  "breadcrumb_category_id": "names",
+  "filters": [
+    {"label": "All", "value": "all"},
+    {"label": "Empire", "value": "empire"},
+    {"label": "Coastal", "value": "coastal"},
+    {"label": "Mountain", "value": "mountain"},
+    {"label": "Ruins", "value": "ruins"}
+  ],
+  "name_data": {
+    "all": [
+      {"n": "Varenthal", "r": "Empire Capital"},
+      {"n": "Selvara", "r": "Coastal City"},
+      {"n": "Durnholt", "r": "Mountain Stronghold"},
+      {"n": "Vel-thar", "r": "Ancient Ruin"},
+      {"n": "Osperium", "r": "Empire Capital"},
+      {"n": "Thalport", "r": "Coastal City"},
+      {"n": "Grathvend", "r": "Mountain Stronghold"},
+      {"n": "Ossindrae", "r": "Ancient Ruin"},
+      {"n": "Caldrevast", "r": "Empire Capital"},
+      {"n": "Morvenne", "r": "Coastal City"},
+      {"n": "Kelvrak Keep", "r": "Mountain Stronghold"},
+      {"n": "Morth-el", "r": "Ancient Ruin"},
+      {"n": "Vorthindral", "r": "Empire Capital"},
+      {"n": "Selvaport", "r": "Coastal City"},
+      {"n": "Durnvast", "r": "Mountain Stronghold"},
+      {"n": "Vel'thas Fragment", "r": "Ancient Ruin"},
+      {"n": "Osperavast", "r": "Empire Capital"},
+      {"n": "Thalvenne", "r": "Coastal City"},
+      {"n": "Grathhold", "r": "Mountain Stronghold"},
+      {"n": "Ossindrath", "r": "Ancient Ruin"}
+    ],
+    "empire": [
+      {"n": "Varenthal", "r": "Empire Capital"},
+      {"n": "Osperium", "r": "Empire Capital"},
+      {"n": "Caldrevast", "r": "Empire Capital"},
+      {"n": "Vorthindral", "r": "Empire Capital"},
+      {"n": "Osperavast", "r": "Empire Capital"},
+      {"n": "Varenthalis", "r": "Empire Capital"},
+      {"n": "Caldrevium", "r": "Empire Capital"},
+      {"n": "Vorthindrium", "r": "Empire Capital"},
+      {"n": "Osperavael", "r": "Empire Capital"},
+      {"n": "Varenthalus", "r": "Empire Capital"},
+      {"n": "Caldrovarum", "r": "Empire Capital"},
+      {"n": "Vorthalindra", "r": "Empire Capital"}
+    ],
+    "coastal": [
+      {"n": "Selvara", "r": "Coastal City"},
+      {"n": "Thalport", "r": "Coastal City"},
+      {"n": "Morvenne", "r": "Coastal City"},
+      {"n": "Selvaport", "r": "Coastal City"},
+      {"n": "Thalvenne", "r": "Coastal City"},
+      {"n": "Selvorvenne", "r": "Coastal City"},
+      {"n": "Thalmorvara", "r": "Coastal City"},
+      {"n": "Morvethport", "r": "Coastal City"},
+      {"n": "Selvethara", "r": "Coastal City"},
+      {"n": "Narvenne", "r": "Coastal City"},
+      {"n": "Thalindport", "r": "Coastal City"},
+      {"n": "Morvindara", "r": "Coastal City"}
+    ],
+    "mountain": [
+      {"n": "Durnholt", "r": "Mountain Stronghold"},
+      {"n": "Grathvend", "r": "Mountain Stronghold"},
+      {"n": "Kelvrak Keep", "r": "Mountain Stronghold"},
+      {"n": "Durnvast", "r": "Mountain Stronghold"},
+      {"n": "Grathhold", "r": "Mountain Stronghold"},
+      {"n": "Durnkrael", "r": "Mountain Stronghold"},
+      {"n": "Grathvekh", "r": "Mountain Stronghold"},
+      {"n": "Kelvholt", "r": "Mountain Stronghold"},
+      {"n": "Durnvekh", "r": "Mountain Stronghold"},
+      {"n": "Grathkrael", "r": "Mountain Stronghold"},
+      {"n": "Kelvdurn", "r": "Mountain Stronghold"},
+      {"n": "Vorthkrael", "r": "Mountain Stronghold"}
+    ],
+    "ruins": [
+      {"n": "Vel-thar", "r": "Ancient Ruin"},
+      {"n": "Ossindrae", "r": "Ancient Ruin"},
+      {"n": "Morth-el", "r": "Ancient Ruin"},
+      {"n": "Vel'thas Fragment", "r": "Ancient Ruin"},
+      {"n": "Ossindrath", "r": "Ancient Ruin"},
+      {"n": "Morth-vel", "r": "Ancient Ruin"},
+      {"n": "Vel'ossindrae", "r": "Ancient Ruin"},
+      {"n": "Ossvel-thar", "r": "Ancient Ruin"},
+      {"n": "Morthindrae", "r": "Ancient Ruin"},
+      {"n": "Vel-ossrath", "r": "Ancient Ruin"},
+      {"n": "Ossmorth-el", "r": "Ancient Ruin"},
+      {"n": "Velindrath", "r": "Ancient Ruin"}
+    ]
+  },
+  "related_chips": [
+    {"label": "Kingdom Names", "url": "kingdom-name-generator.html"},
+    {"label": "Dungeon Names", "url": "dungeon-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Tavern Names", "url": "tavern-name-generator.html"},
+    {"label": "Villain Names", "url": "villain-name-generator.html"},
+    {"label": "Dark Lord Names", "url": "dark-lord-name-generator.html"}
+  ],
+  "sidebar_links": [
+    {"label": "Kingdom Generator", "url": "kingdom-name-generator.html"},
+    {"label": "Dungeon Generator", "url": "dungeon-name-generator.html"},
+    {"label": "D&D Name Generator", "url": "dnd-name-generator.html"},
+    {"label": "Tavern Generator", "url": "tavern-name-generator.html"},
+    {"label": "Villain Generator", "url": "villain-name-generator.html"},
+    {"label": "Dark Lord Generator", "url": "dark-lord-name-generator.html"}
+  ],
+  "sidebar_tips": [
+    "Avoid pure description — Darktown and Stonecity are labels, not names. The meaning should be etymologically buried, not immediately readable.",
+    "Empire capital names belong above arches: Latin-Greek compounds, three syllables minimum, closed on a formal suffix built for stone inscription.",
+    "Coastal city names should feel worn by use — fluid, multi-language pronounceable, slightly eroded at the edges like a coin that's changed hands too many times.",
+    "Ruin names carry structural incompleteness — a hyphen, a truncated suffix, a compound missing its second half. The erosion is phonetic before it's visual.",
+    "Drop the city name before the city appears — a merchant's passing mention, a line on a wanted poster. The name builds expectation that the reveal either confirms or subverts."
+  ],
+  "sidebar_pro_tip": "The best fantasy city names feel like they were shortened from something longer — that implied full name, lost to time, is the history your players will invent for themselves, which makes the world feel real before you've written a single lore document.",
+  "seo_article": "<h2>Fantasy City Name Generator: Names That Feel Like They Have Centuries Behind Them</h2><p>A fantasy city name is doing different work than a character name. It doesn't describe a person — it describes a place that outlasted the people who built it, named it, and possibly destroyed it. The best fantasy city names feel like they arrived from somewhere else: a different language, a different era, a different civilization's priorities. When players see a city name on a map and immediately want to know its history, the name is doing its job.</p><p>This fantasy city name generator separates four distinct settlement types because an empire capital and a coastal trading port don't just look different — they sound different, and the naming conventions reflect that.</p><h2>The Four Fantasy City Naming Traditions</h2><ul><li><strong>Empire capitals</strong> carry grand Latin and Greek compound structures — formal, heavy, names that were built to be inscribed in stone. Varenthal. Osperium. Caldrevast. These cities named themselves for permanence. The name should feel like it belongs above an arch, not on a signpost.</li><li><strong>Coastal cities</strong> use fluid, mercantile phonetics — names that move easily between languages, that traders from three different cultures can pronounce without argument. Selvara. Thalport. Morvenne. These cities grew around commerce, and their names grew with them — practical, pronounceable, slightly worn at the edges from use.</li><li><strong>Mountain strongholds</strong> go hard and angular — consonant-heavy names that feel like the stone they were carved from. Durnholt. Grathvend. Kelvrak Keep. The name should feel immovable. These settlements didn't name themselves for visitors; they named themselves for whoever was coming to take them.</li><li><strong>Ancient ruins</strong> carry half-eroded names — compounds where one element has been lost to time, names that suggest a full word that no longer exists. Vel-thar. Ossindrae. Morth-el. The incompleteness is structural. Something was there before, and the name is what survived.</li></ul><h2>What Makes a Fantasy City Name Feel Historical</h2><p>Real city names accrete meaning over time — they layer founding language over conquering language over common usage until the original meaning is buried. The best fantasy city names replicate that compression. A name like Varenthal could be read as two root-words fused by centuries of use. Selvara sounds like it was shortened from something longer. That implied history is what separates a worldbuilding city name from a placeholder.</p><p>Two structural rules apply across all types. First, avoid pure description — Darktown, Stonecity, Riverport are labels, not names. Second, the name should be pronounceable but not immediately parseable. If the player can read it and instantly understand what it means, it hasn't aged enough.</p><h2>Using City Names in D&D Campaigns and Fiction</h2><p>For DMs, drop the city name before the city appears. A merchant mentions it in passing. It appears on a wanted poster. The name builds expectation that the reveal either confirms or subverts. For fiction writers, the city name is the first piece of worldbuilding the reader encounters — it should feel lived-in before the first sentence of description.</p>",
+  "faq_items": [
+    {
+      "q": "What makes a fantasy city name feel realistic?",
+      "a": "Implied history. Real city names layer founding language over conquering language over common usage until the original meaning is buried. A good fantasy city name replicates that compression — it should look like two root-words fused by centuries of use, or like it was shortened from something longer. If the meaning is immediately obvious, the name hasn't aged enough."
+    },
+    {
+      "q": "What sounds work for empire capital names?",
+      "a": "Grand Latin and Greek compound structures — formal, heavy, built for stone inscription. Varenthal. Osperium. Caldrevast. Three syllables minimum, closed on a formal suffix. These names were chosen for permanence, not convenience. They belong above arches, not on signposts."
+    },
+    {
+      "q": "How do coastal city names differ from mountain stronghold names?",
+      "a": "Coastal names are fluid and mercantile — worn slightly at the edges from use across multiple languages, pronounceable by traders from three different cultures. Selvara. Morvenne. Mountain stronghold names go hard and angular — consonant-heavy, immovable, named for whoever was coming to take them, not for visitors. Durnholt. Grathvend. One sounds like commerce; the other sounds like a siege."
+    },
+    {
+      "q": "How do I name ancient ruins in my fantasy world?",
+      "a": "Build the incompleteness into the structure. Ruin names should suggest a full word that no longer exists — a compound where one element has been lost to time. Vel-thar. Ossindrae. Morth-el. The hyphen or truncated suffix signals erosion. Something was there before, and the name is what the rubble remembers."
+    },
+    {
+      "q": "Should fantasy city names have obvious meanings?",
+      "a": "No — pure description kills the historical illusion. Darktown, Stonecity, Riverport are labels, not names. The meaning can be etymologically buried — a root-word from an in-world dead language, a founder's name eroded by use — but it shouldn't be immediately parseable on first read. If the player understands it instantly, it hasn't aged."
+    },
+    {
+      "q": "Can I use these city names for D&D homebrew campaigns?",
+      "a": "Yes, and they're designed for that use case. Empire capitals work for major political centers, coastal names for port cities and trade hubs, mountain stronghold names for dwarven fortresses or highland keeps, ruin names for ancient dungeons and lost civilizations. Each type carries implicit worldbuilding that reduces the work of explaining context."
+    },
+    {
+      "q": "How many syllables should a fantasy city name have?",
+      "a": "Two to three for most types — short enough to use in conversation, long enough to carry weight. Empire capitals can stretch to four syllables when the context demands formality. Ruin names sometimes compress to two syllables or a hyphenated fragment, the truncation itself signaling age. Avoid one-syllable city names unless the settlement is deliberately minor or the brevity is a worldbuilding detail."
+    }
+  ],
+  "footer_links": [
+    {"label": "Kingdom Names", "url": "kingdom-name-generator.html"},
+    {"label": "Dungeon Names", "url": "dungeon-name-generator.html"},
+    {"label": "Tavern Names", "url": "tavern-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Dark Lord Names", "url": "dark-lord-name-generator.html"},
+    {"label": "Villain Names", "url": "villain-name-generator.html"},
+    {"label": "Necromancer Names", "url": "necromancer-name-generator.html"},
+    {"label": "Orc Names", "url": "orc-name-generator.html"},
+    {"label": "Elf Names", "url": "elf-name-generator.html"},
+    {"label": "Mage Names", "url": "mage-name-generator.html"}
+  ],
+  "tools_js_entry": {
+    "id": "fantasy-city-name-generator",
+    "name": "Fantasy City Name Generator",
+    "desc": "Fantasy city names for empire capitals, coastal ports, mountain strongholds, and ancient ruins in D&D and worldbuilding.",
+    "category": "names",
+    "tags": ["city", "worldbuilding", "D&D", "fantasy"],
+    "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+    "url": "fantasy-city-name-generator.html",
+    "volume": 1800,
+    "kd": 16,
+    "featured": false
+  },
+  "sitemap_priority": "0.8"
+},
+{
+  "id": "weapon-name-generator",
+  "page_name": "Weapon Name Generator",
+  "meta_title": "Weapon Name Generator — Fantasy Sword, Axe & Staff Names | RuneForge",
+  "meta_desc": "Generate legendary weapon names for D&D, fantasy fiction, and RPG campaigns. Sword names, axe names, staff names, bow names — names that carry the weight of what they've done.",
+  "og_title": "Weapon Name Generator — RuneForge",
+  "h1_text": "Names that belong to the blade's history, not its owner.",
+  "hero_sub": "Generate legendary weapon names for swords, axes, staves, and bows in D&D and fantasy fiction.",
+  "hero_bg": "hero-bg-dark-ruins.webp",
+  "eyebrow_text": "Weapon Name Generator",
+  "howto_step1": "Select All, Sword, Axe, Staff, or Bow from the filter buttons.",
+  "breadcrumb_category_name": "Name Generators",
+  "breadcrumb_category_id": "names",
+  "filters": [
+    {"label": "All", "value": "all"},
+    {"label": "Sword", "value": "sword"},
+    {"label": "Axe", "value": "axe"},
+    {"label": "Staff", "value": "staff"},
+    {"label": "Bow", "value": "bow"}
+  ],
+  "name_data": {
+    "all": [
+      {"n": "Vaelcrest", "r": "Legendary Sword"},
+      {"n": "Durgkrael", "r": "Dark Axe"},
+      {"n": "Sylvathis", "r": "Arcane Staff"},
+      {"n": "Zyvrek", "r": "Swift Bow"},
+      {"n": "Thornedge", "r": "Legendary Sword"},
+      {"n": "Skolvrath", "r": "Dark Axe"},
+      {"n": "Aelvoran", "r": "Arcane Staff"},
+      {"n": "Swiftael", "r": "Swift Bow"},
+      {"n": "Orvindel", "r": "Legendary Sword"},
+      {"n": "Grothcleave", "r": "Dark Axe"},
+      {"n": "Thalindrix", "r": "Arcane Staff"},
+      {"n": "Keth'varn", "r": "Swift Bow"},
+      {"n": "Ashenveil", "r": "Legendary Sword"},
+      {"n": "Durgvast", "r": "Dark Axe"},
+      {"n": "Sylvorindel", "r": "Arcane Staff"},
+      {"n": "Vykrath", "r": "Swift Bow"},
+      {"n": "Vaelindor", "r": "Legendary Sword"},
+      {"n": "Krolvaeth", "r": "Dark Axe"},
+      {"n": "Aelvorindrix", "r": "Arcane Staff"},
+      {"n": "Zeth'kiv", "r": "Swift Bow"}
+    ],
+    "sword": [
+      {"n": "Vaelcrest", "r": "Legendary Sword"},
+      {"n": "Thornedge", "r": "Legendary Sword"},
+      {"n": "Orvindel", "r": "Legendary Sword"},
+      {"n": "Ashenveil", "r": "Legendary Sword"},
+      {"n": "Vaelindor", "r": "Legendary Sword"},
+      {"n": "Vaelthorne", "r": "Legendary Sword"},
+      {"n": "Orvincrest", "r": "Legendary Sword"},
+      {"n": "Ashvindel", "r": "Legendary Sword"},
+      {"n": "Vaelkrest", "r": "Legendary Sword"},
+      {"n": "Thornvael", "r": "Legendary Sword"},
+      {"n": "Orvastcrest", "r": "Legendary Sword"},
+      {"n": "Ashenvindel", "r": "Legendary Sword"}
+    ],
+    "axe": [
+      {"n": "Durgkrael", "r": "Dark Axe"},
+      {"n": "Skolvrath", "r": "Dark Axe"},
+      {"n": "Grothcleave", "r": "Dark Axe"},
+      {"n": "Durgvast", "r": "Dark Axe"},
+      {"n": "Krolvaeth", "r": "Dark Axe"},
+      {"n": "Skolvdurg", "r": "Dark Axe"},
+      {"n": "Grothvast", "r": "Dark Axe"},
+      {"n": "Durgkrolvek", "r": "Dark Axe"},
+      {"n": "Skolvgrath", "r": "Dark Axe"},
+      {"n": "Krolvdurg", "r": "Dark Axe"},
+      {"n": "Grothkrael", "r": "Dark Axe"},
+      {"n": "Durgskolvrath", "r": "Dark Axe"}
+    ],
+    "staff": [
+      {"n": "Sylvathis", "r": "Arcane Staff"},
+      {"n": "Aelvoran", "r": "Arcane Staff"},
+      {"n": "Thalindrix", "r": "Arcane Staff"},
+      {"n": "Sylvorindel", "r": "Arcane Staff"},
+      {"n": "Aelvorindrix", "r": "Arcane Staff"},
+      {"n": "Sylvaethis", "r": "Arcane Staff"},
+      {"n": "Aelvorindel", "r": "Arcane Staff"},
+      {"n": "Thalvathis", "r": "Arcane Staff"},
+      {"n": "Sylindrix", "r": "Arcane Staff"},
+      {"n": "Aelvathis", "r": "Arcane Staff"},
+      {"n": "Thalvorindel", "r": "Arcane Staff"},
+      {"n": "Sylvorathis", "r": "Arcane Staff"}
+    ],
+    "bow": [
+      {"n": "Zyvrek", "r": "Swift Bow"},
+      {"n": "Swiftael", "r": "Swift Bow"},
+      {"n": "Keth'varn", "r": "Swift Bow"},
+      {"n": "Vykrath", "r": "Swift Bow"},
+      {"n": "Zeth'kiv", "r": "Swift Bow"},
+      {"n": "Zyvreth", "r": "Swift Bow"},
+      {"n": "Swiftrek", "r": "Swift Bow"},
+      {"n": "Kethziv", "r": "Swift Bow"},
+      {"n": "Vykael", "r": "Swift Bow"},
+      {"n": "Zyvketh", "r": "Swift Bow"},
+      {"n": "Swiftvarn", "r": "Swift Bow"},
+      {"n": "Keth'rek", "r": "Swift Bow"}
+    ]
+  },
+  "related_chips": [
+    {"label": "Magic Items", "url": "magic-item-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Dark Lord Names", "url": "dark-lord-name-generator.html"},
+    {"label": "Villain Names", "url": "villain-name-generator.html"},
+    {"label": "Kingdom Names", "url": "kingdom-name-generator.html"},
+    {"label": "Dungeon Names", "url": "dungeon-name-generator.html"}
+  ],
+  "sidebar_links": [
+    {"label": "Magic Item Generator", "url": "magic-item-generator.html"},
+    {"label": "D&D Name Generator", "url": "dnd-name-generator.html"},
+    {"label": "Dark Lord Generator", "url": "dark-lord-name-generator.html"},
+    {"label": "Dungeon Generator", "url": "dungeon-name-generator.html"},
+    {"label": "Kingdom Generator", "url": "kingdom-name-generator.html"},
+    {"label": "Villain Generator", "url": "villain-name-generator.html"}
+  ],
+  "sidebar_tips": [
+    "Weapon names belong to the blade's history, not the owner's identity — name what it's done, not who carries it.",
+    "Legendary sword names compress a story into two root-words: ancient, compound, something that sounds found rather than forged.",
+    "Axe names need mass, not elegance — guttural consonants, closed vowels, phonetics that feel like impact.",
+    "Staff names carry resonance: open vowels, liquid consonants, something that sounds like the first word of an incantation.",
+    "Reveal the weapon name before the players find it — inscription, rumor, warning. The name earns weight before it's ever held."
+  ],
+  "sidebar_pro_tip": "The most effective weapon names have an implied past tense — they sound like someone survived something and named the blade after what almost killed them, which is why compound names work: they compress a story the reader fills in themselves.",
+  "seo_article": "<h2>Weapon Name Generator: Names That Carry the Weight of What They've Done</h2><p>A named weapon is not a named character. The distinction matters for how you approach the naming. Characters earn names that describe who they are. Weapons earn names that describe what they've done — or what they will do. Excalibur doesn't describe Arthur. Glamdring doesn't describe Gandalf. The name belongs to the blade's history, not its owner's identity. That's the first principle this weapon name generator is built around.</p><p>The second: a weapon name should work without context. Dropped cold into a sentence — 'she carried Ashenveil,' 'the axe they called Durgkrael' — it should produce immediate weight. You shouldn't need a paragraph of lore to make the name land.</p><h2>The Four Weapon Naming Traditions</h2><ul><li><strong>Legendary swords</strong> carry noble, heroic compound names — two root-words fused into something that sounds both ancient and inevitable. Vaelcrest. Thornedge. Orvindel. These names suggest the sword predates its current owner and will outlast them. The name sounds like it was found, not forged.</li><li><strong>Dark axes</strong> use brutal, heavy phonetics — guttural consonants, closed vowels, names that feel like impact. Durgkrael. Skolvrath. Grothcleave. Axe names don't have elegance. They have mass. The name should sound like something hitting something that doesn't get back up.</li><li><strong>Arcane staves</strong> lean into mystical flowing phonetics — open vowels, liquid consonants, names that carry resonance rather than weight. Sylvathis. Aelvoran. Thalindrix. These names should sound like they belong in an incantation, not a battle cry.</li><li><strong>Bows</strong> carry swift, precise names — short, sharp, nothing that lingers. Zyvrek. Swiftael. Keth'varn. The name should feel like a release: fast, clean, final. Nothing heavy, nothing that takes time to say.</li></ul><h2>How Named Weapons Accumulate Their Names</h2><p>In most fantasy traditions, weapons aren't named by their makers — they're named by survivors. The sword that killed a dragon gets named after the deed. The axe that held a pass alone gets named after the pass. The staff that sealed a rift gets named after what it sealed. The naming moment is almost always after the fact, which means the best weapon names have an implied past tense in their phonetics.</p><p>That's why compound names work so well for legendary weapons: they compress a story into two root-words. Vaelcrest doesn't explain itself. It implies that whoever named it knew what it had done, and the name was the shortest way to say it.</p><h2>Using Weapon Names in D&D and Fiction</h2><p>For D&D dungeon masters, name the weapon before the players find it. An inscription on a tomb wall. A line in a bard's song. 'The one who carries Durgkrael does not negotiate.' For fiction writers, the weapon name should appear the first time the weapon matters — not on first description, but on first use. The name is earned in the scene, not in the inventory.</p>",
+  "faq_items": [
+    {
+      "q": "What's the difference between a weapon name and a character name?",
+      "a": "Character names describe who someone is. Weapon names describe what something has done — or what it will do. The name belongs to the blade's history, not its owner. A good weapon name works without context: dropped cold into a sentence, it should produce immediate weight without needing a paragraph of lore behind it."
+    },
+    {
+      "q": "What sounds make a good legendary sword name?",
+      "a": "Noble compound structures — two root-words fused into something that sounds ancient and inevitable. Vaelcrest. Thornedge. Orvindel. The name should feel like it was found, not forged, and like it predates its current owner. Avoid names that sound too descriptive or too modern — legendary swords carry compressed history, not labels."
+    },
+    {
+      "q": "How do axe names differ from sword names phonetically?",
+      "a": "Axes don't have elegance — they have mass. Guttural consonants, closed vowels, names that feel like impact. Durgkrael. Skolvrath. Grothcleave. An axe name should sound like something hitting something that doesn't get back up. Where sword names compress history, axe names compress force."
+    },
+    {
+      "q": "What makes a good arcane staff name?",
+      "a": "Flowing phonetics with resonance rather than weight — open vowels, liquid consonants, names that sound like they belong in an incantation. Sylvathis. Aelvoran. Thalindrix. The name should carry mystical register, distinct from both blade names and blunt weapon names. If it sounds like a battle cry, it's the wrong name for a staff."
+    },
+    {
+      "q": "How do I name a bow in fantasy?",
+      "a": "Short, sharp, and fast — the name should feel like a release. Zyvrek. Keth'varn. Swiftael. Nothing that lingers in the mouth after you say it. Bow names carry precision and speed; long compound names belong to weapons that take time to use, not ones that end things before the target hears the string."
+    },
+    {
+      "q": "Should a weapon's name describe what it does?",
+      "a": "Indirectly, not literally. Flamestrike is a label. Ashenveil is a name. The best weapon names imply function through phonetics and compression rather than stating it. A dark axe called Durgkrael doesn't tell you it splits armor — but the phonetics make you assume it does. The implication is more powerful than the description."
+    },
+    {
+      "q": "When should a weapon name be revealed in a D&D campaign?",
+      "a": "Before the players find it. An inscription. A bard's line. A warning from an NPC who lost someone to it. The name builds dread or reverence that the item card can't manufacture. When the players finally hold it, the name already has weight — and they supplied most of it themselves."
+    }
+  ],
+  "footer_links": [
+    {"label": "Magic Items", "url": "magic-item-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Dark Lord Names", "url": "dark-lord-name-generator.html"},
+    {"label": "Dungeon Names", "url": "dungeon-name-generator.html"},
+    {"label": "Kingdom Names", "url": "kingdom-name-generator.html"},
+    {"label": "Villain Names", "url": "villain-name-generator.html"},
+    {"label": "Necromancer Names", "url": "necromancer-name-generator.html"},
+    {"label": "Vampire Names", "url": "vampire-name-generator.html"},
+    {"label": "Orc Names", "url": "orc-name-generator.html"},
+    {"label": "Mage Names", "url": "mage-name-generator.html"}
+  ],
+  "tools_js_entry": {
+    "id": "weapon-name-generator",
+    "name": "Weapon Name Generator",
+    "desc": "Legendary weapon names for swords, axes, staves, and bows in D&D and fantasy fiction.",
+    "category": "names",
+    "tags": ["weapon", "sword", "axe", "D&D"],
+    "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+    "url": "weapon-name-generator.html",
+    "volume": 2200,
+    "kd": 14,
+    "featured": false
+  },
+  "sitemap_priority": "0.8"
+},
+{
+  "id": "magic-item-generator",
+  "page_name": "Magic Item Generator",
+  "meta_title": "Magic Item Generator — D&D Magic Item Names | RuneForge",
+  "meta_desc": "Generate magic item names for D&D 5e — cursed items, holy relics, arcane artifacts, and common enchanted items. Names a DM can drop into a session without explanation.",
+  "og_title": "Magic Item Generator — RuneForge",
+  "h1_text": "Names a DM can drop into a session without explanation.",
+  "hero_sub": "Generate magic item names for cursed items, holy relics, arcane artifacts, and common enchanted gear.",
+  "hero_bg": "hero-bg-gothic.webp",
+  "eyebrow_text": "Magic Item Generator",
+  "howto_step1": "Select All, Armor, Ring, Amulet, or Artifact from the filter buttons.",
+  "breadcrumb_category_name": "Name Generators",
+  "breadcrumb_category_id": "names",
+  "filters": [
+    {"label": "All", "value": "all"},
+    {"label": "Armor", "value": "armor"},
+    {"label": "Ring", "value": "ring"},
+    {"label": "Amulet", "value": "amulet"},
+    {"label": "Artifact", "value": "artifact"}
+  ],
+  "name_data": {
+    "all": [
+      {"n": "Shroud of Vel'orath", "r": "Cursed Item"},
+      {"n": "Sanctorvael Seal", "r": "Holy Relic"},
+      {"n": "The Aethric Compendium", "r": "Arcane Artifact"},
+      {"n": "Cloak of Muffled Steps", "r": "Enchanted Item"},
+      {"n": "The Ashen Compact", "r": "Cursed Item"},
+      {"n": "Throne of Elindris", "r": "Holy Relic"},
+      {"n": "Sorvindrix's Lattice", "r": "Arcane Artifact"},
+      {"n": "Ring of the Slow Fall", "r": "Enchanted Item"},
+      {"n": "Mortenvael Band", "r": "Cursed Item"},
+      {"n": "Vaelthis Seal", "r": "Holy Relic"},
+      {"n": "Thalvastian Core", "r": "Arcane Artifact"},
+      {"n": "Bracers of Steady Aim", "r": "Enchanted Item"},
+      {"n": "The Warden's Compact", "r": "Cursed Item"},
+      {"n": "Ossindril Chalice", "r": "Holy Relic"},
+      {"n": "Vel'orath's Lattice", "r": "Arcane Artifact"},
+      {"n": "Boots of Sure Footing", "r": "Enchanted Item"},
+      {"n": "Nightveil", "r": "Cursed Item"},
+      {"n": "The Elindral Mantle", "r": "Holy Relic"},
+      {"n": "Aethric Thalvastian", "r": "Arcane Artifact"},
+      {"n": "Gloves of the Steady Hand", "r": "Enchanted Item"}
+    ],
+    "armor": [
+      {"n": "Shroud of Vel'orath", "r": "Cursed Armor"},
+      {"n": "The Elindral Mantle", "r": "Holy Armor"},
+      {"n": "Thalvastian Plate", "r": "Arcane Armor"},
+      {"n": "Cloak of Muffled Steps", "r": "Enchanted Armor"},
+      {"n": "The Ashen Carapace", "r": "Cursed Armor"},
+      {"n": "Sanctorvael Mantle", "r": "Holy Armor"},
+      {"n": "Sorvindrix Shell", "r": "Arcane Armor"},
+      {"n": "Vest of the Sure Step", "r": "Enchanted Armor"},
+      {"n": "Nightveil Shroud", "r": "Cursed Armor"},
+      {"n": "Ossindril Plate", "r": "Holy Armor"},
+      {"n": "Vel'orath's Carapace", "r": "Arcane Armor"},
+      {"n": "Bracers of Steady Aim", "r": "Enchanted Armor"}
+    ],
+    "ring": [
+      {"n": "Mortenvael Band", "r": "Cursed Ring"},
+      {"n": "Vaelthis Seal", "r": "Holy Ring"},
+      {"n": "Sorvindrix Loop", "r": "Arcane Ring"},
+      {"n": "Ring of the Slow Fall", "r": "Enchanted Ring"},
+      {"n": "The Warden's Band", "r": "Cursed Ring"},
+      {"n": "Elindral Circle", "r": "Holy Ring"},
+      {"n": "Thalvastian Ring", "r": "Arcane Ring"},
+      {"n": "Ring of Sure Footing", "r": "Enchanted Ring"},
+      {"n": "Vel'orath's Loop", "r": "Cursed Ring"},
+      {"n": "Sanctorvael Band", "r": "Holy Ring"},
+      {"n": "Aethric Circle", "r": "Arcane Ring"},
+      {"n": "Ring of the Steady Hand", "r": "Enchanted Ring"}
+    ],
+    "amulet": [
+      {"n": "The Ashen Compact", "r": "Cursed Amulet"},
+      {"n": "Ossindril Chalice", "r": "Holy Amulet"},
+      {"n": "The Aethric Compendium", "r": "Arcane Amulet"},
+      {"n": "Amulet of Muffled Steps", "r": "Enchanted Amulet"},
+      {"n": "Nightveil Pendant", "r": "Cursed Amulet"},
+      {"n": "Sanctorvael Locket", "r": "Holy Amulet"},
+      {"n": "Vel'orath's Lattice", "r": "Arcane Amulet"},
+      {"n": "Pendant of Sure Footing", "r": "Enchanted Amulet"},
+      {"n": "Mortenvael Token", "r": "Cursed Amulet"},
+      {"n": "Elindral Locket", "r": "Holy Amulet"},
+      {"n": "Thalvastian Pendant", "r": "Arcane Amulet"},
+      {"n": "Amulet of Steady Aim", "r": "Enchanted Amulet"}
+    ],
+    "artifact": [
+      {"n": "The Aethric Compendium", "r": "Arcane Artifact"},
+      {"n": "Sorvindrix's Lattice", "r": "Arcane Artifact"},
+      {"n": "Thalvastian Core", "r": "Arcane Artifact"},
+      {"n": "Vel'orath's Lattice", "r": "Arcane Artifact"},
+      {"n": "Aethric Thalvastian", "r": "Arcane Artifact"},
+      {"n": "Throne of Elindris", "r": "Holy Artifact"},
+      {"n": "Sanctorvael Seal", "r": "Holy Artifact"},
+      {"n": "The Elindral Mantle", "r": "Holy Artifact"},
+      {"n": "Shroud of Vel'orath", "r": "Cursed Artifact"},
+      {"n": "Nightveil", "r": "Cursed Artifact"},
+      {"n": "The Warden's Compact", "r": "Cursed Artifact"},
+      {"n": "The Ashen Compact", "r": "Cursed Artifact"}
+    ]
+  },
+  "related_chips": [
+    {"label": "Weapon Names", "url": "weapon-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Dungeon Names", "url": "dungeon-name-generator.html"},
+    {"label": "Dark Lord Names", "url": "dark-lord-name-generator.html"},
+    {"label": "Necromancer Names", "url": "necromancer-name-generator.html"},
+    {"label": "Kingdom Names", "url": "kingdom-name-generator.html"}
+  ],
+  "sidebar_links": [
+    {"label": "Weapon Generator", "url": "weapon-name-generator.html"},
+    {"label": "D&D Name Generator", "url": "dnd-name-generator.html"},
+    {"label": "Dungeon Generator", "url": "dungeon-name-generator.html"},
+    {"label": "Dark Lord Generator", "url": "dark-lord-name-generator.html"},
+    {"label": "Necromancer Generator", "url": "necromancer-name-generator.html"},
+    {"label": "Kingdom Generator", "url": "kingdom-name-generator.html"}
+  ],
+  "sidebar_tips": [
+    "Cursed item names work best when they sound almost trustworthy — one element that doesn't quite resolve is more effective than overt darkness.",
+    "Holy relic names carry institutional weight, not personal names: they belong to something larger than any wielder, and the phonetics should reflect that.",
+    "Arcane artifact names imply contested history — compound structures that suggest the item has been studied, argued over, and passed between scholars who disagreed.",
+    "Common enchanted items need functional names, not evocative ones: the enchantment is the feature, the name just needs to communicate it without ambiguity.",
+    "For cursed items in play: give the name the item presents itself as first, reveal the true name when the curse activates — the rename is the moment the players realize what happened."
+  ],
+  "sidebar_pro_tip": "The most dangerous cursed item name is the one that sounds like it belongs in a paladin's inventory — a name just trustworthy enough that players stop asking questions, which is exactly when the item stops asking permission.",
+  "seo_article": "<h2>Magic Item Generator: Names a DM Can Drop Into a Session Without Explanation</h2><p>The best magic item names do quiet work. A dungeon master shouldn't have to narrate why an item sounds dangerous or holy or ancient — the name should carry that signal on its own. When a player reads 'Shroud of Vel'orath' on a loot card, they already know something is wrong with it before the DM says a word. That's the standard this magic item generator is built around: names that front-load the context so the table doesn't have to wait for exposition.</p><p>The generator separates four item traditions because a cursed ring and a holy relic are not the same naming problem, and treating them the same produces names that feel generic regardless of how well-constructed they are.</p><h2>The Four Magic Item Naming Traditions</h2><ul><li><strong>Cursed items</strong> carry dark, broken names — the same structural incompleteness that defines necromancer and void-creature names, applied to objects. Vel'orath's Shroud. The Ashen Compact. Mortenvael Band. The name should feel like it was written by someone who regretted the item's existence. One element always feels slightly wrong.</li><li><strong>Holy relics</strong> draw from Latin ecclesiastical phonetics — formal, elevated, names that feel like they belong in a saint's index or carved into the base of a statue. Sanctorvael. The Throne of Elindris. Vaelthis Seal. These names carry institutional weight: the item belongs to something larger than any single wielder.</li><li><strong>Arcane artifacts</strong> use compound mystical structures — two or three root-words fused into something that implies a long, complicated history of scholarship. The Aethric Compendium. Sorvindrix's Lattice. Thalvastian Core. These names suggest an item that has been studied, argued over, and passed between mages who disagreed about what it actually does.</li><li><strong>Common enchanted items</strong> use descriptive functional names — precise, clear, nothing that overpromises. Cloak of Muffled Steps. Ring of the Slow Fall. Bracers of Steady Aim. These are workmanlike names for workmanlike magic. The enchantment is the feature; the name just needs to communicate it without ambiguity.</li></ul><h2>The Naming Logic Behind Cursed Items Specifically</h2><p>Cursed item names deserve extra attention because they fail most often. The common mistake is making them sound too obviously evil — a name so dark the players refuse to touch the item immediately, which collapses the tension. The better approach: make the name sound almost trustworthy, with one element that doesn't quite resolve. The Warden's Compact sounds like protective gear until you notice 'Compact' implies an agreement, not an object. That slight wrongness is more effective than naming something the Skull of Eternal Doom.</p><h2>Using Magic Item Names in D&D 5e</h2><p>For common enchanted items, the functional name is enough — players need to know what it does in the moment they find it. For artifacts and relics, withhold the full name until the players have held the item for a session. The name lands harder when they've already formed an attachment. For cursed items, give the wrong name first — the one the item presents itself as — and reveal the true name when the curse activates.</p>",
+  "faq_items": [
+    {
+      "q": "What makes a magic item name work without explanation?",
+      "a": "It front-loads the context. A good magic item name signals the item's nature — dangerous, holy, ancient, functional — before the DM says anything about it. 'Shroud of Vel'orath' tells the players something is wrong. 'Sanctorvael Seal' tells them something is sacred. The name does the work so the table doesn't wait for exposition."
+    },
+    {
+      "q": "How do cursed item names differ from regular magic item names?",
+      "a": "The most effective cursed item names sound almost trustworthy, with one element that doesn't resolve cleanly. Not 'Skull of Eternal Doom' — that's too obvious. Something like 'The Warden's Compact' — sounds protective until you notice 'Compact' implies an agreement. The slight wrongness creates more tension than overt darkness because players don't refuse to touch it immediately."
+    },
+    {
+      "q": "What phonetics define holy relic names?",
+      "a": "Latin ecclesiastical structures — formal, elevated, names that feel like they belong in a saint's index or carved into a statue base. Sanctorvael. The Throne of Elindris. Vaelthis Seal. These names carry institutional weight: they signal the item belongs to something larger than any wielder. If the name sounds like it could belong to an individual person, it's not holy enough."
+    },
+    {
+      "q": "How do I name an arcane artifact versus a common enchanted item?",
+      "a": "Arcane artifacts carry compound mystical structures that imply contested scholarship — two or three root-words fused into something that suggests the item has been studied and argued over. The Aethric Compendium. Thalvastian Core. Common enchanted items use precise functional names: Cloak of Muffled Steps, Ring of the Slow Fall. The artifact name carries history. The common item name carries instructions."
+    },
+    {
+      "q": "Should magic item names include a possessive — like 'Sorvindrix's Lattice'?",
+      "a": "For arcane artifacts, yes — a possessive name implies the item was created by or associated with a specific person, which adds implied history without requiring explanation. For holy relics, avoid possessives — these items belong to institutions or deities, not individuals. For cursed items, a possessive can be effective precisely because it implies the previous owner is notable enough to name, and notable enough to have been destroyed by the thing they made."
+    },
+    {
+      "q": "How many words should a magic item name be?",
+      "a": "Two to four words for most types. One word works only for artifacts so legendary they've been reduced to a single noun — Nightveil, Ashpact. Five or more words tips into description rather than name. The functional sweet spot is a noun with one qualifying element: type first, modifier second, or possessive plus noun. Anything longer belongs in the item description, not the item name."
+    },
+    {
+      "q": "Can I use these names directly in a D&D 5e campaign?",
+      "a": "Yes, and they're designed for that use. Cursed item names are built to mislead before they reveal. Holy relic names carry institutional weight that makes them feel like they predate the campaign. Arcane artifact names imply scholarship and history without requiring lore documents. Common enchanted item names communicate function at the table without slowing down the session."
+    }
+  ],
+  "footer_links": [
+    {"label": "Weapon Names", "url": "weapon-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Dungeon Names", "url": "dungeon-name-generator.html"},
+    {"label": "Dark Lord Names", "url": "dark-lord-name-generator.html"},
+    {"label": "Necromancer Names", "url": "necromancer-name-generator.html"},
+    {"label": "Kingdom Names", "url": "kingdom-name-generator.html"},
+    {"label": "Villain Names", "url": "villain-name-generator.html"},
+    {"label": "Vampire Names", "url": "vampire-name-generator.html"},
+    {"label": "Mage Names", "url": "mage-name-generator.html"},
+    {"label": "Orc Names", "url": "orc-name-generator.html"}
+  ],
+  "tools_js_entry": {
+    "id": "magic-item-generator",
+    "name": "Magic Item Generator",
+    "desc": "D&D magic item names — cursed items, holy relics, arcane artifacts, and common enchanted gear for any campaign.",
+    "category": "names",
+    "tags": ["magic item", "D&D", "artifact", "cursed"],
+    "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+    "url": "magic-item-generator.html",
+    "volume": 1900,
+    "kd": 13,
+    "featured": false
+  },
+  "sitemap_priority": "0.8"
+},
+{
+  "id": "dungeon-name-generator",
+  "page_name": "Dungeon Name Generator",
+  "meta_title": "Dungeon Name Generator — D&D Dungeon & Location Names | RuneForge",
+  "meta_desc": "Generate dungeon names for D&D campaigns and fantasy worldbuilding. Ancient tombs, dark fortresses, cave systems, and forgotten ruins — names that signal danger before players enter.",
+  "og_title": "Dungeon Name Generator — RuneForge",
+  "h1_text": "Names that signal danger before the DM says a word.",
+  "hero_sub": "Generate dungeon names for ancient tombs, dark fortresses, cave systems, and forgotten ruins.",
+  "hero_bg": "hero-bg-dark-ruins.webp",
+  "eyebrow_text": "Dungeon Name Generator",
+  "howto_step1": "Select All, Tomb, Fortress, Cave, or Ruin from the filter buttons.",
+  "breadcrumb_category_name": "Name Generators",
+  "breadcrumb_category_id": "names",
+  "filters": [
+    {"label": "All", "value": "all"},
+    {"label": "Tomb", "value": "tomb"},
+    {"label": "Fortress", "value": "fortress"},
+    {"label": "Cave", "value": "cave"},
+    {"label": "Ruin", "value": "ruin"}
+  ],
+  "name_data": {
+    "all": [
+      {"n": "Ossindrath", "r": "Ancient Tomb"},
+      {"n": "Durgvast", "r": "Dark Fortress"},
+      {"n": "The Hollows of Umbren", "r": "Cave System"},
+      {"n": "Morth-el", "r": "Forgotten Ruin"},
+      {"n": "Vault of Vel'mor", "r": "Ancient Tomb"},
+      {"n": "Krath'hold", "r": "Dark Fortress"},
+      {"n": "Veltharax Depths", "r": "Cave System"},
+      {"n": "The Sundered Athenaeum", "r": "Forgotten Ruin"},
+      {"n": "Morthkael's Rest", "r": "Ancient Tomb"},
+      {"n": "The Iron Dominion", "r": "Dark Fortress"},
+      {"n": "Ossavel Maw", "r": "Cave System"},
+      {"n": "Vel'thas Fragment", "r": "Forgotten Ruin"},
+      {"n": "Ossindrae Vault", "r": "Ancient Tomb"},
+      {"n": "Durgkrael Hold", "r": "Dark Fortress"},
+      {"n": "The Umbren Hollow", "r": "Cave System"},
+      {"n": "Morth-vel Remnant", "r": "Forgotten Ruin"},
+      {"n": "Vel'mor's Tomb", "r": "Ancient Tomb"},
+      {"n": "Krath'vast", "r": "Dark Fortress"},
+      {"n": "Veltharax Maw", "r": "Cave System"},
+      {"n": "Ossindrae Fragment", "r": "Forgotten Ruin"}
+    ],
+    "tomb": [
+      {"n": "Ossindrath", "r": "Ancient Tomb"},
+      {"n": "Vault of Vel'mor", "r": "Ancient Tomb"},
+      {"n": "Morthkael's Rest", "r": "Ancient Tomb"},
+      {"n": "Ossindrae Vault", "r": "Ancient Tomb"},
+      {"n": "Vel'mor's Tomb", "r": "Ancient Tomb"},
+      {"n": "Ossindrath Deep", "r": "Ancient Tomb"},
+      {"n": "Vault of Ossindrae", "r": "Ancient Tomb"},
+      {"n": "Morthvel's Rest", "r": "Ancient Tomb"},
+      {"n": "The Ossindrath Seal", "r": "Ancient Tomb"},
+      {"n": "Vel'ossindrae Vault", "r": "Ancient Tomb"},
+      {"n": "Morthkael Deep", "r": "Ancient Tomb"},
+      {"n": "Ossavel Tomb", "r": "Ancient Tomb"}
+    ],
+    "fortress": [
+      {"n": "Durgvast", "r": "Dark Fortress"},
+      {"n": "Krath'hold", "r": "Dark Fortress"},
+      {"n": "The Iron Dominion", "r": "Dark Fortress"},
+      {"n": "Durgkrael Hold", "r": "Dark Fortress"},
+      {"n": "Krath'vast", "r": "Dark Fortress"},
+      {"n": "Durgvekh Citadel", "r": "Dark Fortress"},
+      {"n": "Krath'durg", "r": "Dark Fortress"},
+      {"n": "The Iron Krael", "r": "Dark Fortress"},
+      {"n": "Durghold", "r": "Dark Fortress"},
+      {"n": "Krath'iron", "r": "Dark Fortress"},
+      {"n": "Durgvast Citadel", "r": "Dark Fortress"},
+      {"n": "The Krath Dominion", "r": "Dark Fortress"}
+    ],
+    "cave": [
+      {"n": "The Hollows of Umbren", "r": "Cave System"},
+      {"n": "Veltharax Depths", "r": "Cave System"},
+      {"n": "Ossavel Maw", "r": "Cave System"},
+      {"n": "The Umbren Hollow", "r": "Cave System"},
+      {"n": "Veltharax Maw", "r": "Cave System"},
+      {"n": "Umbren Depths", "r": "Cave System"},
+      {"n": "The Veltharax Hollow", "r": "Cave System"},
+      {"n": "Ossavel Depths", "r": "Cave System"},
+      {"n": "The Umbren Maw", "r": "Cave System"},
+      {"n": "Veltharax Hollows", "r": "Cave System"},
+      {"n": "Ossavel Hollow", "r": "Cave System"},
+      {"n": "The Deep Umbren", "r": "Cave System"}
+    ],
+    "ruin": [
+      {"n": "Morth-el", "r": "Forgotten Ruin"},
+      {"n": "The Sundered Athenaeum", "r": "Forgotten Ruin"},
+      {"n": "Vel'thas Fragment", "r": "Forgotten Ruin"},
+      {"n": "Morth-vel Remnant", "r": "Forgotten Ruin"},
+      {"n": "Ossindrae Fragment", "r": "Forgotten Ruin"},
+      {"n": "Morth-ossindrae", "r": "Forgotten Ruin"},
+      {"n": "Vel'thas Remnant", "r": "Forgotten Ruin"},
+      {"n": "The Sundered Ossindrae", "r": "Forgotten Ruin"},
+      {"n": "Morthvel Fragment", "r": "Forgotten Ruin"},
+      {"n": "Vel-ossindrae Ruin", "r": "Forgotten Ruin"},
+      {"n": "The Morth-el Remnant", "r": "Forgotten Ruin"},
+      {"n": "Ossindrae Sundered", "r": "Forgotten Ruin"}
+    ]
+  },
+  "related_chips": [
+    {"label": "Fantasy City Names", "url": "fantasy-city-name-generator.html"},
+    {"label": "Magic Items", "url": "magic-item-generator.html"},
+    {"label": "Weapon Names", "url": "weapon-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Necromancer Names", "url": "necromancer-name-generator.html"},
+    {"label": "Dark Lord Names", "url": "dark-lord-name-generator.html"}
+  ],
+  "sidebar_links": [
+    {"label": "Fantasy City Generator", "url": "fantasy-city-name-generator.html"},
+    {"label": "Magic Item Generator", "url": "magic-item-generator.html"},
+    {"label": "Weapon Generator", "url": "weapon-name-generator.html"},
+    {"label": "D&D Name Generator", "url": "dnd-name-generator.html"},
+    {"label": "Necromancer Generator", "url": "necromancer-name-generator.html"},
+    {"label": "Dark Lord Generator", "url": "dark-lord-name-generator.html"}
+  ],
+  "sidebar_tips": [
+    "Name the dungeon before players decide to enter — rumor, warning, dead NPC's note. The name earns dread in the sessions before the door.",
+    "Ancient tomb names carry silence, not aggression — age and enclosure, no urgency. The threat is how long it's been waiting.",
+    "Fortress names feel like active warnings: hard consonants, closed vowels, something still running inside.",
+    "Cave system names need depth — open vowels and resonant consonants that imply the entrance is just the beginning.",
+    "The best dungeon names resist casual abbreviation. The moment players start calling it 'the Vault,' half the threat is gone."
+  ],
+  "sidebar_pro_tip": "Every dungeon name should imply an unanswered question — who is Vel'mor, what is Umbren, what happened at Krath'hold — because the players will answer it themselves before they enter, and whatever they imagine is almost always worse than what you planned.",
+  "seo_article": "<h2>Dungeon Name Generator: Names That Signal Danger Before the DM Says a Word</h2><p>A dungeon name is the first piece of information players receive about a location they haven't entered yet. Everything that happens at the table before the first room description — the hesitation, the preparation, the arguments about whether to go in at all — starts with that name. Get it right and the players are already afraid. Get it wrong and the dungeon has to earn its dread from scratch, room by room, which is harder and less reliable.</p><p>This dungeon name generator separates four location types because an ancient tomb and a dark fortress don't produce the same fear, and their names shouldn't try to.</p><h2>The Four Dungeon Naming Traditions</h2><ul><li><strong>Ancient tombs</strong> carry death and silence sounds — names that feel like something sealed a long time ago and has been waiting. Ossindrath. The Vault of Vel'mor. Morthkael's Rest. The name should imply that whatever is inside has had a very long time to become whatever it is now. Silence is structural: no aggressive consonants, no urgency — just age and enclosure.</li><li><strong>Dark fortresses</strong> use heavy, imposing names — hard consonants, closed vowels, names that feel like walls. Durgvast. The Iron Dominion. Krath'hold. These names don't imply age so much as mass. The fortress is still functioning. Something is still inside running it. The name should feel like a warning issued by whoever built it, not a memorial left by whoever destroyed it.</li><li><strong>Cave systems</strong> carry hollow, echoing phonetics — open vowels and resonant consonants that suggest depth and disorientation. The Hollows of Umbren. Veltharax Depths. Ossavel Maw. These names should feel like they go further in than the players expect. The mouth is just the beginning.</li><li><strong>Forgotten ruins</strong> use half-eroded names — the same structural incompleteness that defines ancient city ruins, applied to single-location dungeons. Morth-el. The Sundered Athenaeum. Vel'thas Fragment. One part of the name is missing or broken. The full name belonged to a civilization that no longer exists, and no one alive knows what it meant.</li></ul><h2>What Makes a Dungeon Name Do Its Job</h2><p>Three things. First, it should be pronounceable but not immediately parseable — the players can say it without effort, but they can't easily extract meaning from it. Second, it should resist casual abbreviation. A dungeon players start calling 'the Vault' or 'the Hold' has lost half its threat. The name should be specific enough that shortening it feels wrong. Third — and this is the one most dungeon name guides skip — the name should imply a question the players can't answer yet. The Vault of Vel'mor: who is Vel'mor? The Hollows of Umbren: what is Umbren? The question is the hook.</p><h2>Using Dungeon Names in D&D Campaigns</h2><p>Name the dungeon before the players decide to enter it. A rumor in a tavern. A line on a bounty board. A warning from the last person who came back. 'They went into Durgvast three weeks ago. Two of them came back. Neither one will say what happened inside.' By the time the players stand at the entrance, the name already has a body count attached to it — and they put it there themselves.</p>",
+  "faq_items": [
+    {
+      "q": "What makes a dungeon name frightening before players enter?",
+      "a": "Three things: it's pronounceable but not immediately parseable, it resists casual abbreviation, and it implies a question the players can't answer yet. The Vault of Vel'mor makes them ask who Vel'mor was. The Hollows of Umbren makes them ask what Umbren is. The unanswered question is the hook — and it works before the first room description."
+    },
+    {
+      "q": "What sounds define ancient tomb names?",
+      "a": "Death and silence sounds — no aggressive consonants, no urgency, just age and enclosure. Ossindrath. Morthkael's Rest. The Vault of Vel'mor. The name should imply that whatever is inside has had a very long time to become whatever it is now. Tomb names don't threaten. They wait."
+    },
+    {
+      "q": "How do fortress dungeon names differ from tomb names?",
+      "a": "Fortress names carry mass, not age. Hard consonants, closed vowels, names that feel like walls still standing. Durgvast. Krath'hold. The Iron Dominion. These names imply something is still inside running the place — an active threat, not a sealed one. Where tomb names feel like memorials, fortress names feel like warnings issued by whoever built them."
+    },
+    {
+      "q": "What phonetics work for cave system names?",
+      "a": "Hollow, echoing sounds — open vowels and resonant consonants that suggest depth and disorientation. The Hollows of Umbren. Veltharax Depths. Ossavel Maw. The name should feel like it goes further in than expected. 'Maw' as a suffix works precisely because it implies the cave is the entrance to something else, not the destination itself."
+    },
+    {
+      "q": "How do I name a forgotten ruin dungeon?",
+      "a": "Build structural incompleteness into the name. One part should be missing or broken — a truncated compound, a hyphenated fragment, a word from a dead language with no surviving translation. Morth-el. The Sundered Athenaeum. Vel'thas Fragment. The full name belonged to a civilization that no longer exists. The incompleteness signals that nobody alive knows what it originally meant."
+    },
+    {
+      "q": "Should a dungeon have a subtitle or just a single name?",
+      "a": "Both work for different types. Ancient tombs and arcane ruins benefit from a possessive or qualifying subtitle — The Vault of Vel'mor, The Hollows of Umbren — because the subtitle adds the unanswered question. Fortresses and cave systems often work better as single compound names — Durgvast, Krath'hold — because the brevity implies the name is all anyone needs to know."
+    },
+    {
+      "q": "When should I reveal the dungeon name to players in a campaign?",
+      "a": "Before they decide to enter — ideally two to three sessions before they arrive. A rumor. A warning. A line in a dead NPC's journal. By the time players stand at the entrance, the name should already have context they supplied themselves: assumptions, fears, second-hand accounts. The dungeon doesn't need to justify its reputation on entry if the name already built it."
+    }
+  ],
+  "footer_links": [
+    {"label": "Fantasy City Names", "url": "fantasy-city-name-generator.html"},
+    {"label": "Magic Items", "url": "magic-item-generator.html"},
+    {"label": "Weapon Names", "url": "weapon-name-generator.html"},
+    {"label": "D&D Names", "url": "dnd-name-generator.html"},
+    {"label": "Necromancer Names", "url": "necromancer-name-generator.html"},
+    {"label": "Dark Lord Names", "url": "dark-lord-name-generator.html"},
+    {"label": "Kingdom Names", "url": "kingdom-name-generator.html"},
+    {"label": "Villain Names", "url": "villain-name-generator.html"},
+    {"label": "Vampire Names", "url": "vampire-name-generator.html"},
+    {"label": "Orc Names", "url": "orc-name-generator.html"}
+  ],
+  "tools_js_entry": {
+    "id": "dungeon-name-generator",
+    "name": "Dungeon Name Generator",
+    "desc": "D&D dungeon names for ancient tombs, dark fortresses, cave systems, and forgotten ruins — names that signal danger before players enter.",
+    "category": "names",
+    "tags": ["dungeon", "D&D", "worldbuilding", "location"],
+    "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+    "url": "dungeon-name-generator.html",
+    "volume": 1400,
+    "kd": 11,
+    "featured": false
+  },
+  "sitemap_priority": "0.8"
 }
 ]
 
