@@ -91,6 +91,18 @@ const RUNEFORGE_TOOLS = [
     featured: false
   },
   {
+    id: "dnd-name-generator",
+    name: "D&D Name Generator",
+    desc: "Authentic D&D names for every race — humans, elves, dwarves, tieflings, half-orcs, and halflings.",
+    category: "names",
+    tags: ["dnd", "d&d", "5e", "bg3"],
+    icon: `<path d="M12 2l9 4.9V17L12 22l-9-4.9V6.9z"/>`,
+    url: "dnd-name-generator.html",
+    volume: 3600,
+    kd: 35,
+    featured: true
+  },
+  {
     id: "mage-name-generator",
     name: "Mage Name Generator",
     desc: "Arcane names for wizards, mages, and spellcasters.",
@@ -126,6 +138,18 @@ const RUNEFORGE_TOOLS = [
     kd: 12,
     featured: false
   },
+  {
+    id: "necromancer-name-generator",
+    name: "Necromancer Name Generator",
+    desc: "Dark death-magic names for liches, undead lords, and necromancers.",
+    category: "names",
+    tags: ["necromancer", "lich", "dark fantasy"],
+    icon: `<path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>`,
+    url: "necromancer-name-generator.html",
+    volume: 1600,
+    kd: 14,
+    featured: false
+  },
 
   // ── PLACES ───────────────────────────────────────────────
   {
@@ -158,7 +182,7 @@ const RUNEFORGE_TOOLS = [
     desc: "Memorable inn and tavern names for your D&D campaigns.",
     category: "places",
     tags: ["tavern", "inn", "dnd"],
-    icon: `<path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z"/><line x1="6" y1="2" x2="6" y2="4"/><line x1="10" y1="2" x2="10" y2="4"/><line x1="14" y1="2" x2="14" y2="4"/>`,
+    icon: `<path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z"/>`,
     url: "tavern-name-generator.html",
     volume: 720,
     kd: 16,
@@ -229,18 +253,6 @@ const RUNEFORGE_TOOLS = [
     featured: false
   }
 
-  {
-    id: "necromancer-name-generator",
-    name: "Necromancer Name Generator",
-    desc: "Dark death-magic names for liches, undead lords, shadow mages, and necromancers in D&D and fantasy fiction.",
-    category: "names",
-    tags: ["necromancer", "lich", "dark fantasy"],
-    icon: `<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>`,
-    url: "necromancer-name-generator.html",
-    volume: 1600,
-    kd: 14,
-    featured: false
-  },
 ];
 
 // ── CATEGORY CONFIG ──────────────────────────────────────
