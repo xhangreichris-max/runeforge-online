@@ -289,6 +289,18 @@ const RUNEFORGE_TOOLS = [
     kd: 15,
     featured: false
   },
+  {
+    id: "half-orc-name-generator",
+    name: "Half-Orc Name Generator",
+    desc: "Half-orc names for warriors, tribal characters, city-raised nobles, and outlanders in D&D and fantasy fiction.",
+    category: "names",
+    tags: ["half-orc", "orc", "D&D"],
+    icon: `<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>`,
+    url: "half-orc-name-generator.html",
+    volume: 1600,
+    kd: 10,
+    featured: false
+  },
 ];
 
 // ── CATEGORY CONFIG ──────────────────────────────────────
