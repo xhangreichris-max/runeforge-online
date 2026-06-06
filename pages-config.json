@@ -399,6 +399,54 @@
     "featured": false
   },
   "sitemap_priority": "0.8"
+},
+  {
+  "id": "necromancer-name-generator",
+  "title": "Necromancer Name Generator",
+  "subtitle": "Generate dark, death-magic names for liches, undead lords, and shadow mages",
+  "hero_image": "hero-bg-dark-ruins.webp",
+  "meta_description": "Generate powerful necromancer names for D&D, fantasy fiction, and dark RPG characters. Names built from void-sounds, decay suffixes, and death-magic tradition.",
+  "meta_keywords": "necromancer name generator, necromancer names, dark necromancer names, fantasy necromancer names, lich names, undead lord names",
+  "schema_name": "Necromancer Name Generator",
+  "schema_description": "Generate dark necromancer names for liches, undead lords, shadow mages, and death-magic practitioners in D&D and fantasy fiction.",
+  "h1": "Necromancer Name Generator",
+  "tool_label": "Generate Necromancer Names",
+  "name_arrays": {
+    "prefixes": ["Morth", "Vel", "Zov", "Ossi", "Nyх", "Kul", "Draug", "Sephr", "Vorrh", "Karv", "Oss", "Durn", "Molg", "Vraek", "Nyxar", "Vel'un", "Mor", "Thanh", "Ghol", "Vael", "Crypt", "Nekh", "Ulv", "Reth", "Skel"],
+    "middles": ["ath", "un", "or", "eth", "ak", "el", "var", "run", "mael", "rak", "vast", "ven", "rek", "thal", "kor", "ael", "iss", "ul", "ran", "drev"],
+    "suffixes": ["oth", "veth", "kul", "drath", "mor", "roth", "ael", "kael", "vast", "rek", "mael", "serath", "rake", "bane", "wraith", "ark", "null", "grave", "pall", "dusk"]
+  },
+  "seo_article": "<h2>Necromancer Name Generator: Names That Carry the Weight of Death</h2><p>Necromancer names don't follow the same rules as other fantasy mages. Where arcane wizards collect titles and scholarly epithets, necromancers carry names built from hollow vowels, hard stops, and sounds that don't quite resolve — like something interrupted mid-word. The phonetic unease is the point. A necromancer named something soft and lyrical stops being threatening before they cast a single spell.</p><p>This necromancer name generator pulls from naming traditions built specifically for death-magic practitioners: old Germanic void-sounds, Latinate decay suffixes, and the kind of consonant clusters that look wrong written down but sound exactly right said aloud in a dark room.</p><h2>What Makes a Dark Necromancer Name Work</h2><p>The best dark necromancer names share a few structural traits. First, they use back-vowels — the deep 'o', 'u', and 'ah' sounds produced at the rear of the mouth. These carry a resonance that front-vowel names like 'Eli' or 'Lyra' simply don't. Second, they end hard. Soft name endings signal nature magic or healing traditions. Necromancer names close on a stop consonant or a dead fricative: -oth, -veth, -kul, -drath, -mor.</p><p>Third — and this is the detail most fantasy necromancer name guides miss — the best names have one element that feels slightly broken. A consonant cluster that almost works. An unusual spelling that creates visual discomfort on the page. Morthalek. Vel'unrak. Zovrath. None of these are hard to say, but none of them feel entirely safe either.</p><h2>Necromancer Names by Sub-Type</h2><p>Not every necromancer commands armies of the dead. The sub-type shapes the name.</p><ul><li><strong>Lich and undead lords:</strong> Long, formal names with Latin-style declensions — Ossivareth, Morthekael, Draugenvast. These practitioners have had centuries to accumulate syllables.</li><li><strong>Shadow and void mages:</strong> Short, abrupt names that hit and end — Kulveth, Nyxoth, Vraek. The brevity suggests someone who doesn't explain themselves.</li><li><strong>Bone-shapers and corpse-crafters:</strong> Names with hard interior consonants that suggest structure — Ossrek, Karveth, Durnmael.</li><li><strong>Plague and blight casters:</strong> Names with decaying vowel progressions — Sephroth, Molgreth, Vorrune.</li></ul><h2>Using Fantasy Necromancer Names in D&D and Fiction</h2><p>For D&D campaigns, necromancer names pair well with titles rather than surnames. 'Morthalek the Exhumed' or 'Zovrath, Warden of the Grey' land harder than a double-barreled family name. In fiction, the name should do quiet work before the character speaks — readers should feel what kind of person this is from the sound alone.</p><p>Generate as many names as you need, then keep only the one that makes you slightly uncomfortable. That discomfort is the signal.</p>",
+  "faq_items": [
+    {
+      "question": "What sounds make a good necromancer name?",
+      "answer": "Back-vowels (deep o, u, and ah sounds) and hard stop endings — -oth, -kul, -veth, -drath, -mor. The name should feel slightly unresolved, like a word that was interrupted. Front-vowel names with soft endings belong to healers and bards, not death-mages."
+    },
+    {
+      "question": "What's the difference between a lich name and a standard necromancer name?",
+      "answer": "Liches have had centuries to accumulate formality. Their names tend to be longer, with Latin-style structures and compound syllables — Ossivareth, Morthekael. A standard necromancer may still be human and mortal, so their names sit shorter and sharper. The lich name implies age. The necromancer name implies intent."
+    },
+    {
+      "question": "Can I use necromancer names for D&D warlocks and villains?",
+      "answer": "Yes, and they transfer well. For D&D warlocks sworn to undead or Great Old One patrons, these names fit the phonetic profile. For villains, pair the name with a cold title rather than a surname — 'Zovrath the Unburied' carries more threat than 'Zovrath Darkbane'."
+    },
+    {
+      "question": "How do I make a female necromancer name that still sounds threatening?",
+      "answer": "The tradition matters more than the gender. Keep the back-vowels and hard endings — Nyxaroth, Morthael, Vel'serath all read as feminine-leaning without losing any edge. The mistake is softening the ending. -ynn, -ina, -ara signal nature magic. Feminine necromancer names close on the same hard stops as masculine ones."
+    },
+    {
+      "question": "How many syllables should a necromancer name have?",
+      "answer": "Two to three works for most. One-syllable names (Vraek, Kulth) are strong for void and shadow sub-types — the brevity implies someone who doesn't elaborate. Four-syllable names suit liches and undead lords who've had time to earn them. Avoid five or more — it tips from threatening into absurd."
+    }
+  ],
+  "sidebar_tips": [
+    "End the name on a hard stop or dead fricative — -oth, -veth, -kul, -drath. Soft endings belong to healers.",
+    "For lich-tier characters, stack three or four syllables and add a Latin-style suffix to signal age and formality.",
+    "One deliberately broken element — an unusual consonant cluster, an archaic spelling — makes the name feel genuinely dark rather than just fantasy-generic.",
+    "Pair the generated name with a cold title instead of a surname: 'Morthalek the Exhumed' outranks 'Morthalek Shadowborn' every time.",
+    "Shadow and void sub-types hit harder with short names. Two syllables, closed on a stop. No elaboration needed."
+  ],
+  "sidebar_pro_tip": "The name that makes you slightly uncomfortable when you say it aloud is the right one — that phonetic unease is exactly what death-magic tradition is built on."
 }
 ]
 
