@@ -251,7 +251,7 @@ const RUNEFORGE_TOOLS = [
     volume: 70,
     kd: 2,
     featured: false
-  }
+  },
 
   {
     id: "dark-lord-name-generator",
