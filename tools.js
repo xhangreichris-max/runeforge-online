@@ -253,6 +253,18 @@ const RUNEFORGE_TOOLS = [
     featured: false
   }
 
+  {
+    id: "dark-lord-name-generator",
+    name: "Dark Lord Name Generator",
+    desc: "Evil overlord names for ancient tyrants, warlords, shadow lords, and cursed rulers in D&D and fantasy fiction.",
+    category: "names",
+    tags: ["dark lord", "villain", "dark fantasy"],
+    icon: `<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>`,
+    url: "dark-lord-name-generator.html",
+    volume: 1400,
+    kd: 11,
+    featured: false
+  },
 ];
 
 // ── CATEGORY CONFIG ──────────────────────────────────────
