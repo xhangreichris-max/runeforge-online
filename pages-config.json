@@ -2382,6 +2382,246 @@
     "featured": false
   },
   "sitemap_priority": "0.8"
+},
+  {
+  "id": "dnd-name-generator",
+  "page_name": "D&D Name Generator",
+  "meta_title": "D&D Name Generator — Dungeons & Dragons Names for Every Race | RuneForge",
+  "meta_desc": "Generate authentic D&D character names for every race — humans, elves, dwarves, tieflings, half-orcs, and halflings. Free D&D 5e name generator for players and dungeon masters.",
+  "og_title": "D&D Name Generator — Authentic Names for Every Race | RuneForge",
+  "h1_text": "Every legend begins with a name worthy of the tale.",
+  "hero_sub": "Generate authentic D&D character names for every race — built for D&D 5e players, dungeon masters, and Baldur's Gate 3.",
+  "hero_bg": "hero-bg-dnd.webp",
+  "eyebrow_text": "D&D Name Generator",
+  "howto_step1": "Select All, Human, Elf, Dwarf, Tiefling, Half-Orc, or Halfling from the filter buttons.",
+  "breadcrumb_category_name": "Name Generators",
+  "breadcrumb_category_id": "names",
+  "filters": [
+    {"label": "All",      "value": "all"},
+    {"label": "Human",    "value": "human"},
+    {"label": "Elf",      "value": "elf"},
+    {"label": "Dwarf",    "value": "dwarf"},
+    {"label": "Tiefling", "value": "tiefling"},
+    {"label": "Half-Orc", "value": "halforc"},
+    {"label": "Halfling", "value": "halfling"}
+  ],
+  "name_data": {
+    "all": [
+      {"n":"Aldric Stormhand",    "r":"Human Fighter"},
+      {"n":"Aelindra Moonwhisper","r":"Elf Wizard"},
+      {"n":"Durgin Ironforge",    "r":"Dwarf Cleric"},
+      {"n":"Ruin",                "r":"Tiefling Warlock"},
+      {"n":"Gholvan Kess",        "r":"Half-Orc Barbarian"},
+      {"n":"Milo Goodbarrel",     "r":"Halfling Rogue"},
+      {"n":"Seraphina Drake",     "r":"Human Paladin"},
+      {"n":"Caelyndra",           "r":"High Elf Sorcerer"},
+      {"n":"Thurka Ironback",     "r":"Dwarf Fighter"},
+      {"n":"Silence",             "r":"Tiefling Bard"},
+      {"n":"Dench Skullbreaker",  "r":"Half-Orc Ranger"},
+      {"n":"Andry Tealeaf",       "r":"Halfling Cleric"},
+      {"n":"Valdris Orn",         "r":"Human Mercenary"},
+      {"n":"Zevara",              "r":"Drow Sorcerer"},
+      {"n":"Adrik Stoneback",     "r":"Dwarf Paladin"},
+      {"n":"Hope",                "r":"Tiefling Paladin"},
+      {"n":"Grog Ironhide",       "r":"Half-Orc Warrior"},
+      {"n":"Beau Underhill",      "r":"Halfling Scout"},
+      {"n":"Roland Ashford",      "r":"Human Knight"},
+      {"n":"Bryn Ashwhisper",     "r":"Wood Elf Ranger"},
+      {"n":"Harbek Firemantle",   "r":"Dwarf Ranger"},
+      {"n":"Torment",             "r":"Tiefling Rogue"},
+      {"n":"Urgak the Bold",      "r":"Half-Orc Warrior"},
+      {"n":"Cade Goodcheer",      "r":"Halfling Trickster"}
+    ],
+    "human": [
+      {"n":"Aldric Stormhand",    "r":"Fighter"},
+      {"n":"Seraphina Drake",     "r":"Paladin"},
+      {"n":"Valdris Orn",         "r":"Mercenary"},
+      {"n":"Roland Ashford",      "r":"Knight"},
+      {"n":"Marcus Thornwall",    "r":"Soldier"},
+      {"n":"Elara Brightwood",    "r":"Cleric"},
+      {"n":"Dorian Blackwood",    "r":"Sorcerer"},
+      {"n":"Isolde Fairhaven",    "r":"Bard"},
+      {"n":"Brennan Coldheart",   "r":"Warrior"},
+      {"n":"Mira Duskfall",       "r":"Assassin"},
+      {"n":"Conrad Steelbrow",    "r":"Guard Captain"},
+      {"n":"Petra Goldthorn",     "r":"Merchant"},
+      {"n":"Edmund Ravenscar",    "r":"Noble"},
+      {"n":"Lyra Swiftwind",      "r":"Scout"},
+      {"n":"Gareth Coldwater",    "r":"Ranger"},
+      {"n":"Vesper Ashgate",      "r":"Spy"}
+    ],
+    "elf": [
+      {"n":"Aelindra Moonwhisper","r":"High Elf Wizard"},
+      {"n":"Caelyndra",           "r":"High Elf Sorcerer"},
+      {"n":"Bryn Ashwhisper",     "r":"Wood Elf Ranger"},
+      {"n":"Zevara",              "r":"Drow Sorcerer"},
+      {"n":"Erevan Swiftbough",   "r":"Wood Elf Scout"},
+      {"n":"Mindartis",           "r":"High Elf Arcanist"},
+      {"n":"Anastrianna",         "r":"High Elf Noble"},
+      {"n":"Caelynn",             "r":"Wood Elf Druid"},
+      {"n":"Thalindra",           "r":"High Elf Mage"},
+      {"n":"Viconia",             "r":"Drow Cleric"},
+      {"n":"Solaufein",           "r":"Drow Warrior"},
+      {"n":"Adran Dawnleaf",      "r":"High Elf Sage"},
+      {"n":"Lia Silverbow",       "r":"Wood Elf Archer"},
+      {"n":"Naeris Starfall",     "r":"Moon Elf Bard"},
+      {"n":"Sylvara Moonpetal",   "r":"High Elf Wizard"},
+      {"n":"Zarith Thornweave",   "r":"Wood Elf Ranger"}
+    ],
+    "dwarf": [
+      {"n":"Durgin Ironforge",    "r":"Cleric"},
+      {"n":"Thurka Ironback",     "r":"Fighter"},
+      {"n":"Adrik Stoneback",     "r":"Paladin"},
+      {"n":"Harbek Firemantle",   "r":"Ranger"},
+      {"n":"Bruenor Battlehammer","r":"Warlord"},
+      {"n":"Thorin Oakenshield",  "r":"King"},
+      {"n":"Marta Goldvein",      "r":"Merchant"},
+      {"n":"Helga Ironbraids",    "r":"Shield Maiden"},
+      {"n":"Bofri Coalborn",      "r":"Smith"},
+      {"n":"Dolgrin Hammerfall",  "r":"Runekeeper"},
+      {"n":"Ulfgar Deepdelver",   "r":"Miner"},
+      {"n":"Kildrak Forgeheart",  "r":"Weaponsmith"},
+      {"n":"Torga Ironsoul",      "r":"Priestess"},
+      {"n":"Veit Stonecrown",     "r":"Elder"},
+      {"n":"Bromdar Ashpick",     "r":"Tunnelguard"},
+      {"n":"Sigrun Clankeeper",   "r":"Loremaster"}
+    ],
+    "tiefling": [
+      {"n":"Ruin",                "r":"Warlock"},
+      {"n":"Silence",             "r":"Bard"},
+      {"n":"Hope",                "r":"Paladin"},
+      {"n":"Torment",             "r":"Rogue"},
+      {"n":"Despair",             "r":"Sorcerer"},
+      {"n":"Art",                 "r":"Wizard"},
+      {"n":"Fear",                "r":"Dark Priest"},
+      {"n":"Shadow",              "r":"Assassin"},
+      {"n":"Akmenos",             "r":"Infernal Mage"},
+      {"n":"Kairon",              "r":"Devil's Advocate"},
+      {"n":"Morthos",             "r":"Void Caller"},
+      {"n":"Malachar Voss",       "r":"Dark Sorcerer"},
+      {"n":"Nyxara Blackthorn",   "r":"Witch"},
+      {"n":"Zarael Thornmane",    "r":"Hexblade"},
+      {"n":"Carix Emberveil",     "r":"Fire Caller"},
+      {"n":"Dread",               "r":"Dark Knight"}
+    ],
+    "halforc": [
+      {"n":"Gholvan Kess",        "r":"Barbarian"},
+      {"n":"Dench Skullbreaker",  "r":"Ranger"},
+      {"n":"Urgak the Bold",      "r":"Warrior"},
+      {"n":"Grog Ironhide",       "r":"Fighter"},
+      {"n":"Feng Bloodtusk",      "r":"Berserker"},
+      {"n":"Holg Stonecrusher",   "r":"Pit Champion"},
+      {"n":"Henk Blackmane",      "r":"Scout"},
+      {"n":"Gell Warborn",        "r":"Warlord"},
+      {"n":"Varg Ironhide",       "r":"Mercenary"},
+      {"n":"Borga Ironskull",     "r":"Warchief"},
+      {"n":"Morka Snagtooth",     "r":"Shaman"},
+      {"n":"Ghasha Blackmane",    "r":"Huntress"},
+      {"n":"Murgash Coldblood",   "r":"Tracker"},
+      {"n":"Vressa Stormhide",    "r":"Witch Doctor"},
+      {"n":"Skaara Wolfborn",     "r":"Pack Leader"},
+      {"n":"Thrak Bonesnap",      "r":"Enforcer"}
+    ],
+    "halfling": [
+      {"n":"Milo Goodbarrel",     "r":"Rogue"},
+      {"n":"Andry Tealeaf",       "r":"Cleric"},
+      {"n":"Beau Underhill",      "r":"Scout"},
+      {"n":"Cade Goodcheer",      "r":"Trickster"},
+      {"n":"Garret Thornfoot",    "r":"Wanderer"},
+      {"n":"Lyle Burrows",        "r":"Thief"},
+      {"n":"Daisy Chubb",         "r":"Healer"},
+      {"n":"Rosie Goodbarrel",    "r":"Cook"},
+      {"n":"Finn Bucklebury",     "r":"Merchant"},
+      {"n":"Nori Underbough",     "r":"Pickpocket"},
+      {"n":"Perrin Goldenrod",    "r":"Farmer Hero"},
+      {"n":"Esme Warmhearth",     "r":"Innkeeper"},
+      {"n":"Tobias Cottonfoot",   "r":"Wizard"},
+      {"n":"Pip Thistlewick",     "r":"Bard"},
+      {"n":"Willa Downcroft",     "r":"Herbalist"},
+      {"n":"Largo Copperpot",     "r":"Alchemist"}
+    ]
+  },
+  "related_chips": [
+    {"label": "Elf Names",       "url": "elf-name-generator.html"},
+    {"label": "Dwarf Names",     "url": "dwarf-name-generator.html"},
+    {"label": "Tiefling Names",  "url": "tiefling-name-generator.html"},
+    {"label": "Orc Names",       "url": "orc-name-generator.html"},
+    {"label": "Villain Names",   "url": "villain-name-generator.html"},
+    {"label": "Kingdom Names",   "url": "kingdom-name-generator.html"},
+    {"label": "Tavern Names",    "url": "tavern-name-generator.html"}
+  ],
+  "sidebar_links": [
+    {"label": "Elf Name Generator",      "url": "elf-name-generator.html"},
+    {"label": "Dwarf Name Generator",    "url": "dwarf-name-generator.html"},
+    {"label": "Tiefling Name Generator", "url": "tiefling-name-generator.html"},
+    {"label": "Orc Name Generator",      "url": "orc-name-generator.html"},
+    {"label": "Goblin Name Generator",   "url": "goblin-name-generator.html"},
+    {"label": "Dark Elf Names",          "url": "dark-elf-name-generator.html"}
+  ],
+  "sidebar_tips": [
+    "Pick your character's cultural region before choosing a name — human naming varies more by culture than any other race in D&D 5e",
+    "Test your name out loud before committing — if six syllables feel awkward to say, your table will shorten it anyway",
+    "Tiefling virtue names work best when they create contrast — a tiefling paladin named Despair carries more weight than one named Kairon",
+    "Dwarven clan names are as important as given names in lore — a dwarf without a clan name is a dwarf with a story behind that absence",
+    "Elven names often have meanings in Elvish — build from established roots and let your DM know what it means for instant depth"
+  ],
+  "sidebar_pro_tip": "The most functional D&D name is one your Dungeon Master can pronounce correctly on the first try without asking you to spell it.",
+  "seo_article": "<h2>How to Name a D&D Character That Actually Fits the Lore</h2><p>Most D&D players pick a name the same way they pick a pizza topping: fast, without much thought, and mildly regretful later. A name should carry weight before the character ever speaks. It should tell your table something about where the character came from, what language shaped their tongue, and what history their parents lived through.</p><p>The D&D 5e Player's Handbook gives each race its own naming section for a reason. Those conventions are not decoration. They are compressed worldbuilding. A name like <strong>Astarion</strong> signals elven refinement immediately. A name like <strong>Grog</strong> signals something else entirely. Both are right for their characters. Neither is accidental.</p><h2>Naming Conventions by Race</h2><h3>Human Names</h3><p>Humans in D&D pull from a wider phonetic range than any other race. The Player's Handbook structures human names by culture: Calishite names use soft consonants and open vowels, Turami names carry Italian and Portuguese weight, Rashemi names run harsh and short. The pattern is deliberate borrowing from real-world linguistic families.</p><p>A Calishite human sounds like <strong>Aseir</strong> or <strong>Meiliki</strong>. A Turami sounds like <strong>Borivik</strong> or <strong>Volode</strong>. Pick a cultural region first, then let the phonetics follow. Generic fantasy syllable-stacking gives you names that belong to no one.</p><h3>Elf Names</h3><p>Elven naming runs on liquid consonants and long vowel clusters. The sounds favor <em>l</em>, <em>r</em>, <em>v</em>, and <em>th</em>. Syllables flow rather than stop. A hard <em>k</em> or <em>g</em> in an elven name tends to mark a character with unusual heritage or a name adopted from another culture.</p><p>Common High Elf names from the Player's Handbook include <strong>Adran</strong>, <strong>Erevan</strong>, and <strong>Mindartis</strong> for males and <strong>Anastrianna</strong>, <strong>Caelynn</strong>, and <strong>Lia</strong> for females. Wood elf names follow the same phonetics but tend shorter. Drow names carry harder edges: <strong>Drizzt</strong>, <strong>Viconia</strong>, <strong>Solaufein</strong>.</p><h3>Dwarf Names</h3><p>Dwarf names are built on clusters of consonants that feel like stone hitting stone. Hard stops dominate: <em>k</em>, <em>g</em>, <em>d</em>, <em>th</em>, <em>r</em>. Vowels are short and functional. Nothing about a dwarf name lingers.</p><p>The Player's Handbook lists clan names separately from given names because dwarves treat both as identity. A dwarf introduces both. <strong>Bruenor Battlehammer</strong> is the model. Given names like <strong>Adrik</strong>, <strong>Harbek</strong>, and <strong>Thorin</strong> follow the same hard-consonant logic. Clan names often reference terrain or profession: Ironforge, Stoneback, Firemantle.</p><h3>Tiefling Names</h3><p>Tieflings use two naming conventions that run parallel. Some tieflings take Infernal names with demonic phonetics: <strong>Akmenos</strong>, <strong>Kairon</strong>, <strong>Morthos</strong>. Others take virtue names as a form of aspiration or defiance: <strong>Art</strong>, <strong>Fear</strong>, <strong>Hope</strong>, <strong>Torment</strong>, <strong>Despair</strong>.</p><p>Virtue names are the more interesting design choice. A tiefling named <strong>Silence</strong> or <strong>Ruin</strong> has already told the table something about their psychology. The name is a statement. Infernal names require more table explanation to land with the same weight.</p><h3>Half-Orc Names</h3><p>Half-orc names reflect the duality of their heritage. Orc phonetics run guttural: <em>g</em>, <em>k</em>, <em>r</em>, <em>gr</em>. Human phonetics soften the edges. A half-orc name often sits in between, carrying recognizable consonants from both traditions.</p><p>The Player's Handbook gives examples like <strong>Dench</strong>, <strong>Feng</strong>, <strong>Gell</strong>, <strong>Henk</strong>, <strong>Holg</strong>. Short, functional, built to be said loudly. Half-orcs who grew up in human settlements often carry human names but adopt an orc surname as reclamation.</p><h3>Halfling Names</h3><p>Halfling names are deliberately warm and domestic. The phonetics favor soft consonants and diminutives: <em>b</em>, <em>m</em>, <em>f</em>, <em>w</em>. Names like <strong>Andry</strong>, <strong>Beau</strong>, <strong>Cade</strong>, <strong>Milo</strong> sit in the same phonetic register as hobbit names, which is not a coincidence. Halfling family names reference food, luck, or pleasant things: <strong>Goodbarrel</strong>, <strong>Underhill</strong>, <strong>Tealeaf</strong>.</p><h2>D&amp;D Name Conventions in Baldur's Gate 3</h2><p>Baldur's Gate 3 pushed D&amp;D naming into mainstream visibility. Larian Studios built their origin characters with names that follow Player's Handbook conventions closely enough to feel authentic but are distinct enough to be memorable outside the game.</p><p><strong>Shadowheart</strong> is not a name from any racial convention table. It is a constructed identity, which is exactly what her backstory requires. <strong>Gale</strong> sits in the human naming tradition. <strong>Lae'zel</strong> carries githyanki phonetics with hard stops and apostrophe breaks. BG3 demonstrated that a well-named character does not need to be lore-perfect. It needs to feel consistent with the fiction around it.</p><h2>Pathfinder Crossover Naming</h2><p>Pathfinder and D&amp;D 5e share enough DNA that many naming conventions cross cleanly. Pathfinder's Golarion setting uses similar racial phonetics for elves, dwarves, and halflings. Tieflings in Pathfinder 2e follow the same virtue name tradition. The clearest divergence is in human naming — D&amp;D names reference Forgotten Realms cultures while Pathfinder names reference Golarion nations.</p><h2>Example Names by Race and Role</h2><table><thead><tr><th>Race</th><th>Example Name</th><th>Role / Class</th></tr></thead><tbody><tr><td>Human</td><td>Valdris Orn</td><td>Fighter, Mercenary Background</td></tr><tr><td>High Elf</td><td>Caelyndra</td><td>Wizard, Sage Background</td></tr><tr><td>Dwarf</td><td>Thurka Ironback</td><td>Cleric, Guild Artisan</td></tr><tr><td>Tiefling</td><td>Ruin</td><td>Warlock, Charlatan Background</td></tr><tr><td>Half-Orc</td><td>Gholvan Kess</td><td>Barbarian, Outlander Background</td></tr><tr><td>Halfling</td><td>Milo Goodbarrel</td><td>Rogue, Urchin Background</td></tr><tr><td>Wood Elf</td><td>Bryn Ashwhisper</td><td>Ranger, Hermit Background</td></tr><tr><td>Drow</td><td>Zevara</td><td>Sorcerer, Noble Background</td></tr></tbody></table><h2>What Makes a Name Actually Work at the Table</h2><p>A D&amp;D name needs to survive being said out loud by six people across thirty sessions. Spelling complexity that looks good on a character sheet becomes a liability when your DM has to pronounce it in the middle of a tense moment. Two to three syllables is the practical ceiling for most table play.</p><p>The best character names suggest backstory without explaining it. <strong>Brokenspear</strong> as a surname asks a question. <strong>Mirella the Grey</strong> implies a history. Names that do work before the character opens their mouth give your DM material to use. That is the real standard.</p>",
+  "faq_items": [
+    {
+      "q": "What are the naming conventions for elves in D&D 5e?",
+      "a": "Elven names in D&D 5e favor liquid consonants like l, r, v, and th, with flowing vowel clusters and few hard stops. High elf names tend to run longer, while wood elf names are shorter versions of the same phonetic pattern. Drow names follow elven phonetics but incorporate harder sounds like z and vi to signal their Underdark origins."
+    },
+    {
+      "q": "How do Baldur's Gate 3 character names compare to official D&D naming conventions?",
+      "a": "BG3 origin characters follow D&D racial naming conventions closely but prioritize memorability. Lae'zel uses githyanki phonetics with hard consonants and apostrophe breaks. Shadowheart is a constructed identity that serves her backstory rather than a traditional human name. Larian treated the naming conventions as a foundation, not a strict rule."
+    },
+    {
+      "q": "How long should a D&D character name be?",
+      "a": "Two to three syllables works best for table play. Names get repeated across dozens of sessions by multiple players, so anything longer tends to get shortened or mispronounced. Elven names can stretch to four syllables while remaining playable. A complex surname adds personality without burdening the given name."
+    },
+    {
+      "q": "What are tiefling virtue names and how do they work?",
+      "a": "Tiefling virtue names are abstract concepts taken as personal names, often chosen by the tiefling themselves rather than given at birth. Examples from the Player's Handbook include Art, Fear, Hope, Torment, and Despair. They function as either aspiration or self-definition, and some tieflings choose names that reflect what they want to become, while others choose names that reflect what they have survived."
+    },
+    {
+      "q": "How do half-orc names blend human and orc phonetics?",
+      "a": "Half-orc names typically carry orc phonetics in their given name, short with hard consonants like g, k, and r, while sometimes adopting a human surname when raised in human settlements. The reverse is also common: a human given name with an orc clan name as a surname. The Player's Handbook lists examples like Dench, Feng, Holg, and Henk."
+    },
+    {
+      "q": "How accurate are D&D name generators compared to official Player's Handbook names?",
+      "a": "A good D&D name generator applies the same racial phonetic rules the Player's Handbook uses rather than random syllable combinations. RuneForge uses a seeded remix engine that generates names consistent with each race's established sound patterns. The output will not match official names exactly, which is the point since player character names should be unique."
+    },
+    {
+      "q": "Can I use D&D 5e names in Pathfinder or other TTRPG systems?",
+      "a": "Most D&D racial naming conventions transfer cleanly to Pathfinder 2e, since both systems draw from similar fantasy naming traditions for elves, dwarves, and halflings. Human names require more care since D&D names reference Forgotten Realms cultures while Pathfinder names reference Golarion nations. For non-human races, names from either system are largely interchangeable."
+    }
+  ],
+  "footer_links": [
+    {"label": "Villain Names",    "url": "villain-name-generator.html"},
+    {"label": "Elf Names",        "url": "elf-name-generator.html"},
+    {"label": "Dwarf Names",      "url": "dwarf-name-generator.html"},
+    {"label": "Orc Names",        "url": "orc-name-generator.html"},
+    {"label": "Tiefling Names",   "url": "tiefling-name-generator.html"},
+    {"label": "Goblin Names",     "url": "goblin-name-generator.html"},
+    {"label": "Dark Elf Names",   "url": "dark-elf-name-generator.html"},
+    {"label": "Kingdom Names",    "url": "kingdom-name-generator.html"},
+    {"label": "Tavern Names",     "url": "tavern-name-generator.html"},
+    {"label": "Alien Names",      "url": "alien-name-generator.html"}
+  ],
+  "tools_js_entry": {
+    "id": "dnd-name-generator",
+    "name": "D&D Name Generator",
+    "desc": "Authentic D&D names for every race — humans, elves, dwarves, tieflings, half-orcs, and halflings. Built for D&D 5e and BG3.",
+    "category": "names",
+    "tags": ["dnd", "d&d", "5e", "bg3", "pathfinder"],
+    "icon": "<path d='M12 2l9 4.9V17L12 22l-9-4.9V6.9z'/>",
+    "url": "dnd-name-generator.html",
+    "volume": 3600,
+    "kd": 35,
+    "featured": true
+  },
+  "sitemap_priority": "0.9"
 }
 ]
 
