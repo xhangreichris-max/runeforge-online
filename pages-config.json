@@ -2622,6 +2622,3193 @@
     "featured": true
   },
   "sitemap_priority": "0.9"
-}
+},
+ [
+  {
+    "id": "bg3-name-generator",
+    "page_name": "BG3 Name Generator",
+    "meta_title": "BG3 Name Generator — Baldur's Gate 3 Character Names | RuneForge",
+    "meta_desc": "Generate authentic Baldur's Gate 3 character names following Larian's naming logic for humans, elves, githyanki, tieflings, and drow. Free BG3 custom Tav name generator.",
+    "og_title": "BG3 Name Generator — Baldur's Gate 3 Names | RuneForge",
+    "h1_text": "A name that carries race, history, and power in two syllables.",
+    "hero_sub": "Generate Baldur's Gate 3 character names built on Larian's actual naming logic — for custom Tavs, Durges, and tabletop conversions.",
+    "hero_bg": "hero-bg-dnd.webp",
+    "eyebrow_text": "BG3 Name Generator",
+    "howto_step1": "Select All, Human, Elf, Githyanki, Tiefling, or Drow from the filter buttons.",
+    "breadcrumb_category_name": "Name Generators",
+    "breadcrumb_category_id": "names",
+    "filters": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Human",
+        "value": "human"
+      },
+      {
+        "label": "Elf",
+        "value": "elf"
+      },
+      {
+        "label": "Githyanki",
+        "value": "githyanki"
+      },
+      {
+        "label": "Tiefling",
+        "value": "tiefling"
+      },
+      {
+        "label": "Drow",
+        "value": "drow"
+      }
+    ],
+    "name_data": {
+      "all": [
+        {
+          "n": "Asterivel",
+          "r": "High Elf Vampire"
+        },
+        {
+          "n": "Galethorn",
+          "r": "Human Wizard"
+        },
+        {
+          "n": "Vlae'zithra",
+          "r": "Githyanki Fighter"
+        },
+        {
+          "n": "Duskheart",
+          "r": "Human Cleric"
+        },
+        {
+          "n": "Karthrax",
+          "r": "Half-Orc Barbarian"
+        },
+        {
+          "n": "Halsivor",
+          "r": "Wood Elf Druid"
+        },
+        {
+          "n": "Minzarra",
+          "r": "Drow Paladin"
+        },
+        {
+          "n": "Wyllston",
+          "r": "Human Warlock"
+        },
+        {
+          "n": "Zek'lathar",
+          "r": "Githyanki Mage"
+        },
+        {
+          "n": "Astheris",
+          "r": "High Elf Rogue"
+        },
+        {
+          "n": "Mordrath",
+          "r": "Tiefling Sorcerer"
+        },
+        {
+          "n": "Ravenheart",
+          "r": "Human Paladin"
+        },
+        {
+          "n": "Sylvenel",
+          "r": "Wood Elf Ranger"
+        },
+        {
+          "n": "Vex'thorrak",
+          "r": "Githyanki Warrior"
+        },
+        {
+          "n": "Nyxara",
+          "r": "Drow Warlock"
+        },
+        {
+          "n": "Torment",
+          "r": "Tiefling Bard"
+        },
+        {
+          "n": "Lorath Vael",
+          "r": "Human Bard"
+        },
+        {
+          "n": "Faelindra",
+          "r": "High Elf Cleric"
+        },
+        {
+          "n": "Kethrazor",
+          "r": "Half-Orc Fighter"
+        },
+        {
+          "n": "Zarithel",
+          "r": "Drow Sorcerer"
+        }
+      ],
+      "human": [
+        {
+          "n": "Galethorn",
+          "r": "Wizard"
+        },
+        {
+          "n": "Duskheart",
+          "r": "Cleric"
+        },
+        {
+          "n": "Wyllston",
+          "r": "Warlock"
+        },
+        {
+          "n": "Ravenheart",
+          "r": "Paladin"
+        },
+        {
+          "n": "Lorath Vael",
+          "r": "Bard"
+        },
+        {
+          "n": "Brenley Ash",
+          "r": "Fighter"
+        },
+        {
+          "n": "Cassian Voss",
+          "r": "Rogue"
+        },
+        {
+          "n": "Maerwyn Dale",
+          "r": "Druid"
+        },
+        {
+          "n": "Tordek Vane",
+          "r": "Barbarian"
+        },
+        {
+          "n": "Selene Ashford",
+          "r": "Sorcerer"
+        },
+        {
+          "n": "Corwin Blackwell",
+          "r": "Monk"
+        },
+        {
+          "n": "Isolde Graves",
+          "r": "Cleric"
+        }
+      ],
+      "elf": [
+        {
+          "n": "Asterivel",
+          "r": "High Elf Vampire"
+        },
+        {
+          "n": "Halsivor",
+          "r": "Wood Elf Druid"
+        },
+        {
+          "n": "Astheris",
+          "r": "High Elf Rogue"
+        },
+        {
+          "n": "Sylvenel",
+          "r": "Wood Elf Ranger"
+        },
+        {
+          "n": "Faelindra",
+          "r": "High Elf Cleric"
+        },
+        {
+          "n": "Erevithar",
+          "r": "High Elf Wizard"
+        },
+        {
+          "n": "Brynwood",
+          "r": "Wood Elf Scout"
+        },
+        {
+          "n": "Caelynthe",
+          "r": "High Elf Sorcerer"
+        },
+        {
+          "n": "Thalindor",
+          "r": "Wood Elf Druid"
+        },
+        {
+          "n": "Liraveth",
+          "r": "High Elf Bard"
+        },
+        {
+          "n": "Naerith",
+          "r": "Wood Elf Ranger"
+        },
+        {
+          "n": "Vaelindra",
+          "r": "High Elf Cleric"
+        }
+      ],
+      "githyanki": [
+        {
+          "n": "Vlae'zithra",
+          "r": "Fighter"
+        },
+        {
+          "n": "Zek'lathar",
+          "r": "Mage"
+        },
+        {
+          "n": "Vex'thorrak",
+          "r": "Warrior"
+        },
+        {
+          "n": "Kael'vorath",
+          "r": "Knight"
+        },
+        {
+          "n": "Zyr'kethal",
+          "r": "Battlemind"
+        },
+        {
+          "n": "Thar'nuvex",
+          "r": "Inquisitor"
+        },
+        {
+          "n": "Vol'kraeth",
+          "r": "Sword Master"
+        },
+        {
+          "n": "Zel'thrakos",
+          "r": "War Caller"
+        },
+        {
+          "n": "Kael'zithren",
+          "r": "Astral Hunter"
+        },
+        {
+          "n": "Vor'thelith",
+          "r": "Red Dragon Rider"
+        }
+      ],
+      "tiefling": [
+        {
+          "n": "Mordrath",
+          "r": "Sorcerer"
+        },
+        {
+          "n": "Torment",
+          "r": "Bard"
+        },
+        {
+          "n": "Akmenos Vael",
+          "r": "Warlock"
+        },
+        {
+          "n": "Ruin",
+          "r": "Rogue"
+        },
+        {
+          "n": "Despair",
+          "r": "Wizard"
+        },
+        {
+          "n": "Carix Emberveil",
+          "r": "Fire Caller"
+        },
+        {
+          "n": "Zarael Thorn",
+          "r": "Hexblade"
+        },
+        {
+          "n": "Hope",
+          "r": "Paladin"
+        },
+        {
+          "n": "Vex'mara",
+          "r": "Dark Sorcerer"
+        },
+        {
+          "n": "Silence",
+          "r": "Shadow Monk"
+        }
+      ],
+      "drow": [
+        {
+          "n": "Minzarra",
+          "r": "Paladin"
+        },
+        {
+          "n": "Nyxara",
+          "r": "Warlock"
+        },
+        {
+          "n": "Zarithel",
+          "r": "Sorcerer"
+        },
+        {
+          "n": "Vethraxa",
+          "r": "Assassin"
+        },
+        {
+          "n": "Sylzara",
+          "r": "Priestess"
+        },
+        {
+          "n": "Kethraxis",
+          "r": "Spider Knight"
+        },
+        {
+          "n": "Vael'thiri",
+          "r": "Shadow Mage"
+        },
+        {
+          "n": "Zynthara",
+          "r": "Underdark Queen"
+        },
+        {
+          "n": "Drathmera",
+          "r": "Web Weaver"
+        },
+        {
+          "n": "Velthryss",
+          "r": "Night Stalker"
+        }
+      ]
+    },
+    "related_chips": [
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Tiefling Names",
+        "url": "tiefling-name-generator.html"
+      },
+      {
+        "label": "Dark Elf Names",
+        "url": "dark-elf-name-generator.html"
+      },
+      {
+        "label": "Elf Names",
+        "url": "elf-name-generator.html"
+      },
+      {
+        "label": "Villain Names",
+        "url": "villain-name-generator.html"
+      },
+      {
+        "label": "Vampire Names",
+        "url": "vampire-name-generator.html"
+      }
+    ],
+    "sidebar_links": [
+      {
+        "label": "D&D Name Generator",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Tiefling Name Generator",
+        "url": "tiefling-name-generator.html"
+      },
+      {
+        "label": "Dark Elf Generator",
+        "url": "dark-elf-name-generator.html"
+      },
+      {
+        "label": "Elf Name Generator",
+        "url": "elf-name-generator.html"
+      },
+      {
+        "label": "Vampire Name Generator",
+        "url": "vampire-name-generator.html"
+      },
+      {
+        "label": "Villain Name Generator",
+        "url": "villain-name-generator.html"
+      }
+    ],
+    "sidebar_tips": [
+      "Githyanki names need an apostrophe break to sound authentic, not just for visual flavor",
+      "High elf and drow names share roots but diverge hard on consonant softness — use that contrast deliberately",
+      "Keep custom Tav names under three syllables if you want voiced NPCs to say them cleanly",
+      "Tiefling players choosing a virtue name should pick one that creates tension with their actual alignment",
+      "Human BG3 names work best when they sound grounded, not classically medieval-fantasy generic"
+    ],
+    "sidebar_pro_tip": "Match your custom character's name length to their personality contrast — short names like Gale work best when the character hides depth behind simplicity.",
+    "seo_article": "<h2>BG3 Name Generator: How Larian Built a Naming Language</h2><p>Baldur's Gate 3 changed what people expect from a fantasy name. Astarion, Shadowheart, Lae'zel — these aren't generic RPG filler names. Each one carries race, history, and personality in two or three syllables. That's the bar a good BG3 name generator has to clear.</p><p>This guide breaks down the actual phonetic logic behind every origin character, then shows you how to apply that logic to a custom Tav or Durge.</p><h2>The Origin Characters, Decoded</h2><h3>Shadowheart (Human, Sharran Cleric)</h3><p>Shadowheart reads as a compound virtue name, which is unusual for a human in standard D&D convention. The \"Shadow\" prefix signals her Sharran allegiance before she says a word about it. Larian borrowed this construction from tiefling naming logic and applied it to a human, which is exactly the kind of cross-pollination that makes BG3 names feel fresh instead of textbook.</p><h3>Astarion (High Elf, Vampire Spawn)</h3><p>Astarion has the soft, star-adjacent sound pattern common in high elf names — think Astrid, Aster, Lothar — but the hard consonant ending gives it a cold edge. That edge fits a 200-year-old vampire pretending to be charming. Elven names in 5e usually flow without hard stops. Astarion breaks that rule on purpose.</p><h3>Gale (Human, Wizard)</h3><p>One syllable. That's rare for a spellcaster archetype, where names tend to run long and ornate. Gale's brevity does the opposite work: it makes him sound approachable right up until he starts talking about an orb in his chest. Short names on wizard characters create deliberate contrast.</p><h3>Lae'zel (Githyanki, Fighter)</h3><p>The apostrophe and hard K sound are githyanki signatures. Githyanki names favor clipped, militarized syllables with internal glottal stops, mirroring a culture built entirely around war and discipline under the Astral Plane's red dragon empire. Vlaakith, Lae'zel, Zerthimon — all follow this pattern. If you're naming a githyanki character, the apostrophe isn't decoration. It represents an actual phonetic break in how the name is spoken.</p><h3>Wyll (Human, Warlock)</h3><p>Wyll is a deliberately plain name for a character whose entire arc is about hidden depth versus public persona. The simplicity is the point. Compare it to his warlock patron's far more theatrical title, and the contrast becomes the character study.</p><h3>Karlach (Barbarian)</h3><p>Karlach lands hard on the ear. The \"K\" opening and \"ch\" closing give it weight without making it sound monstrous. It's a name built to be shouted across a battlefield, which fits a barbarian who spent a decade in the Nine Hells fighting for Zariel.</p><h3>Halsin (Wood Elf, Druid)</h3><p>Halsin softens the typical elven name pattern into something earthier. Fewer liquid consonants than a high elf name like Aerindel, more rounded vowels. The effect matches a druid who's spent a century in animal form more than in elven society.</p><h3>Minthara (Drow, Paladin then Warlock)</h3><p>Minthara follows drow convention closely: sharp consonants, a name that sounds carved rather than spoken softly. Compare it to a high elf name and the divergence is obvious. Drow names trade flow for edge.</p><h2>Naming Conventions by Race in BG3</h2><p>Human names in BG3 borrow loosely from real-world roots but get filtered through Forgotten Realms convention, so they sound grounded rather than generic medieval. Elven names split clearly by subrace: high elves get longer, vowel-rich constructions, wood elves get shortened and earthier versions of the same root sounds, and drow sharpen everything into hard stops. Githyanki names are the most mechanically distinct in the whole game, built around clipped syllables and apostrophe breaks that represent real phonetic stops. Tiefling names in BG3 follow the same virtue-or-Infernal split as standard 5e, though Larian leans harder into the virtue side for player-facing characters.</p><h2>Custom Character Naming Tips</h2><p>Pick your race's phonetic anchor before generating anything. Githyanki: hard consonants and apostrophes. High elf: flowing liquids. Drow: sharp edges with no softness. Tiefling: decide if your character embraces or rejects their heritage, since that decision determines whether you're picking an Infernal name or a virtue name. Keep custom Tav names under three syllables if you want NPCs to say them naturally in dialogue — BG3's voiced lines get clipped on longer names more often than you'd expect.</p><h2>BG3 Names vs Standard D&D 5e Names</h2><table><thead><tr><th>Race</th><th>BG3-Style Name</th><th>Standard 5e Name</th></tr></thead><tbody><tr><td>High Elf</td><td>Astarion</td><td>Aerindel</td></tr><tr><td>Human</td><td>Gale</td><td>Aldric</td></tr><tr><td>Drow</td><td>Minthara</td><td>Zaknafein</td></tr><tr><td>Githyanki</td><td>Lae'zel</td><td>(rare in core 5e)</td></tr><tr><td>Tiefling</td><td>Shadowheart</td><td>Mordai</td></tr></tbody></table><p>The core difference: BG3 names trend shorter and punchier for voice-acting purposes, while standard 5e Player's Handbook names lean longer and more lore-dense since they're read, not spoken aloud by a cast.</p>",
+    "faq_items": [
+      {
+        "q": "What are the BG3 origin character names and what do they mean?",
+        "a": "The eight origin characters are Shadowheart, Astarion, Gale, Lae'zel, Wyll, Karlach, Halsin, and Minthara. Each name encodes race and personality: Lae'zel's apostrophe signals githyanki militarism, Astarion's soft-to-hard sound shift mirrors his elf-to-vampire duality, and Shadowheart's compound structure borrows tiefling virtue-naming logic applied to a human character."
+      },
+      {
+        "q": "How do I name a custom Tav in BG3?",
+        "a": "Start with your race's phonetic pattern. High elves favor flowing liquid consonants, drow favor hard edges, githyanki use clipped syllables with apostrophe breaks, and tieflings choose between Infernal heritage names or virtue names. Keep it under three syllables so in-game dialogue doesn't clip it awkwardly."
+      },
+      {
+        "q": "Are BG3 names different from standard D&D 5e names?",
+        "a": "Yes. BG3 names trend shorter and more voice-friendly since they're spoken by a full voice cast, while Player's Handbook names tend to run longer and more lore-dense since players mostly read them rather than hear them performed."
+      },
+      {
+        "q": "Why does Lae'zel's name have an apostrophe?",
+        "a": "The apostrophe represents an actual phonetic break in githyanki speech, not decorative punctuation. Githyanki naming convention favors hard consonants and internal glottal stops, reflecting a culture organized entirely around military discipline."
+      },
+      {
+        "q": "What naming pattern do drow characters follow in BG3?",
+        "a": "Drow names favor sharp consonants and minimal vowel softness compared to other elf subraces. Minthara is a clear example: the name reads as carved rather than flowing, which sets it apart from a high elf name like Astarion or a wood elf name like Halsin."
+      },
+      {
+        "q": "Can I use a BG3 name generator for tabletop D&D characters?",
+        "a": "Yes, BG3 naming conventions translate directly to tabletop since the game is built on D&D 5e rules. A generator trained on BG3 phonetic patterns produces names that work equally well at a physical table, especially for human, elf, tiefling, and half-orc characters."
+      },
+      {
+        "q": "How do tiefling names work in Baldur's Gate 3?",
+        "a": "BG3 tieflings follow the same dual system as standard 5e: Infernal heritage names like Mordai or Akmenos, or self-chosen virtue names. Shadowheart's name structure borrows from this virtue tradition even though she's human, showing how Larian blended naming conventions across races."
+      }
+    ],
+    "footer_links": [
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Villain Names",
+        "url": "villain-name-generator.html"
+      },
+      {
+        "label": "Elf Names",
+        "url": "elf-name-generator.html"
+      },
+      {
+        "label": "Dark Elf Names",
+        "url": "dark-elf-name-generator.html"
+      },
+      {
+        "label": "Tiefling Names",
+        "url": "tiefling-name-generator.html"
+      },
+      {
+        "label": "Vampire Names",
+        "url": "vampire-name-generator.html"
+      },
+      {
+        "label": "Orc Names",
+        "url": "orc-name-generator.html"
+      },
+      {
+        "label": "Kingdom Names",
+        "url": "kingdom-name-generator.html"
+      },
+      {
+        "label": "Goblin Names",
+        "url": "goblin-name-generator.html"
+      },
+      {
+        "label": "Mage Names",
+        "url": "mage-name-generator.html"
+      }
+    ],
+    "tools_js_entry": {
+      "id": "bg3-name-generator",
+      "name": "BG3 Name Generator",
+      "desc": "Authentic Baldur's Gate 3 character names built on Larian's naming logic — for custom Tavs, Durges, and tabletop conversions.",
+      "category": "names",
+      "tags": [
+        "bg3",
+        "baldurs gate",
+        "larian",
+        "dnd"
+      ],
+      "icon": "<path d='M12 2l9 4.9V17L12 22l-9-4.9V6.9z'/>",
+      "url": "bg3-name-generator.html",
+      "volume": 720,
+      "kd": 18,
+      "featured": false
+    },
+    "sitemap_priority": "0.8"
+  },
+  {
+    "id": "mythical-creature-generator",
+    "page_name": "Mythical Creature Generator",
+    "meta_title": "Mythical Creature Generator — Dragon, Griffin & Phoenix Names | RuneForge",
+    "meta_desc": "Generate mythical creature names for dragons, griffins, phoenixes, wyverns, and hydras. Free name generator rooted in Greek, Norse, and Eastern mythology for D&D and fantasy worldbuilding.",
+    "og_title": "Mythical Creature Generator — RuneForge",
+    "h1_text": "A dragon named Fred doesn't work. Names that are forged, not picked.",
+    "hero_sub": "Generate mythical creature names rooted in real-world mythology — dragons, griffins, phoenixes, wyverns, and hydras for D&D and fantasy worlds.",
+    "hero_bg": "hero-bg-forest.webp",
+    "eyebrow_text": "Mythical Creature Generator",
+    "howto_step1": "Select All, Dragon, Griffin, Phoenix, Wyvern, or Hydra from the filter buttons.",
+    "breadcrumb_category_name": "Creature Generators",
+    "breadcrumb_category_id": "creatures",
+    "filters": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Dragon",
+        "value": "dragon"
+      },
+      {
+        "label": "Griffin",
+        "value": "griffin"
+      },
+      {
+        "label": "Phoenix",
+        "value": "phoenix"
+      },
+      {
+        "label": "Wyvern",
+        "value": "wyvern"
+      },
+      {
+        "label": "Hydra",
+        "value": "hydra"
+      }
+    ],
+    "name_data": {
+      "all": [
+        {
+          "n": "Drevnir",
+          "r": "Ancient Hoard Dragon"
+        },
+        {
+          "n": "Ryukai",
+          "r": "Eastern Storm Dragon"
+        },
+        {
+          "n": "Gryphus Vael",
+          "r": "Treasure Guardian"
+        },
+        {
+          "n": "Bennura",
+          "r": "Rebirth Phoenix"
+        },
+        {
+          "n": "Skarnoth",
+          "r": "Mountain Wyvern"
+        },
+        {
+          "n": "Hessandra",
+          "r": "Lernaean Hydra"
+        },
+        {
+          "n": "Fafnirex",
+          "r": "Gold Hoard Dragon"
+        },
+        {
+          "n": "Qinglorn",
+          "r": "Wise Water Spirit"
+        },
+        {
+          "n": "Korvane",
+          "r": "Sky Sentinel"
+        },
+        {
+          "n": "Huma Asha",
+          "r": "Eternal Flame Bird"
+        },
+        {
+          "n": "Vrexthal",
+          "r": "Cliff Wyvern"
+        },
+        {
+          "n": "Tharassis",
+          "r": "Nine-Headed Serpent"
+        },
+        {
+          "n": "Smaugareth",
+          "r": "Village Terror Dragon"
+        },
+        {
+          "n": "Ryujinkai",
+          "r": "River Dragon Spirit"
+        },
+        {
+          "n": "Aetolus",
+          "r": "Lion-Eagle Guardian"
+        },
+        {
+          "n": "Phoenikara",
+          "r": "Cyclical Flame Spirit"
+        },
+        {
+          "n": "Skarn",
+          "r": "Lesser Wyvern"
+        },
+        {
+          "n": "Lernaeax",
+          "r": "Regenerating Hydra"
+        },
+        {
+          "n": "Drogonyx",
+          "r": "World-Burning Dragon"
+        },
+        {
+          "n": "Gryphonel",
+          "r": "Noble Sky Guardian"
+        }
+      ],
+      "dragon": [
+        {
+          "n": "Drevnir",
+          "r": "Ancient Hoard Dragon"
+        },
+        {
+          "n": "Ryukai",
+          "r": "Eastern Storm Dragon"
+        },
+        {
+          "n": "Fafnirex",
+          "r": "Gold Hoard Dragon"
+        },
+        {
+          "n": "Qinglorn",
+          "r": "Wise Water Spirit"
+        },
+        {
+          "n": "Smaugareth",
+          "r": "Village Terror Dragon"
+        },
+        {
+          "n": "Ryujinkai",
+          "r": "River Dragon Spirit"
+        },
+        {
+          "n": "Drogonyx",
+          "r": "World-Burning Dragon"
+        },
+        {
+          "n": "Vorgathrax",
+          "r": "Elder Wyrm"
+        },
+        {
+          "n": "Zhenlong",
+          "r": "Mist Dragon"
+        },
+        {
+          "n": "Bahrgoth",
+          "r": "Mountain Sovereign"
+        },
+        {
+          "n": "Tiamaszhar",
+          "r": "Five-Headed Tyrant"
+        },
+        {
+          "n": "Quinjara",
+          "r": "Storm Caller Dragon"
+        }
+      ],
+      "griffin": [
+        {
+          "n": "Gryphus Vael",
+          "r": "Treasure Guardian"
+        },
+        {
+          "n": "Korvane",
+          "r": "Sky Sentinel"
+        },
+        {
+          "n": "Aetolus",
+          "r": "Lion-Eagle Guardian"
+        },
+        {
+          "n": "Gryphonel",
+          "r": "Noble Sky Guardian"
+        },
+        {
+          "n": "Kaelgryph",
+          "r": "Mountain Watcher"
+        },
+        {
+          "n": "Aurelion Vex",
+          "r": "Royal Aerie Lord"
+        },
+        {
+          "n": "Gorrathos",
+          "r": "Cliffside Predator"
+        },
+        {
+          "n": "Sylgryphax",
+          "r": "Forest Sentinel"
+        },
+        {
+          "n": "Korravex",
+          "r": "Peak Guardian"
+        },
+        {
+          "n": "Theravane",
+          "r": "Storm Wing Lord"
+        }
+      ],
+      "phoenix": [
+        {
+          "n": "Bennura",
+          "r": "Rebirth Phoenix"
+        },
+        {
+          "n": "Huma Asha",
+          "r": "Eternal Flame Bird"
+        },
+        {
+          "n": "Phoenikara",
+          "r": "Cyclical Flame Spirit"
+        },
+        {
+          "n": "Solveia",
+          "r": "Dawn Reborn Bird"
+        },
+        {
+          "n": "Ashvenna",
+          "r": "Ember Renewal Spirit"
+        },
+        {
+          "n": "Pyranthe",
+          "r": "Sun Cycle Bird"
+        },
+        {
+          "n": "Hennuvara",
+          "r": "Sacred Flame Keeper"
+        },
+        {
+          "n": "Solarienne",
+          "r": "Eternal Sun Bird"
+        },
+        {
+          "n": "Vaelora",
+          "r": "Renewal Spirit"
+        },
+        {
+          "n": "Embriel",
+          "r": "Ash Reborn Phoenix"
+        }
+      ],
+      "wyvern": [
+        {
+          "n": "Skarnoth",
+          "r": "Mountain Wyvern"
+        },
+        {
+          "n": "Vrexthal",
+          "r": "Cliff Wyvern"
+        },
+        {
+          "n": "Skarn",
+          "r": "Lesser Wyvern"
+        },
+        {
+          "n": "Tharok",
+          "r": "Crag Predator"
+        },
+        {
+          "n": "Vrexnak",
+          "r": "Swamp Wyvern"
+        },
+        {
+          "n": "Skrathos",
+          "r": "Wasteland Wyvern"
+        },
+        {
+          "n": "Korvexal",
+          "r": "Storm Wyvern"
+        },
+        {
+          "n": "Drazkul",
+          "r": "Bone Pit Wyvern"
+        },
+        {
+          "n": "Vexnathra",
+          "r": "Highland Hunter"
+        },
+        {
+          "n": "Skornveth",
+          "r": "Plague Wyvern"
+        }
+      ],
+      "hydra": [
+        {
+          "n": "Hessandra",
+          "r": "Lernaean Hydra"
+        },
+        {
+          "n": "Tharassis",
+          "r": "Nine-Headed Serpent"
+        },
+        {
+          "n": "Lernaeax",
+          "r": "Regenerating Hydra"
+        },
+        {
+          "n": "Hessathra",
+          "r": "Swamp Hydra"
+        },
+        {
+          "n": "Vyssandra",
+          "r": "Venomous Hydra"
+        },
+        {
+          "n": "Korassyth",
+          "r": "River Hydra"
+        },
+        {
+          "n": "Thessivara",
+          "r": "Many-Headed Terror"
+        },
+        {
+          "n": "Hydressa",
+          "r": "Coiling Doom"
+        },
+        {
+          "n": "Vraxsylia",
+          "r": "Regrowth Beast"
+        },
+        {
+          "n": "Lessandrach",
+          "r": "Ancient Hydra"
+        }
+      ]
+    },
+    "related_chips": [
+      {
+        "label": "Creature Names",
+        "url": "creature-name-generator.html"
+      },
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Villain Names",
+        "url": "villain-name-generator.html"
+      },
+      {
+        "label": "Kingdom Names",
+        "url": "kingdom-name-generator.html"
+      },
+      {
+        "label": "Dungeon Names",
+        "url": "dungeon-name-generator.html"
+      },
+      {
+        "label": "Weapon Names",
+        "url": "weapon-name-generator.html"
+      }
+    ],
+    "sidebar_links": [
+      {
+        "label": "Creature Name Generator",
+        "url": "creature-name-generator.html"
+      },
+      {
+        "label": "D&D Name Generator",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Villain Name Generator",
+        "url": "villain-name-generator.html"
+      },
+      {
+        "label": "Dungeon Name Generator",
+        "url": "dungeon-name-generator.html"
+      },
+      {
+        "label": "Kingdom Name Generator",
+        "url": "kingdom-name-generator.html"
+      },
+      {
+        "label": "Necromancer Names",
+        "url": "necromancer-name-generator.html"
+      }
+    ],
+    "sidebar_tips": [
+      "Match consonant hardness to threat level — hard sounds for monsters, soft sounds for spirits and guardians",
+      "Eastern and Western dragon traditions use opposite phonetic logic — don't mix them in the same creature",
+      "Ancient, world-spanning creatures earn longer, title-style names. Young or lesser creatures don't",
+      "Hydra and serpent-type creatures benefit from repeated or echoing syllables that mirror their physical form",
+      "Phoenix and rebirth creatures should end on open vowel sounds, not hard consonants"
+    ],
+    "sidebar_pro_tip": "Let the creature's narrative role — monster to slay or deity to revere — decide the name's phonetic weight before you pick a single syllable.",
+    "seo_article": "<h2>Mythical Creature Generator: Naming Beasts Across World Mythology</h2><p>A dragon named Fred doesn't work. Neither does a phoenix named Bob. Mythical creatures carry names that sound like they were forged, not picked off a list, and the difference comes down to which cultural naming tradition you're borrowing from.</p><p>This guide breaks down naming conventions for five major creature types across Greek, Norse, and Eastern mythology, then shows how to weight a name to match the creature's size and power level.</p><h2>Dragons</h2><p>Western dragon names lean Germanic and Norse: hard consonants, compound constructions, names that sound like they belong to something that hoards gold and burns villages. Fafnir, Smaug, Drogon. The pattern favors two-syllable punch or longer ceremonial titles for ancient specimens. Eastern dragon naming runs differently. Chinese and Japanese dragon tradition favors flowing, single-word names tied to elements or directions — think Ryujin or Qinglong — reflecting dragons as wise water and weather spirits rather than treasure-hoarding predators. Pick your tradition based on whether your dragon is a monster to be slain or a deity to be respected.</p><h2>Griffins</h2><p>Griffin names in Greek-rooted tradition borrow eagle and lion vocabulary fused together, since the creature itself is a fusion. Names with hard \"G\" or \"K\" openings followed by softer vowel sounds mimic this duality: Gryphus, Korvane, Aetolus. Griffins guard treasure in most myth traditions, so names that sound noble and territorial work better than names that sound feral.</p><h2>Phoenixes</h2><p>Phoenix names skew toward fire and rebirth vocabulary across nearly every tradition that features one — Egyptian Bennu, Persian Huma, Greek Phoenix itself. The phonetic throughline is soft, rising syllables, almost lyrical, since the phoenix is a creature of renewal rather than threat. Names ending in open vowel sounds (a, o) tend to feel more appropriate than names ending in hard consonants.</p><h2>Wyverns</h2><p>Wyverns are the lesser cousins of dragons in most fantasy taxonomy — two legs instead of four, less intelligence, more animal instinct. Their names should reflect that. Shorter, blunter, less ceremonial than full dragon names. Skarn, Vrex, Tharok. Avoid giving a wyvern a long, multi-syllable title-style name — it undercuts the creature's role as a dangerous but lesser threat compared to true dragons.</p><h2>Hydras</h2><p>Hydra names in Greek tradition emphasize multiplicity and repetition, since the creature itself is built on duplication. Names with repeated sounds or syllabic echoes work well: Lernaea, Hessandra — names that feel like they could regrow if cut. The original Lernaean Hydra sets the template: long, hissing, slightly serpentine in pronunciation.</p><h2>Example Mythical Creature Names</h2><table><thead><tr><th>Creature Type</th><th>Tradition</th><th>Example Name</th></tr></thead><tbody><tr><td>Dragon (Western)</td><td>Norse-inspired</td><td>Drevnir</td></tr><tr><td>Dragon (Eastern)</td><td>East Asian-inspired</td><td>Ryukai</td></tr><tr><td>Griffin</td><td>Greek-inspired</td><td>Gryphus Vael</td></tr><tr><td>Phoenix</td><td>Egyptian-inspired</td><td>Bennura</td></tr><tr><td>Wyvern</td><td>Generic fantasy</td><td>Skarnoth</td></tr><tr><td>Hydra</td><td>Greek-inspired</td><td>Hessandra</td></tr></tbody></table><h2>Matching Name Weight to Power Level</h2><p>Name weight should scale with the creature's narrative role. A village-terrorizing wyvern needs a short, blunt name that sounds like a threat you'd shout a warning about. An ancient dragon that's been alive since the world's first age needs a longer, almost ceremonial name, possibly with a title attached, since myth tends to give its oldest and most powerful beings names that function more like honorifics than labels. A phoenix that dies and returns needs a name with soft, cyclical sound qualities that echo its function. Match the syllable count and consonant hardness to the creature's actual role in your story, not just its species.</p><h2>Where These Names Get Used</h2><p>D&D bestiary entries benefit from creature names that sound mythologically grounded rather than randomly generated — it adds texture even to a one-line stat block description. Fantasy novelists use this same logic when introducing a creature that needs to feel ancient on first mention. Tabletop campaigns built around a specific mythological theme — a Norse-inspired homebrew setting, for instance — stay consistent when every creature name pulls from the same cultural root rather than mixing traditions randomly within a single setting.</p>",
+    "faq_items": [
+      {
+        "q": "What's a good name for a fantasy dragon?",
+        "a": "Western-style dragon names favor hard consonants and compound constructions like Drevnir or Fafnir-style names. Eastern dragon names favor flowing, elemental single words like Ryukai or Qinglong. Choose based on whether your dragon is a treasure-hoarding monster or a wise elemental spirit."
+      },
+      {
+        "q": "How do I name a phoenix or rebirth creature?",
+        "a": "Phoenix names work best with soft, rising syllables and open vowel endings, since the creature represents renewal rather than threat. Names rooted in Egyptian (Bennu), Persian (Huma), or Greek tradition all share this lyrical quality."
+      },
+      {
+        "q": "What naming pattern works for griffins?",
+        "a": "Griffin names typically fuse hard opening consonants (G, K) with softer vowel sounds, mirroring the creature's eagle-lion duality. Names that sound noble and territorial fit better than names that sound purely feral, since griffins are traditionally treasure guardians."
+      },
+      {
+        "q": "How is a wyvern different from a dragon in naming convention?",
+        "a": "Wyverns rank below true dragons in most fantasy taxonomy, so their names should be shorter and blunter rather than ceremonial. A long, multi-syllable title-style name undercuts a wyvern's role as a dangerous but lesser threat."
+      },
+      {
+        "q": "What are good hydra names?",
+        "a": "Hydra names benefit from repeated sounds or syllabic echoes that mirror the creature's regenerative, multi-headed nature. The original Lernaean Hydra sets the phonetic template: long, hissing, slightly serpentine names."
+      },
+      {
+        "q": "Can I use this generator for D&D bestiary entries?",
+        "a": "Yes. A mythologically grounded creature name adds texture to even a brief stat block description, and matching the name's phonetic weight to the creature's threat level helps players gauge danger before combat starts."
+      },
+      {
+        "q": "Do Eastern and Western dragon names follow different rules?",
+        "a": "Yes, significantly. Western dragon names tend toward hard consonants and compound, monster-coded constructions. Eastern dragon names favor flowing, elemental, single-word constructions that reflect the dragon's role as a wise spirit rather than a hoarding predator."
+      }
+    ],
+    "footer_links": [
+      {
+        "label": "Creature Names",
+        "url": "creature-name-generator.html"
+      },
+      {
+        "label": "Villain Names",
+        "url": "villain-name-generator.html"
+      },
+      {
+        "label": "Dungeon Names",
+        "url": "dungeon-name-generator.html"
+      },
+      {
+        "label": "Kingdom Names",
+        "url": "kingdom-name-generator.html"
+      },
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Weapon Names",
+        "url": "weapon-name-generator.html"
+      },
+      {
+        "label": "Magic Item Names",
+        "url": "magic-item-generator.html"
+      },
+      {
+        "label": "Necromancer Names",
+        "url": "necromancer-name-generator.html"
+      },
+      {
+        "label": "Vampire Names",
+        "url": "vampire-name-generator.html"
+      },
+      {
+        "label": "Mage Names",
+        "url": "mage-name-generator.html"
+      }
+    ],
+    "tools_js_entry": {
+      "id": "mythical-creature-generator",
+      "name": "Mythical Creature Generator",
+      "desc": "Names for dragons, griffins, phoenixes, wyverns, and hydras rooted in real-world mythology.",
+      "category": "creatures",
+      "tags": [
+        "dragon",
+        "griffin",
+        "phoenix",
+        "mythical"
+      ],
+      "icon": "<path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/>",
+      "url": "mythical-creature-generator.html",
+      "volume": 320,
+      "kd": 16,
+      "featured": false
+    },
+    "sitemap_priority": "0.7"
+  },
+  {
+    "id": "yordle-name-generator",
+    "page_name": "Yordle Name Generator",
+    "meta_title": "Yordle Name Generator — Whimsical Tinkerer Names | RuneForge",
+    "meta_desc": "Generate original yordle-inspired names with bouncy, mechanical phonetics. Free name generator for League of Legends fan fiction, tabletop reskins, and original character creation.",
+    "og_title": "Yordle Name Generator — RuneForge",
+    "h1_text": "Bounce, repetition, and sounds invented by a creature who never learned dignity.",
+    "hero_sub": "Generate whimsical, mechanical yordle-inspired names — built for fan fiction, tabletop reskins, and original character creation.",
+    "hero_bg": "hero-bg-forest.webp",
+    "eyebrow_text": "Yordle Name Generator",
+    "howto_step1": "Select All, Male, Female, or Tinkerer from the filter buttons.",
+    "breadcrumb_category_name": "Name Generators",
+    "breadcrumb_category_id": "names",
+    "filters": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Male",
+        "value": "male"
+      },
+      {
+        "label": "Female",
+        "value": "female"
+      },
+      {
+        "label": "Tinkerer",
+        "value": "tinkerer"
+      }
+    ],
+    "name_data": {
+      "all": [
+        {
+          "n": "Pippity Cogsnap",
+          "r": "Chaotic Inventor"
+        },
+        {
+          "n": "Blibberon",
+          "r": "Mischievous Talker"
+        },
+        {
+          "n": "Nibbet Sparkwhistle",
+          "r": "Curious Explorer"
+        },
+        {
+          "n": "Tikka Boomrattle",
+          "r": "Demolitions Enthusiast"
+        },
+        {
+          "n": "Quibbin Ticktock",
+          "r": "Clockwork Obsessive"
+        },
+        {
+          "n": "Doddle Wrenchpop",
+          "r": "Gadget Tinkerer"
+        },
+        {
+          "n": "Frizzet Clinkwobble",
+          "r": "Lab Assistant"
+        },
+        {
+          "n": "Buppin Gearwhirl",
+          "r": "Engine Tinkerer"
+        },
+        {
+          "n": "Zibbly Tockenbom",
+          "r": "Bomb Enthusiast"
+        },
+        {
+          "n": "Crinkle Boppadoo",
+          "r": "Toy Maker"
+        },
+        {
+          "n": "Wobblin Tinksnap",
+          "r": "Junk Collector"
+        },
+        {
+          "n": "Skibbit Rattlecog",
+          "r": "Trap Builder"
+        },
+        {
+          "n": "Foppin Wrenchwhirl",
+          "r": "Repair Tinker"
+        },
+        {
+          "n": "Glibbet Spannerton",
+          "r": "Apprentice Mechanic"
+        },
+        {
+          "n": "Tovvet Clankaboom",
+          "r": "Explosives Tinker"
+        },
+        {
+          "n": "Nubbin Whistlepop",
+          "r": "Sound Engineer"
+        }
+      ],
+      "male": [
+        {
+          "n": "Pippity Cogsnap",
+          "r": "Chaotic Inventor"
+        },
+        {
+          "n": "Blibberon",
+          "r": "Mischievous Talker"
+        },
+        {
+          "n": "Doddle Wrenchpop",
+          "r": "Gadget Tinkerer"
+        },
+        {
+          "n": "Buppin Gearwhirl",
+          "r": "Engine Tinkerer"
+        },
+        {
+          "n": "Wobblin Tinksnap",
+          "r": "Junk Collector"
+        },
+        {
+          "n": "Skibbit Rattlecog",
+          "r": "Trap Builder"
+        },
+        {
+          "n": "Foppin Wrenchwhirl",
+          "r": "Repair Tinker"
+        },
+        {
+          "n": "Tovvet Clankaboom",
+          "r": "Explosives Tinker"
+        },
+        {
+          "n": "Grobbit Tickerton",
+          "r": "Workshop Boss"
+        },
+        {
+          "n": "Plinkett Boomwhir",
+          "r": "Demolition Lead"
+        }
+      ],
+      "female": [
+        {
+          "n": "Nibbet Sparkwhistle",
+          "r": "Curious Explorer"
+        },
+        {
+          "n": "Tikka Boomrattle",
+          "r": "Demolitions Enthusiast"
+        },
+        {
+          "n": "Frizzet Clinkwobble",
+          "r": "Lab Assistant"
+        },
+        {
+          "n": "Zibbly Tockenbom",
+          "r": "Bomb Enthusiast"
+        },
+        {
+          "n": "Crinkle Boppadoo",
+          "r": "Toy Maker"
+        },
+        {
+          "n": "Glibbet Spannerton",
+          "r": "Apprentice Mechanic"
+        },
+        {
+          "n": "Nubbin Whistlepop",
+          "r": "Sound Engineer"
+        },
+        {
+          "n": "Wibbla Tickenoot",
+          "r": "Gear Designer"
+        },
+        {
+          "n": "Sproket Clickabee",
+          "r": "Invention Tester"
+        },
+        {
+          "n": "Bizzlewick Pop",
+          "r": "Spark Specialist"
+        }
+      ],
+      "tinkerer": [
+        {
+          "n": "Quibbin Ticktock",
+          "r": "Clockwork Obsessive"
+        },
+        {
+          "n": "Crinkle Boppadoo",
+          "r": "Toy Maker"
+        },
+        {
+          "n": "Buppin Gearwhirl",
+          "r": "Engine Tinkerer"
+        },
+        {
+          "n": "Foppin Wrenchwhirl",
+          "r": "Repair Tinker"
+        },
+        {
+          "n": "Sproket Clickabee",
+          "r": "Invention Tester"
+        },
+        {
+          "n": "Tovvet Clankaboom",
+          "r": "Explosives Tinker"
+        },
+        {
+          "n": "Wibbla Tickenoot",
+          "r": "Gear Designer"
+        },
+        {
+          "n": "Grobbit Tickerton",
+          "r": "Workshop Boss"
+        },
+        {
+          "n": "Doddle Wrenchpop",
+          "r": "Gadget Tinkerer"
+        },
+        {
+          "n": "Nubbin Whistlepop",
+          "r": "Sound Engineer"
+        }
+      ]
+    },
+    "related_chips": [
+      {
+        "label": "Goblin Names",
+        "url": "goblin-name-generator.html"
+      },
+      {
+        "label": "Creature Names",
+        "url": "creature-name-generator.html"
+      },
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Half-Orc Names",
+        "url": "half-orc-name-generator.html"
+      },
+      {
+        "label": "Magic Item Names",
+        "url": "magic-item-generator.html"
+      },
+      {
+        "label": "Tavern Names",
+        "url": "tavern-name-generator.html"
+      }
+    ],
+    "sidebar_links": [
+      {
+        "label": "Goblin Name Generator",
+        "url": "goblin-name-generator.html"
+      },
+      {
+        "label": "Creature Name Generator",
+        "url": "creature-name-generator.html"
+      },
+      {
+        "label": "D&D Name Generator",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Half-Orc Name Generator",
+        "url": "half-orc-name-generator.html"
+      },
+      {
+        "label": "Magic Item Generator",
+        "url": "magic-item-generator.html"
+      },
+      {
+        "label": "Mage Name Generator",
+        "url": "mage-name-generator.html"
+      }
+    ],
+    "sidebar_tips": [
+      "Stick to two syllables — longer names lose the bouncy rhythm that makes a yordle name work",
+      "Build surnames from a noun plus an action word, not a family or place name",
+      "Doubled or repeated sounds add the stutter-like quality central to the yordle aesthetic",
+      "Soften the opening consonant for female-coded names without dropping the plosive structure entirely",
+      "Avoid real-world linguistic roots — yordle names work better as invented sound design than borrowed language"
+    ],
+    "sidebar_pro_tip": "Say the name out loud before finalizing it — if it doesn't bounce when spoken, it's not a yordle name yet.",
+    "seo_article": "<h2>Yordle Name Generator: The Phonetics of Whimsy</h2><p>Yordles don't sound like other fantasy races, and that's by design. Where elves get flowing multi-syllable names and dwarves get hard consonant clusters, yordle naming convention runs on something stranger: bounce, repetition, and sounds that feel like they were invented by a creature who's never been told a name needs to sound dignified.</p><p>This guide breaks down the actual phonetic rules behind yordle-style naming, drawn from the small, mischievous, technologically curious creatures of League of Legends lore, and shows how to apply that pattern to original characters without copying anyone's existing name.</p><h2>The Core Yordle Sound Pattern</h2><p>Yordle names tend to be short, almost always two syllables, and built around plosive consonants like P, B, T, and K paired with simple vowels. The effect mimics a toy or a small mechanical device more than a person. There's frequently a doubled letter or repeated sound, a stutter-like quality that makes the name feel bouncy when spoken aloud rather than smooth. This is the opposite construction logic from elven names, which avoid hard stops entirely in favor of liquid consonants.</p><p>Onomatopoeia shows up constantly in yordle naming. Names that echo a sound effect — a click, a whir, a pop — fit the aesthetic better than names borrowed from real-world naming conventions. Think of the name as something a small inventive creature might call itself after building something that made an interesting noise.</p><h2>Male Yordle Naming Patterns</h2><p>Male-coded yordle names lean toward gruffer plosive openings, hard consonant starts that still resolve into something playful by the second syllable. The names often suggest tinkering, mischief, or stubbornness, traits common across yordle archetypes in the lore. A good male yordle name should sound like it belongs to a creature who fixes things that aren't broken yet, or breaks things on purpose to see what happens.</p><h2>Female Yordle Naming Patterns</h2><p>Female-coded yordle names tend toward slightly softer openings while keeping the same bouncy, repetitive structure. The plosive consonants soften but don't disappear, and the rhythmic doubling stays consistent. These names often carry a curious or inventive quality, fitting yordle archetypes built around exploration, tinkering, or chaotic energy rather than aggression.</p><h2>Original Yordle-Inspired Names</h2><p>These names follow yordle phonetic convention without copying any existing League of Legends character directly.</p><table><thead><tr><th>Name</th><th>Coding</th><th>Vibe</th></tr></thead><tbody><tr><td>Pippity Cogsnap</td><td>Male-coded</td><td>Tinkerer, chaotic inventor</td></tr><tr><td>Blibberon</td><td>Male-coded</td><td>Mischievous, talkative</td></tr><tr><td>Nibbet Sparkwhistle</td><td>Female-coded</td><td>Curious explorer</td></tr><tr><td>Tikka Boomrattle</td><td>Female-coded</td><td>Demolitions enthusiast</td></tr><tr><td>Quibbin Ticktock</td><td>Neutral</td><td>Clockwork obsessive</td></tr></tbody></table><h2>Building a Yordle Surname</h2><p>Yordle surnames in League of Legends lore frequently describe an action, object, or sound rather than a lineage, which sets them apart from most fantasy surname conventions built around family or geography. A surname like Sparkwhistle or Cogsnap tells you what the creature builds or breaks, not who their parents were. When constructing original yordle surnames, pair a concrete noun (cog, spark, boom, tick) with an action or sound word (snap, whistle, rattle, tock) and the result almost always lands in the right tonal range.</p><h2>Use Cases</h2><p>League of Legends fan fiction benefits from yordle names that sound authentically whimsical rather than generic fantasy filler, since yordles occupy a distinct tonal lane in the Runeterra setting compared to Demacia's nobility or Noxus's brutalism. Tabletop reskins — players adapting yordle-flavored races into D&D or other systems — need names that signal the race's personality immediately, since most tables won't have deep Runeterra lore knowledge to draw on otherwise. Original character creation, whether for fan content or independent worldbuilding, works best when the naming logic stays consistent: short, plosive, bouncy, slightly mechanical.</p>",
+    "faq_items": [
+      {
+        "q": "What makes a name sound like a yordle name?",
+        "a": "Yordle names are typically two syllables, built around plosive consonants like P, B, T, and K, and often include a doubled or repeated sound that gives the name a bouncy rhythm. This is the opposite of elven naming convention, which favors flowing liquid consonants over hard stops."
+      },
+      {
+        "q": "Are there different naming patterns for male and female yordles?",
+        "a": "Yes. Male-coded yordle names tend toward gruffer plosive openings that still resolve playfully by the second syllable. Female-coded names soften the opening consonant while keeping the same bouncy, repetitive rhythm. Both stay within the same core onomatopoeic structure."
+      },
+      {
+        "q": "Can I use this generator for League of Legends fan fiction?",
+        "a": "Yes, that's one of the primary use cases. Original yordle-inspired names that follow the correct phonetic pattern, without copying existing character names directly, work well for fan fiction, original character creation, and any Runeterra-adjacent worldbuilding."
+      },
+      {
+        "q": "How do yordle surnames work?",
+        "a": "Yordle surnames typically describe an action, object, or sound rather than family lineage. Pairing a concrete noun like cog or spark with an action word like snap or whistle produces names that fit the established tonal pattern."
+      },
+      {
+        "q": "Can yordle names work for D&D tabletop reskins?",
+        "a": "Yes. Players adapting a yordle-flavored race into D&D or another tabletop system need names that immediately signal personality and tone, since most tables won't have deep Runeterra lore to draw on. The short, plosive, bouncy structure communicates the race's vibe fast."
+      },
+      {
+        "q": "Why do yordle names use onomatopoeia so often?",
+        "a": "Yordles are coded as small, inventive, mechanically curious creatures in League of Legends lore, and onomatopoeic names — ones that echo a click, whir, or pop — reinforce that tinkering, chaotic-energy archetype better than conventional naming patterns borrowed from real-world languages."
+      },
+      {
+        "q": "What is the difference between yordle names and other fantasy race names?",
+        "a": "Most fantasy races — elves, dwarves, humans — draw naming convention from real-world linguistic roots. Yordle names draw from sound design instead, prioritizing rhythm, repetition, and mechanical or playful phonetics over any specific real-world language tradition."
+      }
+    ],
+    "footer_links": [
+      {
+        "label": "Goblin Names",
+        "url": "goblin-name-generator.html"
+      },
+      {
+        "label": "Creature Names",
+        "url": "creature-name-generator.html"
+      },
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Half-Orc Names",
+        "url": "half-orc-name-generator.html"
+      },
+      {
+        "label": "Magic Item Names",
+        "url": "magic-item-generator.html"
+      },
+      {
+        "label": "Mage Names",
+        "url": "mage-name-generator.html"
+      },
+      {
+        "label": "Tavern Names",
+        "url": "tavern-name-generator.html"
+      },
+      {
+        "label": "Dungeon Names",
+        "url": "dungeon-name-generator.html"
+      },
+      {
+        "label": "Kingdom Names",
+        "url": "kingdom-name-generator.html"
+      },
+      {
+        "label": "Alien Names",
+        "url": "alien-name-generator.html"
+      }
+    ],
+    "tools_js_entry": {
+      "id": "yordle-name-generator",
+      "name": "Yordle Name Generator",
+      "desc": "Whimsical, bouncy, mechanical names for yordle-inspired characters — fan fiction, tabletop reskins, and original creations.",
+      "category": "names",
+      "tags": [
+        "yordle",
+        "league of legends",
+        "whimsical"
+      ],
+      "icon": "<circle cx='12' cy='8' r='5'/><path d='M3 21v-2a7 7 0 0 1 14 0v2'/>",
+      "url": "yordle-name-generator.html",
+      "volume": 70,
+      "kd": 5,
+      "featured": false
+    },
+    "sitemap_priority": "0.7"
+  },
+  {
+    "id": "hexblood-name-generator",
+    "page_name": "Hexblood Name Generator",
+    "meta_title": "Hexblood Name Generator — Hag-Touched Names | RuneForge",
+    "meta_desc": "Generate eerie hexblood names rooted in hag coven transformation lore. Free D&D 5e Van Richten's Guide name generator for distorted birth names and curse-given names.",
+    "og_title": "Hexblood Name Generator — RuneForge",
+    "h1_text": "A hexblood isn't born. It's made — and the name carries the mark.",
+    "hero_sub": "Generate eerie, witch-touched hexblood names — distorted birth names and curse-given names rooted in hag coven transformation lore.",
+    "hero_bg": "hero-bg-gothic.webp",
+    "eyebrow_text": "Hexblood Name Generator",
+    "howto_step1": "Select All, Distorted, Curse-Given, or Coven-Touched from the filter buttons.",
+    "breadcrumb_category_name": "Name Generators",
+    "breadcrumb_category_id": "names",
+    "filters": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Distorted",
+        "value": "distorted"
+      },
+      {
+        "label": "Curse-Given",
+        "value": "cursegiven"
+      },
+      {
+        "label": "Coven-Touched",
+        "value": "coven"
+      }
+    ],
+    "name_data": {
+      "all": [
+        {
+          "n": "Maresh",
+          "r": "Distorted from Mara"
+        },
+        {
+          "n": "Thessandrith",
+          "r": "Green Hag Curse-Given"
+        },
+        {
+          "n": "Vexscrye",
+          "r": "Night Hag Curse-Given"
+        },
+        {
+          "n": "Corwyth",
+          "r": "Distorted from Corin"
+        },
+        {
+          "n": "Hollowmend",
+          "r": "Sea Hag Curse-Given"
+        },
+        {
+          "n": "Sylvessa",
+          "r": "Distorted from Sylvia"
+        },
+        {
+          "n": "Krethaxia",
+          "r": "Night Hag Curse-Given"
+        },
+        {
+          "n": "Naeresh",
+          "r": "Distorted from Naera"
+        },
+        {
+          "n": "Brennoth",
+          "r": "Green Hag Curse-Given"
+        },
+        {
+          "n": "Mossbinder",
+          "r": "Coven-Bound Name"
+        },
+        {
+          "n": "Aldreth",
+          "r": "Distorted from Alder"
+        },
+        {
+          "n": "Skarrowyn",
+          "r": "Sea Hag Curse-Given"
+        },
+        {
+          "n": "Veshara",
+          "r": "Distorted from Vesha"
+        },
+        {
+          "n": "Thornscrye",
+          "r": "Coven-Bound Name"
+        },
+        {
+          "n": "Galethress",
+          "r": "Distorted from Gale"
+        },
+        {
+          "n": "Mirewend",
+          "r": "Sea Hag Curse-Given"
+        }
+      ],
+      "distorted": [
+        {
+          "n": "Maresh",
+          "r": "Distorted from Mara"
+        },
+        {
+          "n": "Corwyth",
+          "r": "Distorted from Corin"
+        },
+        {
+          "n": "Sylvessa",
+          "r": "Distorted from Sylvia"
+        },
+        {
+          "n": "Naeresh",
+          "r": "Distorted from Naera"
+        },
+        {
+          "n": "Aldreth",
+          "r": "Distorted from Alder"
+        },
+        {
+          "n": "Veshara",
+          "r": "Distorted from Vesha"
+        },
+        {
+          "n": "Galethress",
+          "r": "Distorted from Gale"
+        },
+        {
+          "n": "Brenwyth",
+          "r": "Distorted from Brennan"
+        },
+        {
+          "n": "Isolyth",
+          "r": "Distorted from Isolde"
+        },
+        {
+          "n": "Marreth",
+          "r": "Distorted from Marren"
+        }
+      ],
+      "cursegiven": [
+        {
+          "n": "Thessandrith",
+          "r": "Green Hag Curse-Given"
+        },
+        {
+          "n": "Vexscrye",
+          "r": "Night Hag Curse-Given"
+        },
+        {
+          "n": "Hollowmend",
+          "r": "Sea Hag Curse-Given"
+        },
+        {
+          "n": "Krethaxia",
+          "r": "Night Hag Curse-Given"
+        },
+        {
+          "n": "Brennoth",
+          "r": "Green Hag Curse-Given"
+        },
+        {
+          "n": "Skarrowyn",
+          "r": "Sea Hag Curse-Given"
+        },
+        {
+          "n": "Mirewend",
+          "r": "Sea Hag Curse-Given"
+        },
+        {
+          "n": "Vraskethyl",
+          "r": "Night Hag Curse-Given"
+        },
+        {
+          "n": "Thornmossa",
+          "r": "Green Hag Curse-Given"
+        },
+        {
+          "n": "Sylkethraxa",
+          "r": "Night Hag Curse-Given"
+        }
+      ],
+      "coven": [
+        {
+          "n": "Mossbinder",
+          "r": "Coven-Bound Name"
+        },
+        {
+          "n": "Thornscrye",
+          "r": "Coven-Bound Name"
+        },
+        {
+          "n": "Brackenhex",
+          "r": "Coven-Bound Name"
+        },
+        {
+          "n": "Witherbind",
+          "r": "Coven-Bound Name"
+        },
+        {
+          "n": "Hagscrye",
+          "r": "Coven-Bound Name"
+        },
+        {
+          "n": "Murkenweave",
+          "r": "Coven-Bound Name"
+        },
+        {
+          "n": "Crowhollow",
+          "r": "Coven-Bound Name"
+        },
+        {
+          "n": "Vexenroot",
+          "r": "Coven-Bound Name"
+        }
+      ]
+    },
+    "related_chips": [
+      {
+        "label": "Necromancer Names",
+        "url": "necromancer-name-generator.html"
+      },
+      {
+        "label": "Vampire Names",
+        "url": "vampire-name-generator.html"
+      },
+      {
+        "label": "Villain Names",
+        "url": "villain-name-generator.html"
+      },
+      {
+        "label": "Dark Elf Names",
+        "url": "dark-elf-name-generator.html"
+      },
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Dungeon Names",
+        "url": "dungeon-name-generator.html"
+      }
+    ],
+    "sidebar_links": [
+      {
+        "label": "Necromancer Name Generator",
+        "url": "necromancer-name-generator.html"
+      },
+      {
+        "label": "Vampire Name Generator",
+        "url": "vampire-name-generator.html"
+      },
+      {
+        "label": "Villain Name Generator",
+        "url": "villain-name-generator.html"
+      },
+      {
+        "label": "Dark Elf Generator",
+        "url": "dark-elf-name-generator.html"
+      },
+      {
+        "label": "D&D Name Generator",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Dark Lord Names",
+        "url": "dark-lord-name-generator.html"
+      }
+    ],
+    "sidebar_tips": [
+      "Distort an existing human name rather than inventing from scratch for characters who remember their old life clearly",
+      "Curse-given names should sound harsher and less natural than distorted birth names — the contrast matters",
+      "Match phonetic coldness or warmth to which type of hag performed the transformation",
+      "Sibilant S and SH sounds do the most work in making a name feel witch-touched",
+      "Let the name carry an open question for your campaign — did the character choose this name, or was it given to them"
+    ],
+    "sidebar_pro_tip": "Decide whether your hexblood kept a distorted version of their birth name or received an entirely new curse-given name — that single choice shapes the whole character's backstory.",
+    "seo_article": "<h2>Hexblood Name Generator: Naming a Creature Born of Hag Magic</h2><p>A hexblood isn't born. It's made. The Van Richten's Guide to Ravenloft introduces them as humanoids transformed through a hag's ritual, often willingly, sometimes not, and that transformation leaves a phonetic mark on the name they carry forward. A hexblood name should sound like it came out of a coven's bargain, not a baby shower.</p><p>This guide breaks down the eerie, witch-touched naming logic behind hexblood characters, rooted in their hag-coven origins, and shows how curse-given names differ from the names hexbloods are born with.</p><h2>Hexblood Lore: What a Hexblood Actually Is</h2><p>A hexblood begins as a human, or occasionally another humanoid, who undergoes a ritual transformation orchestrated by a hag, typically as part of joining or serving a coven. The Van Richten's Guide treats this as a Gothic horror origin rather than a simple racial reskin. The transformation grants hag-touched magic and a permanently altered appearance: greenish or grayish skin, a faint magical aura, eyes that no longer look quite human. The name a hexblood carries afterward often reflects this split identity — the person they were before, and the thing the coven made of them after.</p><h2>Naming Conventions: Eerie, Witch-Touched Phonetics</h2><p>Hexblood names favor sounds that feel slightly wrong rather than overtly monstrous. Sibilant consonants — S and SH sounds — appear frequently, mimicking a whisper or a hex being spoken under breath. Vowels often shift toward narrower, pinched sounds rather than open, warm ones. The overall effect should land somewhere between a lullaby and a warning.</p><p>Many hexbloods keep a fragment of their original human name but distort it. A woman named Mara might become Maerys or Maresh after her transformation — the original name still recognizable but bent, as if the coven's magic reshaped the sound along with the body. This linguistic scarring is one of the most distinctive naming mechanics available for the race and it does real storytelling work if you use it deliberately.</p><h3>Curse-Given Names</h3><p>Some hexbloods receive an entirely new name from their hag patron at the moment of transformation, discarding their birth name as part of severing their old life. These names tend toward harsher, more deliberately unnatural constructions. Vexscrye. Hollowmend. Thessandrith. The name itself functions as a binding, a verbal reminder of who granted the transformation and who, in some tellings, can still call on it.</p><h2>Connection to Hag Covens</h2><p>Hag covens in D&D lore traditionally consist of three hags, often a green hag, a sea hag, and a night hag, working in concert. A hexblood's name sometimes echoes the specific hag who performed the transformation. A hexblood touched by a green hag might carry names with earthier, more rooted consonant sounds. One transformed by a night hag might carry sharper, colder phonetics. This isn't a strict rule in the source material, but it's a strong worldbuilding lever if you're running a homebrew coven with distinct personalities.</p><h2>Example Hexblood Names</h2><table><thead><tr><th>Origin Type</th><th>Example Name</th><th>Notes</th></tr></thead><tbody><tr><td>Distorted birth name</td><td>Maresh</td><td>Bent from the original name \"Mara\"</td></tr><tr><td>Curse-given (green hag)</td><td>Thessandrith</td><td>Earthier, rooted consonants</td></tr><tr><td>Curse-given (night hag)</td><td>Vexscrye</td><td>Colder, sharper phonetics</td></tr><tr><td>Distorted birth name</td><td>Corwyth</td><td>Bent from the original name \"Corin\"</td></tr><tr><td>Curse-given (sea hag)</td><td>Hollowmend</td><td>Damp, dragging sound quality</td></tr></tbody></table><h2>Using Hexblood Names in Campaigns</h2><p>Hexbloods entered official D&D 5e content through Van Richten's Guide to Ravenloft, which means they're already built for Gothic horror campaigns specifically. A hexblood NPC or player character in a Curse of Strahd-adjacent setting benefits from a name that carries the weight of that transformation story, since the name itself can become a plot thread. Did the character choose this name. Did a hag give it to them. Do they even remember the name they had before. For homebrew horror campaigns outside Ravenloft, the same naming logic still applies: a hexblood's name should feel like evidence of something that happened to them, not just a label assigned at character creation.</p>",
+    "faq_items": [
+      {
+        "q": "What is a hexblood in D&D?",
+        "a": "A hexblood is a humanoid, typically originally human, transformed through a ritual performed by a hag, often as part of joining or serving a coven. The race appears in Van Richten's Guide to Ravenloft and grants hag-touched magic along with a permanently altered appearance."
+      },
+      {
+        "q": "How do hexblood names differ from human names?",
+        "a": "Hexblood names often start as a distorted version of the character's original human name, bent by the transformation magic into something slightly wrong-sounding. Others receive an entirely new curse-given name from their hag patron, discarding the birth name as part of severing their old life."
+      },
+      {
+        "q": "What sounds make a name feel hexblood-appropriate?",
+        "a": "Sibilant consonants like S and SH, narrower pinched vowels, and a general whisper-like or hex-spoken quality define the hexblood naming aesthetic. The goal is a name that sounds slightly wrong rather than overtly monstrous."
+      },
+      {
+        "q": "What is the connection between hexblood names and hag covens?",
+        "a": "Hag covens traditionally include a green hag, sea hag, and night hag working together. A hexblood's curse-given name can echo which specific hag performed the transformation — earthier sounds for a green hag, colder sounds for a night hag — though this is a worldbuilding choice rather than a strict rule."
+      },
+      {
+        "q": "Can I use hexblood names in a Curse of Strahd campaign?",
+        "a": "Yes. Hexbloods come from Van Richten's Guide to Ravenloft, which is built for Gothic horror settings like Curse of Strahd. A hexblood name that carries the weight of the transformation story fits naturally into that campaign's tone and can even become a plot thread."
+      },
+      {
+        "q": "Do hexbloods keep their original birth name?",
+        "a": "Sometimes. Many hexbloods keep a distorted version of their birth name, recognizable but bent by the transformation. Others receive an entirely new name from their hag patron and discard the original name as part of severing their old life."
+      },
+      {
+        "q": "What is the difference between a distorted name and a curse-given name?",
+        "a": "A distorted name keeps a recognizable fragment of the character's original human name, reshaped by the transformation. A curse-given name is something new entirely, granted by the hag at the moment of transformation, and tends to sound harsher and more deliberately unnatural."
+      }
+    ],
+    "footer_links": [
+      {
+        "label": "Necromancer Names",
+        "url": "necromancer-name-generator.html"
+      },
+      {
+        "label": "Vampire Names",
+        "url": "vampire-name-generator.html"
+      },
+      {
+        "label": "Villain Names",
+        "url": "villain-name-generator.html"
+      },
+      {
+        "label": "Dark Elf Names",
+        "url": "dark-elf-name-generator.html"
+      },
+      {
+        "label": "Dark Lord Names",
+        "url": "dark-lord-name-generator.html"
+      },
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Tiefling Names",
+        "url": "tiefling-name-generator.html"
+      },
+      {
+        "label": "Mage Names",
+        "url": "mage-name-generator.html"
+      },
+      {
+        "label": "Goblin Names",
+        "url": "goblin-name-generator.html"
+      },
+      {
+        "label": "Dungeon Names",
+        "url": "dungeon-name-generator.html"
+      }
+    ],
+    "tools_js_entry": {
+      "id": "hexblood-name-generator",
+      "name": "Hexblood Name Generator",
+      "desc": "Eerie hag-touched names — distorted birth names and curse-given names rooted in coven transformation lore.",
+      "category": "names",
+      "tags": [
+        "hexblood",
+        "hag",
+        "ravenloft",
+        "dnd"
+      ],
+      "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+      "url": "hexblood-name-generator.html",
+      "volume": 30,
+      "kd": 6,
+      "featured": false
+    },
+    "sitemap_priority": "0.7"
+  },
+  {
+    "id": "wendigo-name-generator",
+    "page_name": "Wendigo Name Generator",
+    "meta_title": "Wendigo Name Generator — Horror Archetype Names | RuneForge",
+    "meta_desc": "Generate names for the wendigo horror-fiction archetype — antlered, forest-bound creatures from modern horror media. Free generator for D&D, homebrew monsters, and horror fiction.",
+    "og_title": "Wendigo Name Generator — RuneForge",
+    "h1_text": "A name that catches in the throat, as if something forgot how to speak.",
+    "hero_sub": "Generate names for the wendigo horror-fiction archetype — built for D&D homebrew monsters, Gothic horror campaigns, and genre fiction.",
+    "hero_bg": "hero-bg-forest.webp",
+    "eyebrow_text": "Wendigo Name Generator",
+    "howto_step1": "Select All, Fragmented, Title, or Harsh from the filter buttons.",
+    "breadcrumb_category_name": "Creature Generators",
+    "breadcrumb_category_id": "creatures",
+    "filters": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Fragmented",
+        "value": "fragmented"
+      },
+      {
+        "label": "Title",
+        "value": "title"
+      },
+      {
+        "label": "Harsh",
+        "value": "harsh"
+      }
+    ],
+    "name_data": {
+      "all": [
+        {
+          "n": "Mrathkel",
+          "r": "Once-Human Entity"
+        },
+        {
+          "n": "The Hollow Walker",
+          "r": "Unnamed Antagonist"
+        },
+        {
+          "n": "Krathnir",
+          "r": "Forest Predator"
+        },
+        {
+          "n": "The Starving One",
+          "r": "Curse of Strahd NPC"
+        },
+        {
+          "n": "Vorrhik",
+          "r": "Tragic Backstory Antagonist"
+        },
+        {
+          "n": "The Antlered Walker",
+          "r": "Descriptive Title"
+        },
+        {
+          "n": "Skrathnir",
+          "r": "Forest-Bound Horror"
+        },
+        {
+          "n": "The Gaunt Thing",
+          "r": "Decayed Identity"
+        },
+        {
+          "n": "Vrekthal",
+          "r": "Fragmented Name"
+        },
+        {
+          "n": "The Forgotten Hunger",
+          "r": "Title Entity"
+        },
+        {
+          "n": "Kraskethel",
+          "r": "Once-Human Remnant"
+        },
+        {
+          "n": "The Frost-Touched",
+          "r": "Winter Horror Title"
+        },
+        {
+          "n": "Throskavel",
+          "r": "Decayed Proper Name"
+        },
+        {
+          "n": "The Bone Caller",
+          "r": "Hunter Archetype"
+        }
+      ],
+      "fragmented": [
+        {
+          "n": "Mrathkel",
+          "r": "Once-Human Entity"
+        },
+        {
+          "n": "Vorrhik",
+          "r": "Tragic Backstory Antagonist"
+        },
+        {
+          "n": "Vrekthal",
+          "r": "Fragmented Name"
+        },
+        {
+          "n": "Kraskethel",
+          "r": "Once-Human Remnant"
+        },
+        {
+          "n": "Throskavel",
+          "r": "Decayed Proper Name"
+        },
+        {
+          "n": "Mraskoth",
+          "r": "Forgotten Identity"
+        },
+        {
+          "n": "Vraknith",
+          "r": "Lost Name Fragment"
+        },
+        {
+          "n": "Skrelvath",
+          "r": "Decayed Hunter"
+        }
+      ],
+      "title": [
+        {
+          "n": "The Hollow Walker",
+          "r": "Unnamed Antagonist"
+        },
+        {
+          "n": "The Starving One",
+          "r": "Curse of Strahd NPC"
+        },
+        {
+          "n": "The Antlered Walker",
+          "r": "Descriptive Title"
+        },
+        {
+          "n": "The Gaunt Thing",
+          "r": "Decayed Identity"
+        },
+        {
+          "n": "The Forgotten Hunger",
+          "r": "Title Entity"
+        },
+        {
+          "n": "The Frost-Touched",
+          "r": "Winter Horror Title"
+        },
+        {
+          "n": "The Bone Caller",
+          "r": "Hunter Archetype"
+        },
+        {
+          "n": "The Wasted Walker",
+          "r": "Forest Horror Title"
+        }
+      ],
+      "harsh": [
+        {
+          "n": "Krathnir",
+          "r": "Forest Predator"
+        },
+        {
+          "n": "Skrathnir",
+          "r": "Forest-Bound Horror"
+        },
+        {
+          "n": "Throskavel",
+          "r": "Decayed Proper Name"
+        },
+        {
+          "n": "Skrelvath",
+          "r": "Decayed Hunter"
+        },
+        {
+          "n": "Kraxnoth",
+          "r": "Guttural Predator"
+        },
+        {
+          "n": "Vraskethor",
+          "r": "Harsh Forest Entity"
+        },
+        {
+          "n": "Grothnak",
+          "r": "Snow Stalker"
+        },
+        {
+          "n": "Skathrek",
+          "r": "Forest Terror"
+        }
+      ]
+    },
+    "related_chips": [
+      {
+        "label": "Creature Names",
+        "url": "creature-name-generator.html"
+      },
+      {
+        "label": "Mythical Creatures",
+        "url": "mythical-creature-generator.html"
+      },
+      {
+        "label": "Villain Names",
+        "url": "villain-name-generator.html"
+      },
+      {
+        "label": "Necromancer Names",
+        "url": "necromancer-name-generator.html"
+      },
+      {
+        "label": "Dungeon Names",
+        "url": "dungeon-name-generator.html"
+      },
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      }
+    ],
+    "sidebar_links": [
+      {
+        "label": "Creature Name Generator",
+        "url": "creature-name-generator.html"
+      },
+      {
+        "label": "Mythical Creature Generator",
+        "url": "mythical-creature-generator.html"
+      },
+      {
+        "label": "Villain Name Generator",
+        "url": "villain-name-generator.html"
+      },
+      {
+        "label": "Necromancer Names",
+        "url": "necromancer-name-generator.html"
+      },
+      {
+        "label": "Dark Lord Names",
+        "url": "dark-lord-name-generator.html"
+      },
+      {
+        "label": "Dungeon Name Generator",
+        "url": "dungeon-name-generator.html"
+      }
+    ],
+    "sidebar_tips": [
+      "This generator covers the horror-fiction archetype only, not the Algonquian spiritual tradition the name originates from",
+      "Harsh R, K, and guttural consonant clusters create the discomfort this archetype's names are going for",
+      "Titles and descriptive names often work better than proper names for this kind of horror antagonist",
+      "Fragmented or partial-sounding names reinforce the once-human, identity-lost trope common in this fiction",
+      "For genuine folklore engagement, primary sources and Indigenous scholarship are the better starting point"
+    ],
+    "sidebar_pro_tip": "Lean on descriptive titles instead of proper names when the horror depends on the creature's identity feeling lost rather than intact.",
+    "seo_article": "<h2>Wendigo Name Generator: Naming the Pop-Culture Horror Archetype</h2><p>Before any naming guidance, a clarification worth stating plainly. The wendigo originates in the spiritual and cultural traditions of Algonquian-speaking peoples, including Cree, Ojibwe, and Innu nations. It carries real religious and cultural weight within those communities, and it is not a generic monster available for casual reinvention. This page does not attempt to generate names for that figure.</p><p>What this page covers instead is the pop-culture horror archetype that emerged from decades of non-Indigenous fiction — Algernon Blackwood's 1910 short story, Marvel's Wendigo character, and modern horror media like Antlers and Until Dawn. That archetype — antlered, emaciated, forest-bound, cannibalistic — has its own naming conventions built entirely within fantasy and horror fiction, separate from the source tradition. This guide sticks to that fictional archetype.</p><h2>Naming Conventions for Horror-Archetype Wendigo Characters</h2><p>Names for this fictional creature type tend to favor harsh, scraping consonant combinations, particularly clusters using R, K, and guttural sounds that feel difficult to pronounce smoothly. The phonetic goal is discomfort. A name that catches in the throat slightly when spoken aloud fits the archetype better than something fluid or melodic.</p><p>Many fictional treatments lean into ambiguity rather than a proper name at all, referring to the creature by title or description: the Hollow One, the Starving Thing, the Antlered Walker. When a proper name is used in fiction, it often sounds fragmented or partially forgotten, as if the name itself has decayed along with whatever the creature once was. This reflects a common horror trope: the wendigo-archetype figure as a once-human entity that lost its identity along with its humanity.</p><h2>Example Names for Horror Fiction and Homebrew Monsters</h2><table><thead><tr><th>Name Style</th><th>Example</th><th>Use Case</th></tr></thead><tbody><tr><td>Descriptive title</td><td>The Hollow Walker</td><td>Unnamed horror antagonist</td></tr><tr><td>Fragmented proper name</td><td>Mrathkel</td><td>Once-human entity, name decayed</td></tr><tr><td>Harsh phonetic</td><td>Krathnir</td><td>Generic horror monster NPC</td></tr><tr><td>Descriptive title</td><td>The Starving One</td><td>Curse of Strahd-style horror NPC</td></tr><tr><td>Fragmented proper name</td><td>Vorrhik</td><td>Tragic backstory antagonist</td></tr></tbody></table><h2>Using This Archetype in D&D Horror Campaigns</h2><p>Curse of Strahd and other Gothic horror D&D content frequently feature wendigo-inspired stat blocks, typically built from existing monster templates dressed in the antlered, starving aesthetic that pop culture associates with the name. When naming this kind of NPC, the fragmented or title-based naming approach above tends to land better at the table than a fully formed proper name, since the horror often works best when the creature's identity feels incomplete or stolen rather than fully realized.</p><h2>A Note on Respectful Use</h2><p>If your worldbuilding wants to engage with Indigenous-rooted folklore specifically, rather than the horror-fiction archetype, the better approach is direct engagement with primary sources and, where possible, work by Indigenous authors and scholars writing about their own traditions, rather than treating the figure as raw material for a generic name generator. The naming guidance on this page is scoped intentionally to the fictional horror archetype that already exists independently in genre fiction, not to the tradition it borrowed its name from.</p>",
+    "faq_items": [
+      {
+        "q": "Is the wendigo name generator based on real folklore?",
+        "a": "No. This generator is built around the pop-culture horror archetype that emerged from non-Indigenous fiction over the past century, not the actual spiritual tradition from Algonquian-speaking nations like Cree, Ojibwe, and Innu peoples. That tradition carries real cultural and religious significance and isn't treated as generator material here."
+      },
+      {
+        "q": "What naming pattern works for a horror-style wendigo character?",
+        "a": "Harsh, scraping consonant clusters using R, K, and guttural sounds work well for this fictional archetype. Many horror treatments skip proper names entirely in favor of descriptive titles like the Hollow Walker or the Starving One."
+      },
+      {
+        "q": "Can I use this for D&D Curse of Strahd content?",
+        "a": "Yes. Gothic horror D&D campaigns often feature wendigo-inspired NPCs built from existing monster templates. A fragmented or title-based name, rather than a fully formed proper name, tends to fit the horror tone better at the table."
+      },
+      {
+        "q": "Why does the page distinguish between folklore and pop culture?",
+        "a": "Because the wendigo holds real cultural and spiritual significance within Algonquian traditions, and conflating that with the horror-movie monster archetype flattens a living tradition into generic fantasy content. This page scopes its naming guidance to the fictional archetype only."
+      },
+      {
+        "q": "What is an example of a fragmented or decayed wendigo-style name?",
+        "a": "Names like Mrathkel or Vorrhik work as fragmented proper names, suggesting a once-human identity that decayed along with the transformation — a common trope in horror fiction featuring this archetype."
+      },
+      {
+        "q": "Should I use a proper name or a title for this type of horror creature?",
+        "a": "Titles like the Hollow Walker or the Starving One often work better than fully formed proper names, since the horror frequently depends on the creature's identity feeling incomplete, stolen, or forgotten rather than fully intact."
+      },
+      {
+        "q": "Where can I learn about the actual wendigo tradition respectfully?",
+        "a": "Direct engagement with primary sources and work by Indigenous authors and scholars writing about their own traditions is the better path if you want to understand the actual cultural and spiritual figure, rather than treating it as raw material for fantasy content."
+      }
+    ],
+    "footer_links": [
+      {
+        "label": "Creature Names",
+        "url": "creature-name-generator.html"
+      },
+      {
+        "label": "Mythical Creatures",
+        "url": "mythical-creature-generator.html"
+      },
+      {
+        "label": "Villain Names",
+        "url": "villain-name-generator.html"
+      },
+      {
+        "label": "Necromancer Names",
+        "url": "necromancer-name-generator.html"
+      },
+      {
+        "label": "Dark Lord Names",
+        "url": "dark-lord-name-generator.html"
+      },
+      {
+        "label": "Dungeon Names",
+        "url": "dungeon-name-generator.html"
+      },
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Vampire Names",
+        "url": "vampire-name-generator.html"
+      },
+      {
+        "label": "Mage Names",
+        "url": "mage-name-generator.html"
+      },
+      {
+        "label": "Kingdom Names",
+        "url": "kingdom-name-generator.html"
+      }
+    ],
+    "tools_js_entry": {
+      "id": "wendigo-name-generator",
+      "name": "Wendigo Name Generator",
+      "desc": "Names for the wendigo horror-fiction archetype — antlered, forest-bound creatures from modern horror media.",
+      "category": "creatures",
+      "tags": [
+        "wendigo",
+        "horror",
+        "monster"
+      ],
+      "icon": "<circle cx='9' cy='12' r='1'/><circle cx='15' cy='12' r='1'/><path d='M16 20a2 2 0 0 0 1.56-3.25 8 8 0 1 0-11.12 0A2 2 0 0 0 8 20'/>",
+      "url": "wendigo-name-generator.html",
+      "volume": 50,
+      "kd": 7,
+      "featured": false
+    },
+    "sitemap_priority": "0.7"
+  },
+  {
+    "id": "vesk-name-generator",
+    "page_name": "Vesk Name Generator",
+    "meta_title": "Vesk Name Generator — Starfinder Warrior Empire Names | RuneForge",
+    "meta_desc": "Generate authentic vesk names for Starfinder — militaristic, hierarchical names built on hard consonants and clan structure. Free sci-fi RPG name generator for the Veskarium.",
+    "og_title": "Vesk Name Generator — RuneForge",
+    "h1_text": "The vesk don't do soft names. Names earned, never given.",
+    "hero_sub": "Generate militaristic vesk names for Starfinder — built on hard consonants, clan structure, and earned epithets from the Veskarium.",
+    "hero_bg": "hero-bg-dnd.webp",
+    "eyebrow_text": "Vesk Name Generator",
+    "howto_step1": "Select All, Personal, Clan-Paired, or Epithet from the filter buttons.",
+    "breadcrumb_category_name": "Name Generators",
+    "breadcrumb_category_id": "names",
+    "filters": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Personal",
+        "value": "personal"
+      },
+      {
+        "label": "Clan-Paired",
+        "value": "clan"
+      },
+      {
+        "label": "Epithet",
+        "value": "epithet"
+      }
+    ],
+    "name_data": {
+      "all": [
+        {
+          "n": "Zhrakon",
+          "r": "Vex-clan Mercenary Captain"
+        },
+        {
+          "n": "Tarkesh the Unbroken",
+          "r": "Duelist"
+        },
+        {
+          "n": "Vrothik",
+          "r": "Kresh-clan Starship Commander"
+        },
+        {
+          "n": "Kazrith the Hollow Tooth",
+          "r": "Security Contractor"
+        },
+        {
+          "n": "Zovan",
+          "r": "Drennik-clan Envoy"
+        },
+        {
+          "n": "Threxak",
+          "r": "Vex-clan Warrior"
+        },
+        {
+          "n": "Korrazith",
+          "r": "Mercenary Captain"
+        },
+        {
+          "n": "Vrazketh the Iron Maw",
+          "r": "Pit Champion"
+        },
+        {
+          "n": "Skazrok",
+          "r": "Kresh-clan Soldier"
+        },
+        {
+          "n": "Drekanith",
+          "r": "Drennik-clan Pilot"
+        },
+        {
+          "n": "Karthrek the Unbowed",
+          "r": "War Veteran"
+        },
+        {
+          "n": "Zylkrath",
+          "r": "Vex-clan Enforcer"
+        },
+        {
+          "n": "Vorrakesh",
+          "r": "Starship Gunner"
+        },
+        {
+          "n": "Threxan the Tide Breaker",
+          "r": "Fleet Commander"
+        }
+      ],
+      "personal": [
+        {
+          "n": "Zhrakon",
+          "r": "Mercenary"
+        },
+        {
+          "n": "Vrothik",
+          "r": "Starship Commander"
+        },
+        {
+          "n": "Zovan",
+          "r": "Envoy"
+        },
+        {
+          "n": "Threxak",
+          "r": "Warrior"
+        },
+        {
+          "n": "Korrazith",
+          "r": "Mercenary Captain"
+        },
+        {
+          "n": "Skazrok",
+          "r": "Soldier"
+        },
+        {
+          "n": "Drekanith",
+          "r": "Pilot"
+        },
+        {
+          "n": "Zylkrath",
+          "r": "Enforcer"
+        },
+        {
+          "n": "Vorrakesh",
+          "r": "Gunner"
+        },
+        {
+          "n": "Kethrazon",
+          "r": "Operative"
+        }
+      ],
+      "clan": [
+        {
+          "n": "Zhrakon Vex-clan",
+          "r": "Mercenary Captain"
+        },
+        {
+          "n": "Vrothik Kresh-clan",
+          "r": "Starship Commander"
+        },
+        {
+          "n": "Zovan Drennik-clan",
+          "r": "Envoy"
+        },
+        {
+          "n": "Threxak Vex-clan",
+          "r": "Warrior"
+        },
+        {
+          "n": "Skazrok Kresh-clan",
+          "r": "Soldier"
+        },
+        {
+          "n": "Drekanith Drennik-clan",
+          "r": "Pilot"
+        },
+        {
+          "n": "Zylkrath Vex-clan",
+          "r": "Enforcer"
+        },
+        {
+          "n": "Korrazith Kresh-clan",
+          "r": "Mercenary Captain"
+        }
+      ],
+      "epithet": [
+        {
+          "n": "Tarkesh the Unbroken",
+          "r": "Duelist"
+        },
+        {
+          "n": "Kazrith the Hollow Tooth",
+          "r": "Security Contractor"
+        },
+        {
+          "n": "Vrazketh the Iron Maw",
+          "r": "Pit Champion"
+        },
+        {
+          "n": "Karthrek the Unbowed",
+          "r": "War Veteran"
+        },
+        {
+          "n": "Threxan the Tide Breaker",
+          "r": "Fleet Commander"
+        },
+        {
+          "n": "Zhrakon the Star Reaper",
+          "r": "Dreadnought Captain"
+        },
+        {
+          "n": "Vrothik the Steel Talon",
+          "r": "Boarding Party Leader"
+        },
+        {
+          "n": "Skazrok the Last Stand",
+          "r": "Defense Specialist"
+        }
+      ]
+    },
+    "related_chips": [
+      {
+        "label": "Alien Names",
+        "url": "alien-name-generator.html"
+      },
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Villain Names",
+        "url": "villain-name-generator.html"
+      },
+      {
+        "label": "Orc Names",
+        "url": "orc-name-generator.html"
+      },
+      {
+        "label": "Half-Orc Names",
+        "url": "half-orc-name-generator.html"
+      },
+      {
+        "label": "Weapon Names",
+        "url": "weapon-name-generator.html"
+      }
+    ],
+    "sidebar_links": [
+      {
+        "label": "Alien Name Generator",
+        "url": "alien-name-generator.html"
+      },
+      {
+        "label": "D&D Name Generator",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Orc Name Generator",
+        "url": "orc-name-generator.html"
+      },
+      {
+        "label": "Half-Orc Generator",
+        "url": "half-orc-name-generator.html"
+      },
+      {
+        "label": "Villain Name Generator",
+        "url": "villain-name-generator.html"
+      },
+      {
+        "label": "Weapon Name Generator",
+        "url": "weapon-name-generator.html"
+      }
+    ],
+    "sidebar_tips": [
+      "Pair a hard-consonant personal name with a clan name to signal lineage and social standing",
+      "Reserve epithets for characters who've earned them through a specific deed, not as a default naming element",
+      "Vesk names work as unisex — the core material doesn't separate naming patterns by gender",
+      "Rolling Rs and barked endings reinforce the militaristic tone better than soft vowel sounds",
+      "Use the name's structure to add contrast — a fierce-sounding name paired with an unexpected personality trait"
+    ],
+    "sidebar_pro_tip": "Build the name in three layers — personal name, clan name, earned epithet — even if you only use one or two, since the structure itself signals vesk social hierarchy.",
+    "seo_article": "<h2>Vesk Name Generator: Naming Starfinder's Warrior Empire</h2><p>The vesk don't do soft names. Vesk names run long and often hard to pronounce, which fits a species built entirely around conquest, hierarchy, and proving worth through combat. This guide breaks down the actual naming logic behind vesk characters and shows how to build one that sounds like it belongs in the Veskarium.</p><h2>Vesk Lore: Who They Are</h2><p>Vesk society runs on strict militaristic organization, where political power belongs almost exclusively to those who have proven themselves in armed conflict. That proof doesn't require formal military service. Vesk can climb the same social ladder through mercenary work, dueling, or providing security on dangerous expeditions. The species originated on a single homeworld before spreading across their system, eventually subjugating rival species into what they call the Veskarium. Conquered worlds in that empire lose their names entirely, reduced to numbers measuring distance from the vesk home sun, with only Vesk Prime retaining its name as the seat of vesk government and high society. That detail alone tells you everything about how vesk think about names and status: names are earned and retained by the powerful, stripped from the conquered.</p><h2>Naming Conventions: Militaristic and Hierarchical</h2><p>Vesk names tend to be short, punchy, and dense with hard consonants, frequently built around K, T, Z, and V sounds, with rolling Rs and endings that land like they're being barked rather than spoken. The overall effect should sound clipped and confident, never soft, never musical.</p><p>Clan or family names sometimes follow the personal name, signaling lineage and standing within vesk society. This clan-name structure matters more for vesk than for most species, since standing within the Veskarium often runs through family military reputation as much as individual achievement.</p><p>The source material also includes epithets, earned titles attached to a name after a notable deed or battle, though only a handful appear in the core Starfinder material. An epithet functions the way a dwarf clan name functions in D&D: it's a name a character grows into rather than one assigned at birth.</p><h2>Example Vesk Names</h2><table><thead><tr><th>Name</th><th>Clan/Epithet</th><th>Role</th></tr></thead><tbody><tr><td>Zhrakon</td><td>Vex-clan</td><td>Mercenary captain</td></tr><tr><td>Tarkesh</td><td>the Unbroken</td><td>Duelist</td></tr><tr><td>Vrothik</td><td>Kresh-clan</td><td>Starship commander</td></tr><tr><td>Kazrith</td><td>the Hollow Tooth</td><td>Security contractor</td></tr><tr><td>Zovan</td><td>Drennik-clan</td><td>Envoy</td></tr></tbody></table><h2>Avoiding the One-Note Warrior Stereotype</h2><p>A vesk character defined purely by ferocity flattens into stereotype fast. The naming structure itself, personal name plus clan plus earned epithet, gives you a built-in framework for layering personality underneath the warrior surface. A vesk operative who values dry humor or quiet philosophy still carries a name that sounds militaristic, and that contrast between sound and substance is where the character actually gets interesting.</p><h2>Use Cases for Vesk Names</h2><p>Starfinder campaigns are the obvious home for this naming style — vesk soldiers, mercenaries, starship captains, and envoys all draw from the same phonetic well. The naming logic also transfers cleanly to other reptilian warrior races in homebrew sci-fi or fantasy settings — lizardfolk mercenaries, dragonborn knights, or any alien gladiator archetype benefits from the same hard-consonant, clan-plus-epithet structure even outside the Starfinder setting specifically.</p>",
+    "faq_items": [
+      {
+        "q": "What are good vesk names for Starfinder?",
+        "a": "Vesk names favor hard consonants like K, T, Z, and V, often with rolling Rs and clipped, barked endings. Names tend to run longer than a typical human name and are sometimes paired with a clan name or an earned epithet that reflects military or dueling achievement."
+      },
+      {
+        "q": "Do vesk names have gendered patterns?",
+        "a": "No. The Starfinder core material doesn't separate vesk names by gender, so most generators treat vesk names as unisex. The phonetic pattern stays consistent across all vesk characters regardless of gender."
+      },
+      {
+        "q": "What is a vesk epithet?",
+        "a": "An epithet is an earned title attached to a vesk's personal name after a notable deed, similar in function to a dwarf clan name in D&D. Only a few appear in the core Starfinder source material, but they're a strong tool for adding individual character history."
+      },
+      {
+        "q": "Why are vesk names hard to pronounce?",
+        "a": "Vesk society values conquest and hierarchy, and the harsh, clipped phonetic structure of their names reflects a militaristic culture built on proving worth through combat. The difficulty in pronunciation reinforces the species' intimidating, predatory presentation."
+      },
+      {
+        "q": "Can I use vesk-style names for non-Starfinder sci-fi campaigns?",
+        "a": "Yes. The hard-consonant, clan-plus-epithet naming structure transfers well to any reptilian or warrior-culture alien race in homebrew science fiction or fantasy settings, including dragonborn, lizardfolk, or original alien species."
+      },
+      {
+        "q": "How does vesk clan naming work?",
+        "a": "A clan or family name sometimes follows a vesk's personal name to signal lineage and social standing. Since political power in vesk society is tied closely to military reputation, clan names carry real weight within the Veskarium's hierarchy."
+      },
+      {
+        "q": "How do I avoid making a vesk character a one-note warrior stereotype?",
+        "a": "Use the name's built-in structure — personal name, clan, and earned epithet — to layer in personality beneath the warrior surface. A vesk with dry humor or unexpected philosophical depth still carries a militaristic-sounding name, and that contrast is what makes the character memorable."
+      }
+    ],
+    "footer_links": [
+      {
+        "label": "Alien Names",
+        "url": "alien-name-generator.html"
+      },
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Orc Names",
+        "url": "orc-name-generator.html"
+      },
+      {
+        "label": "Half-Orc Names",
+        "url": "half-orc-name-generator.html"
+      },
+      {
+        "label": "Villain Names",
+        "url": "villain-name-generator.html"
+      },
+      {
+        "label": "Weapon Names",
+        "url": "weapon-name-generator.html"
+      },
+      {
+        "label": "Creature Names",
+        "url": "creature-name-generator.html"
+      },
+      {
+        "label": "Kingdom Names",
+        "url": "kingdom-name-generator.html"
+      },
+      {
+        "label": "Dark Lord Names",
+        "url": "dark-lord-name-generator.html"
+      },
+      {
+        "label": "Dwarf Names",
+        "url": "dwarf-name-generator.html"
+      }
+    ],
+    "tools_js_entry": {
+      "id": "vesk-name-generator",
+      "name": "Vesk Name Generator",
+      "desc": "Militaristic vesk names for Starfinder — hard consonants, clan structure, and earned epithets from the Veskarium.",
+      "category": "names",
+      "tags": [
+        "vesk",
+        "starfinder",
+        "sci-fi"
+      ],
+      "icon": "<circle cx='12' cy='12' r='10'/><path d='M12 8v4l3 3'/>",
+      "url": "vesk-name-generator.html",
+      "volume": 30,
+      "kd": 8,
+      "featured": false
+    },
+    "sitemap_priority": "0.7"
+  },
+  {
+    "id": "pathfinder-name-generator",
+    "page_name": "Pathfinder Name Generator",
+    "meta_title": "Pathfinder Name Generator — Golarion Names by Nation | RuneForge",
+    "meta_desc": "Generate authentic Pathfinder names by nation — Taldor, Varisia, Osirion — and race including elves, dwarves, halflings, and gnomes. Free Golarion name generator for Pathfinder 2e.",
+    "og_title": "Pathfinder Name Generator — Golarion Names | RuneForge",
+    "h1_text": "Golarion isn't one setting. It's a patchwork of nations and tongues.",
+    "hero_sub": "Generate Pathfinder names by nation and race — Taldor, Varisia, Osirion, and Golarion's distinct elf, dwarf, halfling, and gnome traditions.",
+    "hero_bg": "hero-bg-dnd.webp",
+    "eyebrow_text": "Pathfinder Name Generator",
+    "howto_step1": "Select All, Taldor, Varisia, Osirion, or Gnome from the filter buttons.",
+    "breadcrumb_category_name": "Name Generators",
+    "breadcrumb_category_id": "names",
+    "filters": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Taldor",
+        "value": "taldor"
+      },
+      {
+        "label": "Varisia",
+        "value": "varisia"
+      },
+      {
+        "label": "Osirion",
+        "value": "osirion"
+      },
+      {
+        "label": "Gnome",
+        "value": "gnome"
+      }
+    ],
+    "name_data": {
+      "all": [
+        {
+          "n": "Andoletta Maximvs",
+          "r": "Taldan Noble"
+        },
+        {
+          "n": "Zarta Devargo",
+          "r": "Varisian Caravan Leader"
+        },
+        {
+          "n": "Khefru Senemet",
+          "r": "Osirian Scholar"
+        },
+        {
+          "n": "Caladrieth",
+          "r": "Golarion Elf"
+        },
+        {
+          "n": "Thaldrun Ironvein",
+          "r": "Golarion Dwarf"
+        },
+        {
+          "n": "Quibberlux",
+          "r": "Golarion Gnome"
+        },
+        {
+          "n": "Cassio Velandris",
+          "r": "Taldan Senator"
+        },
+        {
+          "n": "Iesha Korrath",
+          "r": "Varisian Wanderer"
+        },
+        {
+          "n": "Amenopis",
+          "r": "Osirian Priest"
+        },
+        {
+          "n": "Maximvs Severina",
+          "r": "Taldan Legionnaire"
+        },
+        {
+          "n": "Devargo Naveth",
+          "r": "Varisian Trader"
+        },
+        {
+          "n": "Senemet Khalor",
+          "r": "Osirian Tomb Keeper"
+        },
+        {
+          "n": "Tibblesnap",
+          "r": "Bleaching-Touched Gnome"
+        },
+        {
+          "n": "Velandris Ortho",
+          "r": "Taldan Diplomat"
+        }
+      ],
+      "taldor": [
+        {
+          "n": "Andoletta Maximvs",
+          "r": "Noble"
+        },
+        {
+          "n": "Cassio Velandris",
+          "r": "Senator"
+        },
+        {
+          "n": "Maximvs Severina",
+          "r": "Legionnaire"
+        },
+        {
+          "n": "Velandris Ortho",
+          "r": "Diplomat"
+        },
+        {
+          "n": "Auronia Castellan",
+          "r": "Aristocrat"
+        },
+        {
+          "n": "Theodosius Vane",
+          "r": "Magistrate"
+        },
+        {
+          "n": "Livia Andronicus",
+          "r": "Court Scholar"
+        },
+        {
+          "n": "Marcellinus Vex",
+          "r": "Senate Guard"
+        }
+      ],
+      "varisia": [
+        {
+          "n": "Zarta Devargo",
+          "r": "Caravan Leader"
+        },
+        {
+          "n": "Iesha Korrath",
+          "r": "Wanderer"
+        },
+        {
+          "n": "Devargo Naveth",
+          "r": "Trader"
+        },
+        {
+          "n": "Zandara Vesh",
+          "r": "Fortune Teller"
+        },
+        {
+          "n": "Kreelo Ferassi",
+          "r": "Roadside Bard"
+        },
+        {
+          "n": "Mishka Voranth",
+          "r": "Caravan Guard"
+        },
+        {
+          "n": "Tarvik Esmenya",
+          "r": "Wandering Merchant"
+        },
+        {
+          "n": "Zinnia Korvath",
+          "r": "Frontier Scout"
+        }
+      ],
+      "osirion": [
+        {
+          "n": "Khefru Senemet",
+          "r": "Scholar"
+        },
+        {
+          "n": "Amenopis",
+          "r": "Priest"
+        },
+        {
+          "n": "Senemet Khalor",
+          "r": "Tomb Keeper"
+        },
+        {
+          "n": "Neferankh",
+          "r": "Pyramid Warden"
+        },
+        {
+          "n": "Khentamen",
+          "r": "Desert Sage"
+        },
+        {
+          "n": "Anubatre",
+          "r": "Tomb Guardian"
+        },
+        {
+          "n": "Sethemkar",
+          "r": "Royal Vizier"
+        },
+        {
+          "n": "Khefretis",
+          "r": "Ancient Scribe"
+        }
+      ],
+      "gnome": [
+        {
+          "n": "Quibberlux",
+          "r": "Bleaching-Touched"
+        },
+        {
+          "n": "Tibblesnap",
+          "r": "Wonder Seeker"
+        },
+        {
+          "n": "Frizznop",
+          "r": "Curious Tinkerer"
+        },
+        {
+          "n": "Blibberwick",
+          "r": "Color Chaser"
+        },
+        {
+          "n": "Snazzlepin",
+          "r": "Vitality Keeper"
+        },
+        {
+          "n": "Wobblenix",
+          "r": "Wonder-Bound Sage"
+        },
+        {
+          "n": "Crinklepot",
+          "r": "Anti-Bleaching Scholar"
+        },
+        {
+          "n": "Glimmerquix",
+          "r": "Spark of Curiosity"
+        }
+      ]
+    },
+    "related_chips": [
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Elf Names",
+        "url": "elf-name-generator.html"
+      },
+      {
+        "label": "Dwarf Names",
+        "url": "dwarf-name-generator.html"
+      },
+      {
+        "label": "Wood Elf Names",
+        "url": "wood-elf-name-generator.html"
+      },
+      {
+        "label": "Kingdom Names",
+        "url": "kingdom-name-generator.html"
+      },
+      {
+        "label": "Fantasy City Names",
+        "url": "fantasy-city-name-generator.html"
+      }
+    ],
+    "sidebar_links": [
+      {
+        "label": "D&D Name Generator",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Elf Name Generator",
+        "url": "elf-name-generator.html"
+      },
+      {
+        "label": "Dwarf Name Generator",
+        "url": "dwarf-name-generator.html"
+      },
+      {
+        "label": "Wood Elf Generator",
+        "url": "wood-elf-name-generator.html"
+      },
+      {
+        "label": "Kingdom Generator",
+        "url": "kingdom-name-generator.html"
+      },
+      {
+        "label": "Fantasy City Generator",
+        "url": "fantasy-city-name-generator.html"
+      }
+    ],
+    "sidebar_tips": [
+      "Match human names to their nation of origin first — Golarion's geography drives naming far more strictly than Forgotten Realms does",
+      "Elf and dwarf names transfer almost directly between Pathfinder and D&D 5e with minimal adjustment",
+      "Gnome names should carry a sense of urgency or playful strangeness tied to the Bleaching lore, not generic whimsy",
+      "Taldan names benefit from stacking multiple given names to signal aristocratic standing",
+      "Osirian names should sound ancient regardless of the character's actual age — the nation's identity rests on its history"
+    ],
+    "sidebar_pro_tip": "Pick your character's nation of origin before generating a human name, since Golarion ties linguistic root to geography far more strictly than most fantasy settings.",
+    "seo_article": "<h2>Pathfinder Name Generator: Naming Conventions Across Golarion</h2><p>Golarion isn't one setting. It's a patchwork of nations, each with its own linguistic root, and a name from Taldor sounds nothing like a name from Osirion. A Pathfinder name generator that ignores this geography produces names that feel generic. This guide breaks down naming convention by nation, compares it to D&D 5e's Forgotten Realms approach, and covers race-specific patterns for elves, dwarves, halflings, and gnomes.</p><h2>Naming by Nation</h2><h3>Taldor</h3><p>Taldor draws heavily from Roman and Byzantine naming tradition, reflecting its identity as an ancient, decaying empire obsessed with its own former glory. Names run formal and structured: Andoletta, Maximvs, Cassio. Multiple given names and family names stacked together signal aristocratic standing, which fits a nation where bloodline matters more than competence.</p><h3>Varisia</h3><p>Varisia sits on Golarion's frontier, and its naming convention reflects that mixed, untamed character. Varisian names borrow from real-world Romani naming roots, given the Varisian people's wandering, caravan-based culture: Zarta, Devargo, Iesha. Names here feel earthier and less formal than Taldan names, fitting a region built on independence rather than inherited status.</p><h3>Osirion</h3><p>Osirion draws directly from ancient Egyptian naming tradition, appropriate for a nation built around pyramids, pharaohs, and a civilization thousands of years old. Names favor specific vowel patterns and constructions rooted in real Egyptian linguistic history: Amenopis, Khefru, Senemet. Osirian names should feel ancient even when worn by a young character, since the nation's whole identity rests on the weight of its history.</p><h2>Naming by Race</h2><h3>Elves</h3><p>Pathfinder elven names follow nearly the same liquid-consonant logic as D&D 5e elven names, flowing constructions with minimal hard stops. The overlap here is strong enough that names transfer between the two systems with almost no adjustment needed.</p><h3>Dwarves</h3><p>Pathfinder dwarf names share 5e's hard-consonant, clan-compound structure. Stonebreaker, Thaldrun, Ironvein. The naming logic between systems is close to identical, since both draw from the same broad fantasy-dwarf tradition rooted in Norse and Germanic phonetics.</p><h3>Halflings</h3><p>Pathfinder halfling names keep the warm, food-and-home-adjacent surname tradition found in 5e, but Golarion halflings carry an additional cultural layer tied to their history of enslavement under Cheliax, which shows up in some naming choices that reference resilience or quiet rebellion rather than pure domestic comfort.</p><h3>Gnomes</h3><p>Gnomes are where Pathfinder diverges sharply from 5e. Golarion gnomes carry the Bleaching, a slow fading of vitality and color tied to losing connection to wonder and curiosity, and their names often reflect this existential urgency. Gnome names tend toward unusual, attention-grabbing constructions, sometimes deliberately strange or playful, since a gnome's survival is tied to staying curious and engaged with the world. This naming logic has no real equivalent in standard 5e gnome conventions.</p><h2>Example Golarion Names by Nation and Race</h2><table><thead><tr><th>Nation/Race</th><th>Example Name</th><th>Notes</th></tr></thead><tbody><tr><td>Taldor (Human)</td><td>Andoletta Maximvs</td><td>Roman/Byzantine root</td></tr><tr><td>Varisia (Human)</td><td>Zarta Devargo</td><td>Romani-inspired root</td></tr><tr><td>Osirion (Human)</td><td>Khefru Senemet</td><td>Ancient Egyptian root</td></tr><tr><td>Golarion Elf</td><td>Caladrieth</td><td>Liquid consonant structure</td></tr><tr><td>Golarion Dwarf</td><td>Thaldrun Ironvein</td><td>Clan-compound structure</td></tr><tr><td>Golarion Gnome</td><td>Quibberlux</td><td>Deliberately unusual construction</td></tr></tbody></table><h2>Pathfinder Naming vs D&D 5e Forgotten Realms Naming</h2><p>Forgotten Realms naming convention treats human names as a loose, blended pool without strict geographic separation. Golarion does the opposite: nation determines linguistic root almost absolutely. A Taldan name and an Osirian name should never sound interchangeable, where two human names from different Forgotten Realms regions might blend together more easily. This makes Golarion naming more demanding but also more precise once you know which nation your character comes from.</p><p>Race-specific naming overlaps heavily between the two systems for elves, dwarves, and humans. The real divergence sits with gnomes, where Golarion's Bleaching lore gives gnome names an urgency and strangeness that 5e gnome names don't carry, and with the deeper nation-by-nation human naming structure that Forgotten Realms doesn't enforce as strictly.</p><h2>Use Cases</h2><p>Pathfinder 2e campaigns built specifically around Golarion benefit most from nation-accurate naming, since the setting's geography is central to its identity in a way Forgotten Realms isn't always. Golarion worldbuilding projects, whether for a home campaign or published content, hold together better when every character's name signals their nation of origin correctly rather than pulling from a generic fantasy name pool.</p>",
+    "faq_items": [
+      {
+        "q": "How is Pathfinder naming different from D&D 5e naming?",
+        "a": "Pathfinder's Golarion setting ties naming convention tightly to nation of origin — Taldor draws from Roman and Byzantine roots, Osirion from ancient Egyptian roots, Varisia from Romani roots. D&D 5e's Forgotten Realms treats human names as a looser, blended pool without that same strict geographic separation."
+      },
+      {
+        "q": "What naming convention does Taldor use?",
+        "a": "Taldor draws from Roman and Byzantine naming tradition, reflecting its identity as an ancient empire obsessed with its former glory. Names run formal and structured, often stacking multiple given names and family names to signal aristocratic standing."
+      },
+      {
+        "q": "How do gnome names differ between Pathfinder and D&D 5e?",
+        "a": "Golarion gnomes carry the Bleaching, a fading of vitality tied to losing curiosity about the world, and their names often reflect that existential urgency through unusual or deliberately playful constructions. Standard D&D 5e gnome naming has no equivalent lore-driven urgency."
+      },
+      {
+        "q": "What naming convention does Osirion use?",
+        "a": "Osirion draws directly from ancient Egyptian naming tradition, fitting its identity as a civilization built around pyramids and a history thousands of years old. Names should feel ancient regardless of the character's actual age."
+      },
+      {
+        "q": "Do Pathfinder elf and dwarf names work in D&D 5e?",
+        "a": "Yes, almost without adjustment. Pathfinder elven names follow the same liquid-consonant logic as 5e elven names, and Pathfinder dwarf names share the same hard-consonant, clan-compound structure found in 5e."
+      },
+      {
+        "q": "What naming convention does Varisia use?",
+        "a": "Varisia draws from real-world Romani naming roots, reflecting the Varisian people's wandering, caravan-based culture. Names here feel earthier and less formal than Taldan names, fitting a frontier region built on independence."
+      },
+      {
+        "q": "Can I use this generator for Pathfinder 2e specifically?",
+        "a": "Yes. Pathfinder 2e retains the same Golarion nation-based naming geography as earlier editions, so nation-accurate names remain just as relevant for 2e campaigns built around the same setting."
+      }
+    ],
+    "footer_links": [
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Elf Names",
+        "url": "elf-name-generator.html"
+      },
+      {
+        "label": "Dwarf Names",
+        "url": "dwarf-name-generator.html"
+      },
+      {
+        "label": "Wood Elf Names",
+        "url": "wood-elf-name-generator.html"
+      },
+      {
+        "label": "Blood Elf Names",
+        "url": "blood-elf-name-generator.html"
+      },
+      {
+        "label": "Kingdom Names",
+        "url": "kingdom-name-generator.html"
+      },
+      {
+        "label": "Fantasy City Names",
+        "url": "fantasy-city-name-generator.html"
+      },
+      {
+        "label": "Half-Orc Names",
+        "url": "half-orc-name-generator.html"
+      },
+      {
+        "label": "Tiefling Names",
+        "url": "tiefling-name-generator.html"
+      },
+      {
+        "label": "Mage Names",
+        "url": "mage-name-generator.html"
+      }
+    ],
+    "tools_js_entry": {
+      "id": "pathfinder-name-generator",
+      "name": "Pathfinder Name Generator",
+      "desc": "Authentic Golarion names by nation — Taldor, Varisia, Osirion — and race for Pathfinder 2e campaigns.",
+      "category": "names",
+      "tags": [
+        "pathfinder",
+        "golarion",
+        "2e"
+      ],
+      "icon": "<path d='M12 2l9 4.9V17L12 22l-9-4.9V6.9z'/>",
+      "url": "pathfinder-name-generator.html",
+      "volume": 390,
+      "kd": 15,
+      "featured": false
+    },
+    "sitemap_priority": "0.8"
+  },
+  {
+    "id": "mythical-name-generator",
+    "page_name": "Mythical Name Generator",
+    "meta_title": "Mythical Name Generator — Beings, Places & Artifacts | RuneForge",
+    "meta_desc": "Generate mythical names for beings, places, and artifacts rooted in Greek, Norse, Celtic, and Egyptian tradition. Free name generator for worldbuilding and fantasy fiction.",
+    "og_title": "Mythical Name Generator — RuneForge",
+    "h1_text": "Names for the gods, the mountains where they live, and the swords they forged.",
+    "hero_sub": "Generate mythical names for beings, places, and artifacts — rooted in Greek, Norse, Celtic, and Egyptian tradition for consistent worldbuilding.",
+    "hero_bg": "hero-bg-gothic.webp",
+    "eyebrow_text": "Mythical Name Generator",
+    "howto_step1": "Select All, Being, Place, or Artifact from the filter buttons.",
+    "breadcrumb_category_name": "Name Generators",
+    "breadcrumb_category_id": "names",
+    "filters": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Being",
+        "value": "being"
+      },
+      {
+        "label": "Place",
+        "value": "place"
+      },
+      {
+        "label": "Artifact",
+        "value": "artifact"
+      }
+    ],
+    "name_data": {
+      "all": [
+        {
+          "n": "Nikephoros",
+          "r": "Greek Victory Spirit"
+        },
+        {
+          "n": "Vrothgar",
+          "r": "Norse Storm Deity"
+        },
+        {
+          "n": "Cairn Eswyth",
+          "r": "Celtic Threshold Place"
+        },
+        {
+          "n": "The Hall of Endless Tide",
+          "r": "Egyptian Sacred Place"
+        },
+        {
+          "n": "Skaldrim",
+          "r": "Norse Legendary Hammer"
+        },
+        {
+          "n": "The Aegis of Theron",
+          "r": "Greek Sacred Shield"
+        },
+        {
+          "n": "Brigwyn",
+          "r": "Celtic Nature Spirit"
+        },
+        {
+          "n": "Sekhmetra",
+          "r": "Egyptian Divine Being"
+        },
+        {
+          "n": "Yggrathos",
+          "r": "Norse World Tree Guardian"
+        },
+        {
+          "n": "The Eye of Theron",
+          "r": "Greek Sacred Artifact"
+        },
+        {
+          "n": "Mistveil Cairn",
+          "r": "Celtic Otherworld Threshold"
+        },
+        {
+          "n": "The Crook of Anuvet",
+          "r": "Egyptian Divine Artifact"
+        },
+        {
+          "n": "Apollyx",
+          "r": "Greek Light Bearer"
+        },
+        {
+          "n": "Fenrathok",
+          "r": "Norse Entropy Beast"
+        }
+      ],
+      "being": [
+        {
+          "n": "Nikephoros",
+          "r": "Greek Victory Spirit"
+        },
+        {
+          "n": "Vrothgar",
+          "r": "Norse Storm Deity"
+        },
+        {
+          "n": "Brigwyn",
+          "r": "Celtic Nature Spirit"
+        },
+        {
+          "n": "Sekhmetra",
+          "r": "Egyptian Divine Being"
+        },
+        {
+          "n": "Apollyx",
+          "r": "Greek Light Bearer"
+        },
+        {
+          "n": "Fenrathok",
+          "r": "Norse Entropy Beast"
+        },
+        {
+          "n": "Cerridwyn",
+          "r": "Celtic Liminal Spirit"
+        },
+        {
+          "n": "Anubastet",
+          "r": "Egyptian Guardian Deity"
+        },
+        {
+          "n": "Nikandros",
+          "r": "Greek Honor Bringer"
+        },
+        {
+          "n": "Yggvarath",
+          "r": "Norse Tree Spirit"
+        }
+      ],
+      "place": [
+        {
+          "n": "Cairn Eswyth",
+          "r": "Celtic Threshold Place"
+        },
+        {
+          "n": "The Hall of Endless Tide",
+          "r": "Egyptian Sacred Place"
+        },
+        {
+          "n": "Mistveil Cairn",
+          "r": "Celtic Otherworld Threshold"
+        },
+        {
+          "n": "Olympara",
+          "r": "Greek Sacred Mountain"
+        },
+        {
+          "n": "Asgardrim",
+          "r": "Norse Divine Enclosure"
+        },
+        {
+          "n": "The Field of Eternal Reeds",
+          "r": "Egyptian Afterlife Realm"
+        },
+        {
+          "n": "Brighowe",
+          "r": "Celtic Sacred Grove"
+        },
+        {
+          "n": "The Hall of Two Truths",
+          "r": "Egyptian Judgment Place"
+        },
+        {
+          "n": "Valdrathor",
+          "r": "Norse Hall of the Slain"
+        },
+        {
+          "n": "Theronpolis",
+          "r": "Greek Divine City"
+        }
+      ],
+      "artifact": [
+        {
+          "n": "Skaldrim",
+          "r": "Norse Legendary Hammer"
+        },
+        {
+          "n": "The Aegis of Theron",
+          "r": "Greek Sacred Shield"
+        },
+        {
+          "n": "The Crook of Anuvet",
+          "r": "Egyptian Divine Artifact"
+        },
+        {
+          "n": "The Eye of Theron",
+          "r": "Greek Sacred Artifact"
+        },
+        {
+          "n": "Gjallarvox",
+          "r": "Norse Calling Horn"
+        },
+        {
+          "n": "The Fleece of Nikara",
+          "r": "Greek Legendary Relic"
+        },
+        {
+          "n": "The Ankh of Sekhmet",
+          "r": "Egyptian Life Artifact"
+        },
+        {
+          "n": "Brighid's Riddle",
+          "r": "Celtic Living Relic"
+        },
+        {
+          "n": "Mjolnrath",
+          "r": "Norse Storm Weapon"
+        },
+        {
+          "n": "The Scepter of Ra's Reach",
+          "r": "Egyptian Divine Scepter"
+        }
+      ]
+    },
+    "related_chips": [
+      {
+        "label": "Mythical Creatures",
+        "url": "mythical-creature-generator.html"
+      },
+      {
+        "label": "Magic Item Names",
+        "url": "magic-item-generator.html"
+      },
+      {
+        "label": "Kingdom Names",
+        "url": "kingdom-name-generator.html"
+      },
+      {
+        "label": "Fantasy City Names",
+        "url": "fantasy-city-name-generator.html"
+      },
+      {
+        "label": "Weapon Names",
+        "url": "weapon-name-generator.html"
+      },
+      {
+        "label": "Dungeon Names",
+        "url": "dungeon-name-generator.html"
+      }
+    ],
+    "sidebar_links": [
+      {
+        "label": "Mythical Creature Generator",
+        "url": "mythical-creature-generator.html"
+      },
+      {
+        "label": "Magic Item Generator",
+        "url": "magic-item-generator.html"
+      },
+      {
+        "label": "Kingdom Name Generator",
+        "url": "kingdom-name-generator.html"
+      },
+      {
+        "label": "Fantasy City Generator",
+        "url": "fantasy-city-name-generator.html"
+      },
+      {
+        "label": "Weapon Name Generator",
+        "url": "weapon-name-generator.html"
+      },
+      {
+        "label": "Dungeon Name Generator",
+        "url": "dungeon-name-generator.html"
+      }
+    ],
+    "sidebar_tips": [
+      "Pick one or two root mythological traditions and apply them deliberately — don't mix freely without reason",
+      "Place names should describe function or feature, not just sound evocative",
+      "Artifact names work best when they imply power or origin rather than just sounding cool",
+      "Assign each culture in a multi-culture setting its own distinct tradition, the way real-world myth systems vary by region",
+      "Build an informal phonetic rule set per tradition before generating names — consistent consonants and vowels tie a world together"
+    ],
+    "sidebar_pro_tip": "Decide your world's root mythological traditions before generating a single name — consistency across beings, places, and artifacts matters more than any individual name sounding cool.",
+    "seo_article": "<h2>Mythical Name Generator: Naming Beings, Places, and Artifacts</h2><p>Most mythical name generators stop at creatures. This one doesn't. A myth-inspired world needs names for the gods and monsters, sure, but also for the sword the hero carries, the mountain where the gods live, the lost city nobody can find anymore. This guide covers all three categories, drawing naming logic from Greek, Norse, Celtic, and Egyptian roots, and shows how to build a consistent mythical naming system for an original world rather than picking names at random from four unrelated traditions.</p><h2>Naming Mythical Beings</h2><p>Greek-rooted being names favor clear etymological meaning, since Greek mythology names were rarely arbitrary. Apollo means light, Nike means victory. Building a being's name from a meaningful Greek root, even an invented one, gives the name weight beyond its sound. Norse-rooted being names lean harder into phonetic harshness, reflecting a mythology built around struggle against entropy and giants: Fenrir, Yggdrasil, names that sound like they were carved rather than spoken. Celtic-rooted being names favor flowing, vowel-rich constructions tied to nature and otherworldly liminality: Brigid, Lugh, Cerridwen. Egyptian-rooted being names carry formal, ceremonial weight, often built from compound elements referencing the divine or the eternal: Anubis, Sekhmet, Thoth.</p><h2>Naming Mythical Places</h2><p>Place names across these traditions tend to describe function or feature rather than just sounding pretty. Greek place names often reference geography directly: Olympus essentially means \"the mountain.\" Norse place names frequently compound two concepts — Asgard combines \"Aesir\" and \"garden/enclosure,\" Valhalla combines \"the slain\" and \"hall.\" Celtic place names lean into otherworldly thresholds, names for places that sit between the mortal world and something else, often tied to mist, water, or burial mounds. Egyptian place names carry religious function baked directly into the name — the Field of Reeds, the Hall of Two Truths — names that describe what happens there rather than just labeling a location.</p><h2>Naming Mythical Artifacts</h2><p>A mythical weapon or relic needs a name that implies its power or origin rather than just sounding cool. Greek-tradition artifact names often reference the artifact's creator or the deed it accomplished: the Aegis, the Golden Fleece. Norse-tradition artifact names favor short, hard-hitting single words that function almost like titles: Mjolnir, Gjallarhorn. Celtic-tradition artifact names lean toward poetic, slightly riddling constructions, since Celtic myth treats magic items as having their own will and history. Egyptian-tradition artifact names often pair a material or form with a divine reference — the Crook of Osiris, the Eye of Ra — structures that ground the object's power in a specific deity's domain.</p><h2>Example Mythical Names by Category and Tradition</h2><table><thead><tr><th>Category</th><th>Tradition</th><th>Example Name</th></tr></thead><tbody><tr><td>Being</td><td>Greek-inspired</td><td>Nikephoros</td></tr><tr><td>Being</td><td>Norse-inspired</td><td>Vrothgar</td></tr><tr><td>Place</td><td>Celtic-inspired</td><td>Cairn Eswyth</td></tr><tr><td>Place</td><td>Egyptian-inspired</td><td>The Hall of Endless Tide</td></tr><tr><td>Artifact</td><td>Norse-inspired</td><td>Skaldrim</td></tr><tr><td>Artifact</td><td>Greek-inspired</td><td>The Aegis of Theron</td></tr></tbody></table><h2>Building a Consistent Mythical Naming System</h2><p>The biggest mistake in original worldbuilding is mixing traditions without intention. A world with a Greek-named god, a Norse-named sword, and a Celtic-named capital city feels scattered rather than rich, unless that mixing is itself part of the lore — multiple pantheons colliding, for instance. Pick one or two root traditions for your core mythology and stay disciplined about it. If your setting has multiple cultures, assign each culture its own tradition deliberately, the way Golarion assigns Roman roots to Taldor and Egyptian roots to Osirion, rather than letting names drift randomly across your map.</p><p>Once you've picked your root traditions, build a small phonetic rule set for each: which consonant clusters appear, which vowel patterns repeat, whether compound names are common. This rule set, even an informal one in your own head, keeps every name you generate afterward feeling like it belongs to the same world rather than reading like four separate name generators stapled together.</p><h2>Use Cases</h2><p>Worldbuilding projects benefit most directly from this kind of system, since consistent naming across beings, places, and artifacts is one of the fastest ways to make an original setting feel lived-in rather than invented on the spot. Fantasy novelists need this same consistency across a manuscript — readers notice when naming logic breaks down partway through a book. RPG lore documents, whether for a homebrew tabletop setting or a published sourcebook, hold together better when every name traces back to a clear, intentional root tradition rather than a grab bag of whatever sounded good that day.</p>",
+    "faq_items": [
+      {
+        "q": "What is the difference between a mythical creature generator and a mythical name generator?",
+        "a": "A mythical creature generator focuses narrowly on beasts like dragons or griffins. A broader mythical name generator covers beings, places, and artifacts together, since a fully realized mythical world needs names for gods, sacred locations, and legendary objects, not just monsters."
+      },
+      {
+        "q": "How do I pick a mythological tradition for my fantasy world?",
+        "a": "Pick one or two root traditions — Greek, Norse, Celtic, or Egyptian — and apply them deliberately across your setting rather than mixing freely. If your world has multiple cultures, assign each culture its own tradition the way Pathfinder assigns Roman roots to Taldor and Egyptian roots to Osirion."
+      },
+      {
+        "q": "What makes a good name for a mythical artifact?",
+        "a": "Strong artifact names imply the object's power or origin rather than just sounding impressive. Norse tradition favors short, hard-hitting single words like Mjolnir, while Egyptian tradition pairs a material or form with a divine reference, like the Eye of Ra."
+      },
+      {
+        "q": "How do Greek and Norse naming traditions differ?",
+        "a": "Greek-rooted names tend to carry clear etymological meaning, since Greek mythological names were rarely arbitrary. Norse-rooted names lean harder into phonetic harshness, reflecting a mythology built around struggle and conflict with giants and entropy."
+      },
+      {
+        "q": "What naming pattern works for mythical places?",
+        "a": "Strong mythical place names describe function or feature rather than just sounding evocative. Norse place names often compound two concepts together, like Asgard or Valhalla, while Egyptian place names bake religious function directly into the name."
+      },
+      {
+        "q": "How do I keep mythical names consistent across a whole fantasy world?",
+        "a": "Build a small phonetic rule set for each culture in your world — consistent consonant clusters, vowel patterns, and whether compound names are common — before generating names. This keeps every name feeling like it belongs to the same setting rather than reading like separate generators stapled together."
+      },
+      {
+        "q": "Can I use this generator for tabletop RPG lore documents?",
+        "a": "Yes. Published or homebrew RPG sourcebooks hold together better when every name across beings, places, and artifacts traces back to a clear, intentional root tradition rather than a random mix of whatever sounded appealing in the moment."
+      }
+    ],
+    "footer_links": [
+      {
+        "label": "Mythical Creatures",
+        "url": "mythical-creature-generator.html"
+      },
+      {
+        "label": "Magic Item Names",
+        "url": "magic-item-generator.html"
+      },
+      {
+        "label": "Kingdom Names",
+        "url": "kingdom-name-generator.html"
+      },
+      {
+        "label": "Fantasy City Names",
+        "url": "fantasy-city-name-generator.html"
+      },
+      {
+        "label": "Weapon Names",
+        "url": "weapon-name-generator.html"
+      },
+      {
+        "label": "Dungeon Names",
+        "url": "dungeon-name-generator.html"
+      },
+      {
+        "label": "D&D Names",
+        "url": "dnd-name-generator.html"
+      },
+      {
+        "label": "Pathfinder Names",
+        "url": "pathfinder-name-generator.html"
+      },
+      {
+        "label": "Necromancer Names",
+        "url": "necromancer-name-generator.html"
+      },
+      {
+        "label": "Villain Names",
+        "url": "villain-name-generator.html"
+      }
+    ],
+    "tools_js_entry": {
+      "id": "mythical-name-generator",
+      "name": "Mythical Name Generator",
+      "desc": "Names for mythical beings, places, and artifacts rooted in Greek, Norse, Celtic, and Egyptian tradition.",
+      "category": "names",
+      "tags": [
+        "mythical",
+        "mythology",
+        "worldbuilding"
+      ],
+      "icon": "<path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/>",
+      "url": "mythical-name-generator.html",
+      "volume": 90,
+      "kd": 9,
+      "featured": false
+    },
+    "sitemap_priority": "0.7"
+  }
+] 
 ]
 
