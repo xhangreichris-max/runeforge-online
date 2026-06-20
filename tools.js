@@ -301,6 +301,90 @@ const RUNEFORGE_TOOLS = [
     kd: 10,
     featured: false
   },
+  {
+    id: "bg3-name-generator",
+    name: "BG3 Name Generator",
+    desc: "Authentic Baldur's Gate 3 character names built on Larian's naming logic — for custom Tavs, Durges, and tabletop conversions.",
+    category: "names",
+    tags: ["bg3", "baldurs gate", "larian", "dnd"],
+    icon: `<path d='M12 2l9 4.9V17L12 22l-9-4.9V6.9z'/>`,
+    url: "bg3-name-generator.html",
+    volume: 720,
+    kd: 18,
+    featured: false
+  },
+  {
+    id: "yordle-name-generator",
+    name: "Yordle Name Generator",
+    desc: "Whimsical, bouncy, mechanical names for yordle-inspired characters — fan fiction, tabletop reskins, and original creations.",
+    category: "names",
+    tags: ["yordle", "league of legends", "whimsical"],
+    icon: `<circle cx='12' cy='8' r='5'/><path d='M3 21v-2a7 7 0 0 1 14 0v2'/>`,
+    url: "yordle-name-generator.html",
+    volume: 70,
+    kd: 5,
+    featured: false
+  },
+  {
+    id: "hexblood-name-generator",
+    name: "Hexblood Name Generator",
+    desc: "Eerie hag-touched names — distorted birth names and curse-given names rooted in coven transformation lore.",
+    category: "names",
+    tags: ["hexblood", "hag", "ravenloft", "dnd"],
+    icon: `<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>`,
+    url: "hexblood-name-generator.html",
+    volume: 30,
+    kd: 6,
+    featured: false
+  },
+  {
+    id: "wendigo-name-generator",
+    name: "Wendigo Name Generator",
+    desc: "Names for the wendigo horror-fiction archetype — antlered, forest-bound creatures from modern horror media.",
+    category: "creatures",
+    tags: ["wendigo", "horror", "monster"],
+    icon: `<circle cx='9' cy='12' r='1'/><circle cx='15' cy='12' r='1'/><path d='M16 20a2 2 0 0 0 1.56-3.25 8 8 0 1 0-11.12 0A2 2 0 0 0 8 20'/>`,
+    url: "wendigo-name-generator.html",
+    volume: 50,
+    kd: 7,
+    featured: false
+  },
+  {
+    id: "vesk-name-generator",
+    name: "Vesk Name Generator",
+    desc: "Militaristic vesk names for Starfinder — hard consonants, clan structure, and earned epithets from the Veskarium.",
+    category: "names",
+    tags: ["vesk", "starfinder", "sci-fi"],
+    icon: `<circle cx='12' cy='12' r='10'/><path d='M12 8v4l3 3'/>`,
+    url: "vesk-name-generator.html",
+    volume: 30,
+    kd: 8,
+    featured: false
+  },
+  {
+    id: "pathfinder-name-generator",
+    name: "Pathfinder Name Generator",
+    desc: "Authentic Golarion names by nation — Taldor, Varisia, Osirion — and race for Pathfinder 2e campaigns.",
+    category: "names",
+    tags: ["pathfinder", "golarion", "2e"],
+    icon: `<path d='M12 2l9 4.9V17L12 22l-9-4.9V6.9z'/>`,
+    url: "pathfinder-name-generator.html",
+    volume: 390,
+    kd: 15,
+    featured: false
+  },
+  {
+    id: "mythical-name-generator",
+    name: "Mythical Name Generator",
+    desc: "Names for mythical beings, places, and artifacts rooted in Greek, Norse, Celtic, and Egyptian tradition.",
+    category: "names",
+    tags: ["mythical", "mythology", "worldbuilding"],
+    icon: `<path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/>`,
+    url: "mythical-name-generator.html",
+    volume: 90,
+    kd: 9,
+    featured: false
+  },
 ];
 
 // ── CATEGORY CONFIG ──────────────────────────────────────
