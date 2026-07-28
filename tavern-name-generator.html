@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tavern Name Generator — RuneForge</title>
+  <meta name="description" content="Generate memorable tavern and inn names for D&D, fantasy RPGs, and worldbuilding. Hundreds of unique names across Fantasy, Medieval, Dwarven, Elven, and Pirate styles.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://runeforge.online/tavern-name-generator.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tavern Name Generator — RuneForge">
+  <meta property="og:description" content="Generate memorable tavern and inn names for D&D, fantasy RPGs, and worldbuilding.">
+  <meta property="og:url" content="https://runeforge.online/tavern-name-generator.html">
+  <meta property="og:image" content="assets/images/og-image.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon_io/favicon.ico">
+  <link rel="manifest" href="assets/images/favicon_io/site.webmanifest">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Tavern Name Generator",
+    "url": "https://runeforge.online/tavern-name-generator.html",
+    "description": "Generate memorable tavern and inn names for D&D, fantasy RPGs, and worldbuilding.",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "Any"
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0C0D0E;
+      --bg-elevated: #13151A;
+      --card-bg: #15171D;
+      --gold: #C4A052;
+      --gold-bright: #E8C87A;
+      --gold-dim: #8B7340;
+      --text: #F0EBE3;
+      --text-sec: #B8B2A8;
+      --text-muted: #8A8378;
+      --border: rgba(196,160,82,0.15);
+      --border-hover: rgba(196,160,82,0.35);
+      --max: 1400px;
+      --radius: 12px;
+    }
+
+    html { 
+      scroll-behavior: smooth; 
+      font-size: 16px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      font-weight: 400;
+      line-height: 1.6;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(12,13,14,0.88);
+      backdrop-filter: blur(16px) saturate(1.2);
+      -webkit-backdrop-filter: blur(16px) saturate(1.2);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 clamp(1rem, 3vw, 2.5rem);
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: clamp(1.125rem, 1.5vw, 1.5rem);
+      color: var(--gold-bright);
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      transition: filter 0.2s;
+    }
+    .logo:hover { filter: brightness(1.2); }
+    .nav-links { display: flex; align-items: center; gap: clamp(1.25rem, 2.5vw, 2.5rem); }
+    .nav-a {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(0.75rem, 0.9vw, 0.875rem);
+      letter-spacing: 0.12em;
+      color: var(--text-sec);
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: color 0.2s;
+      position: relative;
+    }
+    .nav-a::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--gold);
+      transition: width 0.3s ease;
+    }
+    .nav-a:hover { color: var(--gold); }
+    .nav-a:hover::after { width: 100%; }
+    .btn-pro {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(0.6875rem, 0.8vw, 0.8125rem);
+      letter-spacing: 0.14em;
+      color: #110A02;
+      background: linear-gradient(135deg, #EEC060, #A87830);
+      padding: 9px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 4px 12px rgba(196,160,82,0.2);
+    }
+    .btn-pro:hover { 
+      transform: translateY(-1px); 
+      box-shadow: 0 6px 20px rgba(196,160,82,0.3);
+    }
+
+    /* ── BREADCRUMB ── */
+    .breadcrumb {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 18px clamp(1rem, 3vw, 2.5rem) 0;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      font-size: clamp(0.8125rem, 0.9vw, 0.9375rem);
+      color: var(--text-muted);
+    }
+    .breadcrumb a { color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+    .breadcrumb a:hover { color: var(--gold); }
+    .breadcrumb span { color: var(--text-sec); }
+
+    /* ── HERO ── */
+    .hero {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: clamp(3rem, 6vw, 5rem) clamp(1rem, 3vw, 2.5rem) clamp(2.5rem, 5vw, 4rem);
+      text-align: center;
+      position: relative;
+      background: radial-gradient(ellipse at 50% 0%, rgba(196,160,82,0.08) 0%, transparent 60%);
+    }
+    .hero {
+  background: url('assets/images/hero-bg-tavern.webp') center/cover no-repeat;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, 
+    rgba(12,13,14,0.72) 0%, 
+    rgba(12,13,14,0.55) 40%, 
+    rgba(12,13,14,0.92) 100%
+  );
+  z-index: 0;
+}
+
+.hero > * { position: relative; z-index: 1; }
+    .eyebrow {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(0.6875rem, 0.85vw, 0.8125rem);
+      letter-spacing: 0.25em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 24px;
+      display: inline-block;
+      padding: 8px 20px;
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      background: rgba(196,160,82,0.05);
+    }
+    .hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.5rem, 5.5vw, 4.5rem);
+      font-weight: 400;
+      font-style: italic;
+      color: var(--text);
+      line-height: 1.1;
+      margin-bottom: 24px;
+      letter-spacing: 0.01em;
+    }
+    .hero-sub {
+      font-family: 'Inter', sans-serif;
+      font-size: clamp(1rem, 1.4vw, 1.25rem);
+      font-weight: 300;
+      color: var(--text-sec);
+      max-width: 640px;
+      margin: 0 auto clamp(2rem, 4vw, 3rem);
+      line-height: 1.7;
+    }
+
+    /* ── FILTERS ── */
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: clamp(2rem, 4vw, 3rem);
+    }
+    .filter-pill {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(0.6875rem, 0.85vw, 0.8125rem);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 10px 24px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text-sec);
+      border-radius: 100px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      white-space: nowrap;
+    }
+    .filter-pill:hover { 
+      border-color: var(--gold); 
+      color: var(--gold); 
+      background: rgba(196,160,82,0.05);
+    }
+    .filter-pill.active {
+      border-color: var(--gold);
+      color: #110A02;
+      background: linear-gradient(135deg, #EEC060, #A87830);
+      font-weight: 700;
+      box-shadow: 0 4px 16px rgba(196,160,82,0.25);
+    }
+
+    /* ── GENERATE BUTTON ── */
+    .btn-generate-wrap { display: flex; justify-content: center; margin-bottom: clamp(3rem, 5vw, 4rem); }
+    .btn-generate {
+      position: relative;
+      font-family: 'Cinzel', serif;
+      font-size: clamp(0.875rem, 1.2vw, 1.125rem);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #110A02;
+      font-weight: 700;
+      border: none;
+      cursor: pointer;
+      padding: 22px 56px;
+      clip-path: polygon(14px 0%, calc(100% - 14px) 0%, 100% 50%, calc(100% - 14px) 100%, 14px 100%, 0% 50%);
+      background: linear-gradient(180deg, #EEC060 0%, #A87830 50%, #4A2C0C 100%);
+      transition: all 0.25s ease;
+      min-width: 300px;
+      box-shadow: 0 8px 32px rgba(196,160,82,0.25);
+    }
+    .btn-generate::before {
+      content: '';
+      position: absolute;
+      inset: 2px;
+      clip-path: polygon(14px 0%, calc(100% - 14px) 0%, 100% 50%, calc(100% - 14px) 100%, 14px 100%, 0% 50%);
+      background: linear-gradient(180deg, #D4AF37 0%, #8B6520 50%, #3A1C00 100%);
+      z-index: 0;
+    }
+    .btn-generate::after {
+      content: '';
+      position: absolute;
+      inset: 4px;
+      clip-path: polygon(14px 0%, calc(100% - 14px) 0%, 100% 50%, calc(100% - 14px) 100%, 14px 100%, 0% 50%);
+      background: linear-gradient(180deg, #C4952A 0%, #7A5010 60%, #2A0E00 100%);
+      z-index: 0;
+    }
+    .btn-generate span { position: relative; z-index: 1; }
+    .btn-generate:hover { 
+      transform: scale(1.03); 
+      box-shadow: 0 12px 40px rgba(196,160,82,0.35);
+    }
+    .btn-generate:active { transform: scale(0.97); }
+
+    /* ── NAME GRID ── */
+    .section-main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 clamp(1rem, 3vw, 2.5rem);
+    }
+    .name-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-bottom: clamp(3rem, 5vw, 4rem);
+    }
+    @media (max-width: 1100px) { .name-grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 768px) { .name-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; } }
+    @media (max-width: 480px) { .name-grid { grid-template-columns: 1fr; } }
+
+    .name-card {
+      background: linear-gradient(145deg, rgba(20,24,32,0.8) 0%, rgba(14,17,23,0.95) 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: clamp(1.25rem, 2vw, 1.75rem) clamp(1.25rem, 2vw, 1.75rem);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      transition: all 0.3s ease;
+      cursor: default;
+      position: relative;
+      overflow: hidden;
+    }
+    .name-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .name-card:hover {
+      border-color: var(--border-hover);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(196,160,82,0.1);
+    }
+    .name-card:hover::before { opacity: 0.6; }
+    .name-card-body { flex: 1; min-width: 0; }
+    .card-name {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(1.125rem, 1.4vw, 1.5rem);
+      font-variant: small-caps;
+      color: var(--text);
+      line-height: 1.3;
+      margin-bottom: 8px;
+      word-break: break-word;
+      letter-spacing: 0.02em;
+    }
+    .card-role {
+      font-family: 'Inter', sans-serif;
+      font-size: clamp(0.6875rem, 0.8vw, 0.8125rem);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+    .copy-btn {
+      background: rgba(196,160,82,0.08);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 8px;
+      color: var(--text-muted);
+      transition: all 0.2s;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .copy-btn:hover { 
+      color: var(--gold); 
+      background: rgba(196,160,82,0.15);
+      border-color: var(--gold-dim);
+      transform: scale(1.1);
+    }
+    .copy-btn svg { display: block; width: 18px; height: 18px; }
+    .copy-btn.copied { 
+      color: var(--gold-bright); 
+      background: rgba(196,160,82,0.2);
+      border-color: var(--gold);
+    }
+
+    /* empty / loading state */
+    .name-card.skeleton .card-name {
+      background: rgba(196,160,82,0.08);
+      color: transparent;
+      border-radius: 6px;
+      animation: pulse 1.4s ease-in-out infinite;
+      height: 1.5em;
+    }
+    .name-card.skeleton .card-role {
+      background: rgba(196,160,82,0.05);
+      color: transparent;
+      border-radius: 4px;
+      width: 60%;
+      animation: pulse 1.4s ease-in-out infinite 0.2s;
+      height: 0.875em;
+    }
+    @keyframes pulse { 0%,100%{opacity:.4} 50%{opacity:.9} }
+
+    /* ── RELATED TOOLS ── */
+    .related {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 clamp(1rem, 3vw, 2.5rem) clamp(3rem, 5vw, 4rem);
+    }
+    .related-label {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(0.6875rem, 0.85vw, 0.8125rem);
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+    .related-chips { display: flex; flex-wrap: wrap; gap: 12px; }
+    .chip {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(0.6875rem, 0.85vw, 0.8125rem);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-sec);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 10px 22px;
+      text-decoration: none;
+      transition: all 0.25s;
+      background: transparent;
+    }
+    .chip:hover { 
+      color: var(--gold); 
+      border-color: var(--gold); 
+      background: rgba(196,160,82,0.05);
+      transform: translateY(-2px);
+    }
+
+    /* ── DIVIDER ── */
+    .divider {
+      max-width: var(--max);
+      margin: 0 auto clamp(3rem, 5vw, 4rem);
+      padding: 0 clamp(1rem, 3vw, 2.5rem);
+      border: none;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── SEO AREA ── */
+    .seo-area {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 clamp(1rem, 3vw, 2.5rem) clamp(4rem, 8vw, 6rem);
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: clamp(2rem, 4vw, 4rem);
+      align-items: start;
+    }
+    @media (max-width: 1024px) { .seo-area { grid-template-columns: 1fr; } }
+
+    .seo-article h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.75rem, 2.5vw, 2.5rem);
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 20px;
+      margin-top: 48px;
+      letter-spacing: 0.01em;
+      line-height: 1.2;
+    }
+    .seo-article h2:first-child { margin-top: 0; }
+    .seo-article h3 {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(0.875rem, 1.1vw, 1.125rem);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 14px;
+      margin-top: 36px;
+      font-weight: 600;
+    }
+    .seo-article p {
+      font-family: 'EB Garamond', serif;
+      font-size: clamp(1.0625rem, 1.3vw, 1.25rem);
+      color: var(--text-sec);
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+    .seo-article ul {
+      font-family: 'EB Garamond', serif;
+      font-size: clamp(1.0625rem, 1.3vw, 1.25rem);
+      color: var(--text-sec);
+      line-height: 1.8;
+      margin-bottom: 20px;
+      padding-left: 28px;
+    }
+    .seo-article ul li { margin-bottom: 10px; }
+    .seo-article a { 
+      color: var(--gold); 
+      text-decoration: none; 
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+    .seo-article a:hover { border-bottom-color: var(--gold); }
+
+    /* ── SIDEBAR ── */
+    .seo-sidebar {
+      position: sticky;
+      top: 90px;
+    }
+    .sidebar-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.3s;
+    }
+    .sidebar-card:hover { border-color: var(--border-hover); }
+    .sidebar-title {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(0.6875rem, 0.8vw, 0.8125rem);
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    .sidebar-links { display: flex; flex-direction: column; gap: 14px; }
+    .sidebar-links a {
+      font-family: 'Inter', sans-serif;
+      font-size: clamp(0.9375rem, 1.1vw, 1.0625rem);
+      color: var(--text-sec);
+      text-decoration: none;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .sidebar-links a::before {
+      content: '›';
+      color: var(--gold-dim);
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+    .sidebar-links a:hover { 
+      color: var(--gold); 
+      transform: translateX(4px);
+    }
+    .sidebar-links a:hover::before { color: var(--gold); }
+    .sidebar-tip {
+      font-family: 'EB Garamond', serif;
+      font-size: clamp(1rem, 1.2vw, 1.125rem);
+      color: var(--text-sec);
+      line-height: 1.7;
+    }
+    .sidebar-tip a { 
+      color: var(--gold); 
+      text-decoration: underline;
+      text-decoration-color: var(--gold-dim);
+      transition: text-decoration-color 0.2s;
+    }
+    .sidebar-tip a:hover { text-decoration-color: var(--gold); }
+
+    /* ── FAQ ── */
+    .faq { 
+      max-width: var(--max); 
+      margin: 0 auto; 
+      padding: 0 clamp(1rem, 3vw, 2.5rem) clamp(4rem, 8vw, 6rem); 
+    }
+    .faq-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 3vw, 3rem);
+      font-weight: 400;
+      font-style: italic;
+      color: var(--text);
+      margin-bottom: 36px;
+      line-height: 1.2;
+    }
+    details {
+      border-bottom: 1px solid var(--border);
+      padding: 24px 0;
+    }
+    summary {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(0.9375rem, 1.2vw, 1.25rem);
+      letter-spacing: 0.04em;
+      color: var(--text);
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      transition: color 0.2s;
+    }
+    summary:hover { color: var(--gold-bright); }
+    summary::-webkit-details-marker { display: none; }
+    summary::after {
+      content: '+';
+      font-family: 'Inter', sans-serif;
+      font-size: 24px;
+      color: var(--gold);
+      flex-shrink: 0;
+      transition: transform 0.3s ease;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: rgba(196,160,82,0.1);
+    }
+    details[open] summary::after { transform: rotate(45deg); background: rgba(196,160,82,0.2); }
+    .faq-answer {
+      font-family: 'EB Garamond', serif;
+      font-size: clamp(1rem, 1.2vw, 1.125rem);
+      color: var(--text-sec);
+      line-height: 1.8;
+      margin-top: 18px;
+      padding-right: 48px;
+      max-width: 720px;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: clamp(3rem, 5vw, 4rem) clamp(1rem, 3vw, 2.5rem);
+      background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.3));
+    }
+    .footer-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      gap: clamp(2rem, 4vw, 4rem);
+      align-items: start;
+    }
+    @media (max-width: 768px) { .footer-inner { grid-template-columns: 1fr; } }
+    .footer-logo {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: clamp(1.125rem, 1.4vw, 1.5rem);
+      color: var(--gold-bright);
+      text-decoration: none;
+      display: block;
+      margin-bottom: 16px;
+    }
+    .footer-tagline {
+      font-family: 'Inter', sans-serif;
+      font-size: clamp(0.875rem, 1vw, 1rem);
+      color: var(--text-muted);
+      line-height: 1.7;
+      max-width: 280px;
+    }
+    .footer-links {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px 32px;
+    }
+    .footer-links a {
+      font-family: 'Inter', sans-serif;
+      font-size: clamp(0.875rem, 1vw, 1rem);
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: all 0.2s;
+      padding: 4px 0;
+    }
+    .footer-links a:hover { color: var(--gold); }
+    .footer-copy {
+      max-width: var(--max);
+      margin: 40px auto 0;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+      font-family: 'Inter', sans-serif;
+      font-size: clamp(0.8125rem, 0.9vw, 0.9375rem);
+      color: var(--text-muted);
+      text-align: center;
+    }
+
+    /* ── SCROLLBAR ── */
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--gold-dim); border-radius: 5px; border: 2px solid var(--bg); }
+    ::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+
+    /* ── SELECTION ── */
+    ::selection { background: rgba(196,160,82,0.3); color: var(--text); }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">RuneForge</a>
+    <div class="nav-links">
+      <a href="index.html#names" class="nav-a">Names</a>
+      <a href="index.html#places" class="nav-a">Places</a>
+      <a href="index.html#creatures" class="nav-a">Creatures</a>
+      <a href="pro.html" class="btn-pro">♛ Pro</a>
+    </div>
+  </div>
+</nav>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <a href="index.html">RuneForge</a>
+  <span>›</span>
+  <a href="index.html#places">Places</a>
+  <span>›</span>
+  <span>Tavern Name Generator</span>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <p class="eyebrow">Places Generator</p>
+  <h1>Tavern Name Generator</h1>
+  <p class="hero-sub">Forge the perfect name for your inn, alehouse, or wayward rest — from the cozy hearths of elven cities to the salt-stained taverns of the sea.</p>
+
+  <div class="filters">
+    <button class="filter-pill active" data-filter="all">All</button>
+    <button class="filter-pill" data-filter="fantasy">Fantasy</button>
+    <button class="filter-pill" data-filter="medieval">Medieval</button>
+    <button class="filter-pill" data-filter="dwarven">Dwarven</button>
+    <button class="filter-pill" data-filter="elven">Elven</button>
+    <button class="filter-pill" data-filter="pirate">Pirate</button>
+  </div>
+
+  <div class="btn-generate-wrap">
+    <button class="btn-generate" id="generateBtn" aria-label="Generate tavern names">
+      <span>⚒ Generate Names</span>
+    </button>
+  </div>
+</section>
+
+<!-- NAME GRID -->
+<div class="section-main">
+  <div class="name-grid" id="nameGrid">
+    <!-- Populated by JS -->
+  </div>
+</div>
+
+<!-- RELATED TOOLS -->
+<div class="related">
+  <p class="related-label">Related Generators</p>
+  <div class="related-chips">
+    <a href="kingdom-name-generator.html" class="chip">Kingdom Names</a>
+    <a href="dwarf-name-generator.html" class="chip">Dwarf Names</a>
+    <a href="elf-name-generator.html" class="chip">Elf Names</a>
+    <a href="orc-name-generator.html" class="chip">Orc Names</a>
+    <a href="villain-name-generator.html" class="chip">Villain Names</a>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- SEO + SIDEBAR -->
+<div class="seo-area">
+  <article class="seo-article">
+    <h2>The Best Tavern Name Generator for D&D & Fantasy Worldbuilding</h2>
+    <p>Whether you're a seasoned Dungeon Master or writing your first fantasy novel, the right tavern name can anchor an entire world. A tavern is where adventurers first meet, secrets are exchanged, and legendary quests begin. This free tavern name generator creates hundreds of evocative inn and alehouse names across six distinct style categories.</p>
+
+    <h3>What Makes a Great Tavern Name?</h3>
+    <p>The best fantasy tavern names follow a few timeless patterns. They tend to evoke imagery — an animal, a natural element, a weapon, or a legendary figure. They're short enough to be memorable but specific enough to feel rooted in a real world. Think <em>The Prancing Pony</em>, <em>The Rusty Dragon</em>, or <em>The Leaky Cauldron</em>. All three tell you something about the establishment before you walk through the door.</p>
+    <p>Great tavern names use these formulas:</p>
+    <ul>
+      <li><strong>The [Adjective] [Animal]</strong> — The Blind Raven, The Gilded Stag</li>
+      <li><strong>The [Noun] & [Noun]</strong> — The Sword & Flagon, The Hammer & Hound</li>
+      <li><strong>The [Material] [Object]</strong> — The Iron Lantern, The Copper Chalice</li>
+      <li><strong>The [Proper Noun's] [Place]</strong> — Aldric's Rest, Thornwood Inn</li>
+    </ul>
+
+    <h2>Tavern Names by Style</h2>
+
+    <h3>Fantasy Tavern Names</h3>
+    <p>Generic fantasy taverns draw on arcane imagery, magical creatures, and elemental themes. Names like <em>The Arcane Hearth</em>, <em>The Moonlit Flagon</em>, or <em>The Wandering Wyrm</em> set an adventurous tone and work in any high-fantasy setting — from Forgotten Realms to homebrew worlds.</p>
+
+    <h3>Medieval Tavern Names</h3>
+    <p>Historical English and European pub naming conventions favor animals, tradesmen's symbols, and royal imagery. Think <em>The King's Head</em>, <em>The White Hart</em>, or <em>The Ploughman's Rest</em>. These names ground your world in something recognizable and feel authentic to a feudal setting.</p>
+
+    <h3>Dwarven Tavern Names</h3>
+    <p>Dwarven establishments lean into stone, metal, and ale. Forge imagery dominates — <em>The Molten Anvil</em>, <em>The Stone Barrel</em>, <em>The Deep Tap</em>. Dwarven taverns are loud, packed, and legendary for their brews. Their names should feel like the walls are made of granite.</p>
+
+    <h3>Elven Tavern Names</h3>
+    <p>Elven inns are quieter, more refined. Celestial references, nature imagery, and musical themes appear frequently — <em>The Silver Bough</em>, <em>The Starlit Vale</em>, <em>The Whispering Willow</em>. An elven tavern is as much gallery as it is alehouse.</p>
+
+    <h3>Pirate Tavern Names</h3>
+    <p>Port taverns favored by sea dogs and buccaneers are rough, nautical, and dangerous. <em>The Dead Anchor</em>, <em>The Drowned Mariner</em>, <em>The Barnacle & Blade</em>. If your players are in a coastal city, a pirate tavern name signals immediately what kind of trouble is available.</p>
+
+    <h2>How to Use This Tavern Name Generator</h2>
+    <p>Select a style filter that matches your setting, then hit Generate Names. Eight names will appear, each with a subtle role descriptor to help you slot them into your world immediately. Click the copy icon on any card to copy the name to your clipboard. Generate as many times as you need — the pool is large and the combinations are varied.</p>
+    <p>All names generated here are free to use in personal and commercial projects including D&D campaigns, published novels, video games, and tabletop RPG supplements.</p>
+  </article>
+
+  <aside class="seo-sidebar">
+    <div class="sidebar-card">
+      <p class="sidebar-title">Other Place Generators</p>
+      <div class="sidebar-links">
+        <a href="kingdom-name-generator.html">Kingdom Name Generator</a>
+        <a href="dungeon-name-generator.html">Dungeon Name Generator</a>
+        <a href="fantasy-city-name-generator.html">Fantasy City Generator</a>
+      </div>
+    </div>
+    <div class="sidebar-card">
+      <p class="sidebar-title">Pro Tip</p>
+      <p class="sidebar-tip">Combine a tavern name with a matching NPC from our <a href="villain-name-generator.html">Villain Name Generator</a> to instantly create a morally ambiguous innkeeper your players will remember.</p>
+    </div>
+  </aside>
+</div>
+
+<!-- FAQ -->
+<section class="faq">
+  <h2 class="faq-title">Frequently Asked Questions</h2>
+
+  <details>
+    <summary>Can I use these tavern names in my D&D campaign?</summary>
+    <div class="faq-answer">Absolutely. All names generated by RuneForge are free to use in personal D&D campaigns, homebrew supplements, Actual Play podcasts, and any non-commercial worldbuilding projects. No attribution required.</div>
+  </details>
+
+  <details>
+    <summary>Are these names usable in published books or games?</summary>
+    <div class="faq-answer">Yes. Names themselves are not copyrightable, and all RuneForge outputs are free for commercial use including published novels, indie video games, and tabletop RPG products sold on platforms like DriveThruRPG or itch.io.</div>
+  </details>
+
+  <details>
+    <summary>How many unique tavern names can this tool generate?</summary>
+    <div class="faq-answer">The generator draws from a large pool of name fragments — adjectives, nouns, animals, materials, and modifiers — across six style categories. There are thousands of possible combinations. You can generate repeatedly without seeing the same name twice in a session.</div>
+  </details>
+
+  <details>
+    <summary>What's the difference between the style filters?</summary>
+    <div class="faq-answer">Each filter changes the naming vocabulary used. Fantasy draws on arcane and creature themes. Medieval uses historical English pub naming patterns. Dwarven focuses on forge, stone, and ale imagery. Elven uses celestial and nature themes. Pirate pulls from nautical and seafaring vocabulary. All produces a mix of all five styles.</div>
+  </details>
+
+  <details>
+    <summary>Can I suggest a tavern name to add to the generator?</summary>
+    <div class="faq-answer">We welcome suggestions from the community. Reach out via the RuneForge feedback form and we'll review your submission. Pro members get priority consideration for community name additions.</div>
+  </details>
+</section>
+
+<!-- FOOTER -->
+<<footer>
+  <div class="footer-inner">
+    <div>
+      <a href="index.html" class="footer-logo">RuneForge</a>
+      <p class="footer-tagline">Fantasy name generators for worldbuilders, DMs, and storytellers.</p>
+    </div>
+    <div class="footer-links">
+      <a href="villain-name-generator.html">Villain Name Generator</a>
+      <a href="elf-name-generator.html">Elf Name Generator</a>
+      <a href="orc-name-generator.html">Orc Name Generator</a>
+      <a href="dwarf-name-generator.html">Dwarf Name Generator</a>
+      <a href="kingdom-name-generator.html">Kingdom Name Generator</a>
+      <a href="tavern-name-generator.html">Tavern Name Generator</a>
+    </div>
+  </div>
+  <p class="footer-copy">© 2026 RuneForge.online — All rights reserved.</p>
+</footer>
+
+<script>
+  // ── DATA ──────────────────────────────────────────────────────────────────
+  const DATA = {
+    all: [
+      { name: "The Wandering Wyrm", role: "Fantasy Inn" },
+      { name: "The Iron Lantern", role: "Medieval Tavern" },
+      { name: "The Molten Anvil", role: "Dwarven Alehouse" },
+      { name: "The Silver Bough", role: "Elven Rest" },
+      { name: "The Dead Anchor", role: "Pirate Tavern" },
+      { name: "The Gilded Stag", role: "Fantasy Inn" },
+      { name: "The Ploughman's Rest", role: "Medieval Inn" },
+      { name: "The Starlit Vale", role: "Elven Tavern" },
+      { name: "The Copper Chalice", role: "Fantasy Alehouse" },
+      { name: "The Drowned Mariner", role: "Pirate Tavern" },
+      { name: "The Stone Barrel", role: "Dwarven Inn" },
+      { name: "The Moonlit Flagon", role: "Fantasy Tavern" },
+      { name: "The White Hart", role: "Medieval Inn" },
+      { name: "The Whispered Bough", role: "Elven Rest" },
+      { name: "The Barnacle & Blade", role: "Pirate Alehouse" },
+      { name: "The Deep Tap", role: "Dwarven Tavern" },
+      { name: "The Arcane Hearth", role: "Fantasy Inn" },
+      { name: "The King's Crown", role: "Medieval Tavern" },
+      { name: "The Ember Forge", role: "Dwarven Alehouse" },
+      { name: "The Verdant Canopy", role: "Elven Inn" },
+      { name: "The Sea Serpent's Den", role: "Pirate Tavern" },
+      { name: "The Blind Raven", role: "Fantasy Alehouse" },
+      { name: "The Rusty Flagon", role: "Medieval Inn" },
+      { name: "The Hammered Shield", role: "Dwarven Tavern" },
+    ],
+    fantasy: [
+      { name: "The Wandering Wyrm", role: "Fantasy Inn" },
+      { name: "The Arcane Hearth", role: "Fantasy Inn" },
+      { name: "The Gilded Stag", role: "Fantasy Inn" },
+      { name: "The Blind Raven", role: "Fantasy Alehouse" },
+      { name: "The Moonlit Flagon", role: "Fantasy Tavern" },
+      { name: "The Copper Chalice", role: "Fantasy Alehouse" },
+      { name: "The Crimson Spire", role: "Fantasy Inn" },
+      { name: "The Phoenix Hearth", role: "Fantasy Tavern" },
+      { name: "The Spellbound Cup", role: "Fantasy Alehouse" },
+      { name: "The Twilight Perch", role: "Fantasy Inn" },
+      { name: "The Oathbreaker's Rest", role: "Fantasy Tavern" },
+      { name: "The Dragon's Respite", role: "Fantasy Inn" },
+      { name: "The Ashen Crown", role: "Fantasy Tavern" },
+      { name: "The Rune & Flagon", role: "Fantasy Alehouse" },
+      { name: "The Frostfire Inn", role: "Fantasy Inn" },
+      { name: "The Shattered Staff", role: "Fantasy Tavern" },
+    ],
+    medieval: [
+      { name: "The Iron Lantern", role: "Medieval Tavern" },
+      { name: "The Ploughman's Rest", role: "Medieval Inn" },
+      { name: "The White Hart", role: "Medieval Inn" },
+      { name: "The King's Crown", role: "Medieval Tavern" },
+      { name: "The Rusty Flagon", role: "Medieval Inn" },
+      { name: "The Three Bells", role: "Medieval Tavern" },
+      { name: "The Miller's Arms", role: "Medieval Alehouse" },
+      { name: "The Black Boar", role: "Medieval Inn" },
+      { name: "The Crossed Keys", role: "Medieval Tavern" },
+      { name: "The Golden Sheaf", role: "Medieval Inn" },
+      { name: "The Swan & Sword", role: "Medieval Tavern" },
+      { name: "The Weary Pilgrim", role: "Medieval Inn" },
+      { name: "The Greyhound Inn", role: "Medieval Tavern" },
+      { name: "The Tanner's Rest", role: "Medieval Alehouse" },
+      { name: "The Red Lion", role: "Medieval Inn" },
+      { name: "The Horseshoe & Hound", role: "Medieval Tavern" },
+    ],
+    dwarven: [
+      { name: "The Molten Anvil", role: "Dwarven Alehouse" },
+      { name: "The Stone Barrel", role: "Dwarven Inn" },
+      { name: "The Deep Tap", role: "Dwarven Tavern" },
+      { name: "The Ember Forge", role: "Dwarven Alehouse" },
+      { name: "The Hammered Shield", role: "Dwarven Tavern" },
+      { name: "The Granite Flagon", role: "Dwarven Alehouse" },
+      { name: "The Iron Keg", role: "Dwarven Tavern" },
+      { name: "The Runecarved Hall", role: "Dwarven Inn" },
+      { name: "The Forge & Froth", role: "Dwarven Alehouse" },
+      { name: "The Axe & Amber", role: "Dwarven Tavern" },
+      { name: "The Stonethirst Inn", role: "Dwarven Inn" },
+      { name: "The Copperhead Tap", role: "Dwarven Alehouse" },
+      { name: "The Goldvein Saloon", role: "Dwarven Tavern" },
+      { name: "The Cavemaster's Cup", role: "Dwarven Inn" },
+      { name: "The Underlode Rest", role: "Dwarven Tavern" },
+      { name: "The Smoldering Pint", role: "Dwarven Alehouse" },
+    ],
+    elven: [
+      { name: "The Silver Bough", role: "Elven Rest" },
+      { name: "The Starlit Vale", role: "Elven Tavern" },
+      { name: "The Whispered Bough", role: "Elven Rest" },
+      { name: "The Verdant Canopy", role: "Elven Inn" },
+      { name: "The Moonpetal Inn", role: "Elven Inn" },
+      { name: "The Silverleaf Rest", role: "Elven Tavern" },
+      { name: "The Dawnwillow", role: "Elven Inn" },
+      { name: "The Glasswater Lodge", role: "Elven Inn" },
+      { name: "The Celeste & Vine", role: "Elven Tavern" },
+      { name: "The Woven Wind", role: "Elven Rest" },
+      { name: "The Nightbloom Inn", role: "Elven Inn" },
+      { name: "The Whisperwood", role: "Elven Tavern" },
+      { name: "The Sunthreaded Hall", role: "Elven Inn" },
+      { name: "The Aurora Rest", role: "Elven Tavern" },
+      { name: "The Feylit Crossing", role: "Elven Inn" },
+      { name: "The Gilded Leaf", role: "Elven Alehouse" },
+    ],
+    pirate: [
+      { name: "The Dead Anchor", role: "Pirate Tavern" },
+      { name: "The Drowned Mariner", role: "Pirate Tavern" },
+      { name: "The Barnacle & Blade", role: "Pirate Alehouse" },
+      { name: "The Sea Serpent's Den", role: "Pirate Tavern" },
+      { name: "The Saltwater Sow", role: "Pirate Tavern" },
+      { name: "The Broken Compass", role: "Pirate Alehouse" },
+      { name: "The Kraken's Cask", role: "Pirate Tavern" },
+      { name: "The Cutlass & Cork", role: "Pirate Alehouse" },
+      { name: "The Widow's Tide", role: "Pirate Inn" },
+      { name: "The Rusted Anchor", role: "Pirate Tavern" },
+      { name: "The Siren's Throat", role: "Pirate Alehouse" },
+      { name: "The Fogbound Wharf", role: "Pirate Inn" },
+      { name: "The Ghost Galleon", role: "Pirate Tavern" },
+      { name: "The Brine & Bone", role: "Pirate Alehouse" },
+      { name: "The Tidebreaker Inn", role: "Pirate Inn" },
+      { name: "The Salted Skull", role: "Pirate Tavern" },
+    ],
+  };
+
+  // ── STATE ──────────────────────────────────────────────────────────────────
+  let activeFilter = 'all';
+  let usedIndices = new Set();
+
+  // ── COPY ICON SVG ──────────────────────────────────────────────────────────
+  const COPY_ICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>`;
+  const CHECK_ICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`;
+
+  // ── GENERATE ──────────────────────────────────────────────────────────────
+  function getNames() {
+    const pool = DATA[activeFilter];
+    if (usedIndices.size >= pool.length) usedIndices.clear();
+
+    const available = pool
+      .map((item, i) => ({ item, i }))
+      .filter(({ i }) => !usedIndices.has(i));
+
+    const shuffled = available.sort(() => Math.random() - 0.5);
+    const selected = shuffled.slice(0, 8);
+    selected.forEach(({ i }) => usedIndices.add(i));
+    return selected.map(({ item }) => item);
+  }
+
+  function renderCards(names) {
+    const grid = document.getElementById('nameGrid');
+    grid.innerHTML = '';
+    names.forEach(({ name, role }) => {
+      const card = document.createElement('div');
+      card.className = 'name-card';
+      card.innerHTML = `
+        <div class="name-card-body">
+          <div class="card-name">${name}</div>
+          <div class="card-role">${role}</div>
+        </div>
+        <button class="copy-btn" aria-label="Copy ${name}" data-name="${name}">${COPY_ICON}</button>
+      `;
+      grid.appendChild(card);
+    });
+
+    // Copy handlers
+    grid.querySelectorAll('.copy-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const text = btn.dataset.name;
+        navigator.clipboard.writeText(text).then(() => {
+          btn.innerHTML = CHECK_ICON;
+          btn.classList.add('copied');
+          setTimeout(() => {
+            btn.innerHTML = COPY_ICON;
+            btn.classList.remove('copied');
+          }, 1800);
+        });
+      });
+    });
+  }
+
+  // ── INIT ──────────────────────────────────────────────────────────────────
+  document.addEventListener('DOMContentLoaded', () => {
+    renderCards(getNames());
+
+    document.getElementById('generateBtn').addEventListener('click', () => {
+      usedIndices.clear();
+      renderCards(getNames());
+    });
+
+    document.querySelectorAll('.filter-pill').forEach(pill => {
+      pill.addEventListener('click', () => {
+        document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        activeFilter = pill.dataset.filter;
+        usedIndices.clear();
+        renderCards(getNames());
+      });
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elf Name Generator — RuneForge | 1000+ Elvish Names for D&D & Fantasy</title>
+<meta name="description" content="Generate enchanting elf names for D&D, Pathfinder, and fantasy RPG. Wood elf, dark elf, blood elf, male and female names — free elf name generator by RuneForge.">
+<meta name="keywords" content="elf name generator, elf names, dnd elf names, fantasy elf names, wood elf names, dark elf names, blood elf names, elvish names">
+<link rel="canonical" href="https://runeforge.online/elf-name-generator">
+<meta property="og:title" content="Elf Name Generator — RuneForge">
+<meta property="og:description" content="Generate enchanting elf names for D&D and fantasy RPG. Wood elf, dark elf, blood elf — 1000+ names free.">
+<meta property="og:url" content="https://runeforge.online/elf-name-generator">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://runeforge.online/assets/images/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://runeforge.online/assets/images/og-image.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+  {"@type":"Question","name":"What is an elf name generator?","acceptedAnswer":{"@type":"Answer","text":"A free online tool creating authentic melodic elf names for D&D, fantasy novels, RPGs, and worldbuilding."}},
+  {"@type":"Question","name":"What are good elf names for D&D?","acceptedAnswer":{"@type":"Answer","text":"Good D&D elf names use flowing syllables and nature imagery: Aelorin, Lyrian, Vaeliana, Eilenya, Sylvaris."}},
+  {"@type":"Question","name":"What is the difference between wood elf and dark elf names?","acceptedAnswer":{"@type":"Answer","text":"Wood elf names are soft and nature-inspired. Dark elf names are harsher with apostrophe breaks and shadow themes."}}
+]}
+</script>
+<style>
+/* ═══════════════════════════════════════
+   TOKENS
+═══════════════════════════════════════ */
+:root {
+  --bg:       #0C0D0E;
+  --bg-light: #0F110A;
+  --bg-alt:   #0A0C07;
+  --gold:     #C4A84A;
+  --gold-dim: rgba(196,168,74,0.22);
+  --green:    #7AB850;
+  --green-dim:rgba(122,184,80,0.12);
+  --text:     #F0EDE6;
+  --text2:    #C8D0BC;
+  --text3:    #96A088;
+  --border:   rgba(255,255,255,0.06);
+  --gborder:  rgba(196,168,74,0.2);
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:#0C0D0E;
+  color:var(--text);
+  font-family:'Inter',sans-serif;
+  font-size:19px;
+  line-height:1.75;
+  min-height:100vh;
+  background-image:
+    radial-gradient(ellipse at 50% 0%,rgba(20,30,12,0.9) 0%,rgba(12,13,14,1) 60%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
+  background-attachment:fixed;
+}
+
+/* ── NAV ── */
+nav{display:flex;align-items:center;justify-content:space-between;padding:24px 48px;border-bottom:1px solid rgba(255,255,255,.04);width:min(94%,1280px);margin:0 auto}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.logo-icon{width:26px;height:26px;color:var(--gold)}
+.logo-wm{font-family:'Cinzel Decorative',serif;font-size:16px;font-weight:600;letter-spacing:.04em}
+.logo-wm .r{color:var(--gold)}.logo-wm .f{color:var(--text)}
+.nav-r{display:flex;align-items:center;gap:32px}
+.nav-a{font-size:13px;font-weight:500;color:var(--text3);text-decoration:none;transition:color .2s}
+.nav-a:hover{color:var(--gold)}
+.pro{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--gold);border:1px solid rgba(196,168,74,.4);padding:7px 16px;border-radius:6px;text-decoration:none;transition:background .2s}
+.pro:hover{background:rgba(196,168,74,.1)}
+
+/* ── HERO ── */
+.hero{position:relative;text-align:center;padding:80px 24px 56px;overflow:hidden}
+.hero-glow{position:absolute;top:-60px;left:50%;transform:translateX(-50%);width:1000px;height:640px;background:radial-gradient(ellipse at 50% 20%,rgba(28,55,14,0.32) 0%,rgba(14,30,7,0.14) 45%,transparent 72%);pointer-events:none}
+.hero-particles{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.particle{position:absolute;border-radius:50%;background:rgba(100,160,50,.4);animation:pfloat var(--d,8s) ease-in-out infinite var(--dl,0s)}
+@keyframes pfloat{0%,100%{transform:translateY(0) scale(1);opacity:.25}50%{transform:translateY(-20px) scale(1.4);opacity:.6}}
+.hero-inner{position:relative;z-index:1;width:min(92%,820px);margin:0 auto}
+.eyebrow{display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:28px}
+.eb-line{flex:0 0 44px;height:1px;background:linear-gradient(90deg,transparent,rgba(196,168,74,.5))}
+.eb-line.r{background:linear-gradient(90deg,rgba(196,168,74,.5),transparent)}
+.eb-dia{color:rgba(196,168,74,.7);font-size:9px}
+.eb-text{font-family:'Cinzel',serif;font-size:11px;font-weight:700;letter-spacing:.3em;color:var(--gold);text-transform:uppercase}
+h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.5rem,6vw,5.2rem);font-weight:600;font-style:italic;color:#F4F0E8;line-height:1.05;letter-spacing:-.01em;margin-bottom:22px;text-shadow:0 2px 32px rgba(0,0,0,.6)}
+.hero-sub{font-size:17px;color:var(--text2);max-width:440px;margin:0 auto 42px;line-height:1.72;font-weight:400}
+
+/* ── FILTERS ── */
+.filters{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:44px}
+.fb{font-size:.83rem;padding:9px 22px;border-radius:40px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.02);color:var(--text2);cursor:pointer;transition:all .2s;font-family:'Inter',sans-serif}
+.fb:hover{border-color:var(--gborder);color:var(--gold)}
+.fb.active{border-color:var(--gold);color:var(--gold);background:rgba(196,168,74,.07)}
+
+/* ── GENERATE BTN ── */
+.gw{display:flex;justify-content:center;margin-bottom:64px;filter:drop-shadow(0 14px 32px rgba(0,0,0,.55)) drop-shadow(0 0 2px rgba(80,110,40,.5))}
+.gb-wrap{background:linear-gradient(180deg,#8A9B6A 0%,#5A7040 30%,#2A3A1A 100%);padding:2px;clip-path:polygon(3% 0%,97% 0%,100% 50%,97% 100%,3% 100%,0% 50%);cursor:pointer;transition:transform .2s;border:none;min-width:460px}
+.gb-wrap:hover{transform:translateY(-2px);filter:brightness(1.1)}
+.gb-wrap:active{transform:translateY(1px)}
+.gb-inner{clip-path:polygon(3% 0%,97% 0%,100% 50%,97% 100%,3% 100%,0% 50%);background:linear-gradient(180deg,#243018 0%,#141C0A 100%);padding:3px;display:block}
+.gb-content{clip-path:polygon(3% 0%,97% 0%,100% 50%,97% 100%,3% 100%,0% 50%);background:linear-gradient(180deg,#7A8E58 0%,#566840 50%,#3A4E28 100%);display:flex;align-items:center;justify-content:space-between;padding:16px 48px;box-shadow:inset 0 2px 4px rgba(255,255,255,.15),inset 0 -4px 6px rgba(0,0,0,.4)}
+.gb-deco{font-size:14px;color:rgba(20,30,10,.5);letter-spacing:3px}
+.gb-text{font-family:'Cinzel',serif;font-size:19px;font-weight:600;letter-spacing:.26em;color:#0E1A08;display:flex;align-items:center;gap:13px;text-shadow:0 1px 0 rgba(255,255,255,.2)}
+.gb-ic{width:22px;height:22px;color:#1A2A0E}
+
+/* ── NAME CARDS ── */
+.nw{width:min(92%,1060px);margin:0 auto;padding:0 0 64px}
+.ng{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.nc{background:linear-gradient(180deg,rgba(18,24,14,.55) 0%,rgba(12,15,9,.72) 100%);border:1px solid rgba(255,255,255,.04);border-top-color:rgba(196,168,74,.2);border-radius:8px;padding:22px 28px;display:flex;align-items:center;justify-content:space-between;transition:all .3s;animation:ci .38s ease both}
+.nc:hover{transform:translateY(-2px);border-top-color:rgba(196,168,74,.4);background:linear-gradient(180deg,rgba(22,30,16,.7) 0%,rgba(14,18,10,.88) 100%);box-shadow:0 10px 28px rgba(0,0,0,.55)}
+@keyframes ci{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.nc:nth-child(1){animation-delay:.04s}.nc:nth-child(2){animation-delay:.08s}.nc:nth-child(3){animation-delay:.12s}.nc:nth-child(4){animation-delay:.16s}
+.nc:nth-child(5){animation-delay:.20s}.nc:nth-child(6){animation-delay:.24s}.nc:nth-child(7){animation-delay:.28s}.nc:nth-child(8){animation-delay:.32s}
+.nn{font-family:'Cinzel',serif;font-size:17px;font-weight:600;letter-spacing:.03em;color:#F4F0E8;margin-bottom:5px}
+.nr{font-size:14px;color:var(--green);letter-spacing:.04em;font-weight:500}
+.cp{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);color:var(--text3);width:38px;height:38px;border-radius:7px;cursor:pointer;flex-shrink:0;transition:all .2s;display:flex;align-items:center;justify-content:center}
+.cp:hover{color:var(--gold);border-color:var(--gborder);background:rgba(196,168,74,.05)}
+.cp.ok{color:#72c48a;border-color:rgba(114,196,138,.3)}
+
+/* ── CHIPS ── */
+.rel{width:min(92%,1060px);margin:0 auto 80px;text-align:center}
+.sdiv{display:flex;align-items:center;gap:14px;margin-bottom:20px}
+.sl{flex:1;height:.5px;background:var(--gborder)}
+.slb{font-family:'Cinzel',serif;font-size:10px;letter-spacing:.22em;color:var(--gold);white-space:nowrap;font-weight:700}
+.sla{color:rgba(196,168,74,.4);font-size:9px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.chip{display:flex;align-items:center;gap:10px;font-size:15px;color:var(--text2);border:1px solid rgba(255,255,255,.07);background:rgba(255,255,255,.025);padding:10px 18px;border-radius:7px;text-decoration:none;transition:all .2s;font-weight:400}
+.chip:hover{border-color:var(--gborder);color:var(--gold);background:rgba(196,168,74,.04)}
+.ci-svg{width:15px;height:15px;color:var(--gold);opacity:.6;flex-shrink:0;transition:opacity .2s}
+.chip:hover .ci-svg{opacity:1}
+
+/* ═══════════════════════════════════════
+   SEO ZONE — REDESIGNED
+═══════════════════════════════════════ */
+.seo-zone{width:100%;background:var(--bg-light);border-top:1px solid rgba(255,255,255,.05)}
+
+/* ── SCROLL REVEAL (base state) ── */
+.reveal{opacity:0;transform:translateY(32px);transition:opacity .7s ease, transform .7s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-delay-1{transition-delay:.1s}
+.reveal-delay-2{transition-delay:.2s}
+.reveal-delay-3{transition-delay:.3s}
+.reveal-delay-4{transition-delay:.4s}
+
+/* ── ORNAMENT DIVIDER ── */
+.orn-divider{
+  display:flex;align-items:center;justify-content:center;
+  gap:16px;padding:48px 0 0;
+}
+.orn-line{flex:0 0 80px;height:1px;background:linear-gradient(90deg,transparent,rgba(196,168,74,.3))}
+.orn-line.r{background:linear-gradient(90deg,rgba(196,168,74,.3),transparent)}
+.orn-sym{color:rgba(196,168,74,.5);font-size:11px;letter-spacing:6px}
+
+/* ── SECTION WRAPPER ── */
+.s-wrap{max-width:1340px;margin:0 auto;padding:0 60px}
+
+/* ── BAND BASE ── */
+.seo-band{width:100%;padding:88px 0;border-bottom:1px solid rgba(255,255,255,.05)}
+.seo-band.alt{background:#0A0C07}
+
+/* ── BAND HEADER ── */
+.band-tag{font-family:'Cinzel',serif;font-size:.62rem;font-weight:700;letter-spacing:.32em;color:var(--gold);text-transform:uppercase;margin-bottom:14px}
+.band-h2{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(2.2rem,3.5vw,3.6rem);
+  font-weight:600;font-style:italic;
+  color:#F4F0E8;line-height:1.08;margin-bottom:0;
+}
+
+/* ── EDITORIAL BAND (Band 0 — about) ── */
+.editorial-grid{display:grid;grid-template-columns:1fr 1px 1fr;gap:0;margin-top:52px}
+.ed-col{padding:0 56px}
+.ed-col:first-child{padding-left:0}
+.ed-col:last-child{padding-right:0}
+.ed-divider{background:rgba(196,168,74,.14)}
+.ed-label{font-family:'Cinzel',serif;font-size:.62rem;font-weight:700;letter-spacing:.28em;color:var(--gold);text-transform:uppercase;margin-bottom:18px;display:flex;align-items:center;gap:10px}
+.ed-label::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,rgba(196,168,74,.2),transparent)}
+.ed-h3{font-family:'Cormorant Garamond',serif;font-size:clamp(1.5rem,2.2vw,2rem);font-weight:600;font-style:italic;color:var(--text);line-height:1.2;margin-bottom:18px}
+
+/* Drop cap */
+.drop-cap::first-letter{
+  font-family:'Cormorant Garamond',serif;
+  font-size:4.2rem;font-weight:700;
+  line-height:.8;float:left;
+  margin:4px 12px -4px 0;
+  color:var(--gold);
+}
+.ed-body{font-size:18px;color:var(--text2);line-height:1.85;margin-bottom:18px;font-weight:400}
+
+/* pull quote */
+.pull-quote{
+  border-left:2px solid rgba(196,168,74,.4);
+  padding:16px 20px;
+  margin:24px 0;
+  font-family:'Cormorant Garamond',serif;
+  font-size:1.25rem;font-style:italic;font-weight:400;
+  color:var(--text);line-height:1.6;
+}
+
+/* badge row */
+.badge-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.badge{display:inline-flex;align-items:center;gap:6px;font-size:.83rem;color:var(--text2);background:rgba(196,168,74,.06);border:1px solid rgba(196,168,74,.18);border-radius:6px;padding:7px 13px;font-weight:400}
+
+/* tip list */
+.tip-list{list-style:none;display:flex;flex-direction:column;gap:16px;margin-top:8px}
+.tip-list li{display:flex;gap:14px;align-items:flex-start}
+.tip-n{font-family:'Cinzel',serif;font-size:.65rem;font-weight:700;color:var(--green);background:rgba(122,184,80,.1);border:1px solid rgba(122,184,80,.24);border-radius:4px;min-width:28px;height:28px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
+.tip-t{font-size:17px;color:var(--text2);line-height:1.72;font-weight:400}
+
+/* ── LORE BAND (Band 1) — 2-col semantic cards ── */
+.lore-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:48px}
+.lore-card{background:#0A0C08;border:1px solid rgba(255,255,255,.06);border-top:2px solid rgba(196,168,74,.22);border-radius:10px;padding:34px 36px}
+.lc-label{font-family:'Cinzel',serif;font-size:.63rem;font-weight:700;letter-spacing:.22em;color:var(--gold);text-transform:uppercase;margin-bottom:20px}
+.lc-list{list-style:none;display:flex;flex-direction:column;gap:13px}
+.lc-list li{display:flex;align-items:baseline;gap:12px;font-size:17px;color:var(--text2);line-height:1.6;font-weight:400}
+.lc-list li::before{content:'—';color:rgba(196,168,74,.45);font-size:12px;flex-shrink:0}
+.lc-list strong{color:var(--text);font-weight:600}
+
+/* ── TABLE BAND (Band 2) ── */
+.table-intro{font-size:18px;color:var(--text2);line-height:1.82;max-width:820px;margin-top:20px}
+.tbl-pair{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:44px}
+.tbl-label{font-family:'Cinzel',serif;font-size:.63rem;font-weight:700;letter-spacing:.22em;color:var(--gold);text-transform:uppercase;margin-bottom:14px}
+.tbl-wrap{overflow-x:auto;border-radius:10px;border:1px solid rgba(196,168,74,.16)}
+.tbl{width:100%;border-collapse:collapse}
+.tbl thead tr{background:#08090A}
+.tbl th{font-family:'Cinzel',serif;font-size:.62rem;font-weight:700;letter-spacing:.2em;color:var(--gold);text-transform:uppercase;padding:16px 22px;text-align:left;border-bottom:1px solid rgba(196,168,74,.14)}
+.tbl td{font-size:16px;padding:14px 22px;color:var(--text2);border-bottom:1px solid rgba(255,255,255,.04);line-height:1.5;font-weight:400}
+.tbl td:first-child{font-family:'Cinzel',serif;font-size:.88rem;font-weight:600;color:var(--text)}
+.tbl tr:last-child td{border-bottom:none}
+.tbl tr:hover td{background:rgba(255,255,255,.015)}
+
+/* ── SUBRACE BAND (Band 3) — alternating left/right ── */
+.subrace-list{display:flex;flex-direction:column;gap:56px;margin-top:48px}
+.subrace-item{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;padding-bottom:56px;border-bottom:1px solid rgba(255,255,255,.05)}
+.subrace-item:last-child{border-bottom:none;padding-bottom:0}
+.subrace-item.flip .subrace-text{order:2}.subrace-item.flip .subrace-visual{order:1}
+.subrace-text{}
+.sr-tag{font-family:'Cinzel',serif;font-size:.6rem;font-weight:700;letter-spacing:.28em;color:var(--gold);text-transform:uppercase;margin-bottom:12px}
+.sr-h3{font-family:'Cormorant Garamond',serif;font-size:clamp(1.6rem,2.2vw,2.2rem);font-weight:600;font-style:italic;color:var(--text);line-height:1.15;margin-bottom:16px}
+.sr-body{font-size:17px;color:var(--text2);line-height:1.82;margin-bottom:18px;font-weight:400}
+.sr-examples{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.sr-ex{font-family:'Cinzel',serif;font-size:.78rem;color:var(--text);background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:5px;padding:6px 14px;letter-spacing:.04em}
+.subrace-visual{background:var(--bg-alt);border:1px solid rgba(255,255,255,.06);border-top:2px solid rgba(196,168,74,.2);border-radius:12px;padding:36px 32px;display:flex;flex-direction:column;gap:14px}
+.sv-title{font-family:'Cinzel',serif;font-size:.62rem;font-weight:700;letter-spacing:.22em;color:var(--gold);text-transform:uppercase;margin-bottom:6px}
+.sv-trait{display:flex;gap:12px;align-items:flex-start}
+.sv-dot{width:6px;height:6px;border-radius:50%;background:var(--green);flex-shrink:0;margin-top:6px}
+.sv-trait-text{font-size:16px;color:var(--text2);line-height:1.6;font-weight:400}
+.sv-trait-text strong{color:var(--text);font-weight:600}
+
+/* ── FAMOUS NAMES BAND (Band 4) — quote card style ── */
+.fame-intro{font-size:18px;color:var(--text2);line-height:1.82;max-width:820px;margin-top:20px}
+.fame-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:48px;border:1px solid rgba(255,255,255,.06);border-radius:12px;overflow:hidden}
+.fame-card{padding:32px 36px;border-bottom:1px solid rgba(255,255,255,.06);border-right:1px solid rgba(255,255,255,.06);transition:background .2s;cursor:default}
+.fame-card:hover{background:rgba(255,255,255,.02)}
+.fame-card:nth-child(2n){border-right:none}
+.fame-card:nth-last-child(-n+2){border-bottom:none}
+.fame-source{font-family:'Cinzel',serif;font-size:.58rem;font-weight:700;letter-spacing:.2em;color:var(--gold);text-transform:uppercase;margin-bottom:10px;opacity:.8}
+.fame-name{font-family:'Cormorant Garamond',serif;font-size:1.55rem;font-weight:600;font-style:italic;color:var(--text);margin-bottom:8px;line-height:1.1}
+.fame-role{font-size:.78rem;color:var(--green);letter-spacing:.06em;font-weight:500;margin-bottom:10px}
+.fame-desc{font-size:16px;color:var(--text2);line-height:1.72;font-weight:400}
+
+/* ── HOW-TO BAND (Band 5) — timeline style ── */
+.howto-intro{font-size:18px;color:var(--text2);line-height:1.82;max-width:820px;margin-top:20px}
+.timeline{position:relative;margin-top:52px;padding-left:0}
+.timeline::before{content:'';position:absolute;left:28px;top:0;bottom:0;width:1px;background:linear-gradient(180deg,transparent,rgba(196,168,74,.3) 10%,rgba(196,168,74,.3) 90%,transparent)}
+.tl-item{display:grid;grid-template-columns:56px 1fr;gap:32px;margin-bottom:56px;position:relative}
+.tl-item:last-child{margin-bottom:0}
+.tl-num-wrap{display:flex;flex-direction:column;align-items:center;position:relative;z-index:1}
+.tl-num{width:56px;height:56px;border-radius:50%;background:var(--bg-alt);border:1px solid rgba(196,168,74,.3);display:flex;align-items:center;justify-content:center;font-family:'Cinzel',serif;font-size:.75rem;font-weight:700;color:var(--gold);letter-spacing:.05em;flex-shrink:0}
+.tl-body{padding-top:12px}
+.tl-title{font-family:'Cinzel',serif;font-size:.88rem;font-weight:700;letter-spacing:.1em;color:var(--text);text-transform:uppercase;margin-bottom:12px}
+.tl-desc{font-size:17px;color:var(--text2);line-height:1.82;margin-bottom:14px;font-weight:400}
+.tl-example{display:inline-flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+.tl-ex{font-family:'Cinzel',serif;font-size:.78rem;color:var(--green);background:rgba(122,184,80,.1);border:1px solid rgba(122,184,80,.22);border-radius:5px;padding:5px 13px;letter-spacing:.06em}
+
+/* ── FAQ BAND (Band 6) — single column, large ── */
+.faq-intro{font-size:18px;color:var(--text2);line-height:1.82;max-width:820px;margin-top:20px;margin-bottom:48px}
+.faq-list{max-width:900px}
+.faq-item{border-bottom:1px solid rgba(255,255,255,.06);padding:32px 0}
+.faq-item:first-child{padding-top:0}
+.faq-q{font-family:'Cinzel',serif;font-size:1rem;font-weight:700;color:#F4F0E8;margin-bottom:14px;letter-spacing:.02em;line-height:1.4}
+.faq-a{font-size:17px;color:var(--text2);line-height:1.85;font-weight:400}
+.faq-a a{color:var(--gold);text-decoration:none}
+.faq-a a:hover{text-decoration:underline}
+
+/* ── FOOTER ── */
+footer{background:#08090A;padding:40px;text-align:center;border-top:1px solid rgba(255,255,255,.04)}
+.f-div{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:14px;max-width:400px;margin-inline:auto}
+.f-line{flex:1;height:1px;background:rgba(255,255,255,.05)}
+.fsym{color:var(--gold);opacity:.55}
+.ftxt{font-size:.76rem;color:var(--text3);letter-spacing:.03em}
+
+/* ── TOAST ── */
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(12px);background:#12160D;border:1px solid rgba(196,168,74,.45);color:var(--gold);font-size:.78rem;font-weight:600;padding:10px 22px;border-radius:8px;opacity:0;transition:all .28s;pointer-events:none;z-index:999;white-space:nowrap}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ═══════════════════════════════════════
+   RESPONSIVE
+═══════════════════════════════════════ */
+@media(max-width:1100px){
+  .s-wrap{padding:0 40px}
+  .ed-col{padding:0 32px}
+  .subrace-item{gap:40px}
+}
+@media(max-width:860px){
+  .s-wrap{padding:0 28px}
+  .seo-band{padding:64px 0}
+  .editorial-grid{grid-template-columns:1fr;gap:44px}
+  .ed-col{padding:0}
+  .ed-divider{display:none}
+  .lore-grid{grid-template-columns:1fr;gap:18px}
+  .tbl-pair{grid-template-columns:1fr;gap:24px}
+  .subrace-item{grid-template-columns:1fr;gap:24px}
+  .subrace-item.flip .subrace-text{order:1}
+  .subrace-item.flip .subrace-visual{order:2}
+  .fame-grid{grid-template-columns:1fr}
+  .fame-card:nth-child(2n){border-right:none}
+  .fame-card{border-right:none!important}
+  .fame-card:nth-last-child(-n+2){border-bottom:1px solid rgba(255,255,255,.06)}
+  .fame-card:last-child{border-bottom:none}
+  .timeline::before{display:none}
+  .tl-item{grid-template-columns:1fr;gap:12px}
+  .tl-num-wrap{flex-direction:row;align-items:center;gap:12px}
+}
+@media(max-width:700px){
+  nav{padding:16px 18px}
+  .nav-a:not(.pro){display:none}
+  .nav-r{gap:14px}
+  h1{font-size:clamp(2rem,8vw,2.8rem)}
+  .hero{padding:52px 18px 36px}
+  .hero-sub{font-size:.95rem}
+  .filters{gap:8px;margin-bottom:36px}
+  .fb{padding:8px 16px;font-size:.78rem}
+  .nw{padding:0 16px 52px}
+  .ng{grid-template-columns:1fr;gap:10px}
+  .gb-wrap{min-width:280px}
+  .gb-content{padding:14px 28px}
+  .gb-deco{display:none}
+  .gb-text{font-size:16px;letter-spacing:.2em}
+  .rel{padding:0 16px 60px}
+  .chips{gap:8px}
+  .chip{font-size:.78rem;padding:9px 13px}
+  .seo-band{padding:48px 0}
+  .s-wrap{padding:0 18px}
+  .band-h2{font-size:1.7rem}
+  body{font-size:16px}
+  .ed-body,.sr-body,.fame-desc,.tl-desc,.faq-a,.tip-t,.table-intro,.fame-intro,.howto-intro{font-size:15px}
+  .lore-card{padding:24px 20px}
+  .lc-list li{font-size:15px}
+  .fame-card{padding:24px 20px}
+  .fame-name{font-size:1.3rem}
+  .tl-item{margin-bottom:40px}
+  .faq-q{font-size:.92rem}
+  .faq-item{padding:24px 0}
+  .pull-quote{font-size:1.1rem}
+  .drop-cap::first-letter{font-size:3.4rem}
+  .subrace-visual{padding:24px 20px}
+  footer{padding:28px 16px}
+  .orn-divider{padding:32px 0 0}
+  .orn-line{flex:0 0 40px}
+}
+@media(max-width:420px){
+  nav{padding:13px 14px}
+  h1{font-size:1.8rem}
+  .hero{padding:40px 14px 30px}
+  .gb-wrap{min-width:240px}
+  .s-wrap{padding:0 14px}
+  .band-h2{font-size:1.45rem}
+  .tbl th,.tbl td{padding:12px 14px}
+  .tbl td{font-size:14px}
+}
+</style>
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="assets/images/favicon_io/favicon.ico">
+<link rel="manifest" href="assets/images/favicon_io/site.webmanifest">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="logo">
+    <svg class="logo-icon" viewBox="0 0 28 28" fill="none">
+      <path d="M14 2L16 10H24L17.5 15L20 23L14 18.5L8 23L10.5 15L4 10H12L14 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+      <line x1="14" y1="18.5" x2="14" y2="26" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="10.5" y1="23" x2="17.5" y2="23" stroke="currentColor" stroke-width="1" stroke-linecap="round" opacity=".4"/>
+    </svg>
+    <span class="logo-wm"><span class="r">Rune</span><span class="f">Forge</span></span>
+  </a>
+  <div class="nav-r">
+    <a href="index.html#names" class="nav-a">Names</a>
+    <a href="index.html#places" class="nav-a">Places</a>
+    <a href="index.html#creatures" class="nav-a">Creatures</a>
+    <a href="#" class="pro">♛&nbsp; Pro</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-particles" id="particles"></div>
+  <div class="hero-inner">
+    <div class="eyebrow">
+      <div class="eb-line"></div><span class="eb-dia">✦</span>
+      <span class="eb-text">Elf Name Generator</span>
+      <span class="eb-dia">✦</span><div class="eb-line r"></div>
+    </div>
+    <h1>Whispers of ancient groves,<br>names woven in timeless grace.</h1>
+    <p class="hero-sub">Generate enchanting elf names inspired by nature, moonlight, magic, and the ages of old.</p>
+    <div class="filters">
+      <button class="fb active" data-f="all">All</button>
+      <button class="fb" data-f="male">Male</button>
+      <button class="fb" data-f="female">Female</button>
+      <button class="fb" data-f="wood">Wood Elf</button>
+      <button class="fb" data-f="dark">Dark Elf</button>
+      <button class="fb" data-f="blood">Blood Elf</button>
+    </div>
+    <div class="gw">
+      <button class="gb-wrap" onclick="gen()">
+        <div class="gb-inner"><div class="gb-content">
+          <span class="gb-deco">✾ ✾</span>
+          <span class="gb-text">
+            <svg class="gb-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s-8-4-8-10a8 8 0 0 1 16 0c0 6-8 10-8 10z"/><path d="M12 8v4M10 10l2-2 2 2"/></svg>
+            GENERATE
+          </span>
+          <span class="gb-deco">✾ ✾</span>
+        </div></div>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- NAME CARDS -->
+<div class="nw"><div class="ng" id="grid"></div></div>
+
+<!-- RELATED CHIPS -->
+<div class="rel">
+  <div class="sdiv">
+    <div class="sl"></div><span class="sla">✦</span>
+    <span class="slb">Related Tools</span>
+    <span class="sla">✦</span><div class="sl"></div>
+  </div>
+  <div class="chips">
+    <a href="dark-elf-name-generator.html" class="chip"><svg class="ci-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/></svg>Dark Elf Names</a>
+    <a href="orc-name-generator.html" class="chip"><svg class="ci-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2z"/></svg>Orc Names</a>
+    <a href="mage-name-generator.html" class="chip"><svg class="ci-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>Mage Names</a>
+    <a href="villain-name-generator.html" class="chip"><svg class="ci-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 4.9V17L12 22l-9-4.9V6.9z"/></svg>Villain Generator</a>
+    <a href="../places/kingdom-name-generator.html" class="chip"><svg class="ci-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16M4 18v-8l8-4 8 4v8M12 10v12"/></svg>Kingdom Generator</a>
+    <a href="../creatures/creature-name-generator.html" class="chip"><svg class="ci-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="12" r="1"/><circle cx="15" cy="12" r="1"/><path d="M8 20v2h8v-2"/><path d="M16 20a2 2 0 0 0 1.56-3.25 8 8 0 1 0-11.12 0A2 2 0 0 0 8 20"/></svg>Creature Generator</a>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════
+     SEO ZONE
+════════════════════════════════ -->
+<div class="seo-zone">
+
+  <!-- ── BAND 0: ABOUT — editorial 2-col ── -->
+  <div class="seo-band reveal">
+    <div class="s-wrap">
+      <div class="band-tag">About This Generator</div>
+      <h2 class="band-h2">Elf Name Generator</h2>
+      <div class="editorial-grid">
+        <div class="ed-col reveal reveal-delay-1">
+          <div class="ed-label">What It Does</div>
+          <p class="ed-body drop-cap">Create elegant and unforgettable elf names that echo with the beauty of ancient forests, the wisdom of ages, and the magic woven through every elvish bloodline. Every name is built around authentic elvish phonetics — flowing vowels, soft consonants, and nature-inspired imagery.</p>
+          <div class="pull-quote">"A name is the first spell cast upon a character — choose one that sounds like it was spoken before the world had roads."</div>
+          <p class="ed-body">Whether you need a name for a D&D wood elf ranger, a drow assassin, a blood elf paladin, or the protagonist of your fantasy novel — RuneForge generates names that feel timeless, immersive, and ready to use.</p>
+          <div class="badge-row">
+            <span class="badge">🌿 D&D Campaigns</span>
+            <span class="badge">📖 Fantasy Novels</span>
+            <span class="badge">🎲 Tabletop RPG</span>
+            <span class="badge">💻 Game Dev</span>
+            <span class="badge">🌍 Worldbuilding</span>
+            <span class="badge">✨ BG3 Characters</span>
+          </div>
+        </div>
+        <div class="ed-divider"></div>
+        <div class="ed-col reveal reveal-delay-2">
+          <div class="ed-label">How to Choose</div>
+          <h3 class="ed-h3">Picking the Perfect Elvish Name</h3>
+          <ul class="tip-list">
+            <li><span class="tip-n">01</span><span class="tip-t">Think about your elf's heritage — a forest guardian carries different sounds than a drow assassin or a blood elf archmage.</span></li>
+            <li><span class="tip-n">02</span><span class="tip-t">Say it aloud. Elvish names should feel musical, effortless, and graceful on the tongue — if it stumbles, it's wrong.</span></li>
+            <li><span class="tip-n">03</span><span class="tip-t">Match the filter to the subrace — wood, dark, or blood elf traditions each have distinct phonetic conventions.</span></li>
+            <li><span class="tip-n">04</span><span class="tip-t">Consider the role subtitle. "Forest Guardian" versus "Shadow Walker" suggests a full character before any backstory is written.</span></li>
+            <li><span class="tip-n">05</span><span class="tip-t">Keep it memorable. The best elvish names are 2–3 syllables with flowing vowel sounds — simple, beautiful, impossible to forget.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ornament -->
+  <div class="orn-divider reveal"><div class="orn-line"></div><span class="orn-sym">✦ ✦ ✦</span><div class="orn-line r"></div></div>
+
+  <!-- ── BAND 1: LORE — semantic cards ── -->
+  <div class="seo-band alt reveal">
+    <div class="s-wrap">
+      <div class="band-tag">Elvish Lore</div>
+      <h2 class="band-h2">What Are Elf Names?</h2>
+      <p class="table-intro" style="margin-top:20px">Elf names carry the weight of centuries — each syllable shaped by ancient forests, moonlit courts, and magical traditions that predate human civilization. Across all fantasy worlds, elvish names share a common phonetic identity: melodic, flowing, and rooted in the natural world.</p>
+      <div class="lore-grid">
+        <div class="lore-card reveal reveal-delay-1">
+          <div class="lc-label">Common Elvish Sounds</div>
+          <ul class="lc-list">
+            <li>Flowing vowels: <strong>A, E, I, AE, EL, IA</strong></li>
+            <li>Soft consonants: <strong>L, S, N, TH, VE, RY</strong></li>
+            <li>Nature suffixes: <strong>-leaf, -vale, -wind, -dawn</strong></li>
+            <li>Ancient prefixes: <strong>Ae-, Ly-, Va-, Sy-, The-</strong></li>
+            <li>Apostrophe clan breaks: <strong>Il'Thalas, Xal'thari</strong></li>
+          </ul>
+        </div>
+        <div class="lore-card reveal reveal-delay-2">
+          <div class="lc-label">Elf Name Structures</div>
+          <ul class="lc-list">
+            <li>Single melodic name: <strong>Lyrian, Aelorin, Vaelis</strong></li>
+            <li>First name + nature surname: <strong>Lyrian Sundervale</strong></li>
+            <li>Clan-prefixed formal: <strong>Aelorin Il'Thalas</strong></li>
+            <li>Earned epithet: <strong>Vaeliana the Starborn</strong></li>
+            <li>Title-as-name: <strong>Forest Guardian, Moon Sage</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ornament -->
+  <div class="orn-divider reveal"><div class="orn-line"></div><span class="orn-sym">✦ ✦ ✦</span><div class="orn-line r"></div></div>
+
+  <!-- ── BAND 2: D&D TABLES ── -->
+  <div class="seo-band reveal">
+    <div class="s-wrap">
+      <div class="band-tag">D&D 5e Reference</div>
+      <h2 class="band-h2">D&D Elf Names — Male & Female</h2>
+      <p class="table-intro">In Dungeons & Dragons 5th Edition, elves are one of the most popular playable races. Their names reflect thousands of years of culture — melodic, ancient, and deeply tied to the natural world. These names suit any D&D campaign, Baldur's Gate 3 playthrough, or Pathfinder adventure.</p>
+      <div class="tbl-pair">
+        <div class="reveal reveal-delay-1">
+          <div class="tbl-label">Male Elf Names</div>
+          <div class="tbl-wrap">
+            <table class="tbl">
+              <thead><tr><th>Name</th><th>Role</th></tr></thead>
+              <tbody>
+                <tr><td>Aelorin Il'Thalas</td><td>Forest Guardian</td></tr>
+                <tr><td>Lyrian Sundervale</td><td>Moon Sage</td></tr>
+                <tr><td>Theroniel Dawnheart</td><td>Ancient Blade</td></tr>
+                <tr><td>Faelan Thornwist</td><td>Wandering Scout</td></tr>
+                <tr><td>Arathor Brightleaf</td><td>Elder Warden</td></tr>
+                <tr><td>Vaelis Emberglow</td><td>Dawn Sentinel</td></tr>
+                <tr><td>Eryndor Swiftbough</td><td>Swift Hunter</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="reveal reveal-delay-2">
+          <div class="tbl-label">Female Elf Names</div>
+          <div class="tbl-wrap">
+            <table class="tbl">
+              <thead><tr><th>Name</th><th>Role</th></tr></thead>
+              <tbody>
+                <tr><td>Vaeliana Starbreeze</td><td>Wayward Druid</td></tr>
+                <tr><td>Eilenya Silverleaf</td><td>Songweaver</td></tr>
+                <tr><td>Caladwen Moonsong</td><td>High Arcanist</td></tr>
+                <tr><td>Thalindra Moonpetal</td><td>Grove Tender</td></tr>
+                <tr><td>Liriel Starmantle</td><td>Astral Weaver</td></tr>
+                <tr><td>Selanil Duskwhisper</td><td>Twilight Keeper</td></tr>
+                <tr><td>Moriell Winddancer</td><td>Ranger of the Wilds</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ornament -->
+  <div class="orn-divider reveal"><div class="orn-line"></div><span class="orn-sym">✦ ✦ ✦</span><div class="orn-line r"></div></div>
+
+  <!-- ── BAND 3: SUBRACES — alternating layout ── -->
+  <div class="seo-band alt reveal">
+    <div class="s-wrap">
+      <div class="band-tag">Subrace Guide</div>
+      <h2 class="band-h2">Elf Names by Subrace</h2>
+      <div class="subrace-list">
+
+        <!-- Wood Elf -->
+        <div class="subrace-item reveal">
+          <div class="subrace-text">
+            <div class="sr-tag">Wood Elf</div>
+            <h3 class="sr-h3">Forest-Born, Nature-Named</h3>
+            <p class="sr-body">Wood elves live in harmony with ancient forests. Their names reflect seasonal cycles, natural phenomena, and the quiet patience of centuries. Soft, earthy, and melodic — each name sounds like wind moving through leaves.</p>
+            <p class="sr-body">In D&D 5e, wood elves (Teu-Tel'Quessir) are among the most common playable elves. Their names suit rangers, druids, and arcane archers equally well.</p>
+            <div class="sr-examples">
+              <span class="sr-ex">Faelan</span><span class="sr-ex">Sylvaris</span><span class="sr-ex">Vaeliana</span><span class="sr-ex">Arathor</span><span class="sr-ex">Thalindra</span>
+            </div>
+          </div>
+          <div class="subrace-visual">
+            <div class="sv-title">Wood Elf Name Traits</div>
+            <div class="sv-trait"><div class="sv-dot"></div><div class="sv-trait-text"><strong>Nature imagery</strong> — leaf, root, grove, thorn, wind, dawn</div></div>
+            <div class="sv-trait"><div class="sv-dot"></div><div class="sv-trait-text"><strong>Soft consonants</strong> — no harsh stops, flows easily aloud</div></div>
+            <div class="sv-trait"><div class="sv-dot"></div><div class="sv-trait-text"><strong>Seasonal roots</strong> — spring, summer, dusk, bloom references</div></div>
+            <div class="sv-trait"><div class="sv-dot"></div><div class="sv-trait-text"><strong>Short surnames</strong> — Brightleaf, Thornwist, Greenfall</div></div>
+          </div>
+        </div>
+
+        <!-- Dark Elf -->
+        <div class="subrace-item flip reveal">
+          <div class="subrace-text">
+            <div class="sr-tag">Dark Elf — Drow</div>
+            <h3 class="sr-h3">Shadows, Silence, Survival</h3>
+            <p class="sr-body">Drow names are built for a world without sunlight. Sharp consonants, apostrophe clan breaks, and shadow imagery define the naming tradition of the Underdark. A drow name should feel like a blade — precise and cold.</p>
+            <p class="sr-body">Drizzt Do'Urden is the most famous example — notice the hard consonants, the apostrophe clan marker, and the complete absence of soft vowels that define surface elf names.</p>
+            <div class="sr-examples">
+              <span class="sr-ex">Xal'thari</span><span class="sr-ex">Veth'nar</span><span class="sr-ex">Zyn'thar</span><span class="sr-ex">Mal'shara</span><span class="sr-ex">Shan'tai</span>
+            </div>
+          </div>
+          <div class="subrace-visual">
+            <div class="sv-title">Drow Name Traits</div>
+            <div class="sv-trait"><div class="sv-dot"></div><div class="sv-trait-text"><strong>Apostrophe clan breaks</strong> — Xal'thari, Veth'nar, Driz'vael</div></div>
+            <div class="sv-trait"><div class="sv-dot"></div><div class="sv-trait-text"><strong>Hard consonants</strong> — X, Z, K, TH, V combinations</div></div>
+            <div class="sv-trait"><div class="sv-dot"></div><div class="sv-trait-text"><strong>Shadow vocabulary</strong> — night, void, ash, dark, shadow</div></div>
+            <div class="sv-trait"><div class="sv-dot"></div><div class="sv-trait-text"><strong>House surnames</strong> — Do'Urden, De'Vir, Baenre patterns</div></div>
+          </div>
+        </div>
+
+        <!-- Blood Elf -->
+        <div class="subrace-item reveal">
+          <div class="subrace-text">
+            <div class="sr-tag">Blood Elf — Thalassian</div>
+            <h3 class="sr-h3">Arcane Fire, Noble Pride</h3>
+            <p class="sr-body">Blood elf names (from Warcraft's Thalassian tradition) blend arcane energy, fire imagery, and the pride of a civilization that survived catastrophe through sheer will and magic addiction.</p>
+            <p class="sr-body">They also work beautifully for high elves in D&D — the formal, archaic naming convention suits any noble or arcane bloodline in a high fantasy setting.</p>
+            <div class="sr-examples">
+              <span class="sr-ex">Kael'theron</span><span class="sr-ex">Sel'thari</span><span class="sr-ex">Vaelis</span><span class="sr-ex">Lyrae</span><span class="sr-ex">Anar'vael</span>
+            </div>
+          </div>
+          <div class="subrace-visual">
+            <div class="sv-title">Blood Elf Name Traits</div>
+            <div class="sv-trait"><div class="sv-dot"></div><div class="sv-trait-text"><strong>Fire and light imagery</strong> — ember, sun, dawn, gold, flame</div></div>
+            <div class="sv-trait"><div class="sv-dot"></div><div class="sv-trait-text"><strong>Noble suffixes</strong> — -theron, -vael, -thari, -thas</div></div>
+            <div class="sv-trait"><div class="sv-dot"></div><div class="sv-trait-text"><strong>Arcane weight</strong> — names feel powerful, elevated, ancient</div></div>
+            <div class="sv-trait"><div class="sv-dot"></div><div class="sv-trait-text"><strong>Optional apostrophe</strong> — Kael'thas, Sel'thari (less harsh than drow)</div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ornament -->
+  <div class="orn-divider reveal"><div class="orn-line"></div><span class="orn-sym">✦ ✦ ✦</span><div class="orn-line r"></div></div>
+
+  <!-- ── BAND 4: FAMOUS NAMES — quote card grid ── -->
+  <div class="seo-band reveal">
+    <div class="s-wrap">
+      <div class="band-tag">Pop Culture Reference</div>
+      <h2 class="band-h2">Famous Elf Names in Fantasy</h2>
+      <p class="fame-intro">The most iconic elf names reveal the phonetic patterns that feel authentic across traditions. Studying them shows exactly why certain sounds signal "elf" before any context is given.</p>
+      <div class="fame-grid">
+        <div class="fame-card reveal reveal-delay-1">
+          <div class="fame-source">Tolkien · LOTR</div>
+          <div class="fame-name">Legolas Greenleaf</div>
+          <div class="fame-role">Wood Elf Prince · Archer</div>
+          <p class="fame-desc">The defining visual of elf grace and combat precision. His name follows the soft-consonant, nature-suffix pattern perfectly.</p>
+        </div>
+        <div class="fame-card reveal reveal-delay-2">
+          <div class="fame-source">Tolkien · LOTR</div>
+          <div class="fame-name">Galadriel</div>
+          <div class="fame-role">Lady of Lothlórien · Ringbearer</div>
+          <p class="fame-desc">Flowing, multi-syllabic, ancient. The name alone conveys centuries of wisdom and power without a single explanation.</p>
+        </div>
+        <div class="fame-card reveal reveal-delay-1">
+          <div class="fame-source">D&D · Forgotten Realms</div>
+          <div class="fame-name">Drizzt Do'Urden</div>
+          <div class="fame-role">Drow Ranger · Exile</div>
+          <p class="fame-desc">The apostrophe clan marker, hard consonants, and complete absence of soft vowels — the perfect drow name formula in one character.</p>
+        </div>
+        <div class="fame-card reveal reveal-delay-2">
+          <div class="fame-source">World of Warcraft</div>
+          <div class="fame-name">Sylvanas Windrunner</div>
+          <div class="fame-role">Blood Elf · Banshee Queen</div>
+          <p class="fame-desc">Noble surname pattern, arcane weight in the first name, the suffix -nas adding formality. A masterclass in blood elf naming.</p>
+        </div>
+        <div class="fame-card reveal reveal-delay-1">
+          <div class="fame-source">World of Warcraft</div>
+          <div class="fame-name">Kael'thas Sunstrider</div>
+          <div class="fame-role">Blood Elf Prince · Arcane Villain</div>
+          <p class="fame-desc">The apostrophe here is softer than drow usage — it elevates rather than hardens. The sun imagery seals the blood elf identity.</p>
+        </div>
+        <div class="fame-card reveal reveal-delay-2">
+          <div class="fame-source">Tolkien · Silmarillion</div>
+          <div class="fame-name">Elrond Half-elven</div>
+          <div class="fame-role">Lord of Rivendell · Loremaster</div>
+          <p class="fame-desc">Short, formal, mythic. Tolkien's high elf names are often deceptively simple — the weight comes from cultural memory, not syllable count.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ornament -->
+  <div class="orn-divider reveal"><div class="orn-line"></div><span class="orn-sym">✦ ✦ ✦</span><div class="orn-line r"></div></div>
+
+  <!-- ── BAND 5: HOW-TO — timeline ── -->
+  <div class="seo-band alt reveal">
+    <div class="s-wrap">
+      <div class="band-tag">Name Crafting Guide</div>
+      <h2 class="band-h2">How to Create Your Own Elvish Name</h2>
+      <p class="howto-intro">Understanding the rules behind elvish names lets you craft one yourself — or build an entire consistent naming language for your fictional world. Here's the exact formula used by fantasy writers and game designers.</p>
+      <div class="timeline">
+        <div class="tl-item reveal reveal-delay-1">
+          <div class="tl-num-wrap"><div class="tl-num">01</div></div>
+          <div class="tl-body">
+            <div class="tl-title">Choose Flowing Syllables</div>
+            <p class="tl-desc">Start with 2–3 light syllables. Draw from sounds like: Ae-, Ly-, Va-, Sy-, Cal-, The-, Mor-, Fa-. Combine them smoothly — the name should feel effortless when spoken aloud. Avoid back-to-back hard consonants.</p>
+            <div class="tl-example"><span class="tl-ex">Lyrian</span><span class="tl-ex">Vaeliana</span><span class="tl-ex">Caladwen</span><span class="tl-ex">Theroniel</span></div>
+          </div>
+        </div>
+        <div class="tl-item reveal reveal-delay-2">
+          <div class="tl-num-wrap"><div class="tl-num">02</div></div>
+          <div class="tl-body">
+            <div class="tl-title">Add a Nature Surname</div>
+            <p class="tl-desc">Elvish surnames draw from the natural world. Combine a nature element with a poetic descriptor using a compound. The result should feel like it belongs on a map — Silver + Leaf = Silverleaf. Moon + Song = Moonsong. Star + Breeze = Starbreeze.</p>
+            <div class="tl-example"><span class="tl-ex">Sundervale</span><span class="tl-ex">Silverleaf</span><span class="tl-ex">Starbreeze</span><span class="tl-ex">Brightleaf</span><span class="tl-ex">Moonsong</span></div>
+          </div>
+        </div>
+        <div class="tl-item reveal reveal-delay-3">
+          <div class="tl-num-wrap"><div class="tl-num">03</div></div>
+          <div class="tl-body">
+            <div class="tl-title">Apply Subrace Markers</div>
+            <p class="tl-desc">Adjust for subrace convention. Dark elves add apostrophe clan breaks and harsh consonants. Blood elves add arcane fire imagery and formal noble suffixes. High elves stay multi-syllabic and archaic. Wood elves keep it soft and earthy.</p>
+            <div class="tl-example"><span class="tl-ex">Dark: Xal'thari</span><span class="tl-ex">Blood: Kael'theron</span><span class="tl-ex">High: Naeryndam</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ornament -->
+  <div class="orn-divider reveal"><div class="orn-line"></div><span class="orn-sym">✦ ✦ ✦</span><div class="orn-line r"></div></div>
+
+  <!-- ── BAND 6: FAQ — single column, large ── -->
+  <div class="seo-band reveal">
+    <div class="s-wrap">
+      <div class="band-tag">FAQ</div>
+      <h2 class="band-h2">Frequently Asked Questions</h2>
+      <p class="faq-intro">Everything you need to know about elf names for D&D, Baldur's Gate 3, fantasy writing, and worldbuilding.</p>
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <div class="faq-q">What is a good elf name for D&D 5e?</div>
+          <p class="faq-a">Good D&D elf names use flowing syllables and nature imagery. Examples: Aelorin, Lyrian, Vaeliana, Eilenya, Sylvaris. For named characters, add a descriptive nature surname — Lyrian Sundervale, Vaeliana Starbreeze. Use the Male or Female filter above for D&D-ready names instantly.</p>
+        </div>
+        <div class="faq-item reveal reveal-delay-1">
+          <div class="faq-q">What is a female elf name?</div>
+          <p class="faq-a">Female elf names are melodic and graceful — Vaeliana, Eilenya, Caladwen, Thalindra, Liriel, Selanil, Moriell. They carry the same nature-inspired roots as male names but often have a softer, more musical rhythm. Use the Female filter above to generate exclusively female elf names.</p>
+        </div>
+        <div class="faq-item reveal reveal-delay-2">
+          <div class="faq-q">What is the difference between wood elf and dark elf names?</div>
+          <p class="faq-a">Wood elf names are soft, nature-inspired, and melodic — Faelan, Sylvaris, Thalindra. Dark elf (drow) names are harsher, featuring apostrophe clan breaks and sharp consonants — Xal'thari, Veth'nar, Zyn'thar. The Wood Elf and Dark Elf filters above generate each style distinctly.</p>
+        </div>
+        <div class="faq-item reveal reveal-delay-3">
+          <div class="faq-q">Can I use these elf names for Baldur's Gate 3?</div>
+          <p class="faq-a">Yes. All RuneForge elf names are appropriate for BG3 character creation. Use the Wood Elf or All filter for surface elves, and the Dark Elf filter for drow characters. The phonetic conventions match the Faerûn setting throughout.</p>
+        </div>
+        <div class="faq-item reveal reveal-delay-1">
+          <div class="faq-q">What are blood elf names?</div>
+          <p class="faq-a">Blood elf names come from the Warcraft Thalassian tradition — blending arcane energy, fire imagery, and noble heritage. Examples: Kael'thas, Sylvanas, Sel'thari, Anar'vael. Use the Blood Elf filter above. These also work beautifully for high elves in D&D 5e campaigns.</p>
+        </div>
+        <div class="faq-item reveal reveal-delay-2">
+          <div class="faq-q">Can I use these names commercially?</div>
+          <p class="faq-a">Yes. All RuneForge names are original and free to use in any commercial or personal project — published novels, games, campaigns, videos, and more. No attribution required. Generate as many as you need, completely free.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /seo-zone -->
+
+<!-- FOOTER -->
+<footer>
+  <div class="f-div">
+    <div class="f-line"></div>
+    <svg class="fsym" width="18" height="18" viewBox="0 0 28 28" fill="none">
+      <path d="M14 2L16 10H24L17.5 15L20 23L14 18.5L8 23L10.5 15L4 10H12L14 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+    </svg>
+    <div class="f-line"></div>
+  </div>
+  <div class="ftxt">© 2025 RuneForge. All rights reserved.</div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* ── NAME DATA ── */
+const D={
+  all:[
+    {n:"Aelorin Il'Thalas",r:"Forest Guardian"},{n:"Zyrael Nightwhisper",r:"Shadow Walker"},
+    {n:"Lyrian Sundervale",r:"Moon Sage"},{n:"Eilenya Silverleaf",r:"Songweaver"},
+    {n:"Vaeliana Starbreeze",r:"Wayward Druid"},{n:"Sylvaris Greenfall",r:"Keeper of Roots"},
+    {n:"Theroniel Dawnheart",r:"Ancient Blade"},{n:"Moriell Winddancer",r:"Ranger of the Wilds"},
+    {n:"Caladwen Moonsong",r:"High Arcanist"},{n:"Faelan Thornwist",r:"Wandering Scout"},
+    {n:"Selanil Duskwhisper",r:"Twilight Keeper"},{n:"Arathor Brightleaf",r:"Elder Warden"},
+    {n:"Liriel Starmantle",r:"Astral Weaver"},{n:"Vaelis Emberglow",r:"Dawn Sentinel"},
+    {n:"Naeryndam Silverwind",r:"Timeless Wanderer"},{n:"Thalindra Moonpetal",r:"Grove Tender"},
+    {n:"Eryndor Swiftbough",r:"Swift Hunter"},{n:"Caldorei Nightsong",r:"Dream Speaker"},
+  ],
+  male:[
+    {n:"Aelorin Il'Thalas",r:"Forest Guardian"},{n:"Lyrian Sundervale",r:"Moon Sage"},
+    {n:"Theroniel Dawnheart",r:"Ancient Blade"},{n:"Faelan Thornwist",r:"Wandering Scout"},
+    {n:"Arathor Brightleaf",r:"Elder Warden"},{n:"Vaelis Emberglow",r:"Dawn Sentinel"},
+    {n:"Eryndor Swiftbough",r:"Swift Hunter"},{n:"Sylvaris Greenfall",r:"Keeper of Roots"},
+    {n:"Naeryndam Silverwind",r:"Timeless Wanderer"},{n:"Caldorei Nightsong",r:"Dream Speaker"},
+  ],
+  female:[
+    {n:"Zyrael Nightwhisper",r:"Shadow Walker"},{n:"Eilenya Silverleaf",r:"Songweaver"},
+    {n:"Vaeliana Starbreeze",r:"Wayward Druid"},{n:"Moriell Winddancer",r:"Ranger of the Wilds"},
+    {n:"Caladwen Moonsong",r:"High Arcanist"},{n:"Selanil Duskwhisper",r:"Twilight Keeper"},
+    {n:"Liriel Starmantle",r:"Astral Weaver"},{n:"Thalindra Moonpetal",r:"Grove Tender"},
+  ],
+  wood:[
+    {n:"Faelan Thornwist",r:"Wandering Scout"},{n:"Sylvaris Greenfall",r:"Keeper of Roots"},
+    {n:"Vaeliana Starbreeze",r:"Wayward Druid"},{n:"Arathor Brightleaf",r:"Elder Warden"},
+    {n:"Moriell Winddancer",r:"Ranger of the Wilds"},{n:"Eryndor Swiftbough",r:"Swift Hunter"},
+    {n:"Thalindra Moonpetal",r:"Grove Tender"},{n:"Aelorin Il'Thalas",r:"Forest Guardian"},
+    {n:"Caladwen Moonsong",r:"High Arcanist"},{n:"Lyrian Sundervale",r:"Moon Sage"},
+  ],
+  dark:[
+    {n:"Zyrael Nightwhisper",r:"Shadow Walker"},{n:"Selanil Duskwhisper",r:"Twilight Keeper"},
+    {n:"Caldorei Nightsong",r:"Dream Speaker"},{n:"Naeryndam Silverwind",r:"Void Dancer"},
+    {n:"Xal'thari Ashveil",r:"Drow Assassin"},{n:"Veth'nar Shadowlace",r:"Shadow Priestess"},
+    {n:"Zyn'thar Nightcrawl",r:"Underdark Scout"},{n:"Mal'shara Duskblade",r:"Night Blade"},
+    {n:"Driz'vael Deepstone",r:"Stone Warden"},{n:"Shan'tai Voidweave",r:"Dark Arcanist"},
+  ],
+  blood:[
+    {n:"Vaelis Emberglow",r:"Dawn Sentinel"},{n:"Liriel Starmantle",r:"Astral Weaver"},
+    {n:"Theroniel Dawnheart",r:"Ancient Blade"},{n:"Eilenya Silverleaf",r:"Songweaver"},
+    {n:"Sel'thari Sunmantle",r:"Blood Arcanist"},{n:"Anar'vael Goldenfire",r:"Sun Paladin"},
+    {n:"Kael'theron Dawnrise",r:"Arcane Knight"},{n:"Lyrae Sunwhisper",r:"High Magister"},
+    {n:"Vynara Emberveil",r:"Fel Sorceress"},{n:"Thas'lan Sunstrike",r:"Blood Champion"},
+  ]
+};
+
+const CICO=`<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>`;
+const CHKO=`<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`;
+let af='all';
+
+function shuf(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}return b;}
+
+function gen(){
+  const p=shuf(D[af]).slice(0,8);
+  document.getElementById('grid').innerHTML=p.map((x,i)=>`
+    <div class="nc" style="animation-delay:${i*.045}s">
+      <div><div class="nn">${x.n}</div><div class="nr">${x.r}</div></div>
+      <button class="cp" onclick="cp('${x.n.replace(/'/g,"\\'")}',this)">${CICO}</button>
+    </div>`).join('');
+}
+
+function cp(name,btn){
+  navigator.clipboard.writeText(name).catch(()=>{
+    const t=document.createElement('textarea');t.value=name;
+    document.body.appendChild(t);t.select();document.execCommand('copy');document.body.removeChild(t);
+  });
+  btn.classList.add('ok');btn.innerHTML=CHKO;
+  setTimeout(()=>{btn.classList.remove('ok');btn.innerHTML=CICO;},1600);
+  const t=document.getElementById('toast');
+  t.textContent=`"${name}" copied`;t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),2200);
+}
+
+document.querySelectorAll('.fb').forEach(b=>{
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.fb').forEach(x=>x.classList.remove('active'));
+    this.classList.add('active');af=this.dataset.f;gen();
+  });
+});
+
+/*/* ── PARTICLES ── */
+(function(){
+  const w=document.getElementById('particles');
+  for(let i=0;i<14;i++){
+    const p=document.createElement('div');p.className='particle';
+    p.style.cssText=`left:${Math.random()*100}%;top:${Math.random()*100}%;width:${1+Math.random()*2}px;height:${1+Math.random()*2}px;--d:${6+Math.random()*8}s;--dl:${Math.random()*-10}s`;
+    w.appendChild(p);
+  }
+})();
+
+/* ── SCROLL REVEAL — IntersectionObserver ── */
+(function(){
+  const io=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        e.target.classList.add('visible');
+        io.unobserve(e.target);
+      }
+    });
+  },{threshold:0.08,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+})();
+
+gen();
+</script>
+</body>
+</html>

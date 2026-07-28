@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Villain Name Generator — 500+ Dark & Powerful Names | RuneForge</title>
+<meta name="description" content="Generate powerful villain names for dark fantasy, sci-fi, RPG campaigns, and novels. 500+ unique dark lord, necromancer, and antagonist names. Free, instant, no signup.">
+<meta name="keywords" content="villain name generator, dark fantasy names, evil character names, antagonist name generator, villain names for stories, RPG villain names, dark lord names">
+<link rel="canonical" href="https://runeforge.online/villain-name-generator">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://runeforge.online/villain-name-generator">
+<meta property="og:site_name" content="RuneForge">
+<meta property="og:title" content="Villain Name Generator — 500+ Dark & Powerful Names">
+<meta property="og:description" content="Generate dark, powerful villain names for RPG campaigns, fantasy novels, and game development. Free villain name generator with dark fantasy and sci-fi options.">
+<meta property="og:image" content="https://runeforge.online/images/og-villain.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Villain Name Generator — RuneForge">
+<meta name="twitter:description" content="Generate 500+ dark villain names for fantasy, sci-fi, RPGs and novels. Free instant generator.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cinzel+Decorative:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Lato:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<style>
+/* ── Tokens ────────────────────────────────────────── */
+:root {
+  --bg:       #090A0C;
+  --bg2:      #0C0E11;
+  --bg3:      #101318;
+  --card:     #0E1117;
+  --card-h:   #131A24;
+  --gold:     #D4AF37;
+  --gold2:    #C4A052;
+  --gold3:    #8A6631;
+  --gold4:    #EDD07A;
+  --text:     #E8E3DB;
+  --text2:    #B8B0A5;
+  --text3:    #787068;
+  --art-body: #CCC5BB;
+  --border:   rgba(196,160,82,.14);
+  --border2:  rgba(196,160,82,.3);
+  --wb:       rgba(255,255,255,.05);
+  --wb2:      rgba(255,255,255,.03);
+  --r:        8px;
+  --max:      1280px;
+  --pad:      clamp(20px, 4vw, 52px);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Lato', system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.022'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
+.z1 { position: relative; z-index: 1; }
+.page-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--pad); }
+
+/* ── HEADER ─────────────────────────────────────────── */
+header {
+  background: rgba(9,10,12,.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--wb);
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+nav {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+.logo-ic { width: 26px; height: 26px; color: var(--gold2); }
+.logo-txt {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+.logo-txt .r { color: var(--gold2); }
+.logo-txt .f { color: var(--text); }
+
+.nav-links { display: flex; align-items: center; gap: 28px; }
+.nav-a {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--text3);
+  text-decoration: none;
+  transition: color .18s;
+}
+.nav-a:hover { color: var(--gold2); }
+.btn-pro {
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--gold2);
+  border: 1px solid rgba(196,160,82,.35);
+  padding: 8px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all .18s;
+}
+.btn-pro:hover { background: rgba(196,160,82,.1); border-color: var(--gold2); }
+
+/* ── BREADCRUMB ─────────────────────────────────────── */
+.breadcrumb-wrap {
+  border-bottom: 1px solid var(--wb2);
+  background: rgba(9,10,12,.5);
+}
+.breadcrumb {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 10px var(--pad);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 14px;
+  color: var(--text3);
+}
+.breadcrumb a { color: var(--text3); text-decoration: none; transition: color .15s; }
+.breadcrumb a:hover { color: var(--gold2); }
+.bc-sep { opacity: .45; }
+
+/* ── HERO ───────────────────────────────────────────── */
+.hero {
+  text-align: center;
+  padding: 60px var(--pad) 48px;
+}
+.eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 26px;
+}
+.ey-line {
+  width: 44px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(196,160,82,.5));
+}
+.ey-line.r { background: linear-gradient(90deg, rgba(196,160,82,.5), transparent); }
+.ey-dia { color: rgba(196,160,82,.65); font-size: 10px; }
+.ey-txt {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .28em;
+  text-transform: uppercase;
+  color: var(--gold2);
+}
+h1.hero-title {
+  font-family: 'EB Garamond', serif;
+  font-size: clamp(44px, 7vw, 82px);
+  font-weight: 400;
+  font-style: italic;
+  color: #F0EDE6;
+  line-height: .96;
+  letter-spacing: -.01em;
+  margin-bottom: 18px;
+}
+h1.hero-title em {
+  font-style: normal;
+  color: var(--gold4);
+}
+.hero-desc {
+  font-size: 17px;
+  font-weight: 300;
+  color: var(--text2);
+  max-width: 400px;
+  margin: 0 auto 32px;
+  line-height: 1.7;
+}
+
+/* ── FILTERS ─────────────────────────────────────────── */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.fb {
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  padding: 10px 24px;
+  border-radius: 40px;
+  border: 1px solid rgba(255,255,255,.07);
+  background: transparent;
+  color: var(--text2);
+  cursor: pointer;
+  transition: all .18s;
+}
+.fb:hover { border-color: var(--border2); color: var(--gold2); }
+.fb.active {
+  border-color: var(--gold2);
+  color: var(--gold2);
+  background: rgba(196,160,82,.07);
+}
+
+/* ── GENERATE BUTTON ────────────────────────────────── */
+.gen-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 52px;
+}
+.gen-btn {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  filter: drop-shadow(0 10px 24px rgba(0,0,0,.5));
+  transition: transform .2s, filter .2s;
+}
+.gen-btn:hover { transform: translateY(-2px); filter: drop-shadow(0 16px 32px rgba(0,0,0,.6)) brightness(1.07); }
+.gen-btn:active { transform: translateY(1px); filter: brightness(.93); }
+.gen-outer {
+  background: linear-gradient(180deg, #EEC060 0%, #A87830 45%, #4A2C0C 100%);
+  padding: 1.5px;
+  clip-path: polygon(3.5% 0%, 96.5% 0%, 100% 50%, 96.5% 100%, 3.5% 100%, 0% 50%);
+  min-width: 400px;
+}
+.gen-mid {
+  background: linear-gradient(180deg, #3A2308 0%, #180D03 100%);
+  padding: 2px;
+  clip-path: polygon(3.5% 0%, 96.5% 0%, 100% 50%, 96.5% 100%, 3.5% 100%, 0% 50%);
+}
+.gen-inner {
+  clip-path: polygon(3.5% 0%, 96.5% 0%, 100% 50%, 96.5% 100%, 3.5% 100%, 0% 50%);
+  background: linear-gradient(180deg, #C09040 0%, #8A5A20 55%, #5A3610 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 44px;
+  box-shadow: inset 0 2px 4px rgba(255,255,255,.16), inset 0 -3px 5px rgba(0,0,0,.4);
+}
+.gen-rune { font-size: 15px; color: rgba(18,10,3,.5); letter-spacing: 3px; }
+.gen-lbl {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: .26em;
+  text-transform: uppercase;
+  color: #110A02;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-shadow: 0 1px 0 rgba(255,255,255,.2);
+}
+.gen-ic { width: 22px; height: 22px; color: #1A1004; }
+
+/* ── STATS ───────────────────────────────────────────── */
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: 44px;
+}
+.stat {
+  text-align: center;
+  padding: 0 44px;
+  border-right: 1px solid var(--wb);
+}
+.stat:last-child { border-right: none; }
+.stat-n {
+  font-family: 'Cinzel', serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--gold2);
+  display: block;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.stat-l {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--text3);
+}
+
+/* ── NAME GRID ───────────────────────────────────────── */
+.grid-wrap { padding: 0 0 64px; }
+.grid-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+}
+.name-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+@media (max-width: 1100px) { .name-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px)  { .name-grid { grid-template-columns: 1fr; gap: 10px; } }
+
+.nc {
+  background: linear-gradient(150deg, rgba(18,22,30,.6) 0%, rgba(10,13,18,.75) 100%);
+  border: 1px solid rgba(255,255,255,.04);
+  border-top-color: rgba(196,160,82,.2);
+  border-radius: var(--r);
+  padding: 22px 24px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  transition: transform .24s ease, border-color .24s, background .24s, box-shadow .24s;
+  opacity: 0;
+  animation: cardIn .3s ease forwards;
+}
+.nc:hover {
+  transform: translateY(-2px);
+  border-top-color: rgba(196,160,82,.38);
+  background: linear-gradient(150deg, rgba(22,28,38,.75) 0%, rgba(14,18,26,.88) 100%);
+  box-shadow: 0 8px 24px rgba(0,0,0,.45), 0 0 14px rgba(196,160,82,.04);
+}
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.nc-info { flex: 1; min-width: 0; }
+.nc-name {
+  font-family: 'Cinzel', serif;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: .04em;
+  color: #F0EBE2;
+  margin-bottom: 6px;
+  font-variant: small-caps;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.nc-role {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--text3);
+}
+.cp {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  border: 1px solid rgba(255,255,255,.06);
+  background: rgba(255,255,255,.03);
+  color: var(--text3);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .18s;
+}
+.cp:hover { color: var(--gold2); border-color: rgba(196,160,82,.28); background: rgba(196,160,82,.05); }
+.cp.ok    { color: #72c48a; border-color: rgba(114,196,138,.25); background: rgba(114,196,138,.05); }
+
+/* ── RELATED ─────────────────────────────────────────── */
+.related {
+  background: var(--bg2);
+  border-top: 1px solid var(--wb2);
+  border-bottom: 1px solid var(--wb2);
+  padding: 44px 0;
+}
+.related-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+}
+.sec-ey {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+.se-line { flex: 1; height: 1px; background: var(--wb); }
+.se-txt {
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .26em;
+  text-transform: uppercase;
+  color: var(--text3);
+  white-space: nowrap;
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.chip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text2);
+  border: 1px solid rgba(255,255,255,.06);
+  background: rgba(255,255,255,.02);
+  padding: 11px 18px;
+  border-radius: var(--r);
+  text-decoration: none;
+  transition: all .18s;
+}
+.chip:hover { border-color: var(--border2); color: var(--gold2); background: rgba(196,160,82,.04); text-decoration: none; }
+.chip svg { width: 15px; height: 15px; color: var(--gold2); opacity: .7; flex-shrink: 0; transition: opacity .18s; }
+.chip:hover svg { opacity: 1; }
+
+/* ── SEO SECTION ─────────────────────────────────────── */
+.seo-outer {
+  background: var(--bg);
+  padding: 72px 0 80px;
+  border-top: 1px solid var(--wb);
+}
+.seo-page {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 60px;
+  align-items: start;
+}
+@media (max-width: 1024px) {
+  .seo-page { grid-template-columns: 1fr; gap: 48px; }
+}
+
+/* ── Article ── */
+.art h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--text3);
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--wb);
+}
+.art h2.art-main {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: .03em;
+  color: var(--text);
+  text-transform: none;
+  border-bottom: 1px solid var(--wb);
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+.art h3 {
+  font-family: 'EB Garamond', serif;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--gold4);
+  margin: 44px 0 16px;
+  letter-spacing: .01em;
+}
+.art p {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--art-body);
+  line-height: 1.88;
+  margin-bottom: 20px;
+}
+.art strong { color: var(--text); font-weight: 600; }
+.art a { color: var(--gold2); text-decoration: none; border-bottom: 1px solid rgba(196,160,82,.3); transition: border-color .15s; }
+.art a:hover { border-color: var(--gold2); }
+
+.art ul, .art ol {
+  font-family: 'EB Garamond', serif;
+  font-size: 19px;
+  color: var(--art-body);
+  line-height: 1.85;
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 22px;
+}
+.art li {
+  padding: 5px 0 5px 24px;
+  position: relative;
+  color: var(--art-body);
+}
+.art ul li::before {
+  content: '◆';
+  position: absolute;
+  left: 0;
+  top: 12px;
+  color: var(--gold3);
+  font-size: 7px;
+}
+.art ol { counter-reset: al; }
+.art ol li { counter-increment: al; }
+.art ol li::before {
+  content: counter(al) '.';
+  position: absolute;
+  left: 0;
+  color: var(--gold2);
+  font-family: 'Cinzel', serif;
+  font-size: 14px;
+  font-weight: 700;
+  top: 8px;
+}
+
+/* Use cases grid */
+.use-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 13px;
+  margin: 22px 0 30px;
+}
+@media (max-width: 600px) { .use-grid { grid-template-columns: 1fr; } }
+.use-card {
+  padding: 18px 20px;
+  background: rgba(255,255,255,.025);
+  border: 1px solid rgba(255,255,255,.06);
+  border-left: 2px solid rgba(196,160,82,.32);
+  border-radius: var(--r);
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+}
+.use-ic { width: 18px; height: 18px; color: var(--gold2); flex-shrink: 0; margin-top: 2px; opacity: .85; }
+.use-body {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text2);
+  line-height: 1.55;
+}
+.use-body strong {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 4px;
+  letter-spacing: .01em;
+}
+
+/* FAQ */
+.faq-wrap { margin: 16px 0 0; }
+.faq-item { border-bottom: 1px solid rgba(255,255,255,.06); }
+.faq-item details summary {
+  padding: 18px 30px 18px 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--text);
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  user-select: none;
+  letter-spacing: .01em;
+}
+.faq-item details summary::-webkit-details-marker { display: none; }
+.faq-item details summary::after {
+  content: '+';
+  position: absolute;
+  right: 0; top: 18px;
+  color: var(--gold2);
+  font-size: 1.15rem;
+  font-weight: 400;
+  font-family: 'Cinzel', serif;
+}
+.faq-item details[open] summary::after { content: '−'; }
+.faq-ans {
+  padding: 0 0 18px;
+  font-family: 'EB Garamond', serif;
+  font-size: 19px;
+  color: var(--art-body);
+  line-height: 1.85;
+}
+
+.art-div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 42px 0;
+}
+.art-div-line { flex: 1; height: 1px; background: rgba(255,255,255,.06); }
+.art-div-sym { color: var(--gold3); font-size: 10px; }
+
+/* ── Sidebar ── */
+.sidebar { position: sticky; top: 80px; }
+@media (max-width: 1024px) { .sidebar { position: static; } }
+
+.sb-card {
+  background: rgba(255,255,255,.025);
+  border: 1px solid rgba(255,255,255,.07);
+  border-top-color: rgba(196,160,82,.2);
+  border-radius: var(--r);
+  padding: 22px 22px 18px;
+  margin-bottom: 16px;
+}
+.sb-head {
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--gold2);
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--wb);
+}
+.sb-nav { list-style: none; }
+.sb-nav li + li { margin-top: 2px; }
+.sb-nav a {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text2);
+  text-decoration: none;
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(255,255,255,.04);
+  transition: color .15s, padding-left .15s;
+}
+.sb-nav a:hover { color: var(--gold2); padding-left: 4px; }
+.sb-nav a:last-child { border-bottom: none; }
+
+.sb-fact {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid rgba(255,255,255,.04);
+}
+.sb-fact:last-child { border-bottom: none; }
+.sb-fact-ic { width: 16px; height: 16px; color: var(--gold2); flex-shrink: 0; margin-top: 2px; opacity: .8; }
+.sb-fact-txt {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: var(--text2);
+  line-height: 1.5;
+}
+.sb-fact-txt strong { color: var(--text); font-weight: 600; }
+
+.sb-stat-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 0;
+  border-bottom: 1px solid rgba(255,255,255,.04);
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+.sb-stat-row:last-child { border-bottom: none; }
+.sb-stat-key { color: var(--text3); }
+.sb-stat-val { color: var(--gold2); font-weight: 700; }
+
+/* ── FOOTER ─────────────────────────────────────────── */
+footer {
+  background: #060708;
+  border-top: 1px solid var(--wb2);
+  padding: 44px var(--pad) 28px;
+  text-align: center;
+}
+.ft-logo {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 18px;
+}
+.ft-logo .r { color: var(--gold2); }
+.ft-logo .f { color: var(--text3); }
+.ft-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px 22px;
+  margin-bottom: 20px;
+}
+.ft-links a {
+  font-size: 14px;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--text3);
+  text-decoration: none;
+  transition: color .15s;
+}
+.ft-links a:hover { color: var(--gold2); }
+.ft-copy { font-size: 13px; color: var(--text3); }
+
+/* ── TOAST ──────────────────────────────────────────── */
+.toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(12px);
+  background: #131820;
+  border: 1px solid var(--border2);
+  color: var(--gold2);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 22px;
+  border-radius: 8px;
+  opacity: 0;
+  transition: all .22s;
+  pointer-events: none;
+  z-index: 999;
+  white-space: nowrap;
+  letter-spacing: .04em;
+}
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* ── RESPONSIVE ─────────────────────────────────────── */
+@media (max-width: 768px) {
+  nav { height: 54px; }
+  .nav-a { display: none; }
+  h1.hero-title { font-size: 38px; }
+  .hero { padding: 44px 0 36px; }
+  .gen-outer { min-width: 280px; }
+  .gen-inner { padding: 13px 24px; }
+  .gen-rune { display: none; }
+  .gen-lbl { font-size: 17px; letter-spacing: .16em; }
+  .stats { gap: 0; }
+  .stat { padding: 0 20px; }
+  .stat-n { font-size: 24px; }
+  .stat-l { font-size: 12px; }
+  .nc-name { font-size: 17px; }
+  .nc-role { font-size: 12px; }
+  .art p { font-size: 18px; }
+  .art ul, .art ol { font-size: 17px; }
+  .art h3 { font-size: 22px; }
+  .art h2.art-main { font-size: 20px; }
+  .faq-ans { font-size: 17px; }
+  .faq-item details summary { font-size: 16px; }
+  .use-body { font-size: 14px; }
+  .use-body strong { font-size: 14px; }
+  .chip { font-size: 14px; }
+  footer { padding: 32px 20px 24px; }
+}
+@media (max-width: 480px) {
+  h1.hero-title { font-size: 30px; }
+  .nc-name { font-size: 15px; }
+  .stat { padding: 0 12px; }
+  .stat-n { font-size: 20px; }
+  .art p { font-size: 17px; }
+  .art ul, .art ol { font-size: 16px; }
+}
+
+</style>
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+  {"@type":"WebSite","@id":"https://runeforge.online/#website","url":"https://runeforge.online","name":"RuneForge","inLanguage":"en-US"},
+  {"@type":"SoftwareApplication","@id":"https://runeforge.online/villain-name-generator/#app","name":"Villain Name Generator","url":"https://runeforge.online/villain-name-generator","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","description":"Free villain name generator with 500+ dark fantasy and sci-fi antagonist names.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},
+  {"@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://runeforge.online"},
+    {"@type":"ListItem","position":2,"name":"Name Generators","item":"https://runeforge.online/name-generators"},
+    {"@type":"ListItem","position":3,"name":"Villain Name Generator","item":"https://runeforge.online/villain-name-generator"}
+  ]},
+  {"@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"What is a villain name generator?","acceptedAnswer":{"@type":"Answer","text":"A villain name generator is a free online tool that creates dark, powerful names for antagonists, dark lords, and villains in stories, RPG campaigns, and games."}},
+    {"@type":"Question","name":"Are villain names free to use?","acceptedAnswer":{"@type":"Answer","text":"Yes. All names generated by RuneForge are completely free to use in any creative project."}},
+    {"@type":"Question","name":"How many villain names can I generate?","acceptedAnswer":{"@type":"Answer","text":"Unlimited. Click Generate as many times as you like — each click gives you 8 new names from a pool of 500+."}},
+    {"@type":"Question","name":"What makes a good villain name?","acceptedAnswer":{"@type":"Answer","text":"Great villain names combine hard consonants for danger, a title that signals power, and phonetics that fit the setting — archaic for fantasy, mechanical for sci-fi."}}
+  ]},
+  {"@type":"HowTo","name":"How to generate a villain name","step":[
+    {"@type":"HowToStep","position":1,"name":"Choose a type","text":"Select All, Male, Female, Dark Fantasy, or Sci-fi."},
+    {"@type":"HowToStep","position":2,"name":"Click Generate","text":"Click Generate to instantly create 8 unique villain names with titles."},
+    {"@type":"HowToStep","position":3,"name":"Copy your name","text":"Click the copy icon next to any name to copy it to your clipboard."}
+  ]}
+]}
+</script>
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="assets/images/favicon_io/favicon.ico">
+<link rel="manifest" href="assets/images/favicon_io/site.webmanifest">
+</head>
+
+<body class="z1">
+
+<!-- HEADER -->
+<header class="z1">
+  <nav aria-label="Main navigation">
+    <a href="index.html" class="logo" aria-label="RuneForge Home">
+      <svg class="logo-ic" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+        <path d="M14 2L16 10H24L17.5 15L20 23L14 18.5L8 23L10.5 15L4 10H12L14 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+        <line x1="14" y1="18.5" x2="14" y2="26" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+      <span class="logo-txt"><span class="r">Rune</span><span class="f">Forge</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#names"    class="nav-a">Names</a>
+      <a href="index.html#places"   class="nav-a">Places</a>
+      <a href=""class="nav-a">Creatures</a>
+      <a href="pro.html" class="btn-pro">♛ Pro</a>
+    </div>
+  </nav>
+</header>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb-wrap z1" aria-label="Breadcrumb">
+  <nav class="breadcrumb" aria-label="You are here">
+    <a href="index.html">Home</a>
+    <span class="bc-sep" aria-hidden="true">›</span>
+    <a href="name-generators.html">Name Generators</a>
+    <span class="bc-sep" aria-hidden="true">›</span>
+    <span aria-current="page">Villain Name Generator</span>
+  </nav>
+</div>
+
+<!-- HERO -->
+<section class="hero z1" aria-label="Villain Name Generator">
+  <div class="eyebrow" aria-hidden="true">
+    <div class="ey-line"></div>
+    <span class="ey-dia">✧</span>
+    <span class="ey-txt">Villain Name Generator</span>
+    <span class="ey-dia">✧</span>
+    <div class="ey-line r"></div>
+  </div>
+
+  <h1 class="hero-title">Forged in <em>Darkness.</em><br>Remembered in Fear.</h1>
+  <p class="hero-desc">Generate powerful villain names for dark stories, RPG campaigns, and worlds.</p>
+
+  <div class="filters" role="group" aria-label="Filter by villain type">
+    <button class="fb active" data-f="all"    type="button">All</button>
+    <button class="fb"        data-f="male"   type="button">Male</button>
+    <button class="fb"        data-f="female" type="button">Female</button>
+    <button class="fb"        data-f="dark"   type="button">Dark Fantasy</button>
+    <button class="fb"        data-f="scifi"  type="button">Sci-fi</button>
+  </div>
+
+  <div class="gen-row">
+    <button class="gen-btn" onclick="gen()" type="button" aria-label="Generate villain names">
+      <div class="gen-outer">
+        <div class="gen-mid">
+          <div class="gen-inner">
+            <span class="gen-rune" aria-hidden="true">⧖ ⧖</span>
+            <span class="gen-lbl">
+              <svg class="gen-ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M22,13H18L15,10H9L6,13H2V7A1,1 0 0,1 3,6H21A1,1 0 0,1 22,7V13M22,15H2V17A1,1 0 0,0 3,18H6L9,21H15L18,18H21A1,1 0 0,0 22,17V15Z"/>
+              </svg>
+              Generate
+            </span>
+            <span class="gen-rune" aria-hidden="true">⧖ ⧖</span>
+          </div>
+        </div>
+      </div>
+    </button>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats z1" aria-label="Generator statistics">
+  <div class="stat"><span class="stat-n">500+</span><span class="stat-l">Unique Names</span></div>
+  <div class="stat"><span class="stat-n">5</span><span class="stat-l">Categories</span></div>
+  <div class="stat"><span class="stat-n">Free</span><span class="stat-l">Always</span></div>
+</div>
+
+<!-- NAME GRID -->
+<section class="grid-wrap z1" aria-label="Generated villain names" aria-live="polite">
+  <div class="grid-inner">
+    <div class="name-grid" id="grid" role="list"></div>
+  </div>
+</section>
+
+<!-- RELATED TOOLS -->
+<section class="related z1" aria-labelledby="related-h">
+  <div class="related-inner">
+    <div class="sec-ey">
+      <div class="se-line"></div>
+      <span class="se-txt" id="related-h">Related Name Generators</span>
+      <div class="se-line"></div>
+    </div>
+    <nav class="chips" aria-label="Related tools">
+      <a href="fantasy-name-generator.html" class="chip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Fantasy Name Generator
+      </a>
+      <a href="dark-lord-name-generator.html" class="chip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+        Dark Lord Name Generator
+      </a>
+      <a href="necromancer-name-generator.html" class="chip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v11M5 7H3m18 0h-2"/></svg>
+        Necromancer Name Generator
+      </a>
+      <a href="place-name-generator.html" class="chip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Place Name Generator
+      </a>
+      <a href="creature-name-generator.html" class="chip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="9" cy="12" r="1"/><circle cx="15" cy="12" r="1"/><path d="M16 20a2 2 0 0 0 1.56-3.25 8 8 0 1 0-11.12 0A2 2 0 0 0 8 20"/></svg>
+        Monster & Creature Names
+      </a>
+      <a href="evil-org-name-generator.html" class="chip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+        Evil Organization Names
+      </a>
+    </nav>
+  </div>
+</section>
+
+<!-- SEO ARTICLE — 2-col desktop layout -->
+<div class="seo-outer z1">
+<div class="seo-page">
+
+  <!-- LEFT: Article -->
+  <article class="art" itemscope itemtype="https://schema.org/Article">
+    <meta itemprop="author" content="RuneForge">
+    <meta itemprop="publisher" content="RuneForge">
+
+    <h2 class="art-main" itemprop="headline">Villain Name Generator — Create Powerful Antagonist Names</h2>
+
+    <p>A great villain needs a name that commands fear before a word is spoken. Whether you're writing a dark lord for your fantasy novel, designing a final boss for your RPG campaign, or building a menacing AI conqueror for your sci-fi setting, the right villain name sets the tone instantly. RuneForge's <strong>villain name generator</strong> gives you access to hundreds of dark, powerful names — each paired with a title — built for unforgettable antagonists.</p>
+
+    <p>Every generated name comes with a title — Dark Overlord, Necromancer, Shadow Empress, Galactic Tyrant — so you get a complete villain identity in one click. Filter by male, female, dark fantasy, or sci-fi to match your exact setting.</p>
+
+    <div class="art-div" aria-hidden="true">
+      <div class="art-div-line"></div>
+      <span class="art-div-sym">✦</span>
+      <div class="art-div-line"></div>
+    </div>
+
+    <h3>How to Use the Villain Name Generator</h3>
+
+    <p>Select your preferred villain type using the filter buttons above the generator. <strong>All</strong> gives you a mix of dark fantasy and sci-fi names, while the other filters let you narrow by gender or setting. Click <strong>Generate</strong> to instantly produce 8 unique villain names. Click the copy button next to any name to copy it to your clipboard in one tap.</p>
+
+    <p>Hit Generate as many times as you need. Each click draws from a pool of 500+ villain names and titles, ensuring variety across every session.</p>
+
+    <div class="art-div" aria-hidden="true">
+      <div class="art-div-line"></div>
+      <span class="art-div-sym">✦</span>
+      <div class="art-div-line"></div>
+    </div>
+
+    <h3>What Makes a Good Villain Name?</h3>
+
+    <p>The most memorable villain names share qualities that make them stick in a reader's or player's mind long after the story ends.</p>
+
+    <ul>
+      <li><strong>Hard phonetics.</strong> Consonants like K, X, Z, and V — and fricatives like Sh, Kr, Thr — create a sense of danger. Soft names can work for elegant villains but typically need a darker title to balance them.</li>
+      <li><strong>Meaning and connotation.</strong> Names that evoke darkness, destruction, void, blood, or shadow carry subconscious weight. "Mournfall" tells you about sorrow and collapse before you read a word of lore.</li>
+      <li><strong>A title or epithet.</strong> "Zareth" is a name. "Zareth Mournfall, Harbinger of Ruin" is a villain. A good title communicates power level, domain, and personality instantly.</li>
+      <li><strong>Pronounceability.</strong> Names that can be said aloud without stumbling stick better in memory. Use apostrophes sparingly — one per name maximum.</li>
+      <li><strong>Setting fit.</strong> Dark fantasy villains need archaic, guttural sounds. Sci-fi antagonists work better with sharp, mechanical, or corporate-sounding names like "Commander Null" or "Archon Xelvar."</li>
+    </ul>
+
+    <div class="art-div" aria-hidden="true">
+      <div class="art-div-line"></div>
+      <span class="art-div-sym">✦</span>
+      <div class="art-div-line"></div>
+    </div>
+
+    <h3>Perfect For Every Dark Story</h3>
+
+    <div class="use-grid">
+      <div class="use-card">
+        <svg class="use-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2l9 4.9V17L12 22l-9-4.9V6.9z"/></svg>
+        <div class="use-body">
+          <strong>RPG & Tabletop Campaigns</strong>
+          Name your BBEG, cult leader, or shadow guild master in seconds. Dark fantasy and sci-fi both covered.
+        </div>
+      </div>
+      <div class="use-card">
+        <svg class="use-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        <div class="use-body">
+          <strong>Fantasy Novels & Stories</strong>
+          Find the perfect antagonist name before you write your opening scene.
+        </div>
+      </div>
+      <div class="use-card">
+        <svg class="use-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 12h4m-2-2v4m10-2h.01M14 12h.01"/></svg>
+        <div class="use-body">
+          <strong>Video Game Development</strong>
+          Name your final boss or recurring antagonist with a name players will remember.
+        </div>
+      </div>
+      <div class="use-card">
+        <svg class="use-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 22h16"/><path d="M4 18v-8l8-4 8 4v8"/><path d="M12 10v12"/></svg>
+        <div class="use-body">
+          <strong>Worldbuilding Projects</strong>
+          Build your villain faction with consistent thematic names across your entire lore.
+        </div>
+      </div>
+    </div>
+
+    <div class="art-div" aria-hidden="true">
+      <div class="art-div-line"></div>
+      <span class="art-div-sym">✦</span>
+      <div class="art-div-line"></div>
+    </div>
+
+    <h3>Villain Name Categories Explained</h3>
+    <p>RuneForge organises villain names into five focused categories:</p>
+    <ol>
+      <li><strong>All.</strong> The full mix — dark fantasy lords, sci-fi tyrants, necromancers, warlords, and shadow empresses. Great for open exploration.</li>
+      <li><strong>Male villain names.</strong> Powerful masculine names — fallen warriors, lich kings, demon warlords, and undead sovereigns.</li>
+      <li><strong>Female villain names.</strong> Dangerous feminine names — shadow enchantresses, cursed sorceresses, witch queens, and death priestesses.</li>
+      <li><strong>Dark fantasy.</strong> Archaic horror rooted in undeath and medieval darkness — Lich Kings, Bone Tyrants, Reaper Lords, Harbingers of Ruin.</li>
+      <li><strong>Sci-fi.</strong> Cold, mechanical antagonists for space operas and cyberpunk — Galactic Tyrants, Neural Overlords, Machine Emperors, AI Conquerors.</li>
+    </ol>
+
+    <div class="art-div" aria-hidden="true">
+      <div class="art-div-line"></div>
+      <span class="art-div-sym">✦</span>
+      <div class="art-div-line"></div>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-wrap" itemscope itemtype="https://schema.org/FAQPage">
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <details>
+          <summary itemprop="name">What is a villain name generator?</summary>
+          <div class="faq-ans" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">A villain name generator is a free online tool that creates dark, powerful names for antagonists, dark lords, necromancers, and villains in fantasy stories, RPG campaigns, sci-fi settings, and games. RuneForge pairs each name with a title so you get a full villain identity instantly.</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <details>
+          <summary itemprop="name">Are villain names free to use in my stories and games?</summary>
+          <div class="faq-ans" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">Yes — completely free. All villain names generated by RuneForge can be used in any creative project: novels, games, campaigns, screenplays, or worldbuilding. No attribution needed, no copyright restrictions.</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <details>
+          <summary itemprop="name">How many villain names can I generate?</summary>
+          <div class="faq-ans" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">Unlimited. Click Generate as many times as you like — each click produces 8 new villain names drawn from a pool of 500+ unique names and titles. No daily limit, no signup required.</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <details>
+          <summary itemprop="name">What makes a villain name memorable?</summary>
+          <div class="faq-ans" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">The most memorable villain names combine hard consonants that feel dangerous, a title or epithet that signals power, and sounds that fit the setting. Names like "Zareth Mournfall" or "Executor Vael-Kross" stick because they are phonetically interesting and their titles immediately communicate role and threat level.</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <details>
+          <summary itemprop="name">Can I use these names in published work?</summary>
+          <div class="faq-ans" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">Yes. Names generated here are free for use in any published work — novels, indie games, tabletop products, or online content. We recommend customising any generated name slightly to make it fully your own.</p>
+          </div>
+        </details>
+      </div>
+
+    </div>
+  </article>
+
+  <!-- RIGHT: Sidebar -->
+  <aside class="sidebar" aria-label="Quick reference sidebar">
+
+    <div class="sb-card">
+      <div class="sb-head">Quick Navigation</div>
+      <ul class="sb-nav" aria-label="Jump to section">
+        <li><a href="#how-to-use">How to Use the Generator</a></li>
+        <li><a href="#good-villain-name">What Makes a Good Villain Name</a></li>
+        <li><a href="#perfect-for">Perfect For Every Story</a></li>
+        <li><a href="#categories">Villain Name Categories</a></li>
+        <li><a href="#faq">Frequently Asked Questions</a></li>
+      </ul>
+    </div>
+
+    <div class="sb-card">
+      <div class="sb-head">Generator Stats</div>
+      <div class="sb-stat-row"><span class="sb-stat-key">Total names</span><span class="sb-stat-val">500+</span></div>
+      <div class="sb-stat-row"><span class="sb-stat-key">Categories</span><span class="sb-stat-val">5</span></div>
+      <div class="sb-stat-row"><span class="sb-stat-key">Names per click</span><span class="sb-stat-val">8</span></div>
+      <div class="sb-stat-row"><span class="sb-stat-key">Cost</span><span class="sb-stat-val">Free</span></div>
+      <div class="sb-stat-row"><span class="sb-stat-key">Login required</span><span class="sb-stat-val">No</span></div>
+    </div>
+
+    <div class="sb-card">
+      <div class="sb-head">Key Facts</div>
+      <div class="sb-fact">
+        <svg class="sb-fact-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <div class="sb-fact-txt"><strong>Hard consonants</strong> like K, X, Z create menace in villain names</div>
+      </div>
+      <div class="sb-fact">
+        <svg class="sb-fact-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+        <div class="sb-fact-txt"><strong>A title or epithet</strong> turns a name into a full villain identity</div>
+      </div>
+      <div class="sb-fact">
+        <svg class="sb-fact-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        <div class="sb-fact-txt"><strong>Archaic sounds</strong> for fantasy, mechanical sounds for sci-fi</div>
+      </div>
+      <div class="sb-fact">
+        <svg class="sb-fact-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 12h4m-2-2v4m10-2h.01"/></svg>
+        <div class="sb-fact-txt"><strong>One apostrophe max</strong> — more than that hurts readability</div>
+      </div>
+    </div>
+
+    <div class="sb-card">
+      <div class="sb-head">More RuneForge Tools</div>
+      <ul class="sb-nav">
+        <li><a href="fantasy-name-generator.html">Fantasy Name Generator</a></li>
+        <li><a href="dark-lord-name-generator.html">Dark Lord Name Generator</a></li>
+        <li><a href="necromancer-name-generator.html">Necromancer Names</a></li>
+        <li><a href="place-name-generator.html">Dark Place Name Generator</a></li>
+        <li><a href="creature-name-generator.html">Monster & Creature Names</a></li>
+      </ul>
+    </div>
+
+  </aside>
+</div>
+</div>
+
+<!-- FOOTER -->
+<footer class="z1" role="contentinfo">
+  <a href="index.html" class="ft-logo"><span class="r">Rune</span><span class="f">Forge</span></a>
+  <nav class="ft-links" aria-label="Footer navigation">
+    <a href="name-generators.html">Name Generators</a>
+    <a href="place-generators.html">Place Generators</a>
+    <a href="creature-generators.html">Creatures</a>
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <p class="ft-copy">© 2025 RuneForge. All rights reserved.</p>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- SCRIPT -->
+<script>
+const D = {
+  all: [
+    {n:"Vorak Duskbringer",    r:"Dark Overlord"},
+    {n:"Xilthara Nightveil",   r:"Shadow Enchantress"},
+    {n:"Zareth Mournfall",     r:"Harbinger of Ruin"},
+    {n:"Nyxavor the Unraveler",r:"Reality Bender"},
+    {n:"Maldric Crownbreak",   r:"Fallen Warlord"},
+    {n:"Isolde Bloodgrace",    r:"Dread Empress"},
+    {n:"Thalgrim Soulrend",    r:"Soul Devourer"},
+    {n:"Veshrak the Voidscar", r:"Void-Touched Tyrant"},
+    {n:"Keth Nulvaris",        r:"Plague Knight"},
+    {n:"Morvaine Ashbane",     r:"Cursed Sorceress"},
+    {n:"Malachar Vex",         r:"Dark Sorcerer"},
+    {n:"Grimclaw the Undying", r:"Lich King"},
+    {n:"Silvara Nightveil",    r:"Dark Enchantress"},
+    {n:"Xal'drath",            r:"Void Walker"},
+    {n:"Belvorn the Hollow",   r:"Bone Tyrant"},
+    {n:"Neth Ashscythe",       r:"Reaper Lord"},
+    {n:"Drakmor the Eternal",  r:"Undead Sovereign"},
+    {n:"Zar'keth",             r:"Demon Warlord"},
+    {n:"Valdris Thornmourne",  r:"Shadow Warlord"},
+    {n:"Kaelyra Dreadmere",    r:"Mistress of Sorrow"},
+    {n:"Orcus the Deathbound", r:"Lord of the Undead"},
+    {n:"Serafyne Blackveil",   r:"Witch of the Void"},
+    {n:"Azratheon",            r:"Archfiend"},
+    {n:"Morgrave Ashfall",     r:"Fallen Paladin"},
+  ],
+  male: [
+    {n:"Vorak Duskbringer",    r:"Dark Overlord"},
+    {n:"Zareth Mournfall",     r:"Harbinger of Ruin"},
+    {n:"Maldric Crownbreak",   r:"Fallen Warlord"},
+    {n:"Thalgrim Soulrend",    r:"Soul Devourer"},
+    {n:"Keth Nulvaris",        r:"Plague Knight"},
+    {n:"Malachar Vex",         r:"Dark Sorcerer"},
+    {n:"Grimclaw the Undying", r:"Lich King"},
+    {n:"Xal'drath",            r:"Void Walker"},
+    {n:"Belvorn the Hollow",   r:"Bone Tyrant"},
+    {n:"Neth Ashscythe",       r:"Reaper Lord"},
+    {n:"Drakmor the Eternal",  r:"Undead Sovereign"},
+    {n:"Zar'keth",             r:"Demon Warlord"},
+    {n:"Valdris Thornmourne",  r:"Shadow Warlord"},
+    {n:"Orcus the Deathbound", r:"Lord of the Undead"},
+    {n:"Azratheon",            r:"Archfiend"},
+    {n:"Morgrave Ashfall",     r:"Fallen Paladin"},
+  ],
+  female: [
+    {n:"Xilthara Nightveil",   r:"Shadow Enchantress"},
+    {n:"Isolde Bloodgrace",    r:"Dread Empress"},
+    {n:"Morvaine Ashbane",     r:"Cursed Sorceress"},
+    {n:"Silvara Nightveil",    r:"Dark Enchantress"},
+    {n:"Nyxavor the Unraveler",r:"Reality Bender"},
+    {n:"Veshrak the Voidscar", r:"Void-Touched Tyrant"},
+    {n:"Zylara Blackthorn",    r:"Witch Queen"},
+    {n:"Mordessa the Pale",    r:"Death Priestess"},
+    {n:"Callindra Nightfall",  r:"Dark Prophetess"},
+    {n:"Seraphon Dread",       r:"Shadow Lady"},
+    {n:"Kaelyra Dreadmere",    r:"Mistress of Sorrow"},
+    {n:"Serafyne Blackveil",   r:"Witch of the Void"},
+    {n:"Vyndra the Merciless", r:"Iron Empress"},
+    {n:"Lirien Doomweave",     r:"Hex Weaver"},
+  ],
+  dark: [
+    {n:"Grimclaw the Undying", r:"Lich King"},
+    {n:"Morvaine Ashbane",     r:"Cursed Sorceress"},
+    {n:"Vorak Duskbringer",    r:"Dark Overlord"},
+    {n:"Belvorn the Hollow",   r:"Bone Tyrant"},
+    {n:"Neth Ashscythe",       r:"Reaper Lord"},
+    {n:"Thalgrim Soulrend",    r:"Soul Devourer"},
+    {n:"Zareth Mournfall",     r:"Harbinger of Ruin"},
+    {n:"Keth Nulvaris",        r:"Plague Knight"},
+    {n:"Malachar Vex",         r:"Dark Sorcerer"},
+    {n:"Xilthara Nightveil",   r:"Shadow Enchantress"},
+    {n:"Orcus the Deathbound", r:"Lord of the Undead"},
+    {n:"Valdris Thornmourne",  r:"Shadow Warlord"},
+    {n:"Azratheon",            r:"Archfiend"},
+    {n:"Morgrave Ashfall",     r:"Fallen Paladin"},
+    {n:"Serafyne Blackveil",   r:"Witch of the Void"},
+  ],
+  scifi: [
+    {n:"Executor Vael-Kross",  r:"Galactic Tyrant"},
+    {n:"Commander Null",       r:"Void Admiral"},
+    {n:"Director Morthex",     r:"Neural Overlord"},
+    {n:"Archon Xelvar",        r:"Machine Emperor"},
+    {n:"General Shroud-9",     r:"Cyber Warlord"},
+    {n:"Empress Kythara",      r:"Dark Matter Sovereign"},
+    {n:"Lord Vexor Prime",     r:"AI Conqueror"},
+    {n:"Senator Dread",        r:"Corrupt Chancellor"},
+    {n:"Overseer Null-7",      r:"Data Tyrant"},
+    {n:"Admiral Volkrath",     r:"Star Destroyer"},
+    {n:"Praetor Zerak",        r:"Conquest Engine"},
+    {n:"Director Solace-X",    r:"Neural Architect"},
+    {n:"The Architect",        r:"Omniscient AI"},
+    {n:"Warlord Dax Severin",  r:"Fleet Commander"},
+  ]
+};
+
+const ICO_CP  = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>`;
+const ICO_OK  = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>`;
+
+let af = 'all';
+
+function shuf(a) {
+  const b = [...a];
+  for (let i = b.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [b[i], b[j]] = [b[j], b[i]];
+  }
+  return b;
+}
+
+function esc(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function gen() {
+  const g  = document.getElementById('grid');
+  const p  = shuf(D[af]).slice(0, 8);
+  g.innerHTML = p.map((x, i) => `
+    <div class="nc" role="listitem" style="animation-delay:${i * .045}s">
+      <div class="nc-info">
+        <div class="nc-name">${esc(x.n)}</div>
+        <div class="nc-role">${esc(x.r)}</div>
+      </div>
+      <button class="cp" onclick="doCopy('${x.n.replace(/'/g,"\\'")}',this)" type="button" aria-label="Copy ${esc(x.n)}">${ICO_CP}</button>
+    </div>`).join('');
+}
+
+function doCopy(name, btn) {
+  const done = () => {
+    btn.classList.add('ok');
+    btn.innerHTML = ICO_OK;
+    btn.setAttribute('aria-label','Copied!');
+    setTimeout(() => {
+      btn.classList.remove('ok');
+      btn.innerHTML = ICO_CP;
+      btn.setAttribute('aria-label', `Copy ${name}`);
+    }, 1800);
+    toast(`"${name}" copied`);
+  };
+  if (navigator.clipboard?.writeText) {
+    navigator.clipboard.writeText(name).then(done).catch(() => fbCopy(name, done));
+  } else {
+    fbCopy(name, done);
+  }
+}
+
+function fbCopy(t, cb) {
+  const ta = document.createElement('textarea');
+  ta.value = t;
+  ta.style.cssText = 'position:absolute;left:-9999px;top:-9999px';
+  document.body.appendChild(ta);
+  ta.select();
+  try { document.execCommand('copy'); cb(); } catch(e) {}
+  document.body.removeChild(ta);
+}
+
+function toast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(el._t);
+  el._t = setTimeout(() => el.classList.remove('show'), 2400);
+}
+
+document.querySelectorAll('.fb').forEach(b => {
+  b.addEventListener('click', function() {
+    document.querySelectorAll('.fb').forEach(x => { x.classList.remove('active'); x.removeAttribute('aria-pressed'); });
+    this.classList.add('active');
+    this.setAttribute('aria-pressed', 'true');
+    af = this.dataset.f;
+    gen();
+  });
+});
+
+gen();
+</script>
+</body>
+</html>

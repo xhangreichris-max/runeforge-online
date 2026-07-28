@@ -1,0 +1,183 @@
+[
+  {
+    "id": "vampire-name-generator",
+    "page_name": "Vampire Name Generator",
+    "meta_title": "Vampire Name Generator — Dark & Haunting Names | RuneForge",
+    "meta_desc": "Generate elegant and haunting vampire names for dark fantasy, Gothic horror, and RPG campaigns. Male, female, Gothic, and modern styles — hundreds of unique vampire names free to use.",
+    "og_title": "Vampire Name Generator — RuneForge",
+    "h1_text": "Ancient blood, eternal names — forged in darkness and desire.",
+    "hero_sub": "Generate haunting vampire names for dark fantasy, Gothic horror, D&D campaigns, and novels.",
+    "hero_bg": "hero-bg-vampire.webp",
+    "eyebrow_text": "Vampire Name Generator",
+    "howto_step1": "Select All, Male, Female, Gothic, or Modern from the filter buttons.",
+    "breadcrumb_category_name": "Name Generators",
+    "breadcrumb_category_id": "names",
+    "filters": [
+      {"label": "All", "value": "all"},
+      {"label": "Male", "value": "male"},
+      {"label": "Female", "value": "female"},
+      {"label": "Gothic", "value": "gothic"},
+      {"label": "Modern", "value": "modern"}
+    ],
+    "name_data": {
+      "all": [
+        {"n": "Valdris Nightborne", "r": "Blood Lord"},
+        {"n": "Serafyne Ashveil", "r": "Dark Enchantress"},
+        {"n": "Malachar Duskfang", "r": "Ancient Sire"},
+        {"n": "Isolde Bloodgrace", "r": "Crimson Countess"},
+        {"n": "Dorian Shadowmere", "r": "Pale Wanderer"},
+        {"n": "Lyra Nightwhisper", "r": "Shadow Dancer"},
+        {"n": "Vladek Ironblood", "r": "Dread Prince"},
+        {"n": "Mordessa the Pale", "r": "Death Priestess"},
+        {"n": "Caelius Dawnsbane", "r": "Eternal Hunter"},
+        {"n": "Seraphon Veil", "r": "Night Sovereign"},
+        {"n": "Theron Darkmoore", "r": "Blood Sage"},
+        {"n": "Nyx Ashborne", "r": "Void Walker"},
+        {"n": "Lucien Gravehollow", "r": "Undying Lord"},
+        {"n": "Calista Moonblood", "r": "Silver Witch"},
+        {"n": "Viktor Thornmere", "r": "Storm Drinker"},
+        {"n": "Morvaine Ashfall", "r": "Cursed Baroness"},
+        {"n": "Aldric Nightfall", "r": "Blood Knight"},
+        {"n": "Elara Duskrose", "r": "Twilight Oracle"},
+        {"n": "Riven Corpseglow", "r": "Plague Bearer"},
+        {"n": "Sylvara Deepcrypt", "r": "Tomb Keeper"}
+      ],
+      "male": [
+        {"n": "Valdris Nightborne", "r": "Blood Lord"},
+        {"n": "Malachar Duskfang", "r": "Ancient Sire"},
+        {"n": "Dorian Shadowmere", "r": "Pale Wanderer"},
+        {"n": "Vladek Ironblood", "r": "Dread Prince"},
+        {"n": "Caelius Dawnsbane", "r": "Eternal Hunter"},
+        {"n": "Theron Darkmoore", "r": "Blood Sage"},
+        {"n": "Lucien Gravehollow", "r": "Undying Lord"},
+        {"n": "Viktor Thornmere", "r": "Storm Drinker"},
+        {"n": "Aldric Nightfall", "r": "Blood Knight"},
+        {"n": "Riven Corpseglow", "r": "Plague Bearer"},
+        {"n": "Sebastian Grimveil", "r": "Night Count"},
+        {"n": "Armand Bloodcrest", "r": "Elder Sire"}
+      ],
+      "female": [
+        {"n": "Serafyne Ashveil", "r": "Dark Enchantress"},
+        {"n": "Isolde Bloodgrace", "r": "Crimson Countess"},
+        {"n": "Lyra Nightwhisper", "r": "Shadow Dancer"},
+        {"n": "Mordessa the Pale", "r": "Death Priestess"},
+        {"n": "Nyx Ashborne", "r": "Void Walker"},
+        {"n": "Calista Moonblood", "r": "Silver Witch"},
+        {"n": "Morvaine Ashfall", "r": "Cursed Baroness"},
+        {"n": "Elara Duskrose", "r": "Twilight Oracle"},
+        {"n": "Sylvara Deepcrypt", "r": "Tomb Keeper"},
+        {"n": "Carmilla Nightveil", "r": "Blood Queen"},
+        {"n": "Lilith Darkmoore", "r": "Ancient Mother"},
+        {"n": "Seraphina Dread", "r": "Shadow Lady"}
+      ],
+      "gothic": [
+        {"n": "Vladek Ironblood", "r": "Dread Prince"},
+        {"n": "Carmilla Nightveil", "r": "Blood Queen"},
+        {"n": "Malachar Duskfang", "r": "Ancient Sire"},
+        {"n": "Isolde Bloodgrace", "r": "Crimson Countess"},
+        {"n": "Viktor Thornmere", "r": "Storm Drinker"},
+        {"n": "Lilith Darkmoore", "r": "Ancient Mother"},
+        {"n": "Sebastian Grimveil", "r": "Night Count"},
+        {"n": "Morvaine Ashfall", "r": "Cursed Baroness"},
+        {"n": "Lucien Gravehollow", "r": "Undying Lord"},
+        {"n": "Mordessa the Pale", "r": "Death Priestess"},
+        {"n": "Armand Bloodcrest", "r": "Elder Sire"},
+        {"n": "Seraphon Veil", "r": "Night Sovereign"}
+      ],
+      "modern": [
+        {"n": "Dorian Shadowmere", "r": "Pale Wanderer"},
+        {"n": "Nyx Ashborne", "r": "Void Walker"},
+        {"n": "Riven Corpseglow", "r": "Plague Bearer"},
+        {"n": "Lyra Nightwhisper", "r": "Shadow Dancer"},
+        {"n": "Theron Darkmoore", "r": "Blood Sage"},
+        {"n": "Calista Moonblood", "r": "Silver Witch"},
+        {"n": "Caelius Dawnsbane", "r": "Eternal Hunter"},
+        {"n": "Elara Duskrose", "r": "Twilight Oracle"},
+        {"n": "Aldric Nightfall", "r": "Blood Knight"},
+        {"n": "Serafyne Ashveil", "r": "Dark Enchantress"},
+        {"n": "Valdris Nightborne", "r": "Blood Lord"},
+        {"n": "Sylvara Deepcrypt", "r": "Tomb Keeper"}
+      ]
+    },
+    "related_chips": [
+      {"label": "Villain Names", "url": "villain-name-generator.html"},
+      {"label": "Dark Elf Names", "url": "dark-elf-name-generator.html"},
+      {"label": "Necromancer Names", "url": "necromancer-name-generator.html"},
+      {"label": "Elf Names", "url": "elf-name-generator.html"},
+      {"label": "D&D Names", "url": "dnd-name-generator.html"},
+      {"label": "Kingdom Names", "url": "kingdom-name-generator.html"}
+    ],
+    "sidebar_links": [
+      {"label": "Villain Name Generator", "url": "villain-name-generator.html"},
+      {"label": "Dark Elf Generator", "url": "dark-elf-name-generator.html"},
+      {"label": "Elf Name Generator", "url": "elf-name-generator.html"},
+      {"label": "D&D Name Generator", "url": "dnd-name-generator.html"},
+      {"label": "Kingdom Generator", "url": "kingdom-name-generator.html"},
+      {"label": "Goblin Names", "url": "goblin-name-generator.html"}
+    ],
+    "sidebar_tips": [
+      "Gothic vampires suit formal multi-syllabic names",
+      "Modern vampires work with shorter, sharper names",
+      "A title like 'the Undying' adds instant menace",
+      "Vampire surnames often reference darkness or blood",
+      "Say the name slowly — it should feel aristocratic"
+    ],
+    "sidebar_pro_tip": "The best vampire names carry a sense of history — they sound like they have been spoken in candlelit halls for centuries. Avoid anything too modern or too random.",
+    "seo_article": "<h2>Vampire Name Generator — Gothic &amp; Dark Fantasy Names</h2>\n<p>A vampire's name is their most ancient possession. Forged in the final moments of mortal life and carried through eternity, it becomes inseparable from the dread they inspire. Whether you need a gothic name for a centuries-old vampire lord, a modern name for an urban predator, or an elegant moniker for a tragic romantic antagonist, this vampire name generator creates names that carry weight, darkness, and the promise of immortality.</p>\n<p>The generator covers five distinct styles — All, Male, Female, Gothic, and Modern — allowing you to match the precise tone of your setting. Gothic names draw from Victorian and Eastern European naming traditions that dominated the original vampire literary tradition. Modern names adapt those roots for contemporary dark fantasy and urban settings.</p>\n\n<h3>What Makes a Great Vampire Name?</h3>\n<p>The most memorable vampire names share qualities that signal their nature before a word of lore is spoken. <strong>Aristocratic weight</strong> is the first quality — vampires were often nobility in death as in life, and their names carry the formality of old titles. <strong>Dark imagery</strong> appears in surnames that reference night, blood, shadow, or decay without being gratuitous. <strong>Old world phonetics</strong> — Slavic, Germanic, Latin, or French sounds — create the sense of centuries rather than decades.</p>\n<p>The name should feel like it has been carved into a tombstone. Names like Vladek Ironblood, Carmilla Nightveil, and Lucien Gravehollow work because they are pronounceable, evocative, and suggest a specific character archetype without requiring explanation.</p>\n\n<h3>Gothic vs Modern Vampire Names</h3>\n<p><strong>Gothic vampire names</strong> are rooted in the 18th and 19th century literary tradition that gave us Dracula and Carmilla. They favor Slavic roots, German influences, Latin ecclesiastical sounds, and French aristocratic patterns. These names carry the weight of old castles and older bloodlines. Use them for ancient vampires, vampire nobles, and horror-focused settings.</p>\n<p><strong>Modern vampire names</strong> emerged from the 20th century urban fantasy tradition — the vampire who walks among mortals, who has adapted to survive in a world of electric light. These names keep the dark undertones but strip away some of the ostentatious ornamentation. They sound dangerous rather than theatrical.</p>\n\n<h2>Vampire Name Examples</h2>\n<table>\n<thead><tr><th>Name</th><th>Style</th><th>Role</th></tr></thead>\n<tbody>\n<tr><td>Vladek Ironblood</td><td>Gothic Male</td><td>Dread Prince</td></tr>\n<tr><td>Carmilla Nightveil</td><td>Gothic Female</td><td>Blood Queen</td></tr>\n<tr><td>Dorian Shadowmere</td><td>Modern Male</td><td>Pale Wanderer</td></tr>\n<tr><td>Nyx Ashborne</td><td>Modern Female</td><td>Void Walker</td></tr>\n<tr><td>Lucien Gravehollow</td><td>Gothic Male</td><td>Undying Lord</td></tr>\n<tr><td>Morvaine Ashfall</td><td>Gothic Female</td><td>Cursed Baroness</td></tr>\n</tbody>\n</table>\n\n<h2>Using Vampire Names in D&amp;D and RPG Campaigns</h2>\n<p>In D&amp;D 5e, vampires are among the most narratively rich monster types in the Monster Manual. A vampire lord who serves as a campaign villain needs a name that players will remember across months of sessions — something that becomes shorthand for dread. Names like Malachar Duskfang or Valdris Nightborne carry enough menace to anchor an entire campaign arc.</p>\n<p>For Vampire: The Masquerade players, RuneForge names work across all clan traditions. Ventrue suits aristocratic multi-syllabic names. Nosferatu can use harsher, more guttural options. Toreador fits names with artistic, romantic weight. Filter by Gothic or Modern to match your chronicle's tone.</p>\n\n<h2>Free to Use</h2>\n<p>All RuneForge vampire names are free for use in any project — D&amp;D campaigns, novels, video games, roleplay, or any creative work. No attribution required.</p>",
+    "faq_items": [
+      {
+        "q": "What is a vampire name generator?",
+        "a": "A vampire name generator is a free tool that creates dark, aristocratic names for vampire characters in D&D, Gothic horror novels, Vampire: The Masquerade, and any dark fantasy setting."
+      },
+      {
+        "q": "Are these vampire names free to use?",
+        "a": "Yes. All names generated by RuneForge are completely free for use in any project — personal or commercial — including published novels, games, campaigns, and creative writing."
+      },
+      {
+        "q": "What is the difference between Gothic and Modern vampire names?",
+        "a": "Gothic names draw from Victorian and Eastern European traditions — formal, multi-syllabic, aristocratic. Modern names adapt those roots for contemporary dark fantasy — shorter, sharper, and suited to urban settings."
+      },
+      {
+        "q": "Do these names work for D&D 5e vampires?",
+        "a": "Absolutely. These names are designed for D&D vampire lords, vampire spawn, and vampiric NPCs. They work equally well for Curse of Strahd campaigns and homebrew dark fantasy settings."
+      },
+      {
+        "q": "Can I use these for Vampire: The Masquerade?",
+        "a": "Yes. RuneForge vampire names work across all VtM clans. Gothic names suit Ventrue and Toreador; harsher options fit Nosferatu and Brujah. Filter by Gothic or Modern to match your chronicle."
+      },
+      {
+        "q": "How many vampire names can this generator produce?",
+        "a": "The generator draws from a large pool across five filter categories. Each click produces 8 non-repeating names until the pool is exhausted, then resets automatically."
+      },
+      {
+        "q": "What makes a good vampire name?",
+        "a": "The best vampire names carry aristocratic weight, dark imagery, and old-world phonetics. They should feel like they have been spoken in candlelit halls for centuries — formal, evocative, and impossible to forget."
+      }
+    ],
+    "footer_links": [
+      {"label": "Villain Names", "url": "villain-name-generator.html"},
+      {"label": "Elf Names", "url": "elf-name-generator.html"},
+      {"label": "Dark Elf Names", "url": "dark-elf-name-generator.html"},
+      {"label": "Orc Names", "url": "orc-name-generator.html"},
+      {"label": "Dwarf Names", "url": "dwarf-name-generator.html"},
+      {"label": "Tiefling Names", "url": "tiefling-name-generator.html"},
+      {"label": "Goblin Names", "url": "goblin-name-generator.html"},
+      {"label": "Kingdom Names", "url": "kingdom-name-generator.html"},
+      {"label": "Alien Names", "url": "alien-name-generator.html"},
+      {"label": "D&D Names", "url": "dnd-name-generator.html"}
+    ],
+    "tools_js_entry": {
+      "id": "vampire-name-generator",
+      "name": "Vampire Name Generator",
+      "desc": "Elegant and haunting names for vampires in dark fantasy, Gothic horror, and D&D campaigns.",
+      "category": "names",
+      "tags": ["vampire", "gothic", "dark fantasy"],
+      "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+      "url": "vampire-name-generator.html",
+      "volume": 1900,
+      "kd": 12,
+      "featured": false
+    },
+    "sitemap_priority": "0.8"
+  }
+]

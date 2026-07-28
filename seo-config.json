@@ -1,0 +1,49 @@
+{
+  "site": {
+    "name": "RuneForge",
+    "domain": "https://runeforge.online",
+    "canonical_host": "apex",
+    "build_output_dir": ".",
+    "sitemap_path": "sitemap.xml",
+    "url_style": "html",
+    "exclude_paths": ["/template.html", "/assets/"]
+  },
+
+  "entity": {
+    "brand_name": "RuneForge",
+    "entity_type": "WebApplication",
+    "same_as": [],
+    "about_page": ""
+  },
+
+  "gsc": {
+    "property": "sc-domain:runeforge.online",
+    "credentials_path": "",
+    "token_path": ""
+  },
+
+  "analytics": {
+    "ga4_measurement_id": ""
+  },
+
+  "targets": {
+    "primary_keywords": ["fantasy name generator", "dnd name generator", "orc name generator", "dwarf name generator"],
+    "clusters": {}
+  },
+
+  "thresholds": {
+    "title_min": 30,
+    "title_max": 60,
+    "description_min": 110,
+    "description_max": 160,
+    "thin_content_words": 150,
+    "striking_distance_min_pos": 6,
+    "striking_distance_max_pos": 20,
+    "striking_distance_min_impressions": 50
+  },
+
+  "constraints": {
+    "title_meta_freeze_until": "",
+    "notes": "Post-crash indexing recovery since ~June 13. Core pages dropped to positions 70-94. Canonical inconsistency on 5 pages found July 2026. No new page publishing until recovery. Priority is reindexing."
+  }
+}
