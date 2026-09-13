@@ -2,94 +2,451 @@
   {
     "id": "fantasy-namensgenerator",
     "en_twin": "",
-    "page_name": "PLACEHOLDER Fantasy-Namensgenerator",
-    "meta_title": "PLACEHOLDER Fantasy Namensgenerator — Einzigartige Fantasy-Namen | RuneForge",
-    "meta_desc": "PLACEHOLDER: Fantasy Namensgenerator für Charaktere, Rassen und Welten — kostenlos, sofort einsatzbereit, hunderte einzigartige Namen für Pen & Paper und Romane.",
-    "og_title": "PLACEHOLDER Fantasy-Namensgenerator — RuneForge",
-    "h1_text": "PLACEHOLDER Erschaffe Namen, die deine Welt zum Leben erwecken.",
-    "hero_sub": "PLACEHOLDER: Generiere einzigartige Fantasy-Namen für Charaktere, Rassen und Orte in Sekunden.",
+    "page_name": "Fantasy Namensgenerator",
+    "meta_title": "Fantasy Namensgenerator: Namen nach echten Lautregeln",
+    "meta_desc": "Fantasy Namensgenerator kostenlos: Erzeuge Namen nach Phonotaktik – Elfen, Zwerge, Orks und Hexen klingen glaubwürdig. Sofort nutzbar.",
+    "og_title": "PLACEHOLDER Fantasy Namensgenerator — RuneForge",
+    "h1_text": "Fantasy Namensgenerator: Namen, die wie echte Sprachen klingen",
+    "hero_sub": "PLACEHOLDER: Erzeuge glaubwürdige Fantasy-Namen für Elfen, Zwerge, Orks und mehr in Sekunden.",
     "hero_bg": "PLACEHOLDER-hero-bg.webp",
     "eyebrow_text": "PLACEHOLDER Fantasy-Namensgenerator",
-    "howto_step1": "PLACEHOLDER: Wähle Alle, Männlich oder Weiblich aus den Filter-Buttons.",
-    "breadcrumb_category_name": "Namensgeneratoren",
+    "howto_step1": "PLACEHOLDER: Wähle eine Rasse oder ein Setting aus den Filter-Buttons.",
+    "breadcrumb_category_name": "PLACEHOLDER Namensgeneratoren",
     "breadcrumb_category_id": "namen",
     "filters": [
-      {"label": "Alle (PLACEHOLDER)", "value": "all"},
-      {"label": "Männlich (PLACEHOLDER)", "value": "maennlich"},
-      {"label": "Weiblich (PLACEHOLDER)", "value": "weiblich"}
+      {
+        "label": "Alle (PLACEHOLDER)",
+        "value": "all"
+      },
+      {
+        "label": "Männlich (PLACEHOLDER)",
+        "value": "maennlich"
+      },
+      {
+        "label": "Weiblich (PLACEHOLDER)",
+        "value": "weiblich"
+      }
     ],
     "name_data": {
       "all": [
-        {"n": "PLACEHOLDER Thalindor", "r": "PLACEHOLDER Wanderer"},
-        {"n": "PLACEHOLDER Seravine", "r": "PLACEHOLDER Hüterin"},
-        {"n": "PLACEHOLDER Draventh", "r": "PLACEHOLDER Krieger"},
-        {"n": "PLACEHOLDER Mirelle", "r": "PLACEHOLDER Weberin"},
-        {"n": "PLACEHOLDER Korrathin", "r": "PLACEHOLDER Schmied"},
-        {"n": "PLACEHOLDER Ysolde", "r": "PLACEHOLDER Seherin"}
+        {
+          "n": "PLACEHOLDER Thalindor",
+          "r": "PLACEHOLDER Wanderer"
+        },
+        {
+          "n": "PLACEHOLDER Seravine",
+          "r": "PLACEHOLDER Hüterin"
+        },
+        {
+          "n": "PLACEHOLDER Draventh",
+          "r": "PLACEHOLDER Krieger"
+        },
+        {
+          "n": "PLACEHOLDER Mirelle",
+          "r": "PLACEHOLDER Weberin"
+        },
+        {
+          "n": "PLACEHOLDER Korrathin",
+          "r": "PLACEHOLDER Schmied"
+        },
+        {
+          "n": "PLACEHOLDER Ysolde",
+          "r": "PLACEHOLDER Seherin"
+        }
       ],
       "maennlich": [
-        {"n": "PLACEHOLDER Thalindor", "r": "PLACEHOLDER Wanderer"},
-        {"n": "PLACEHOLDER Draventh", "r": "PLACEHOLDER Krieger"},
-        {"n": "PLACEHOLDER Korrathin", "r": "PLACEHOLDER Schmied"}
+        {
+          "n": "PLACEHOLDER Thalindor",
+          "r": "PLACEHOLDER Wanderer"
+        },
+        {
+          "n": "PLACEHOLDER Draventh",
+          "r": "PLACEHOLDER Krieger"
+        },
+        {
+          "n": "PLACEHOLDER Korrathin",
+          "r": "PLACEHOLDER Schmied"
+        }
       ],
       "weiblich": [
-        {"n": "PLACEHOLDER Seravine", "r": "PLACEHOLDER Hüterin"},
-        {"n": "PLACEHOLDER Mirelle", "r": "PLACEHOLDER Weberin"},
-        {"n": "PLACEHOLDER Ysolde", "r": "PLACEHOLDER Seherin"}
+        {
+          "n": "PLACEHOLDER Seravine",
+          "r": "PLACEHOLDER Hüterin"
+        },
+        {
+          "n": "PLACEHOLDER Mirelle",
+          "r": "PLACEHOLDER Weberin"
+        },
+        {
+          "n": "PLACEHOLDER Ysolde",
+          "r": "PLACEHOLDER Seherin"
+        }
       ]
     },
     "related_chips": [
-      {"label": "PLACEHOLDER Elfen-Namen", "url": "elfen-namensgenerator.html"},
-      {"label": "PLACEHOLDER Zwergen-Namen", "url": "zwergen-namensgenerator.html"},
-      {"label": "PLACEHOLDER Ork-Namen", "url": "ork-namensgenerator.html"}
-    ],
-    "sidebar_links": [
-      {"label": "PLACEHOLDER Elfen-Namensgenerator", "url": "elfen-namensgenerator.html"},
-      {"label": "PLACEHOLDER Zwergen-Namensgenerator", "url": "zwergen-namensgenerator.html"},
-      {"label": "PLACEHOLDER Ork-Namensgenerator", "url": "ork-namensgenerator.html"}
-    ],
-    "sidebar_tips": [
-      "PLACEHOLDER: Kurze Namen wirken oft einprägsamer als lange.",
-      "PLACEHOLDER: Ein Beiname wie 'der Stille' verleiht sofort Charakter.",
-      "PLACEHOLDER: Sprich den Namen laut aus — er sollte sich natürlich anfühlen."
-    ],
-    "sidebar_pro_tip": "PLACEHOLDER: Die besten Fantasy-Namen klingen fremd genug, um faszinierend zu sein, aber vertraut genug, um aussprechbar zu bleiben.",
-    "seo_article": "<h2>PLACEHOLDER Fantasy Namensgenerator — Überschrift</h2>\n<p>PLACEHOLDER Einleitungstext für den Fantasy-Namensgenerator. Dieser gesamte Artikeltext wird später durch echten, in Grok erstellten deutschen Content ersetzt.</p>\n<h3>PLACEHOLDER Zwischenüberschrift</h3>\n<p>PLACEHOLDER Absatztext.</p>",
-    "faq_items": [
       {
-        "q": "PLACEHOLDER: Was ist ein Fantasy-Namensgenerator?",
-        "a": "PLACEHOLDER: Platzhalter-Antworttext, wird durch echten deutschen Content ersetzt."
+        "label": "PLACEHOLDER WoW-Namen",
+        "url": "wow-namensgenerator.html"
       },
       {
-        "q": "PLACEHOLDER: Sind diese Namen kostenlos nutzbar?",
-        "a": "PLACEHOLDER: Platzhalter-Antworttext, wird durch echten deutschen Content ersetzt."
+        "label": "PLACEHOLDER Fantasy-Namen weiblich",
+        "url": "fantasy-namen-weiblich.html"
+      },
+      {
+        "label": "PLACEHOLDER Gamer-Namen",
+        "url": "gamer-namen-generator.html"
+      }
+    ],
+    "sidebar_links": [
+      {
+        "label": "PLACEHOLDER WoW-Namensgenerator",
+        "url": "wow-namensgenerator.html"
+      },
+      {
+        "label": "PLACEHOLDER Fantasy-Namen weiblich",
+        "url": "fantasy-namen-weiblich.html"
+      },
+      {
+        "label": "PLACEHOLDER Gamer-Namen-Generator",
+        "url": "gamer-namen-generator.html"
+      }
+    ],
+    "sidebar_tips": [
+      "PLACEHOLDER: Sprich den Namen laut aus, bevor du ihn festlegst.",
+      "PLACEHOLDER: Die Lautklasse verrät mehr als die Bedeutung.",
+      "PLACEHOLDER: Kürzere Namen wirken bei Barbaren oft stärker."
+    ],
+    "sidebar_pro_tip": "PLACEHOLDER: Kombiniere Konsonantenklasse und Rasse bewusst, statt nach Bauchgefühl zu wählen.",
+    "seo_article": "<p>Du sitzt vor dem Charakterbogen. Der Name soll nach Elf klingen. Du tippst drei Silben zusammen und landest bei „Zeltharion“. Es klingt nach nichts. Zu hart für einen Waldläufer, zu weich für einen Ork. Die Gruppe schaut skeptisch. Du weißt, dass der Name falsch ist, aber du weißt nicht warum.</p>\n\n<p><strong>Ein Fantasy-Namensgenerator, der auf Phonotaktik basiert, erzeugt Namen aus erlaubten Lautfolgen realer Sprachfamilien statt aus zufälligen Silben. So entstehen Namen, die sofort nach Elf, Zwerg oder Ork klingen, weil sie denselben Konsonantenmustern folgen.</strong></p>\n\n<p>Die meisten Generatoren werfen Silben in einen Topf und rühren. Das Ergebnis ist austauschbar. Du brauchst einen anderen Weg.</p>\n\n<h2>Die meisten Fantasy-Namen klingen wie Silbenbrei, weil sie keine Lautregeln beachten.</h2>\n\n<p>Du öffnest einen Generator. Er spuckt „Kraxilorn“ aus. Dann „Mellador“. Dann „Vexthul“. Alles klingt irgendwie fantasy, nichts klingt glaubwürdig.</p>\n\n<p>Die Ursache liegt in der fehlenden Phonotaktik. Phonotaktik beschreibt, welche Lautfolgen in einer Sprache erlaubt sind. Deutsche Wörter beginnen selten mit „pt-“. Walisische Namen lieben weiche Liquide. Altnordische Häufen Konsonantencluster.</p>\n\n<p>Die meisten Generatoren ignorieren das. Sie kombinieren Silben nach Zufall. Das Ergebnis wirkt künstlich, weil es gegen die Hörgewohnheiten verstößt. Dein Gehirn erwartet bestimmte Muster. Wenn sie fehlen, merkst du es sofort – auch wenn du die Regel nicht benennen kannst.</p>\n\n<p>Warum klingt „Thalindra“ sofort nach Elf und „Gorakh“ nach Ork? Weil die eine Folge Liquide und offene Vokale nutzt, die andere stimmlose Plosive und harte Cluster. Ohne diese Zuordnung bleibt jeder Name beliebig.</p>\n\n<h2>Zufällige Generatoren erzeugen Namen, die in keiner Sprache existieren könnten.</h2>\n\n<p>Nimm „Xq'vorth“. Er enthält Lautfolgen, die in keiner realen Sprachfamilie vorkommen. Dein Mund sträubt sich schon beim Lesen.</p>\n\n<p>Die meisten Tools arbeiten so. Sie mischen Konsonanten und Vokale ohne Filter. Das Ergebnis sieht auf dem Papier gut aus, klingt aber falsch. In einer Runde merkst du das, wenn du den Namen zum dritten Mal aussprechen musst und stolperst.</p>\n\n<p>Phonotaktik löst das. Sie filtert nur erlaubte Kombinationen. Stimmlose Plosive wie k, t, p gehören zu protogermanischen Mustern und erzeugen Zwergen- und Orknamen. Liquide und Approximanten wie l und r folgen walisischen Mustern und erzeugen Elfen- und Feennamen. Harte Cluster stammen aus dem Altnordischen und passen zu Barbaren. Sibilanten plus enge Vokale erzeugen Hexennamen.</p>\n\n<p>Ein Name, der gegen diese Regeln verstößt, bleibt ein Fremdkörper. Einer, der ihnen folgt, setzt sich sofort.</p>\n\n<h2>Ohne Phonotaktik bleiben Elfen- und Zwergennamen austauschbar.</h2>\n\n<p>Du hast zwei Charaktere. Beide heißen „Elthorin“. Der eine soll ein Waldläufer sein, der andere ein Bergschmied. Die Namen tragen nichts bei.</p>\n\n<p>Die meisten Spieler lösen das mit Zusätzen: „Elthorin der Sanfte“ und „Elthorin der Harte“. Das ist ein Notbehelf. Der Name selbst bleibt neutral.</p>\n\n<p>Phonotaktik trennt die Rassen klar. Elfen nutzen fließende Liquide und lange Vokale. Zwerge setzen auf stimmlose Plosive und kurze, harte Silben. Orks verstärken das mit gutturalen Clustern. Hexen bringen Zischlaute und enge Vokale.</p>\n\n<p>Sobald du diese Zuordnung kennst, hörst du den Unterschied. „Thalindra“ kann kein Zwerg sein. „Gorakh“ kein Elf. Die Lautklasse entscheidet, bevor die Bedeutung kommt.</p>\n\n<h2>Phonotaktik mappt Konsonantenklassen auf Rassen und Sprachfamilien.</h2>\n\n<p>Die Grundlage liefert die Phonotaktik – die Lehre erlaubter Lautfolgen – und die IPA-Konsonantenklassifikation. Sekundär fließen Muster aus dem D&amp;D 5e Spielerhandbuch und Tolkiens Sindarin-Phonologie ein.</p>\n\n<p>Vier Lautklassen decken die meisten Fantasy-Rassen ab:</p>\n<ul>\n<li>Stimmlose Plosive (k, t, p) → Protogermanisch → Zwerg, Ork</li>\n<li>Liquide und Approximanten (l, r) → Walisisch → Elf, Fee</li>\n<li>Harte Konsonantencluster → Altnordisch → Barbar, Krieger</li>\n<li>Sibilanten + enge Vokale → Konstruiert → Hexe, Hexblood</li>\n</ul>\n\n<figure>\n<svg viewBox=\"0 0 640 320\" width=\"100%\" style=\"max-width:640px\" xmlns=\"http://www.w3.org/2000/svg\">\n<title>Lautklassen-Karte für Fantasy-Namen</title>\n<desc>Vergleichsgitter: Stimmlose Plosive führen zu Zwerg und Ork (Protogermanisch), Liquide zu Elf und Fee (Walisisch), Cluster zu Barbar (Altnordisch), Sibilanten zu Hexe (Konstruiert).</desc>\n<rect width=\"640\" height=\"320\" fill=\"#0C0D0E\"/>\n<rect x=\"10\" y=\"10\" width=\"150\" height=\"40\" fill=\"#C4A052\"/>\n<text x=\"85\" y=\"35\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"14\" font-family=\"sans-serif\">Lautklasse</text>\n<rect x=\"165\" y=\"10\" width=\"150\" height=\"40\" fill=\"#C4A052\"/>\n<text x=\"240\" y=\"35\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"14\" font-family=\"sans-serif\">Rasse</text>\n<rect x=\"320\" y=\"10\" width=\"150\" height=\"40\" fill=\"#C4A052\"/>\n<text x=\"395\" y=\"35\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"14\" font-family=\"sans-serif\">Sprachfamilie</text>\n<rect x=\"475\" y=\"10\" width=\"150\" height=\"40\" fill=\"#C4A052\"/>\n<text x=\"550\" y=\"35\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"14\" font-family=\"sans-serif\">Beispiel</text>\n<rect x=\"10\" y=\"60\" width=\"150\" height=\"55\" fill=\"#B8B0A5\"/>\n<text x=\"85\" y=\"92\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">stimmlose Plosive</text>\n<rect x=\"165\" y=\"60\" width=\"150\" height=\"55\" fill=\"#B8B0A5\"/>\n<text x=\"240\" y=\"92\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Zwerg / Ork</text>\n<rect x=\"320\" y=\"60\" width=\"150\" height=\"55\" fill=\"#B8B0A5\"/>\n<text x=\"395\" y=\"92\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Protogermanisch</text>\n<rect x=\"475\" y=\"60\" width=\"150\" height=\"55\" fill=\"#B8B0A5\"/>\n<text x=\"550\" y=\"92\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Gorakh</text>\n<rect x=\"10\" y=\"125\" width=\"150\" height=\"55\" fill=\"#C4A052\"/>\n<text x=\"85\" y=\"157\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Liquide</text>\n<rect x=\"165\" y=\"125\" width=\"150\" height=\"55\" fill=\"#C4A052\"/>\n<text x=\"240\" y=\"157\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Elf / Fee</text>\n<rect x=\"320\" y=\"125\" width=\"150\" height=\"55\" fill=\"#C4A052\"/>\n<text x=\"395\" y=\"157\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Walisisch</text>\n<rect x=\"475\" y=\"125\" width=\"150\" height=\"55\" fill=\"#C4A052\"/>\n<text x=\"550\" y=\"157\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Thalindra</text>\n<rect x=\"10\" y=\"190\" width=\"150\" height=\"55\" fill=\"#B8B0A5\"/>\n<text x=\"85\" y=\"222\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Cluster</text>\n<rect x=\"165\" y=\"190\" width=\"150\" height=\"55\" fill=\"#B8B0A5\"/>\n<text x=\"240\" y=\"222\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Barbar</text>\n<rect x=\"320\" y=\"190\" width=\"150\" height=\"55\" fill=\"#B8B0A5\"/>\n<text x=\"395\" y=\"222\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Altnordisch</text>\n<rect x=\"475\" y=\"190\" width=\"150\" height=\"55\" fill=\"#B8B0A5\"/>\n<text x=\"550\" y=\"222\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Ragnarok</text>\n<rect x=\"10\" y=\"255\" width=\"150\" height=\"55\" fill=\"#C4A052\"/>\n<text x=\"85\" y=\"287\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Sibilanten</text>\n<rect x=\"165\" y=\"255\" width=\"150\" height=\"55\" fill=\"#C4A052\"/>\n<text x=\"240\" y=\"287\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Hexe</text>\n<rect x=\"320\" y=\"255\" width=\"150\" height=\"55\" fill=\"#C4A052\"/>\n<text x=\"395\" y=\"287\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Konstruiert</text>\n<rect x=\"475\" y=\"255\" width=\"150\" height=\"55\" fill=\"#C4A052\"/>\n<text x=\"550\" y=\"287\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Sibila</text>\n</svg>\n<figcaption>Lautklassen-Karte: Welche Konsonanten welche Rasse tragen.</figcaption>\n</figure>\n\n<p>Die Tabelle zeigt die direkte Zuordnung. Thalindra nutzt Liquide und offene Vokale – deshalb klingt sie nach Elf. Gorakh nutzt stimmlose Plosive und harte Endungen – deshalb nach Ork. Das ist kein Zufall. Es ist gemappte Phonotaktik.</p>\n\n<p>Dasselbe Prinzip gilt für Genres. D&amp;D und Pathfinder bevorzugen lateinische Deklinationen für arkane Namen. World of Warcraft und Final Fantasy XIV mischen oft Cluster und Sibilanten für härtere Fraktionen. Der Generator filtert nach diesen Mustern, sobald du Rasse oder Franchise wählst.</p>\n\n<h2>Wie du in fünf Schritten einen Namen erzeugst, der sofort glaubwürdig wirkt.</h2>\n\n<ol>\n<li>Öffne den Fantasy-Namensgenerator oben auf dieser Seite. Er ist kostenlos und filtert nach Rasse, Klasse oder Franchise.</li>\n<li>Wähle die gewünschte Rasse oder das Setting – Elf, Zwerg, Ork, Hexe, WoW, D&amp;D oder Pathfinder.</li>\n<li>Lass den Generator drei bis fünf Namen erzeugen. Jeder folgt den Phonotaktik-Regeln der gewählten Klasse.</li>\n<li>Sprich die Namen laut aus. Der, der am leichtesten rollt und am klarsten zur Rasse passt, ist der richtige.</li>\n<li>Optional: Verknüpfe den Namen mit einer kurzen Bedeutung oder einem Beinamen. Die Lautklasse trägt bereits die Glaubwürdigkeit.</li>\n</ol>\n\n<p>Für weibliche Varianten nutze den Generator unter <a href=\"/de/fantasy-namen-weiblich\">Fantasy-Namen weiblich</a>. Für World-of-Warcraft-spezifische Muster gehe zu <a href=\"/de/wow-namensgenerator\">WoW-Namensgenerator</a>. Für Gamer-Tags steht der <a href=\"/de/gamer-namen-generator\">Gamer-Namen-Generator</a> bereit.</p>\n\n<p>Die Schritte dauern unter einer Minute. Das Ergebnis klingt, als hätte es eine echte Sprachfamilie hervorgebracht.</p>\n\n<h2>Namen sind Klanglandkarten – wer die Lautklassen liest, findet den richtigen Charakter.</h2>\n\n<p>Stell dir jede Rasse als eigene Region vor. Elfen bewohnen die fließenden Ebenen der Liquide. Zwerge und Orks die felsigen Gipfel der Plosive. Barbaren die zerklüfteten Cluster-Ketten. Hexen die schmalen Schluchten der Sibilanten.</p>\n\n<p>Sobald du die Karte kennst, navigierst du gezielt. Du suchst keinen „schönen“ Namen mehr. Du suchst den, der in der richtigen Region liegt.</p>\n\n<p>Was ist ein Fantasy-Namensgenerator? Ein Werkzeug, das Lautregeln statt Zufall nutzt.<br>\nWie erstelle ich Fantasy-Namen? Indem du die Phonotaktik der gewünschten Rasse anwendest.<br>\nWelche Fantasy-Namen klingen am besten? Die, die den erlaubten Lautfolgen ihrer Sprachfamilie folgen.<br>\nGibt es einen kostenlosen Fantasy-Namensgenerator auf Deutsch? Ja – der Generator auf dieser Seite.<br>\nWie funktioniert Phantasiesprachentwicklung? Über erlaubte und verbotene Lautfolgen.<br>\nWas sind typische Fantasy-Namensmuster? Plosive für Zwerge und Orks, Liquide für Elfen, Cluster für Barbaren, Sibilanten für Hexen.<br>\nWie unterscheiden sich Elfen- von Zwergennamen? Durch die dominante Konsonantenklasse.<br>\nKann ich generierte Namen kommerziell verwenden? Ja, die Namen sind frei nutzbar.</p>\n\n<p>Die Karte liegt vor dir. Der Generator wendet sie an. Du musst nur noch den Namen wählen, der auf dem richtigen Feld landet.</p>\n\n<p>— Chris / Überarbeitet September 2026</p>",
+    "_word_count_note": "~1025 words stripped, Grok claimed 1920 — needs expansion",
+    "faq_items": [
+      {
+        "q": "Was ist ein Fantasy-Namensgenerator?",
+        "a": "Ein Fantasy-Namensgenerator, der auf Phonotaktik basiert, erzeugt Namen aus erlaubten Lautfolgen realer Sprachfamilien statt aus zufälligen Silben. Dadurch klingen die Namen sofort nach Elf, Zwerg oder Ork, weil sie denselben Konsonantenmustern folgen. Zufällige Generatoren dagegen kombinieren Silben ohne Filter und erzeugen oft Namen, die in keiner Sprache existieren könnten."
+      },
+      {
+        "q": "Wie erstelle ich Fantasy-Namen?",
+        "a": "Öffne den Fantasy-Namensgenerator oben auf dieser Seite und wähle die gewünschte Rasse oder das Setting, etwa Elf, Zwerg, Ork oder Hexe. Lass dir drei bis fünf Namen erzeugen und sprich sie laut aus – der Name, der am leichtesten rollt und am klarsten zur Rasse passt, ist der richtige. Optional kannst du den Namen noch mit einer kurzen Bedeutung oder einem Beinamen verknüpfen."
+      },
+      {
+        "q": "Welche Fantasy-Namen klingen am besten?",
+        "a": "Am besten klingen Namen, die den erlaubten Lautfolgen ihrer Sprachfamilie folgen, statt zufällige Silben zu kombinieren. Stimmlose Plosive wie k, t und p passen zu Zwergen und Orks, während Liquide wie l und r eher nach Elf oder Fee klingen. Harte Konsonantencluster wirken bei Barbaren glaubwürdig, Sibilanten mit engen Vokalen bei Hexen. Ein Name, der gegen diese Muster verstößt, bleibt dagegen ein Fremdkörper."
+      },
+      {
+        "q": "Gibt es einen kostenlosen Fantasy-Namensgenerator auf Deutsch?",
+        "a": "Ja – der Fantasy-Namensgenerator oben auf dieser Seite ist kostenlos und auf Deutsch verfügbar. Er filtert die erzeugten Namen nach Rasse, Klasse oder Franchise, etwa D&D, Pathfinder oder World of Warcraft."
+      },
+      {
+        "q": "Wie unterscheiden sich Elfen- von Zwergennamen?",
+        "a": "Elfen nutzen fließende Liquide und lange Vokale, während Zwerge auf stimmlose Plosive und kurze, harte Silben setzen. Diese unterschiedliche Konsonantenklasse macht den Unterschied hörbar – nicht die Bedeutung des Namens. Ein Name wie „Thalindra“ kann deshalb kein Zwerg sein, „Gorakh“ kein Elf."
+      },
+      {
+        "q": "Kann ich generierte Namen kommerziell verwenden?",
+        "a": "Ja, die generierten Namen sind laut Artikel frei nutzbar – auch kommerziell. Der Generator selbst ist zudem kostenlos, sodass du beliebig viele Namen für eigene Charaktere oder Kampagnen erzeugen kannst."
       }
     ],
     "footer_links": [
-      {"label": "PLACEHOLDER Elfen-Namen", "url": "elfen-namensgenerator.html"},
-      {"label": "PLACEHOLDER Zwergen-Namen", "url": "zwergen-namensgenerator.html"},
-      {"label": "PLACEHOLDER Ork-Namen", "url": "ork-namensgenerator.html"}
+      {
+        "label": "PLACEHOLDER WoW-Namen",
+        "url": "wow-namensgenerator.html"
+      },
+      {
+        "label": "PLACEHOLDER Fantasy-Namen weiblich",
+        "url": "fantasy-namen-weiblich.html"
+      },
+      {
+        "label": "PLACEHOLDER Gamer-Namen",
+        "url": "gamer-namen-generator.html"
+      }
     ],
     "tools_js_entry": {
       "id": "fantasy-namensgenerator",
       "name": "PLACEHOLDER Fantasy-Namensgenerator",
       "desc": "PLACEHOLDER: Kurzbeschreibung des Generators.",
       "category": "names",
-      "tags": ["PLACEHOLDER-tag1", "PLACEHOLDER-tag2"],
+      "tags": [
+        "PLACEHOLDER-tag1",
+        "PLACEHOLDER-tag2"
+      ],
       "icon": "<path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/>",
       "url": "fantasy-namensgenerator.html",
       "volume": 3010,
       "kd": 20,
       "featured": false
     },
-    "sitemap_priority": "0.7",
-    "name_table_heading": "PLACEHOLDER 40 Fantasy-Namen — sofort verwendbar",
+    "sitemap_priority": "0.8",
+    "name_table_heading": "45 Fantasy-Namen — sofort verwendbar",
     "name_table": [
-      {"name": "PLACEHOLDER Thalindra", "race": "PLACEHOLDER Elf", "gender": "weiblich", "meaning": "PLACEHOLDER Mondweberin"},
-      {"name": "PLACEHOLDER Baldrek", "race": "PLACEHOLDER Zwerg", "gender": "männlich", "meaning": "PLACEHOLDER Eisenherz"},
-      {"name": "PLACEHOLDER Nyvara", "race": "PLACEHOLDER Mensch", "gender": "weiblich", "meaning": "PLACEHOLDER Nachtblume"},
-      {"name": "PLACEHOLDER Groshnak", "race": "PLACEHOLDER Ork", "gender": "männlich", "meaning": "PLACEHOLDER Sturmfaust"},
-      {"name": "PLACEHOLDER Selwyn", "race": "PLACEHOLDER Halbelf", "gender": "männlich", "meaning": "PLACEHOLDER Waldwanderer"}
+      {
+        "name": "Thalindra",
+        "race": "Elf",
+        "gender": "weiblich",
+        "meaning": "Mondtänzerin"
+      },
+      {
+        "name": "Elowen",
+        "race": "Elf",
+        "gender": "weiblich",
+        "meaning": "Sternenlicht"
+      },
+      {
+        "name": "Caelith",
+        "race": "Elf",
+        "gender": "männlich",
+        "meaning": "Silberwind"
+      },
+      {
+        "name": "Lirael",
+        "race": "Elf",
+        "gender": "weiblich",
+        "meaning": "Flüsternde Blüte"
+      },
+      {
+        "name": "Faelorn",
+        "race": "Elf",
+        "gender": "männlich",
+        "meaning": "Waldwächter"
+      },
+      {
+        "name": "Gorakh",
+        "race": "Ork",
+        "gender": "männlich",
+        "meaning": "Eisenfaust"
+      },
+      {
+        "name": "Grakthar",
+        "race": "Ork",
+        "gender": "männlich",
+        "meaning": "Blutklinge"
+      },
+      {
+        "name": "Urzok",
+        "race": "Ork",
+        "gender": "männlich",
+        "meaning": "Steinschläger"
+      },
+      {
+        "name": "Drakga",
+        "race": "Ork",
+        "gender": "weiblich",
+        "meaning": "Kriegsruferin"
+      },
+      {
+        "name": "Thrakgul",
+        "race": "Ork",
+        "gender": "männlich",
+        "meaning": "Schädelbrecher"
+      },
+      {
+        "name": "Thordrin",
+        "race": "Zwerg",
+        "gender": "männlich",
+        "meaning": "Steinhammer"
+      },
+      {
+        "name": "Baldrun",
+        "race": "Zwerg",
+        "gender": "männlich",
+        "meaning": "Eisenbart"
+      },
+      {
+        "name": "Durgan",
+        "race": "Zwerg",
+        "gender": "männlich",
+        "meaning": "Bergfestung"
+      },
+      {
+        "name": "Hildaern",
+        "race": "Zwerg",
+        "gender": "weiblich",
+        "meaning": "Goldader"
+      },
+      {
+        "name": "Kazrik",
+        "race": "Zwerg",
+        "gender": "männlich",
+        "meaning": "Runenschmied"
+      },
+      {
+        "name": "Ragnarok",
+        "race": "Barbar",
+        "gender": "männlich",
+        "meaning": "Sturmbringer"
+      },
+      {
+        "name": "Bjornulf",
+        "race": "Barbar",
+        "gender": "männlich",
+        "meaning": "Wolfsherz"
+      },
+      {
+        "name": "Skaldi",
+        "race": "Barbar",
+        "gender": "weiblich",
+        "meaning": "Frostklinge"
+      },
+      {
+        "name": "Hrothgar",
+        "race": "Barbar",
+        "gender": "männlich",
+        "meaning": "Donneraxt"
+      },
+      {
+        "name": "Freyaheim",
+        "race": "Barbar",
+        "gender": "weiblich",
+        "meaning": "Nordstern"
+      },
+      {
+        "name": "Sibila",
+        "race": "Hexe",
+        "gender": "weiblich",
+        "meaning": "Schattenflüsterin"
+      },
+      {
+        "name": "Vexara",
+        "race": "Hexe",
+        "gender": "weiblich",
+        "meaning": "Giftblüte"
+      },
+      {
+        "name": "Nyxira",
+        "race": "Hexe",
+        "gender": "weiblich",
+        "meaning": "Nachtweberin"
+      },
+      {
+        "name": "Zorath",
+        "race": "Hexe",
+        "gender": "männlich",
+        "meaning": "Knochenrufer"
+      },
+      {
+        "name": "Malistra",
+        "race": "Hexe",
+        "gender": "weiblich",
+        "meaning": "Seelenfängerin"
+      },
+      {
+        "name": "Aeloria",
+        "race": "Fee",
+        "gender": "weiblich",
+        "meaning": "Glitzerflügel"
+      },
+      {
+        "name": "Sylphine",
+        "race": "Fee",
+        "gender": "weiblich",
+        "meaning": "Taufängerin"
+      },
+      {
+        "name": "Pixarin",
+        "race": "Fee",
+        "gender": "männlich",
+        "meaning": "Lichtfunke"
+      },
+      {
+        "name": "Lumiara",
+        "race": "Fee",
+        "gender": "weiblich",
+        "meaning": "Mondstaub"
+      },
+      {
+        "name": "Faerion",
+        "race": "Fee",
+        "gender": "männlich",
+        "meaning": "Windspieler"
+      },
+      {
+        "name": "Kaelthar",
+        "race": "Krieger",
+        "gender": "männlich",
+        "meaning": "Stahlwall"
+      },
+      {
+        "name": "Vardok",
+        "race": "Krieger",
+        "gender": "männlich",
+        "meaning": "Schildbrecher"
+      },
+      {
+        "name": "Brenna",
+        "race": "Krieger",
+        "gender": "weiblich",
+        "meaning": "Feueraxt"
+      },
+      {
+        "name": "Torvin",
+        "race": "Krieger",
+        "gender": "männlich",
+        "meaning": "Eisenwall"
+      },
+      {
+        "name": "Lysara",
+        "race": "Magier",
+        "gender": "weiblich",
+        "meaning": "Sternenweberin"
+      },
+      {
+        "name": "Arcadius",
+        "race": "Magier",
+        "gender": "männlich",
+        "meaning": "Runenmeister"
+      },
+      {
+        "name": "Selindra",
+        "race": "Magier",
+        "gender": "weiblich",
+        "meaning": "Lichtbinderin"
+      },
+      {
+        "name": "Thalion",
+        "race": "Paladin",
+        "gender": "männlich",
+        "meaning": "Heiliger Schild"
+      },
+      {
+        "name": "Elandra",
+        "race": "Paladin",
+        "gender": "weiblich",
+        "meaning": "Lichtklinge"
+      },
+      {
+        "name": "Morwen",
+        "race": "Druide",
+        "gender": "weiblich",
+        "meaning": "Wurzelhüterin"
+      },
+      {
+        "name": "Branwen",
+        "race": "Druide",
+        "gender": "weiblich",
+        "meaning": "Eichenherz"
+      },
+      {
+        "name": "Corwyn",
+        "race": "Druide",
+        "gender": "männlich",
+        "meaning": "Blattwächter"
+      },
+      {
+        "name": "Shadowveil",
+        "race": "Assassine",
+        "gender": "unbestimmt",
+        "meaning": "Nachtschatten"
+      },
+      {
+        "name": "Nightblade",
+        "race": "Assassine",
+        "gender": "männlich",
+        "meaning": "Klingenrufer"
+      },
+      {
+        "name": "Whisperwind",
+        "race": "Schurke",
+        "gender": "weiblich",
+        "meaning": "Flüsternder Wind"
+      }
     ]
   }
 ]
