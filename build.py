@@ -152,6 +152,25 @@ def build_name_table(entries, heading):
   </table>
 </section>'''
 
+# ── BUILD HREFLANG BLOCK (ENGLISH -> DE TWIN) ──────────
+def build_hreflang_block(page):
+    """
+    Reciprocal hreflang for an English page that has a live German
+    twin (page['de_slug'] set). Returns '' when there is no German
+    twin yet: an hreflang link pointing at a page that doesn't exist
+    is worse than no hreflang at all.
+    """
+    de_slug = page.get('de_slug', '')
+    if not de_slug:
+        return ''
+
+    page_id = page['id']
+    return (
+        f'<link rel="alternate" hreflang="en" href="https://runeforge.online/{page_id}">\n'
+        f'<link rel="alternate" hreflang="de" href="https://runeforge.online/de/{de_slug}">\n'
+        f'<link rel="alternate" hreflang="x-default" href="https://runeforge.online/{page_id}">'
+    )
+
 # ── BUILD PAGE FROM CONFIG ─────────────────────────────
 def build_page(template, page):
     html = template
@@ -160,6 +179,7 @@ def build_page(template, page):
         '{{META_TITLE}}':              page['meta_title'],
         '{{META_DESC}}':               page['meta_desc'],
         '{{PAGE_ID}}':                 page['id'],
+        '{{HREFLANG_BLOCK}}':          build_hreflang_block(page),
         '{{PAGE_NAME}}':               page['page_name'],
         '{{PAGE_NAME_LOWER}}':         page['page_name'].lower(),
         '{{OG_TITLE}}':                page['og_title'],
