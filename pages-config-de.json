@@ -1067,5 +1067,678 @@
         "meaning": "Natur"
       }
     ]
+  },
+  {
+    "id": "fantasy-namen-weiblich",
+    "en_twin": "",
+    "page_name": "Fantasy Namen Weiblich",
+    "meta_title": "Fantasy Namen Weiblich: Phonetik, die sofort klingt",
+    "meta_desc": "Fantasy Namen Weiblich mit klarer Phonetik. 50 Namen nach Rasse, Gender-Unterschiede und 5-Schritte-Protokoll zum eigenen Bau.",
+    "og_title": "Fantasy Namen Weiblich — RuneForge",
+    "h1_text": "Fantasy Namen Weiblich: Phonetik, die sofort klingt",
+    "hero_sub": "Generiere elegante weibliche Fantasy-Namen für Elfen, Zwerge, Orks und mehr — kostenlos, ohne Anmeldung.",
+    "hero_bg": "hero-bg.webp",
+    "eyebrow_text": "Fantasy Namen Weiblich",
+    "howto_step1": "Wähle eine Rasse mit den Filterknöpfen — Alle, Elf, Zwerg, Ork oder Mensch.",
+    "breadcrumb_category_name": "Namensgeneratoren",
+    "breadcrumb_category_id": "namen",
+    "filters": [
+      {
+        "label": "Alle",
+        "value": "all"
+      },
+      {
+        "label": "Elf",
+        "value": "elf"
+      },
+      {
+        "label": "Zwerg",
+        "value": "zwerg"
+      },
+      {
+        "label": "Ork",
+        "value": "ork"
+      },
+      {
+        "label": "Mensch",
+        "value": "mensch"
+      }
+    ],
+    "name_data": {
+      "all": [
+        {
+          "n": "Lirael",
+          "r": "Lied + Licht"
+        },
+        {
+          "n": "Sylindra",
+          "r": "Wald + Stern"
+        },
+        {
+          "n": "Aelwyn",
+          "r": "Heiliger Wind"
+        },
+        {
+          "n": "Elenara",
+          "r": "Sternenkind"
+        },
+        {
+          "n": "Thalindra",
+          "r": "Mondfluss"
+        },
+        {
+          "n": "Miriel",
+          "r": "Juwel"
+        },
+        {
+          "n": "Faelora",
+          "r": "Herbstlicht"
+        },
+        {
+          "n": "Isilwyn",
+          "r": "Mondschein"
+        }
+      ],
+      "elf": [
+        {
+          "n": "Lirael",
+          "r": "Lied + Licht"
+        },
+        {
+          "n": "Sylindra",
+          "r": "Wald + Stern"
+        },
+        {
+          "n": "Aelwyn",
+          "r": "Heiliger Wind"
+        },
+        {
+          "n": "Elenara",
+          "r": "Sternenkind"
+        },
+        {
+          "n": "Thalindra",
+          "r": "Mondfluss"
+        },
+        {
+          "n": "Miriel",
+          "r": "Juwel"
+        },
+        {
+          "n": "Faelora",
+          "r": "Herbstlicht"
+        },
+        {
+          "n": "Isilwyn",
+          "r": "Mondschein"
+        }
+      ],
+      "zwerg": [
+        {
+          "n": "Bruna",
+          "r": "Braune / Starke"
+        },
+        {
+          "n": "Dwarina",
+          "r": "Zwergentochter"
+        },
+        {
+          "n": "Helgara",
+          "r": "Heilige Speer"
+        },
+        {
+          "n": "Thora",
+          "r": "Donner"
+        },
+        {
+          "n": "Freya",
+          "r": "Herrin"
+        },
+        {
+          "n": "Ingrida",
+          "r": "Schöne"
+        },
+        {
+          "n": "Sigrid",
+          "r": "Sieg + Schönheit"
+        },
+        {
+          "n": "Borga",
+          "r": "Hilfe"
+        }
+      ],
+      "ork": [
+        {
+          "n": "Ghara",
+          "r": "Starke"
+        },
+        {
+          "n": "Uzgara",
+          "r": "Blutklaue"
+        },
+        {
+          "n": "Korga",
+          "r": "Krieg"
+        },
+        {
+          "n": "Drasha",
+          "r": "Schatten"
+        },
+        {
+          "n": "Vorka",
+          "r": "Wolf"
+        },
+        {
+          "n": "Grasha",
+          "r": "Knochen"
+        },
+        {
+          "n": "Morka",
+          "r": "Tod"
+        },
+        {
+          "n": "Zagra",
+          "r": "Zorn"
+        }
+      ],
+      "mensch": [
+        {
+          "n": "Elara",
+          "r": "Lichtträgerin"
+        },
+        {
+          "n": "Seren",
+          "r": "Stern"
+        },
+        {
+          "n": "Miraeth",
+          "r": "Meer + Schwur"
+        },
+        {
+          "n": "Lysara",
+          "r": "Freiheit"
+        },
+        {
+          "n": "Kaelina",
+          "r": "Reine Flamme"
+        },
+        {
+          "n": "Arwenna",
+          "r": "Edle Freundin"
+        },
+        {
+          "n": "Brienne",
+          "r": "Starke"
+        },
+        {
+          "n": "Isolde",
+          "r": "Eiskämpferin"
+        }
+      ]
+    },
+    "related_chips": [
+      {
+        "label": "Fantasy Namensgenerator",
+        "url": "fantasy-namensgenerator.html"
+      },
+      {
+        "label": "WoW Namensgenerator",
+        "url": "wow-namensgenerator.html"
+      },
+      {
+        "label": "Gamer-Namen Generator",
+        "url": "gamer-namen-generator.html"
+      }
+    ],
+    "sidebar_links": [
+      {
+        "label": "Fantasy Namensgenerator",
+        "url": "fantasy-namensgenerator.html"
+      },
+      {
+        "label": "WoW Namensgenerator",
+        "url": "wow-namensgenerator.html"
+      },
+      {
+        "label": "Gamer-Namen Generator",
+        "url": "gamer-namen-generator.html"
+      }
+    ],
+    "sidebar_tips": [
+      "Weibliche Fantasy-Namen enden oft auf offene Vokale — -a, -iel, -ael, -indra.",
+      "Elfische Namen klingen weiblicher durch Liquide: l, r, und weiche Vokale.",
+      "Teste den Namen laut — er muss sich natürlich anfühlen."
+    ],
+    "sidebar_pro_tip": "Weibliche Ork-Namen müssen nicht weich klingen — Orks haben keine Geschlechter-Phonetik. Harte Konsonanten sind auch bei Orkinnen stark.",
+    "seo_article": "<p>Der Generator spuckte „Grakthar“ aus. Der Charakter sollte eine Elfenheilerin sein. Der Name klang wie ein Ork-Krieger, der gerade eine Axt geschwungen hatte. Die Spielrunde lachte. Nicht aus Bosheit – aus dem einfachen Grund, dass der Klang nicht passte. Weibliche Fantasy-Namen scheitern selten an der Fantasie. Sie scheitern an der Phonetik.</p>\n\n<p>Ein Name ist kein Etikett. Er ist die erste akustische Information, die das Gehirn über eine Figur erhält. Offene Vokale, weiche Konsonanten und bestimmte Endungen signalisieren sofort „weiblich“. Harte Konsonantencluster und kurze, abgehackte Silben signalisieren das Gegenteil. Wer das ignoriert, produziert Namen, die im Kopf widerstehen.</p>\n\n<p>Dieser Text liefert das Gegenmittel: klare phonetische Regeln, eine sofort einsetzbare Liste und ein Protokoll, mit dem eigene Namen in Minuten entstehen. Alles basiert auf beobachtbaren Lautmustern, nicht auf Bauchgefühl.</p>\n\n<h2>Weibliche Fantasy-Namen scheitern, wenn die Phonetik männlich klingt</h2>\n\n<p>Die häufigste Fehlentscheidung ist der Versuch, „mächtig“ und „weiblich“ gleichzeitig zu klingen, indem man einfach harte Konsonanten hinzufügt. Das Ergebnis klingt dann weder elegant noch bedrohlich – nur unpassend.</p>\n\n<p>Elfisch weiblich bevorzugt offene Vokale und fließende Übergänge: -iel, -ael, -indra, -wyn, -ara. Die Zunge bleibt länger auf den Vokalen. Elfisch männlich tendiert zu kürzeren Formen und härteren Konsonanten: -ion, -or, -th. Der Unterschied ist hörbar, bevor man die Bedeutung kennt.</p>\n\n<p>Bei Zwergen ist das Muster anders. Weibliche Zwergnamen erlauben -a und -ina-Endungen, behalten aber die charakteristische Konsonantenstärke. Orknamen bleiben bei beiden Geschlechtern hart; die Differenzierung läuft über Silbenlänge und Vokalqualität, nicht über Weichheit.</p>\n\n<p>Menschennamen im Fantasy-Kontext mischen oft reale Sprachfamilien. Hier funktioniert die Regel „offene Vokale + fließende Endung“ besonders zuverlässig. Wer „Thalgrim“ für eine Magierin nimmt, kämpft gegen den eigenen Klang.</p>\n\n<p>Der Fehler kostet Glaubwürdigkeit. Leser und Spieler registrieren die Diskrepanz unbewusst. Der Name wird zum Hindernis statt zum Werkzeug.</p>\n\n<h2>Volumen zeigt die Lücke: 4.920 zu 1.900</h2>\n\n<p>Die Suchdaten sind eindeutig. „Fantasy Namen Weiblich“ und verwandte Varianten bewegen monatlich etwa 4.920 Suchanfragen. Die männliche Entsprechung liegt bei rund 1.900. Die Nachfrage nach weiblichen Namen ist mehr als doppelt so hoch.</p>\n\n<p>Das erklärt, warum Generatoren und Listen für weibliche Namen stärker nachgefragt werden. Es erklärt auch, warum viele bestehende Listen unzureichend sind: Sie mischen Geschlechter, ignorieren Phonetik oder liefern nur Variationen bestehender bekannter Namen. Wer gezielt sucht, braucht Trennung und Regel.</p>\n\n<p>Die Lücke ist keine Mode. Sie ist ein strukturelles Bedürfnis. Charaktere in Romanen, Rollenspielen und Spielen brauchen Namen, die akustisch funktionieren. Die höhere Nachfrage zeigt, dass dieses Bedürfnis bei weiblichen Figuren stärker empfunden wird.</p>\n\n<h2>Das Gender-Phonetik-Modell: Laute nach Rasse trennen</h2>\n\n<p>Phonetik ist kein Geschmack. Sie ist ein System. Das folgende Modell trennt die entscheidenden Laute nach den gängigsten Fantasy-Rassen.</p>\n\n<figure>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 320\" width=\"100%\" role=\"img\" aria-labelledby=\"title desc\">\n<title>Gender-Phonetik Split: Weibliche vs. männliche Laute nach Fantasy-Rasse</title>\n<desc>Diagramm zeigt typische weibliche und männliche Lautmuster für Elfen, Zwerge, Orks und Menschen. Linke Seite weiblich (offene Vokale, weiche Endungen), rechte Seite männlich (härtere Konsonanten, kürzere Formen). Farben: Gold #C4A052, Dunkel #0C0D0E, Grau #B8B0A5.</desc>\n<rect width=\"640\" height=\"320\" fill=\"#0C0D0E\"/>\n<text x=\"320\" y=\"28\" text-anchor=\"middle\" fill=\"#C4A052\" font-family=\"system-ui,sans-serif\" font-size=\"16\" font-weight=\"600\">Gender-Phonetik Split</text>\n<text x=\"160\" y=\"52\" text-anchor=\"middle\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"12\">WEIBLICH</text>\n<text x=\"480\" y=\"52\" text-anchor=\"middle\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"12\">MÄNNLICH</text>\n<line x1=\"320\" y1=\"60\" x2=\"320\" y2=\"300\" stroke=\"#B8B0A5\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/>\n<text x=\"20\" y=\"78\" fill=\"#C4A052\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\">Elfen</text>\n<text x=\"20\" y=\"98\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"11\">-iel / -ael / -indra</text>\n<text x=\"20\" y=\"114\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"11\">offene Vokale, fließend</text>\n<text x=\"340\" y=\"98\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"11\">-ion / -or / -th</text>\n<text x=\"340\" y=\"114\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"11\">härter, kürzer</text>\n<text x=\"20\" y=\"148\" fill=\"#C4A052\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\">Zwerge</text>\n<text x=\"20\" y=\"168\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"11\">-a / -ina möglich</text>\n<text x=\"20\" y=\"184\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"11\">Konsonantenstärke bleibt</text>\n<text x=\"340\" y=\"168\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"11\">-in / -or / -ak</text>\n<text x=\"340\" y=\"184\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"11\">kompakt, hart</text>\n<text x=\"20\" y=\"218\" fill=\"#C4A052\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\">Orks</text>\n<text x=\"20\" y=\"238\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"11\">gleich hart wie männlich</text>\n<text x=\"20\" y=\"254\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"11\">Differenz über Länge/Vokal</text>\n<text x=\"340\" y=\"238\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"11\">kurze, abgehackte Silben</text>\n<text x=\"340\" y=\"254\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"11\">maximale Härte</text>\n<text x=\"20\" y=\"288\" fill=\"#C4A052\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\">Menschen</text>\n<text x=\"20\" y=\"308\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"11\">offene Vokale + fließende Endung</text>\n<text x=\"340\" y=\"308\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"11\">Konsonantencluster, kurze Formen</text>\n</svg>\n<figcaption>Gender-Phonetik Split: weibliche vs. männliche Lautmuster nach Rasse.</figcaption>\n</figure>\n\n<p>Das Diagramm macht den Unterschied sichtbar. Links die weiblichen Muster, rechts die männlichen. Die Farben trennen bewusst: Gold für die Rassenbezeichnung, Grau für die konkreten Laute, Dunkel als Hintergrund.</p>\n\n<p>Praktische Anwendung:</p>\n<ul>\n<li>Elfen: „Lirael“, „Sylindra“, „Aelwyn“ funktionieren. „Thalion“ klingt männlich.</li>\n<li>Zwerge: „Bruna“, „Dwarina“, „Helga“ (fantasy-angepasst) behalten Stärke und markieren Geschlecht.</li>\n<li>Orks: „Ghara“, „Uzgara“ – die Härte bleibt, die Endung und Silbenzahl schaffen den Unterschied.</li>\n<li>Menschen: „Elara“, „Seren“, „Miraeth“ vs. „Gareth“, „Thorne“.</li>\n</ul>\n\n<p>Wer das Modell kennt, erkennt in Sekunden, ob ein Name trägt.</p>\n\n<h2>50 weibliche Fantasy-Namen — sofort verwendbar</h2>\n\n<p>Die folgende Tabelle liefert weibliche Fantasy-Namen, sortiert nach Rasse, mit kurzer Bedeutungs- oder Herkunftsangabe. Alle Namen folgen den beschriebenen Lautmustern.</p>\n\n<p>Die Liste ist bewusst gemischt. Manche Namen lehnen sich an reale Sprachwurzeln an, andere sind rein konstruiert. Alle folgen dem Gender-Phonetik-Modell.</p>\n\n<h2>Fünf Schritte, um eigene weibliche Fantasy-Namen zu bauen</h2>\n\n<ol>\n<li>Rasse festlegen. Die Rasse bestimmt den Lautraum. Elfen brauchen fließende Vokale, Orks behalten Härte.</li>\n<li>Kernsilbe wählen. Eine Silbe, die den Charakter trägt: „Lir-“, „Syl-“, „Ghar-“, „Em-“. Die Silbe sollte phonetisch zur Rasse passen.</li>\n<li>Weibliche Endung anhängen. Elfen: -iel, -ael, -indra, -wyn, -ara. Zwerge: -a, -ina. Orks: -a, -ara (Härte bleibt). Menschen: -a, -en, -eth, -ara.</li>\n<li>Vokalqualität prüfen. Offene Vokale (a, e, i, ä, ö) erhöhen den weiblichen Eindruck. Geschlossene oder kurze Vokale reduzieren ihn. Bei Orks und Zwergen ist der Effekt geringer, aber vorhanden.</li>\n<li>Lautprobe machen. Den Namen laut sprechen. Klingt er fließend oder abgehackt? Passt die Länge zur Rasse? Wenn der Name im Mund „steht“, stimmt die Phonetik. Wenn er stolpert, Silbe oder Endung tauschen.</li>\n<li>Bedeutung optional ergänzen. Eine kurze Bedeutungsnotiz erhöht die Glaubwürdigkeit, ist aber nicht zwingend. Der Klang trägt zuerst.</li>\n<li>Gegenprobe mit männlicher Variante. Den gleichen Stamm mit männlicher Endung versehen. Der Unterschied muss hörbar sein. Ist er es nicht, ist die Basis zu neutral.</li>\n</ol>\n\n<p>Dieses Protokoll ersetzt Zufall durch Regel. Es produziert Namen, die sofort funktionieren und nicht nach Generator-Abfall klingen.</p>\n\n<h2>Namen als Klanglandschaft: Eleganz entsteht durch Regel, nicht Zufall</h2>\n\n<p>Ein weiblicher Fantasy-Name ist keine Dekoration. Er ist die erste Landschaft, die der Leser oder Spieler betritt. Offene Vokale und fließende Endungen schaffen Raum. Harte Cluster schaffen Enge. Die Wahl der Laute entscheidet, ob die Figur von Anfang an glaubwürdig steht.</p>\n\n<p>Die Frage „Welche Fantasy-Namen sind für Mädchen geeignet?“ ist falsch gestellt. Die Zielgruppe sind erwachsene Leser und Spieler. Die richtige Frage lautet: Welche Laute signalisieren weiblich innerhalb einer bestimmten Rasse? Die Antwort liegt in den Mustern oben.</p>\n\n<p>Typische weibliche Elfennamen nutzen -iel, -ael und -indra. Sie klingen länger und offener als männliche Gegenstücke. Weibliche Zwergnamen existieren und nutzen -a/-ina, ohne die charakteristische Stärke zu verlieren. Orknamen bleiben hart; die Differenzierung läuft über Länge und Vokal.</p>\n\n<p>Was macht einen Namen elegant? Die Übereinstimmung von Rasse und Laut. Ein Name, der gegen seine eigene Phonetik arbeitet, kann nicht elegant wirken. Ein Name, der den Regeln folgt, wirkt mühelos.</p>\n\n<p>Wer eigene Namen erfindet, folgt dem Protokoll: Rasse → Kernsilbe → Endung → Vokalprobe → Lautprobe. Das Ergebnis ist reproduzierbar und klingt authentisch.</p>\n\n<p>Die schönsten weiblichen Elfennamen sind die, die man beim ersten Hören glaubt. Nicht die, die am exotischsten wirken. Glaubwürdigkeit entsteht durch Regel.</p>\n\n<p>Für weitere Generatoren und Listen: Der zentrale Einstieg liegt unter <a href=\"/de/fantasy-namensgenerator\">Fantasy-Namensgenerator</a>. Spezifische Varianten für Spiele unter <a href=\"/de/wow-namensgenerator\">WoW-Namensgenerator</a>. Allgemeine Gamer-Namen unter <a href=\"/de/gamer-namen-generator\">Gamer-Namen-Generator</a>.</p>\n\n<p>Namen sind Werkzeuge. Wer die Phonetik beherrscht, baut Figuren, die von der ersten Silbe an tragen.</p>\n\n<p>— Chris / Überarbeitet September 2026</p>",
+    "faq_items": [
+      {
+        "q": "Welche Fantasy-Namen sind für Mädchen geeignet?",
+        "a": "Die Frage ist falsch gestellt. Die Zielgruppe sind erwachsene Leser und Spieler. Geeignet sind Namen, die den phonetischen Mustern der jeweiligen Rasse folgen: offene Vokale und fließende Endungen bei Elfen und Menschen, -a/-ina bei Zwergen, harte aber längere Formen bei Orks."
+      },
+      {
+        "q": "Was sind typische weibliche Elfennamen?",
+        "a": "Typisch sind Formen mit -iel, -ael, -indra, -wyn oder -ara. Beispiele: Lirael, Sylindra, Aelwyn, Thalindra. Sie nutzen offene Vokale und fließende Übergänge."
+      },
+      {
+        "q": "Wie klingen weibliche Fantasy-Namen anders als männliche?",
+        "a": "Weibliche Namen bevorzugen offene Vokale und längere, fließende Endungen. Männliche tendieren zu härteren Konsonanten und kürzeren Formen. Der Unterschied ist bei Elfen besonders deutlich, bei Orks geringer."
+      },
+      {
+        "q": "Gibt es weibliche Zwergnamen?",
+        "a": "Ja. Sie behalten die charakteristische Konsonantenstärke, nutzen aber häufig -a oder -ina-Endungen. Beispiele: Bruna, Dwarina, Helgara, Thora."
+      },
+      {
+        "q": "Was macht einen weiblichen Fantasy-Namen elegant?",
+        "a": "Die Übereinstimmung von Rasse und Laut. Offene Vokale und passende Endungen erzeugen Eleganz. Ein Name, der gegen seine Phonetik arbeitet, wirkt unpassend."
+      },
+      {
+        "q": "Wie erfinde ich einen eigenen weiblichen Fantasynamen?",
+        "a": "Rasse festlegen, Kernsilbe wählen, weibliche Endung anhängen, Vokalqualität prüfen, laut sprechen und optional gegen eine männliche Variante testen."
+      },
+      {
+        "q": "Welche Endungen klingen weiblich in Fantasy-Sprachen?",
+        "a": "Elfen: -iel, -ael, -indra, -wyn, -ara. Zwerge: -a, -ina. Orks: -a, -ara (Härte bleibt). Menschen: -a, -en, -eth, -ara."
+      },
+      {
+        "q": "Was sind die schönsten weiblichen Elfennamen?",
+        "a": "Die, die man beim ersten Hören glaubt. Beispiele aus dem Modell: Lirael, Sylindra, Aelwyn, Miriel, Isilwyn. Glaubwürdigkeit entsteht durch Regel, nicht durch Exotik."
+      }
+    ],
+    "footer_links": [
+      {
+        "label": "Fantasy Namensgenerator",
+        "url": "fantasy-namensgenerator.html"
+      },
+      {
+        "label": "WoW Namensgenerator",
+        "url": "wow-namensgenerator.html"
+      },
+      {
+        "label": "Gamer-Namen Generator",
+        "url": "gamer-namen-generator.html"
+      }
+    ],
+    "tools_js_entry": {
+      "id": "fantasy-namen-weiblich",
+      "name": "Fantasy Namen Weiblich",
+      "desc": "Elegante weibliche Fantasy-Namen für Elfen, Zwerge, Orks und mehr.",
+      "category": "namen",
+      "tags": [
+        "fantasy",
+        "weiblich",
+        "namen",
+        "deutsch"
+      ],
+      "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+      "url": "fantasy-namen-weiblich.html",
+      "volume": 4920,
+      "kd": 17,
+      "featured": false
+    },
+    "sitemap_priority": "0.8",
+    "name_table_heading": "50 weibliche Fantasy-Namen — sofort verwendbar",
+    "name_table": [
+      {
+        "name": "Lirael",
+        "race": "Elfen",
+        "gender": "weiblich",
+        "meaning": "Lied + Licht"
+      },
+      {
+        "name": "Sylindra",
+        "race": "Elfen",
+        "gender": "weiblich",
+        "meaning": "Wald + Stern"
+      },
+      {
+        "name": "Aelwyn",
+        "race": "Elfen",
+        "gender": "weiblich",
+        "meaning": "Heiliger Wind"
+      },
+      {
+        "name": "Elenara",
+        "race": "Elfen",
+        "gender": "weiblich",
+        "meaning": "Sternenkind"
+      },
+      {
+        "name": "Thalindra",
+        "race": "Elfen",
+        "gender": "weiblich",
+        "meaning": "Mondfluss"
+      },
+      {
+        "name": "Miriel",
+        "race": "Elfen",
+        "gender": "weiblich",
+        "meaning": "Juwel"
+      },
+      {
+        "name": "Faelora",
+        "race": "Elfen",
+        "gender": "weiblich",
+        "meaning": "Herbstlicht"
+      },
+      {
+        "name": "Isilwyn",
+        "race": "Elfen",
+        "gender": "weiblich",
+        "meaning": "Mondschein"
+      },
+      {
+        "name": "Nyssara",
+        "race": "Elfen",
+        "gender": "weiblich",
+        "meaning": "Nachtblüte"
+      },
+      {
+        "name": "Vaelith",
+        "race": "Elfen",
+        "gender": "weiblich",
+        "meaning": "Silberblatt"
+      },
+      {
+        "name": "Elara",
+        "race": "Menschen",
+        "gender": "weiblich",
+        "meaning": "Lichtträgerin"
+      },
+      {
+        "name": "Seren",
+        "race": "Menschen",
+        "gender": "weiblich",
+        "meaning": "Stern"
+      },
+      {
+        "name": "Miraeth",
+        "race": "Menschen",
+        "gender": "weiblich",
+        "meaning": "Meer + Schwur"
+      },
+      {
+        "name": "Lysara",
+        "race": "Menschen",
+        "gender": "weiblich",
+        "meaning": "Freiheit"
+      },
+      {
+        "name": "Kaelina",
+        "race": "Menschen",
+        "gender": "weiblich",
+        "meaning": "Reine Flamme"
+      },
+      {
+        "name": "Arwenna",
+        "race": "Menschen",
+        "gender": "weiblich",
+        "meaning": "Edle Freundin"
+      },
+      {
+        "name": "Brienne",
+        "race": "Menschen",
+        "gender": "weiblich",
+        "meaning": "Starke"
+      },
+      {
+        "name": "Isolde",
+        "race": "Menschen",
+        "gender": "weiblich",
+        "meaning": "Eiskämpferin"
+      },
+      {
+        "name": "Rowena",
+        "race": "Menschen",
+        "gender": "weiblich",
+        "meaning": "Ruhm + Freude"
+      },
+      {
+        "name": "Taryn",
+        "race": "Menschen",
+        "gender": "weiblich",
+        "meaning": "Königliche"
+      },
+      {
+        "name": "Bruna",
+        "race": "Zwerge",
+        "gender": "weiblich",
+        "meaning": "Braune / Starke"
+      },
+      {
+        "name": "Dwarina",
+        "race": "Zwerge",
+        "gender": "weiblich",
+        "meaning": "Zwergentochter"
+      },
+      {
+        "name": "Helgara",
+        "race": "Zwerge",
+        "gender": "weiblich",
+        "meaning": "Heilige Speer"
+      },
+      {
+        "name": "Thora",
+        "race": "Zwerge",
+        "gender": "weiblich",
+        "meaning": "Donner"
+      },
+      {
+        "name": "Freya",
+        "race": "Zwerge",
+        "gender": "weiblich",
+        "meaning": "Herrin"
+      },
+      {
+        "name": "Ingrida",
+        "race": "Zwerge",
+        "gender": "weiblich",
+        "meaning": "Schöne"
+      },
+      {
+        "name": "Sigrid",
+        "race": "Zwerge",
+        "gender": "weiblich",
+        "meaning": "Sieg + Schönheit"
+      },
+      {
+        "name": "Borga",
+        "race": "Zwerge",
+        "gender": "weiblich",
+        "meaning": "Hilfe"
+      },
+      {
+        "name": "Ragna",
+        "race": "Zwerge",
+        "gender": "weiblich",
+        "meaning": "Ratgeberin"
+      },
+      {
+        "name": "Hilda",
+        "race": "Zwerge",
+        "gender": "weiblich",
+        "meaning": "Kampf"
+      },
+      {
+        "name": "Ghara",
+        "race": "Orks",
+        "gender": "weiblich",
+        "meaning": "Starke"
+      },
+      {
+        "name": "Uzgara",
+        "race": "Orks",
+        "gender": "weiblich",
+        "meaning": "Blutklaue"
+      },
+      {
+        "name": "Korga",
+        "race": "Orks",
+        "gender": "weiblich",
+        "meaning": "Krieg"
+      },
+      {
+        "name": "Drasha",
+        "race": "Orks",
+        "gender": "weiblich",
+        "meaning": "Schatten"
+      },
+      {
+        "name": "Vorka",
+        "race": "Orks",
+        "gender": "weiblich",
+        "meaning": "Wolf"
+      },
+      {
+        "name": "Grasha",
+        "race": "Orks",
+        "gender": "weiblich",
+        "meaning": "Knochen"
+      },
+      {
+        "name": "Morka",
+        "race": "Orks",
+        "gender": "weiblich",
+        "meaning": "Tod"
+      },
+      {
+        "name": "Zagra",
+        "race": "Orks",
+        "gender": "weiblich",
+        "meaning": "Zorn"
+      },
+      {
+        "name": "Thurga",
+        "race": "Orks",
+        "gender": "weiblich",
+        "meaning": "Donnerfaust"
+      },
+      {
+        "name": "Brakka",
+        "race": "Orks",
+        "gender": "weiblich",
+        "meaning": "Brecherin"
+      },
+      {
+        "name": "Sylpha",
+        "race": "Feen / Sylphen",
+        "gender": "weiblich",
+        "meaning": "Windgeist"
+      },
+      {
+        "name": "Aelira",
+        "race": "Feen / Sylphen",
+        "gender": "weiblich",
+        "meaning": "Lufttänzerin"
+      },
+      {
+        "name": "Pixara",
+        "race": "Feen / Sylphen",
+        "gender": "weiblich",
+        "meaning": "Funke"
+      },
+      {
+        "name": "Lumina",
+        "race": "Feen / Sylphen",
+        "gender": "weiblich",
+        "meaning": "Licht"
+      },
+      {
+        "name": "Nymira",
+        "race": "Feen / Sylphen",
+        "gender": "weiblich",
+        "meaning": "Wassergeist"
+      },
+      {
+        "name": "Drakara",
+        "race": "Drachenblütige",
+        "gender": "weiblich",
+        "meaning": "Drachenfeuer"
+      },
+      {
+        "name": "Scalea",
+        "race": "Drachenblütige",
+        "gender": "weiblich",
+        "meaning": "Schuppe"
+      },
+      {
+        "name": "Embera",
+        "race": "Drachenblütige",
+        "gender": "weiblich",
+        "meaning": "Glut"
+      },
+      {
+        "name": "Wyverna",
+        "race": "Drachenblütige",
+        "gender": "weiblich",
+        "meaning": "Wyvern"
+      },
+      {
+        "name": "Pyra",
+        "race": "Drachenblütige",
+        "gender": "weiblich",
+        "meaning": "Feuer"
+      },
+      {
+        "name": "Shadowa",
+        "race": "Dunkelelfen",
+        "gender": "weiblich",
+        "meaning": "Schatten"
+      },
+      {
+        "name": "Nyxara",
+        "race": "Dunkelelfen",
+        "gender": "weiblich",
+        "meaning": "Nacht"
+      },
+      {
+        "name": "Vespera",
+        "race": "Dunkelelfen",
+        "gender": "weiblich",
+        "meaning": "Abendstern"
+      },
+      {
+        "name": "Duskara",
+        "race": "Dunkelelfen",
+        "gender": "weiblich",
+        "meaning": "Dämmerung"
+      },
+      {
+        "name": "Umbra",
+        "race": "Dunkelelfen",
+        "gender": "weiblich",
+        "meaning": "Schatten"
+      },
+      {
+        "name": "Willowyn",
+        "race": "Waldwesen",
+        "gender": "weiblich",
+        "meaning": "Weide"
+      },
+      {
+        "name": "Mossara",
+        "race": "Waldwesen",
+        "gender": "weiblich",
+        "meaning": "Moos"
+      },
+      {
+        "name": "Fernith",
+        "race": "Waldwesen",
+        "gender": "weiblich",
+        "meaning": "Farn"
+      },
+      {
+        "name": "Oakara",
+        "race": "Waldwesen",
+        "gender": "weiblich",
+        "meaning": "Eiche"
+      },
+      {
+        "name": "Briar",
+        "race": "Waldwesen",
+        "gender": "weiblich",
+        "meaning": "Dorn"
+      }
+    ]
   }
 ]
