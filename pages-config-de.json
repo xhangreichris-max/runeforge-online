@@ -1,0 +1,95 @@
+[
+  {
+    "id": "fantasy-namensgenerator",
+    "en_twin": "",
+    "page_name": "PLACEHOLDER Fantasy-Namensgenerator",
+    "meta_title": "PLACEHOLDER Fantasy Namensgenerator — Einzigartige Fantasy-Namen | RuneForge",
+    "meta_desc": "PLACEHOLDER: Fantasy Namensgenerator für Charaktere, Rassen und Welten — kostenlos, sofort einsatzbereit, hunderte einzigartige Namen für Pen & Paper und Romane.",
+    "og_title": "PLACEHOLDER Fantasy-Namensgenerator — RuneForge",
+    "h1_text": "PLACEHOLDER Erschaffe Namen, die deine Welt zum Leben erwecken.",
+    "hero_sub": "PLACEHOLDER: Generiere einzigartige Fantasy-Namen für Charaktere, Rassen und Orte in Sekunden.",
+    "hero_bg": "PLACEHOLDER-hero-bg.webp",
+    "eyebrow_text": "PLACEHOLDER Fantasy-Namensgenerator",
+    "howto_step1": "PLACEHOLDER: Wähle Alle, Männlich oder Weiblich aus den Filter-Buttons.",
+    "breadcrumb_category_name": "Namensgeneratoren",
+    "breadcrumb_category_id": "namen",
+    "filters": [
+      {"label": "Alle (PLACEHOLDER)", "value": "all"},
+      {"label": "Männlich (PLACEHOLDER)", "value": "maennlich"},
+      {"label": "Weiblich (PLACEHOLDER)", "value": "weiblich"}
+    ],
+    "name_data": {
+      "all": [
+        {"n": "PLACEHOLDER Thalindor", "r": "PLACEHOLDER Wanderer"},
+        {"n": "PLACEHOLDER Seravine", "r": "PLACEHOLDER Hüterin"},
+        {"n": "PLACEHOLDER Draventh", "r": "PLACEHOLDER Krieger"},
+        {"n": "PLACEHOLDER Mirelle", "r": "PLACEHOLDER Weberin"},
+        {"n": "PLACEHOLDER Korrathin", "r": "PLACEHOLDER Schmied"},
+        {"n": "PLACEHOLDER Ysolde", "r": "PLACEHOLDER Seherin"}
+      ],
+      "maennlich": [
+        {"n": "PLACEHOLDER Thalindor", "r": "PLACEHOLDER Wanderer"},
+        {"n": "PLACEHOLDER Draventh", "r": "PLACEHOLDER Krieger"},
+        {"n": "PLACEHOLDER Korrathin", "r": "PLACEHOLDER Schmied"}
+      ],
+      "weiblich": [
+        {"n": "PLACEHOLDER Seravine", "r": "PLACEHOLDER Hüterin"},
+        {"n": "PLACEHOLDER Mirelle", "r": "PLACEHOLDER Weberin"},
+        {"n": "PLACEHOLDER Ysolde", "r": "PLACEHOLDER Seherin"}
+      ]
+    },
+    "related_chips": [
+      {"label": "PLACEHOLDER Elfen-Namen", "url": "elfen-namensgenerator.html"},
+      {"label": "PLACEHOLDER Zwergen-Namen", "url": "zwergen-namensgenerator.html"},
+      {"label": "PLACEHOLDER Ork-Namen", "url": "ork-namensgenerator.html"}
+    ],
+    "sidebar_links": [
+      {"label": "PLACEHOLDER Elfen-Namensgenerator", "url": "elfen-namensgenerator.html"},
+      {"label": "PLACEHOLDER Zwergen-Namensgenerator", "url": "zwergen-namensgenerator.html"},
+      {"label": "PLACEHOLDER Ork-Namensgenerator", "url": "ork-namensgenerator.html"}
+    ],
+    "sidebar_tips": [
+      "PLACEHOLDER: Kurze Namen wirken oft einprägsamer als lange.",
+      "PLACEHOLDER: Ein Beiname wie 'der Stille' verleiht sofort Charakter.",
+      "PLACEHOLDER: Sprich den Namen laut aus — er sollte sich natürlich anfühlen."
+    ],
+    "sidebar_pro_tip": "PLACEHOLDER: Die besten Fantasy-Namen klingen fremd genug, um faszinierend zu sein, aber vertraut genug, um aussprechbar zu bleiben.",
+    "seo_article": "<h2>PLACEHOLDER Fantasy Namensgenerator — Überschrift</h2>\n<p>PLACEHOLDER Einleitungstext für den Fantasy-Namensgenerator. Dieser gesamte Artikeltext wird später durch echten, in Grok erstellten deutschen Content ersetzt.</p>\n<h3>PLACEHOLDER Zwischenüberschrift</h3>\n<p>PLACEHOLDER Absatztext.</p>",
+    "faq_items": [
+      {
+        "q": "PLACEHOLDER: Was ist ein Fantasy-Namensgenerator?",
+        "a": "PLACEHOLDER: Platzhalter-Antworttext, wird durch echten deutschen Content ersetzt."
+      },
+      {
+        "q": "PLACEHOLDER: Sind diese Namen kostenlos nutzbar?",
+        "a": "PLACEHOLDER: Platzhalter-Antworttext, wird durch echten deutschen Content ersetzt."
+      }
+    ],
+    "footer_links": [
+      {"label": "PLACEHOLDER Elfen-Namen", "url": "elfen-namensgenerator.html"},
+      {"label": "PLACEHOLDER Zwergen-Namen", "url": "zwergen-namensgenerator.html"},
+      {"label": "PLACEHOLDER Ork-Namen", "url": "ork-namensgenerator.html"}
+    ],
+    "tools_js_entry": {
+      "id": "fantasy-namensgenerator",
+      "name": "PLACEHOLDER Fantasy-Namensgenerator",
+      "desc": "PLACEHOLDER: Kurzbeschreibung des Generators.",
+      "category": "names",
+      "tags": ["PLACEHOLDER-tag1", "PLACEHOLDER-tag2"],
+      "icon": "<path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/>",
+      "url": "fantasy-namensgenerator.html",
+      "volume": 3010,
+      "kd": 20,
+      "featured": false
+    },
+    "sitemap_priority": "0.7",
+    "name_table_heading": "PLACEHOLDER 40 Fantasy-Namen — sofort verwendbar",
+    "name_table": [
+      {"name": "PLACEHOLDER Thalindra", "race": "PLACEHOLDER Elf", "gender": "weiblich", "meaning": "PLACEHOLDER Mondweberin"},
+      {"name": "PLACEHOLDER Baldrek", "race": "PLACEHOLDER Zwerg", "gender": "männlich", "meaning": "PLACEHOLDER Eisenherz"},
+      {"name": "PLACEHOLDER Nyvara", "race": "PLACEHOLDER Mensch", "gender": "weiblich", "meaning": "PLACEHOLDER Nachtblume"},
+      {"name": "PLACEHOLDER Groshnak", "race": "PLACEHOLDER Ork", "gender": "männlich", "meaning": "PLACEHOLDER Sturmfaust"},
+      {"name": "PLACEHOLDER Selwyn", "race": "PLACEHOLDER Halbelf", "gender": "männlich", "meaning": "PLACEHOLDER Waldwanderer"}
+    ]
+  }
+]
