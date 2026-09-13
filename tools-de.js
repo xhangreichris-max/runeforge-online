@@ -7,15 +7,15 @@
 const RUNEFORGE_TOOLS = [
   {
     id: "fantasy-namensgenerator",
-    name: "PLACEHOLDER Fantasy-Namensgenerator",
-    desc: "PLACEHOLDER: Kurzbeschreibung des Generators.",
-    category: "names",
-    tags: ["PLACEHOLDER-tag1", "PLACEHOLDER-tag2"],
+    name: "Fantasy Namensgenerator",
+    desc: "Glaubwürdige Fantasy-Namen für Elfen, Zwerge, Orks und mehr — kostenlos, ohne Anmeldung.",
+    category: "namen",
+    tags: ["fantasy", "namen", "deutsch"],
     icon: `<path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/>`,
     url: "/de/fantasy-namensgenerator",
     volume: 3010,
     kd: 20,
-    featured: false
+    featured: true
   },
 ];
 
