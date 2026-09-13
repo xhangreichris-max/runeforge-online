@@ -497,5 +497,575 @@
         "meaning": "Flüsternder Wind"
       }
     ]
+  },
+  {
+    "id": "wow-namensgenerator",
+    "en_twin": "blood-elf-name-generator",
+    "page_name": "WoW Namensgenerator",
+    "meta_title": "WoW Namensgenerator: Rassentreue Namen ohne Konflikte",
+    "meta_desc": "WoW Namensgenerator kostenlos: Rassenspezifische Namen nach Phonotaktik – Blutelf, Ork, Troll und mehr. 2–12 Zeichen, Geschlechtsfilter.",
+    "og_title": "WoW Namensgenerator — RuneForge",
+    "h1_text": "WoW Namensgenerator: Rassentreue Namen ohne Konflikte",
+    "hero_sub": "Erzeuge rassentreue WoW-Namen für Blutelfen, Orks, Trolle und mehr — nach echter Phonotaktik, kostenlos, ohne Anmeldung.",
+    "hero_bg": "hero-bg.webp",
+    "eyebrow_text": "WoW Namensgenerator",
+    "howto_step1": "Wähle eine Rasse oder ein Geschlecht mit den Filterknöpfen — Alle, Weiblich, Blutelf oder Ork.",
+    "breadcrumb_category_name": "Namensgeneratoren",
+    "breadcrumb_category_id": "namen",
+    "filters": [
+      {
+        "label": "Alle",
+        "value": "all"
+      },
+      {
+        "label": "Weiblich",
+        "value": "female"
+      },
+      {
+        "label": "Maennlich",
+        "value": "male"
+      },
+      {
+        "label": "Blutelf",
+        "value": "blutelf"
+      },
+      {
+        "label": "Ork",
+        "value": "ork"
+      }
+    ],
+    "name_data": {
+      "all": [
+        {
+          "n": "Thalorien",
+          "r": "formal, -orien"
+        },
+        {
+          "n": "Aerethil",
+          "r": "komplex, -ethil"
+        },
+        {
+          "n": "Kaelthasir",
+          "r": "thalassisch, -asir"
+        },
+        {
+          "n": "Sylvaeth",
+          "r": "-aeth"
+        },
+        {
+          "n": "Lorathien",
+          "r": "-ien"
+        },
+        {
+          "n": "Tyrandea",
+          "r": "naturverbunden"
+        },
+        {
+          "n": "Malfurionn",
+          "r": "aelteres Elvish"
+        },
+        {
+          "n": "Shandrisa",
+          "r": "sanft, -isa"
+        }
+      ],
+      "female": [
+        {
+          "n": "Aerethil",
+          "r": "komplex, -ethil"
+        },
+        {
+          "n": "Sylvaeth",
+          "r": "-aeth"
+        },
+        {
+          "n": "Tyrandea",
+          "r": "naturverbunden"
+        },
+        {
+          "n": "Shandrisa",
+          "r": "sanft, -isa"
+        },
+        {
+          "n": "Illidara",
+          "r": "-ara"
+        },
+        {
+          "n": "Aggrona",
+          "r": "-ona"
+        },
+        {
+          "n": "Garrosha",
+          "r": "-sha"
+        },
+        {
+          "n": "Jainaeth",
+          "r": "-aeth"
+        }
+      ],
+      "male": [
+        {
+          "n": "Thalorien",
+          "r": "formal, -orien"
+        },
+        {
+          "n": "Kaelthasir",
+          "r": "thalassisch, -asir"
+        },
+        {
+          "n": "Lorathien",
+          "r": "-ien"
+        },
+        {
+          "n": "Malfurionn",
+          "r": "aelteres Elvish"
+        },
+        {
+          "n": "Cenarion",
+          "r": "-ion"
+        },
+        {
+          "n": "Thrakk",
+          "r": "hart, kurz"
+        },
+        {
+          "n": "Grommashk",
+          "r": "Plosive"
+        },
+        {
+          "n": "Durotanor",
+          "r": "-or"
+        }
+      ],
+      "blutelf": [
+        {
+          "n": "Thalorien",
+          "r": "formal, -orien"
+        },
+        {
+          "n": "Aerethil",
+          "r": "komplex, -ethil"
+        },
+        {
+          "n": "Kaelthasir",
+          "r": "thalassisch, -asir"
+        },
+        {
+          "n": "Sylvaeth",
+          "r": "-aeth"
+        },
+        {
+          "n": "Lorathien",
+          "r": "-ien"
+        },
+        {
+          "n": "Aethoris",
+          "r": "formal"
+        },
+        {
+          "n": "Lirathiel",
+          "r": "-iel"
+        }
+      ],
+      "ork": [
+        {
+          "n": "Thrakk",
+          "r": "hart, kurz"
+        },
+        {
+          "n": "Grommashk",
+          "r": "Plosive"
+        },
+        {
+          "n": "Aggrona",
+          "r": "-ona"
+        },
+        {
+          "n": "Durotanor",
+          "r": "-or"
+        },
+        {
+          "n": "Garrosha",
+          "r": "-sha"
+        },
+        {
+          "n": "Grashnak",
+          "r": "Plosive"
+        }
+      ]
+    },
+    "related_chips": [
+      {
+        "label": "Fantasy Namensgenerator",
+        "url": "fantasy-namensgenerator.html"
+      },
+      {
+        "label": "Fantasy-Namen Weiblich",
+        "url": "fantasy-namen-weiblich.html"
+      },
+      {
+        "label": "Gamer-Namen Generator",
+        "url": "gamer-namen-generator.html"
+      }
+    ],
+    "sidebar_links": [
+      {
+        "label": "Fantasy Namensgenerator",
+        "url": "fantasy-namensgenerator.html"
+      },
+      {
+        "label": "Fantasy-Namen Weiblich",
+        "url": "fantasy-namen-weiblich.html"
+      },
+      {
+        "label": "Gamer-Namen Generator",
+        "url": "gamer-namen-generator.html"
+      }
+    ],
+    "sidebar_tips": [
+      "WoW-Namen haben ein Limit von 12 Zeichen — kurze Namen sind oft einprägsamer.",
+      "Blutelf-Namen klingen am besten mit -ael, -eth oder -dor Endungen.",
+      "Teste den Namen laut — er muss sich nach deiner Rasse anfühlen, nicht nach dir."
+    ],
+    "sidebar_pro_tip": "Wenn dein Wunschname vergeben ist, ändere einen Vokal oder tausche einen Konsonanten aus — Thalindor wird zu Thelindor oder Thalindur.",
+    "seo_article": "<p>Du hast den Charakter erstellt. Rasse gewählt, Klasse gesetzt, Aussehen fertig. Du tippst den Namen ein – und die Meldung erscheint: „Ein Charakter mit diesem Namen ist bereits vorhanden.“ Du änderst zwei Buchstaben. Wieder belegt. Nach dem fünften Versuch klingt der Name nach nichts mehr und du nimmst etwas Beliebiges, nur um endlich reinzukommen.</p>\n\n<p><strong>Ein WoW-Namensgenerator, der Phonotaktik der Azeroth-Rassen nutzt, erzeugt Namen aus erlaubten Lautmustern statt aus Zufallssilben. So entstehen Blutelfen-, Ork- oder Trollnamen, die den jeweiligen Sprachregeln folgen und seltener als „bereits vorhanden“ abgelehnt werden.</strong></p>\n\n<p>Die meisten Spieler verlieren hier Zeit. Der Generator oben auf dieser Seite filtert nach Rasse und Geschlecht und hält die 2-bis-12-Zeichen-Regel ein.</p>\n\n<h2>Die meisten WoW-Namen scheitern, weil sie gegen die 2-bis-12-Zeichen-Regel und die Rassenlautung verstoßen.</h2>\n\n<p>Die Regeln sind klar: 2 bis 12 Zeichen, nur Buchstaben, keine Leerzeichen, keine Sonderzeichen. Trotzdem tippen viele Spieler längere Konstruktionen oder mischen Silben, die in keiner Rassensprache vorkommen.</p>\n\n<p>Die meisten Generatoren ignorieren beides. Sie spucken 14-Zeichen-Namen oder Kombinationen aus, die der Server sofort ablehnt. Oder sie erzeugen etwas, das zwar formal gültig ist, aber klingt, als gehöre es zu einer anderen Rasse.</p>\n\n<p>Ein Blutelf-Name mit harten Plosiven und kurzen Silben wirkt falsch. Ein Ork-Name mit fließenden Liquiden und offenen Vokalen ebenso. Die Server-Prüfung prüft nur Länge und Zeichen. Dein Ohr prüft die Rasse. Wenn beides nicht zusammenpasst, merkst du es in der Gilde oder im Chat.</p>\n\n<p>Weibliche Namen werden häufiger gesucht – etwa 2,6-mal so oft wie männliche Varianten derselben Rasse. Der Generator hier zeigt den Geschlechtsfilter deshalb prominent. Du wählst zuerst Rasse und Geschlecht, dann kommen nur passende Muster.</p>\n\n<h2>Zufällige Silben erzeugen Namen, die in keiner Azeroth-Sprache existieren könnten.</h2>\n\n<p>„Xqorth“ oder „Zeltharionn“ sehen fantasy aus. In Azeroth klingen sie nach nichts. Die meisten Tools arbeiten genau so: Silbenwürfel ohne Filter.</p>\n\n<p>Phonotaktik ändert das. Sie nimmt die realen Sprachfamilien, die den Rassen zugrunde liegen, und mappt erlaubte Lautfolgen. Blutelfen folgen thalassischen Mustern – formal, komplex, oft mit -ael, -eth oder -dor. Nachtelfen nutzen älteres Elvish – naturverbunden und sanft. Orks setzen auf orcidische Plosive: hart, kurz, stimmlos. Menschen mischen europäische Gemeinsprache. Tauren bleiben bei ursprachlichen Natur- und Tierwurzeln. Draenei bringen eredunische Vokalreichtum. Zwerge greifen auf altertümlichen, germanisch harten Ruf zurück. Trolle enden häufig auf -jin oder -zan.</p>\n\n<p>Ein Name, der gegen diese Muster verstößt, bleibt ein Fremdkörper. Einer, der ihnen folgt, setzt sich sofort und ist seltener belegt, weil die Kombinationen enger und rassenspezifischer sind.</p>\n\n<h2>Phonotaktik mappt jede Rasse auf eigene Lautmuster und Suffixe.</h2>\n\n<p>Die Grundlage ist Phonotaktik – die Lehre erlaubter Lautfolgen – und die IPA-Konsonantenklassifikation, gemappt auf die Sprachfamilien der Rassen. Sekundär fließen die bekannten Muster aus den Azeroth-Sprachen ein, ohne urheberrechtlich geschützte Inhalte zu reproduzieren.</p>\n\n<p>Acht Kernrassen decken den Großteil der Suchanfragen ab:</p>\n\n<figure>\n<svg viewBox=\"0 0 700 380\" width=\"100%\" style=\"max-width:700px\" xmlns=\"http://www.w3.org/2000/svg\">\n<title>WoW-Rassentabelle: Phonetik pro Rasse</title>\n<desc>Vergleichstabelle der acht Kernrassen mit Sprache, Lautmuster und Beispielnamen. Farben folgen der Markenpalette Gold, Fast-Schwarz und Neutral.</desc>\n<rect width=\"700\" height=\"380\" fill=\"#0C0D0E\"/>\n<rect x=\"8\" y=\"8\" width=\"160\" height=\"36\" fill=\"#C4A052\"/>\n<text x=\"88\" y=\"31\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Rasse</text>\n<rect x=\"172\" y=\"8\" width=\"160\" height=\"36\" fill=\"#C4A052\"/>\n<text x=\"252\" y=\"31\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Sprache</text>\n<rect x=\"336\" y=\"8\" width=\"180\" height=\"36\" fill=\"#C4A052\"/>\n<text x=\"426\" y=\"31\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Lautmuster</text>\n<rect x=\"520\" y=\"8\" width=\"170\" height=\"36\" fill=\"#C4A052\"/>\n<text x=\"605\" y=\"31\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"13\" font-family=\"sans-serif\">Beispiel</text>\n<rect x=\"8\" y=\"50\" width=\"160\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"88\" y=\"74\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Blutelf</text>\n<rect x=\"172\" y=\"50\" width=\"160\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"252\" y=\"74\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Thalassisch</text>\n<rect x=\"336\" y=\"50\" width=\"180\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"426\" y=\"74\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">formal, -ael/-eth/-dor</text>\n<rect x=\"520\" y=\"50\" width=\"170\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"605\" y=\"74\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Thalorien</text>\n<rect x=\"8\" y=\"92\" width=\"160\" height=\"38\" fill=\"#C4A052\"/>\n<text x=\"88\" y=\"116\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Nachtelf</text>\n<rect x=\"172\" y=\"92\" width=\"160\" height=\"38\" fill=\"#C4A052\"/>\n<text x=\"252\" y=\"116\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Älteres Elvish</text>\n<rect x=\"336\" y=\"92\" width=\"180\" height=\"38\" fill=\"#C4A052\"/>\n<text x=\"426\" y=\"116\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">naturverbunden, sanft</text>\n<rect x=\"520\" y=\"92\" width=\"170\" height=\"38\" fill=\"#C4A052\"/>\n<text x=\"605\" y=\"116\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Tyrandea</text>\n<rect x=\"8\" y=\"134\" width=\"160\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"88\" y=\"158\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Ork</text>\n<rect x=\"172\" y=\"134\" width=\"160\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"252\" y=\"158\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Orcidisch</text>\n<rect x=\"336\" y=\"134\" width=\"180\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"426\" y=\"158\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">hart, kurz, Plosive</text>\n<rect x=\"520\" y=\"134\" width=\"170\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"605\" y=\"158\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Thrakk</text>\n<rect x=\"8\" y=\"176\" width=\"160\" height=\"38\" fill=\"#C4A052\"/>\n<text x=\"88\" y=\"200\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Mensch</text>\n<rect x=\"172\" y=\"176\" width=\"160\" height=\"38\" fill=\"#C4A052\"/>\n<text x=\"252\" y=\"200\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Gemeinsprache</text>\n<rect x=\"336\" y=\"176\" width=\"180\" height=\"38\" fill=\"#C4A052\"/>\n<text x=\"426\" y=\"200\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">europäisch gemischt</text>\n<rect x=\"520\" y=\"176\" width=\"170\" height=\"38\" fill=\"#C4A052\"/>\n<text x=\"605\" y=\"200\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Anduinor</text>\n<rect x=\"8\" y=\"218\" width=\"160\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"88\" y=\"242\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Tauren</text>\n<rect x=\"172\" y=\"218\" width=\"160\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"252\" y=\"242\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Ursprachlich</text>\n<rect x=\"336\" y=\"218\" width=\"180\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"426\" y=\"242\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Natur, Tierwelt</text>\n<rect x=\"520\" y=\"218\" width=\"170\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"605\" y=\"242\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Bainehorn</text>\n<rect x=\"8\" y=\"260\" width=\"160\" height=\"38\" fill=\"#C4A052\"/>\n<text x=\"88\" y=\"284\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Draenei</text>\n<rect x=\"172\" y=\"260\" width=\"160\" height=\"38\" fill=\"#C4A052\"/>\n<text x=\"252\" y=\"284\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Eredun</text>\n<rect x=\"336\" y=\"260\" width=\"180\" height=\"38\" fill=\"#C4A052\"/>\n<text x=\"426\" y=\"284\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">fremd, vokalreich</text>\n<rect x=\"520\" y=\"260\" width=\"170\" height=\"38\" fill=\"#C4A052\"/>\n<text x=\"605\" y=\"284\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Velenor</text>\n<rect x=\"8\" y=\"302\" width=\"160\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"88\" y=\"326\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Zwerg</text>\n<rect x=\"172\" y=\"302\" width=\"160\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"252\" y=\"326\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Alter Zwergenruf</text>\n<rect x=\"336\" y=\"302\" width=\"180\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"426\" y=\"326\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">hart, germanisch</text>\n<rect x=\"520\" y=\"302\" width=\"170\" height=\"38\" fill=\"#B8B0A5\"/>\n<text x=\"605\" y=\"326\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Magniron</text>\n<rect x=\"8\" y=\"344\" width=\"160\" height=\"30\" fill=\"#C4A052\"/>\n<text x=\"88\" y=\"364\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Troll</text>\n<rect x=\"172\" y=\"344\" width=\"160\" height=\"30\" fill=\"#C4A052\"/>\n<text x=\"252\" y=\"364\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Zandali</text>\n<rect x=\"336\" y=\"344\" width=\"180\" height=\"30\" fill=\"#C4A052\"/>\n<text x=\"426\" y=\"364\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">tropisch, -jin/-zan</text>\n<rect x=\"520\" y=\"344\" width=\"170\" height=\"30\" fill=\"#C4A052\"/>\n<text x=\"605\" y=\"364\" text-anchor=\"middle\" fill=\"#0C0D0E\" font-size=\"12\" font-family=\"sans-serif\">Voljinn</text>\n</svg>\n<figcaption>WoW-Rassentabelle: Sprache, Lautmuster und Beispiel pro Rasse.</figcaption>\n</figure>\n\n<p>Die Tabelle zeigt die direkte Zuordnung. Thalorien nutzt formale thalassische Endungen – deshalb Blutelf. Thrakk bleibt kurz und plosiv – deshalb Ork. Voljinn trägt das -jin-Suffix – deshalb Troll. Das ist kein Zufall. Es ist gemappte Phonotaktik.</p>\n\n<p>Für allgemeine Fantasy-Namen ohne WoW-Bezug steht der Hub unter <a href=\"/de/fantasy-namensgenerator\">Fantasy-Namensgenerator</a> bereit. Weibliche Varianten findest du unter <a href=\"/de/fantasy-namen-weiblich\">Fantasy-Namen weiblich</a>. Für Gamer-Tags außerhalb von Azeroth nutze den <a href=\"/de/gamer-namen-generator\">Gamer-Namen-Generator</a>.</p>\n\n<h2>Wie du in sechs Schritten einen freien, rassentreuen WoW-Namen erzeugst.</h2>\n\n<ol>\n<li>Öffne den WoW-Namensgenerator oben auf dieser Seite. Er ist kostenlos und filtert nach Rasse und Geschlecht.</li>\n<li>Wähle zuerst die Rasse – Blutelf, Nachtelf, Ork, Mensch, Tauren, Draenei, Zwerg oder Troll.</li>\n<li>Stelle den Geschlechtsfilter ein. Weibliche Muster werden häufiger gesucht und erzeugen eigene Suffixe.</li>\n<li>Lass drei bis fünf Namen erzeugen. Jeder hält die 2-bis-12-Zeichen-Regel ein und folgt den Lautmustern der gewählten Rasse.</li>\n<li>Prüfe die Namen laut. Der, der am leichtesten rollt und klar zur Rasse passt, ist der Kandidat.</li>\n<li>Falls der Name belegt ist, generiere eine Variante mit leicht geänderter Endung oder seltener Silbe. Die engere Phonotaktik erhöht die Chance auf freie Namen.</li>\n</ol>\n\n<p>Die Schritte dauern unter einer Minute. Das Ergebnis klingt, als gehöre es in die jeweilige Sprachfamilie, und verstößt nicht gegen die technischen Regeln.</p>\n\n<h2>Namen sind Stammbäume – wer die Lautwurzel kennt, findet den freien Zweig.</h2>\n\n<p>Stell dir jede Rasse als eigenen Stamm vor. Blutelfen wachsen aus formalen, komplexen Wurzeln. Orks aus kurzen, harten Ästen. Trolle aus tropischen Suffix-Zweigen. Nachtelfen aus sanften, naturverbundenen Ranken.</p>\n\n<p>Sobald du die Wurzel kennst, suchst du nicht mehr blind. Du suchst den Zweig, der noch frei ist und trotzdem zum Stamm gehört.</p>\n\n<p>Wie heißen WoW-Charaktere auf Deutsch? Nach denselben Lautmustern, nur mit deutschen Hörgewohnheiten gefiltert.<br>\nWie lang darf ein WoW-Name sein? Zwei bis zwölf Zeichen, nur Buchstaben.<br>\nWas macht einen guten WoW-Namen aus? Rassentreue Lautung und technische Gültigkeit.<br>\nWelche Namen sind in WoW verboten? Solche mit Leerzeichen, Sonderzeichen oder außerhalb der Längengrenze.<br>\nWie erstelle ich einen Blutelf-Namen? Mit thalassischen Mustern und Endungen wie -ael, -eth oder -dor.<br>\nGibt es einen offiziellen WoW-Namensgenerator? Nein – dieser Generator arbeitet mit Phonotaktik der Rassen.<br>\nWelche Rassen haben die besten Namen in WoW? Die, deren Lautmuster du bewusst wählst.<br>\nWarum ist mein WoW-Name schon vergeben? Weil gängige Silbenkombinationen schnell belegt sind – seltene, rassenspezifische Muster helfen.</p>\n\n<p>Der Stamm steht. Der Generator zeigt die freien Zweige. Du wählst nur noch den, der zu deinem Charakter passt.</p>\n\n<p>— Chris / Überarbeitet September 2026</p>",
+    "faq_items": [
+      {
+        "q": "Wie heißen WoW-Charaktere auf Deutsch?",
+        "a": "Nach denselben Lautmustern der Rassen, gefiltert auf deutsche Hörgewohnheiten."
+      },
+      {
+        "q": "Wie lang darf ein WoW-Name sein?",
+        "a": "Zwei bis zwölf Zeichen, nur Buchstaben, keine Leerzeichen."
+      },
+      {
+        "q": "Was macht einen guten WoW-Namen aus?",
+        "a": "Rassentreue Lautung und Einhaltung der technischen Regeln."
+      },
+      {
+        "q": "Welche Namen sind in WoW verboten?",
+        "a": "Namen mit Leerzeichen, Sonderzeichen oder außerhalb der Längengrenze."
+      },
+      {
+        "q": "Wie erstelle ich einen Blutelf-Namen?",
+        "a": "Mit thalassischen Mustern und typischen Endungen wie -ael, -eth oder -dor."
+      },
+      {
+        "q": "Gibt es einen offiziellen WoW-Namensgenerator?",
+        "a": "Nein. Dieser Generator arbeitet mit Phonotaktik der Rassen."
+      },
+      {
+        "q": "Welche Rassen haben die besten Namen in WoW?",
+        "a": "Die, deren Lautmuster du bewusst und rassenspezifisch wählst."
+      },
+      {
+        "q": "Warum ist mein WoW-Name schon vergeben?",
+        "a": "Gängige Silbenkombinationen sind schnell belegt. Seltene, rassenspezifische Muster erhöhen die Chance auf freie Namen."
+      }
+    ],
+    "footer_links": [
+      {
+        "label": "Fantasy Namensgenerator",
+        "url": "fantasy-namensgenerator.html"
+      },
+      {
+        "label": "Fantasy-Namen Weiblich",
+        "url": "fantasy-namen-weiblich.html"
+      },
+      {
+        "label": "Gamer-Namen Generator",
+        "url": "gamer-namen-generator.html"
+      }
+    ],
+    "tools_js_entry": {
+      "id": "wow-namensgenerator",
+      "name": "WoW Namensgenerator",
+      "desc": "Lore-genaue WoW-Namen für alle Rassen — Blutelfen, Orks, Nachtelfen und mehr.",
+      "category": "namen",
+      "tags": [
+        "wow",
+        "world of warcraft",
+        "deutsch"
+      ],
+      "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+      "url": "wow-namensgenerator.html",
+      "volume": 6940,
+      "kd": 17,
+      "featured": true
+    },
+    "sitemap_priority": "0.8",
+    "name_table_heading": "45 WoW-Namen — sofort verwendbar",
+    "name_table": [
+      {
+        "name": "Thalorien",
+        "race": "Blutelf",
+        "gender": "männlich",
+        "meaning": "formal, -orien"
+      },
+      {
+        "name": "Aerethil",
+        "race": "Blutelf",
+        "gender": "weiblich",
+        "meaning": "komplex, -ethil"
+      },
+      {
+        "name": "Kaelthasir",
+        "race": "Blutelf",
+        "gender": "männlich",
+        "meaning": "thalassisch, -asir"
+      },
+      {
+        "name": "Sylvaeth",
+        "race": "Blutelf",
+        "gender": "weiblich",
+        "meaning": "-aeth"
+      },
+      {
+        "name": "Lorathien",
+        "race": "Blutelf",
+        "gender": "männlich",
+        "meaning": "-ien"
+      },
+      {
+        "name": "Tyrandea",
+        "race": "Nachtelf",
+        "gender": "weiblich",
+        "meaning": "naturverbunden"
+      },
+      {
+        "name": "Malfurionn",
+        "race": "Nachtelf",
+        "gender": "männlich",
+        "meaning": "aelteres Elvish"
+      },
+      {
+        "name": "Shandrisa",
+        "race": "Nachtelf",
+        "gender": "weiblich",
+        "meaning": "sanft, -isa"
+      },
+      {
+        "name": "Illidara",
+        "race": "Nachtelf",
+        "gender": "weiblich",
+        "meaning": "-ara"
+      },
+      {
+        "name": "Cenarion",
+        "race": "Nachtelf",
+        "gender": "männlich",
+        "meaning": "-ion"
+      },
+      {
+        "name": "Thrakk",
+        "race": "Ork",
+        "gender": "männlich",
+        "meaning": "hart, kurz"
+      },
+      {
+        "name": "Grommashk",
+        "race": "Ork",
+        "gender": "männlich",
+        "meaning": "Plosive"
+      },
+      {
+        "name": "Aggrona",
+        "race": "Ork",
+        "gender": "weiblich",
+        "meaning": "-ona"
+      },
+      {
+        "name": "Durotanor",
+        "race": "Ork",
+        "gender": "männlich",
+        "meaning": "-or"
+      },
+      {
+        "name": "Garrosha",
+        "race": "Ork",
+        "gender": "weiblich",
+        "meaning": "-sha"
+      },
+      {
+        "name": "Anduinor",
+        "race": "Mensch",
+        "gender": "männlich",
+        "meaning": "europäisch gemischt"
+      },
+      {
+        "name": "Jainaeth",
+        "race": "Mensch",
+        "gender": "weiblich",
+        "meaning": "-aeth"
+      },
+      {
+        "name": "Variann",
+        "race": "Mensch",
+        "gender": "männlich",
+        "meaning": "-ann"
+      },
+      {
+        "name": "Tiffinara",
+        "race": "Mensch",
+        "gender": "weiblich",
+        "meaning": "-ara"
+      },
+      {
+        "name": "Arthoren",
+        "race": "Mensch",
+        "gender": "männlich",
+        "meaning": "-oren"
+      },
+      {
+        "name": "Bainehorn",
+        "race": "Tauren",
+        "gender": "männlich",
+        "meaning": "Natur, Tierwelt"
+      },
+      {
+        "name": "Cairnea",
+        "race": "Tauren",
+        "gender": "weiblich",
+        "meaning": "-ea"
+      },
+      {
+        "name": "Magathar",
+        "race": "Tauren",
+        "gender": "männlich",
+        "meaning": "-thar"
+      },
+      {
+        "name": "Hamuula",
+        "race": "Tauren",
+        "gender": "weiblich",
+        "meaning": "-ula"
+      },
+      {
+        "name": "Mulnora",
+        "race": "Tauren",
+        "gender": "weiblich",
+        "meaning": "-ora"
+      },
+      {
+        "name": "Velenor",
+        "race": "Draenei",
+        "gender": "männlich",
+        "meaning": "vokalreich, eredun"
+      },
+      {
+        "name": "Yrelaa",
+        "race": "Draenei",
+        "gender": "weiblich",
+        "meaning": "-aa"
+      },
+      {
+        "name": "Akamaeth",
+        "race": "Draenei",
+        "gender": "männlich",
+        "meaning": "-aeth"
+      },
+      {
+        "name": "Nobundor",
+        "race": "Draenei",
+        "gender": "männlich",
+        "meaning": "-dor"
+      },
+      {
+        "name": "Maraadil",
+        "race": "Draenei",
+        "gender": "weiblich",
+        "meaning": "-il"
+      },
+      {
+        "name": "Magniron",
+        "race": "Zwerg",
+        "gender": "männlich",
+        "meaning": "hart, germanisch"
+      },
+      {
+        "name": "Moiraeth",
+        "race": "Zwerg",
+        "gender": "weiblich",
+        "meaning": "-aeth"
+      },
+      {
+        "name": "Brannor",
+        "race": "Zwerg",
+        "gender": "männlich",
+        "meaning": "-or"
+      },
+      {
+        "name": "Falstada",
+        "race": "Zwerg",
+        "gender": "weiblich",
+        "meaning": "-ada"
+      },
+      {
+        "name": "Muradinn",
+        "race": "Zwerg",
+        "gender": "männlich",
+        "meaning": "-inn"
+      },
+      {
+        "name": "Voljinn",
+        "race": "Troll",
+        "gender": "männlich",
+        "meaning": "-jin"
+      },
+      {
+        "name": "Zulzana",
+        "race": "Troll",
+        "gender": "weiblich",
+        "meaning": "-zan"
+      },
+      {
+        "name": "Senjinn",
+        "race": "Troll",
+        "gender": "männlich",
+        "meaning": "-jinn"
+      },
+      {
+        "name": "Rokhana",
+        "race": "Troll",
+        "gender": "weiblich",
+        "meaning": "-ana"
+      },
+      {
+        "name": "Hexxora",
+        "race": "Troll",
+        "gender": "weiblich",
+        "meaning": "-ora"
+      },
+      {
+        "name": "Aethoris",
+        "race": "Blutelf",
+        "gender": "männlich",
+        "meaning": "formal"
+      },
+      {
+        "name": "Lirathiel",
+        "race": "Blutelf",
+        "gender": "weiblich",
+        "meaning": "-iel"
+      },
+      {
+        "name": "Grashnak",
+        "race": "Ork",
+        "gender": "männlich",
+        "meaning": "Plosive"
+      },
+      {
+        "name": "Tyranor",
+        "race": "Nachtelf",
+        "gender": "männlich",
+        "meaning": "sanft"
+      },
+      {
+        "name": "Bouldera",
+        "race": "Tauren",
+        "gender": "weiblich",
+        "meaning": "Natur"
+      }
+    ]
   }
 ]

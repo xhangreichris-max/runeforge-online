@@ -17,6 +17,18 @@ const RUNEFORGE_TOOLS = [
     kd: 20,
     featured: true
   },
+  {
+    id: "wow-namensgenerator",
+    name: "WoW Namensgenerator",
+    desc: "Lore-genaue WoW-Namen für alle Rassen — Blutelfen, Orks, Nachtelfen und mehr.",
+    category: "namen",
+    tags: ["wow", "world of warcraft", "deutsch"],
+    icon: `<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>`,
+    url: "/de/wow-namensgenerator",
+    volume: 6940,
+    kd: 17,
+    featured: true
+  },
 ];
 
 // ── CATEGORY CONFIG ──────────────────────────────────────

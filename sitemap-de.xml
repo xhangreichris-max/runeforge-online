@@ -9,4 +9,13 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://runeforge.online/de/fantasy-namensgenerator"/>
   </url>
+
+  <url>
+    <loc>https://runeforge.online/de/wow-namensgenerator</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://runeforge.online/de/wow-namensgenerator"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://runeforge.online/blood-elf-name-generator"/>
+  </url>
 </urlset>
