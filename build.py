@@ -33,6 +33,11 @@ def load_config():
     with open(CONFIG, 'r', encoding='utf-8') as f:
         return json.load(f)
 
+# ── URL HELPERS ─────────────────────────────────────────
+def clean_url(url):
+    """Strip a trailing .html so generated links use clean URLs."""
+    return url[:-5] if url.endswith('.html') else url
+
 # ── BUILD FILTERS HTML ─────────────────────────────────
 def build_filters(filters):
     html = ''
@@ -45,14 +50,14 @@ def build_filters(filters):
 def build_related_chips(chips):
     html = ''
     for chip in chips:
-        html += f'<a href="{chip["url"]}" class="chip">{chip["label"]}</a>\n    '
+        html += f'<a href="{clean_url(chip["url"])}" class="chip">{chip["label"]}</a>\n    '
     return html.strip()
 
 # ── BUILD SIDEBAR LINKS ────────────────────────────────
 def build_sidebar_links(links):
     html = ''
     for link in links:
-        html += f'<a href="{link["url"]}">{link["label"]}</a>\n      '
+        html += f'<a href="{clean_url(link["url"])}">{link["label"]}</a>\n      '
     return html.strip()
 
 # ── BUILD SIDEBAR TIPS ─────────────────────────────────
@@ -95,7 +100,7 @@ def build_faq_schema(faqs):
 def build_footer_links(links):
     html = ''
     for link in links:
-        html += f'<a href="{link["url"]}">{link["label"]}</a>\n        '
+        html += f'<a href="{clean_url(link["url"])}">{link["label"]}</a>\n        '
     return html.strip()
 
 # ── BUILD PAGE FROM CONFIG ─────────────────────────────
@@ -165,7 +170,7 @@ def update_tools_js(pages):
     category: "{entry['category']}",
     tags: [{tags_str}],
     icon: `{entry['icon']}`,
-    url: "{entry['url']}",
+    url: "{clean_url(entry['url'])}",
     volume: {entry['volume']},
     kd: {entry['kd']},
     featured: {'true' if entry.get('featured') else 'false'}
@@ -198,7 +203,7 @@ def update_sitemap(pages):
     added = 0
 
     for page in pages:
-        url = f"https://runeforge.online/{page['id']}.html"
+        url = f"https://runeforge.online/{page['id']}"
         if url in content:
             print(f"  ↷  sitemap: {page['id']} already exists — skip")
             continue
