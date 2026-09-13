@@ -19,7 +19,7 @@ No signup. No ads. No limits. Generate as many names as you want, free forever.
 
 ---
 
-## Generators Available
+## Generators Available 
 
 ### Names
 | Generator | URL | Keywords Targeted |
