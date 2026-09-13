@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://runeforge.online/sitemap-index.xml
 Sitemap: https://runeforge.online/sitemap.xml
+Sitemap: https://runeforge.online/sitemap-de.xml
