@@ -8,6 +8,8 @@ on:
     paths:
       - 'pages-config.json'
       - 'template.html'
+      - 'pages-config-de.json'
+      - 'template-de.html'
       - 'build.py'
 
 env:
@@ -34,10 +36,12 @@ jobs:
 
       - name: Run build script
         run: |
-          echo "=== Running build.py ==="
-          python build.py
-          echo "=== Files generated ==="
+          echo "=== Running build.py --all ==="
+          python build.py --all
+          echo "=== English files generated ==="
           ls -la *.html
+          echo "=== German files generated ==="
+          ls -la de/*.html
 
       - name: Check git status
         run: |
@@ -51,13 +55,13 @@ jobs:
         run: |
           git config --global user.name "RuneForge Builder"
           git config --global user.email "builder@runeforge.online"
-          git add *.html tools.js sitemap.xml
+          git add *.html tools.js sitemap.xml de/*.html tools-de.js sitemap-de.xml
           echo "=== Staged files ==="
           git diff --staged --name-only
           if git diff --staged --quiet; then
             echo "Nothing to commit — pages already up to date"
           else
-            git commit -m "Auto-build: generated pages from pages-config.json [skip ci]"
+            git commit -m "Auto-build: generated English + German pages [skip ci]"
             git pull --rebase origin main
             git push origin main
             echo "=== Push successful ==="
