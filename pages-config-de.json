@@ -1740,5 +1740,587 @@
         "meaning": "Dorn"
       }
     ]
+  },
+  {
+    "id": "gamer-namen-generator",
+    "en_twin": "",
+    "page_name": "Gamer Namen Generator",
+    "meta_title": "Gamer Namen Generator: Der Tag, der hält",
+    "meta_desc": "Gamer Namen Generator mit Phonetik-Regeln, Plattform-Limits und 45 sofort nutzbaren Tags für Xbox, PSN, Steam und Discord.",
+    "og_title": "Gamer Namen Generator — RuneForge",
+    "h1_text": "Gamer Namen Generator: Der Tag, der hält",
+    "hero_sub": "Generiere einzigartige Gamer-Namen für Xbox, PSN, Steam und Discord — kostenlos, ohne Anmeldung.",
+    "hero_bg": "hero-bg.webp",
+    "eyebrow_text": "Gamer Namen Generator",
+    "howto_step1": "Wähle einen Stil mit den Filterknöpfen — Alle, Aggressiv, Weiblich, Team oder Neutral.",
+    "breadcrumb_category_name": "Namensgeneratoren",
+    "breadcrumb_category_id": "namen",
+    "filters": [
+      {
+        "label": "Alle",
+        "value": "all"
+      },
+      {
+        "label": "Aggressiv",
+        "value": "aggressiv"
+      },
+      {
+        "label": "Weiblich",
+        "value": "weiblich"
+      },
+      {
+        "label": "Team",
+        "value": "team"
+      },
+      {
+        "label": "Neutral",
+        "value": "neutral"
+      }
+    ],
+    "name_data": {
+      "all": [
+        {
+          "n": "Kryx",
+          "r": "Xbox / PSN"
+        },
+        {
+          "n": "Vrax",
+          "r": "Xbox / Discord"
+        },
+        {
+          "n": "Skarn",
+          "r": "Steam / Discord"
+        },
+        {
+          "n": "Dravx",
+          "r": "Xbox"
+        },
+        {
+          "n": "Nyxar",
+          "r": "Discord"
+        },
+        {
+          "n": "Vaelor",
+          "r": "Steam"
+        },
+        {
+          "n": "Rynex",
+          "r": "PSN"
+        },
+        {
+          "n": "Loryx",
+          "r": "Discord"
+        }
+      ],
+      "aggressiv": [
+        {
+          "n": "Kryx",
+          "r": "Xbox / PSN"
+        },
+        {
+          "n": "Vrax",
+          "r": "Xbox / Discord"
+        },
+        {
+          "n": "Skarn",
+          "r": "Steam / Discord"
+        },
+        {
+          "n": "Dravx",
+          "r": "Xbox"
+        },
+        {
+          "n": "Krynn",
+          "r": "PSN"
+        },
+        {
+          "n": "Vraxor",
+          "r": "Steam"
+        },
+        {
+          "n": "Skryx",
+          "r": "Xbox"
+        },
+        {
+          "n": "Vexor",
+          "r": "Steam"
+        }
+      ],
+      "weiblich": [
+        {
+          "n": "Loryx",
+          "r": "Discord"
+        },
+        {
+          "n": "Krya",
+          "r": "Xbox"
+        },
+        {
+          "n": "Vexa",
+          "r": "PSN"
+        },
+        {
+          "n": "Nyra",
+          "r": "Discord"
+        },
+        {
+          "n": "Skyla",
+          "r": "Steam"
+        },
+        {
+          "n": "Draya",
+          "r": "Xbox"
+        },
+        {
+          "n": "Lyrx",
+          "r": "Xbox"
+        },
+        {
+          "n": "Veyra",
+          "r": "Discord"
+        }
+      ],
+      "team": [
+        {
+          "n": "Teamax",
+          "r": "Discord"
+        },
+        {
+          "n": "Coreyx",
+          "r": "Steam"
+        },
+        {
+          "n": "Unitax",
+          "r": "PSN"
+        },
+        {
+          "n": "Packor",
+          "r": "Discord"
+        },
+        {
+          "n": "Squadyx",
+          "r": "Xbox"
+        },
+        {
+          "n": "Teamor",
+          "r": "Discord"
+        },
+        {
+          "n": "Corex",
+          "r": "Xbox"
+        },
+        {
+          "n": "Unitra",
+          "r": "PSN"
+        }
+      ],
+      "neutral": [
+        {
+          "n": "Axen",
+          "r": "Xbox"
+        },
+        {
+          "n": "Vorn",
+          "r": "PSN"
+        },
+        {
+          "n": "Rusk",
+          "r": "Steam"
+        },
+        {
+          "n": "Keld",
+          "r": "Discord"
+        },
+        {
+          "n": "Myrn",
+          "r": "Discord"
+        },
+        {
+          "n": "Soren",
+          "r": "Steam"
+        },
+        {
+          "n": "Lyrx",
+          "r": "Xbox"
+        },
+        {
+          "n": "Axyl",
+          "r": "Discord"
+        }
+      ]
+    },
+    "related_chips": [
+      {
+        "label": "Fantasy Namensgenerator",
+        "url": "fantasy-namensgenerator.html"
+      },
+      {
+        "label": "WoW Namensgenerator",
+        "url": "wow-namensgenerator.html"
+      },
+      {
+        "label": "Fantasy Namen Weiblich",
+        "url": "fantasy-namen-weiblich.html"
+      }
+    ],
+    "sidebar_links": [
+      {
+        "label": "Fantasy Namensgenerator",
+        "url": "fantasy-namensgenerator.html"
+      },
+      {
+        "label": "WoW Namensgenerator",
+        "url": "wow-namensgenerator.html"
+      },
+      {
+        "label": "Fantasy Namen Weiblich",
+        "url": "fantasy-namen-weiblich.html"
+      }
+    ],
+    "sidebar_tips": [
+      "Kurze Namen (4-8 Zeichen) sind auf allen Plattformen einfacher zu merken.",
+      "Teste deinen Namen auf allen Plattformen — Verfügbarkeit variiert stark.",
+      "Aggressive Silben wie Kr-, Vr-, -ax oder -yx klingen in Gaming-Communities stark."
+    ],
+    "sidebar_pro_tip": "Wenn dein Wunsch-Gamertag vergeben ist, ersetze einen Vokal durch eine Zahl (3 für e, 0 für o) oder füge ein kurzes Prefix wie 'x' oder 'the' hinzu — das reicht oft.",
+    "seo_article": "<p>Du sitzt vor dem Eingabefeld. Der erste Versuch ist schon vergeben. Der zweite klingt, als hätte ihn jemand 2012 auf dem Schulhof erfunden. Der dritte wird vom System abgelehnt, weil er zu lang oder zu kurz ist. In dem Moment merkst du, dass ein Gamer-Name kein dekoratives Extra ist. Er ist das erste Signal, das andere Spieler von dir bekommen – und oft das einzige, das bleibt.</p>\n\n<p><strong>Ein Gamer-Name ist kein Label, sondern ein akustisches Signal. Er muss in der Stimme der Community klingen, auf der gewählten Plattform passen und genug Reibung erzeugen, um im Chat und in der Rangliste hängen zu bleiben.</strong></p>\n\n<h2>Der Name, der schon vergeben ist, verrät das eigentliche Problem</h2>\n\n<p>Die meisten Scheitern-Momente entstehen nicht, weil es zu wenige Ideen gibt. Sie entstehen, weil die Idee gegen drei unsichtbare Filter läuft: Verfügbarkeit, Plattformregeln und den ungeschriebenen Geschmack der deutschsprachigen Lobbys. Wer nur „cool“ sucht, landet bei denselben Silben, die schon tausendfach belegt sind. Wer nur „verfügbar“ sucht, endet bei Zahlenketten und Unterstrichen, die im Voice-Chat unaussprechlich sind.</p>\n\n<p>Der Unterschied zwischen Gamertag, Username und Charakter-Name ist hier entscheidend. Der Gamertag ist plattformgebunden und oft unique (Xbox, PSN). Der Username kann auf mehreren Diensten existieren und ist meist freier (Steam, Discord). Der Charakter-Name lebt nur innerhalb eines Spiels und darf dort flamboyant oder episch sein, weil er die Welt des Titels widerspiegelt. Wer diese drei Ebenen vermischt, erzeugt Konflikte: Ein Name, der auf Xbox schon vergeben ist, funktioniert als Discord-Display-Name problemlos – und umgekehrt. Wer den Generator oben auf dieser Seite nutzt, sollte deshalb zuerst die Zielplattform festlegen und erst danach die Lautstruktur wählen.</p>\n\n<h2>Was in deutschen Lobbys als „cool“ wahrgenommen wird</h2>\n\n<p>In deutschsprachigen Gaming-Communities gilt eine einfache akustische Regel: Kurze, harte Silben schlagen lange, weiche. Präfixe wie Kr-, Vr-, Sk-, Dr- und Endungen wie -ax, -yx, -or erzeugen den Eindruck von Schärfe und Geschwindigkeit. Leetspeak bleibt optional und dezent: 3 für e, 0 für o, selten 1 für i. Zu viel Zahlen- und Sonderzeichen-Spam wirkt älter als der Name selbst.</p>\n\n<p>Mystische Varianten arbeiten mit dunkleren Vokalen und fließenderen Übergängen (Nyx, Vael, Ryn). Weibliche Namen in denselben Communities verzichten häufig auf übertriebene Softness und setzen stattdessen auf knappe, rhythmische Formen, die im Call-out klar verständlich bleiben. Team-Namen brauchen einen gemeinsamen Kern – ein Wort oder eine Silbe, die sich auf alle Mitglieder übertragen lässt, ohne dass der Tag unaussprechlich wird.</p>\n\n<h2>Phonetik und Plattformregeln bestimmen den Spielraum</h2>\n\n<p>Die Plattform setzt die harten Grenzen. Innerhalb dieser Grenzen entscheidet die Phonetik, ob der Name im schnellen Chat noch funktioniert.</p>\n\n<figure>\n<svg viewBox=\"0 0 700 240\" width=\"100%\" style=\"max-width:700px\" xmlns=\"http://www.w3.org/2000/svg\">\n<title>Plattform-Vergleich für Gamer-Namen</title>\n<desc>Tabelle mit maximaler Zeichenlänge, Unique-Status und Besonderheiten für Xbox, PSN, Steam und Discord</desc>\n<rect width=\"700\" height=\"240\" fill=\"#0C0D0E\"/>\n<rect x=\"0\" y=\"0\" width=\"700\" height=\"36\" fill=\"#C4A052\"/>\n<text x=\"12\" y=\"24\" fill=\"#0C0D0E\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"600\">Plattform</text>\n<text x=\"160\" y=\"24\" fill=\"#0C0D0E\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"600\">Max. Zeichen</text>\n<text x=\"320\" y=\"24\" fill=\"#0C0D0E\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"600\">Unique?</text>\n<text x=\"430\" y=\"24\" fill=\"#0C0D0E\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"600\">Besonderheit</text>\n<line x1=\"0\" y1=\"36\" x2=\"700\" y2=\"36\" stroke=\"#B8B0A5\" stroke-width=\"1\"/>\n<text x=\"12\" y=\"68\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">Xbox</text>\n<text x=\"160\" y=\"68\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">12</text>\n<text x=\"320\" y=\"68\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">ja</text>\n<text x=\"430\" y=\"68\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">Hashtag wird automatisch angehängt</text>\n<line x1=\"0\" y1=\"84\" x2=\"700\" y2=\"84\" stroke=\"#B8B0A5\" stroke-width=\"0.5\" opacity=\"0.4\"/>\n<text x=\"12\" y=\"116\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">PSN</text>\n<text x=\"160\" y=\"116\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">3–16</text>\n<text x=\"320\" y=\"116\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">ja</text>\n<text x=\"430\" y=\"116\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">keine Leerzeichen</text>\n<line x1=\"0\" y1=\"132\" x2=\"700\" y2=\"132\" stroke=\"#B8B0A5\" stroke-width=\"0.5\" opacity=\"0.4\"/>\n<text x=\"12\" y=\"164\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">Steam</text>\n<text x=\"160\" y=\"164\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">beliebig</text>\n<text x=\"320\" y=\"164\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">nein</text>\n<text x=\"430\" y=\"164\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">Profilname nicht unique</text>\n<line x1=\"0\" y1=\"180\" x2=\"700\" y2=\"180\" stroke=\"#B8B0A5\" stroke-width=\"0.5\" opacity=\"0.4\"/>\n<text x=\"12\" y=\"212\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">Discord</text>\n<text x=\"160\" y=\"212\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">2–32</text>\n<text x=\"320\" y=\"212\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">nein*</text>\n<text x=\"430\" y=\"212\" fill=\"#B8B0A5\" font-family=\"system-ui,sans-serif\" font-size=\"13\">Display-Name frei, Username unique</text>\n</svg>\n<figcaption>Plattform-Vergleich: Zeichenlimits und Unique-Regeln für Xbox, PSN, Steam und Discord.</figcaption>\n</figure>\n\n<p>Xbox begrenzt auf zwölf Zeichen und hängt den Hashtag selbst an. PSN erlaubt drei bis sechzehn Zeichen und verbietet Leerzeichen. Steam akzeptiert praktisch jede Länge, verlangt aber keine Einzigartigkeit des Anzeigenamens. Discord trennt Display-Name (2–32 Zeichen, nicht unique) und Username (unique). Wer diese Grenzen ignoriert, verliert Stunden mit Nachbesserungen.</p>\n\n<p>Die phonetische Schicht darüber ist schmaler, als viele denken. Aggressiv klingende Namen leben von Konsonanten-Clustern am Anfang und kurzen Vokalen. Mystische Namen öffnen den Vokalraum und setzen auf fließende Übergänge. Weibliche Varianten in denselben Communities vermeiden überlange Endungen und halten den Rhythmus knapp. Team-Namen brauchen einen Kern, der sich multiplizieren lässt, ohne dass der Tag im Call unverständlich wird.</p>\n\n<h2>Fünf Schritte, die aus einem leeren Feld einen brauchbaren Tag machen</h2>\n\n<ol>\n<li>Lege die Zielplattform fest und notiere die Zeichengrenze sowie die Unique-Regel.</li>\n<li>Wähle die Lautfarbe: aggressiv (Kr-, Vr-, -ax), mystisch (Nyx, Vael) oder neutral.</li>\n<li>Generiere drei bis fünf Varianten mit dem Generator oben auf dieser Seite und prüfe sofort die Verfügbarkeit auf der Plattform.</li>\n<li>Teste den Namen im Voice-Chat: Wenn er nach dem zweiten Mal noch buchstabiert werden muss, ist er zu komplex.</li>\n<li>Prüfe auf verbotene Wörter und Policy-Verstöße der jeweiligen Plattform.</li>\n<li>Für Team-Namen: Definiere einen gemeinsamen Kern und hänge nur kurze, unterscheidbare Suffixe an.</li>\n<li>Für weibliche Varianten: Behalte die gleiche Härte der Silben bei und vermeide überlange, weiche Endungen.</li>\n<li>Speichere die finalen Kandidaten und teste sie 24 Stunden später noch einmal – der erste Eindruck ändert sich oft.</li>\n</ol>\n\n<h2>Der Name als Waffe und als Visitenkarte zugleich</h2>\n\n<p>Ein guter Gamer-Name erfüllt zwei Funktionen gleichzeitig. Er ist Waffe, weil er im Chat und in der Rangliste Reibung erzeugt und sich einprägt. Er ist Visitenkarte, weil er auf jeder Plattform und in jedem Squad die gleiche akustische Signatur trägt. Wer beides trennt, produziert entweder austauschbare Tags oder unaussprechliche Konstruktionen.</p>\n\n<p>Die häufigsten Fragen aus den Suchanfragen lassen sich damit beantworten. Ein guter Name entsteht nicht durch Zufall, sondern durch die Kombination aus Plattformgrenze, phonetischer Schärfe und Verfügbarkeit. Einzigartigkeit entsteht weniger durch exotische Schreibweisen als durch die richtige Silbenfolge, die in deutschen Lobbys noch nicht überstrapaziert ist. Die ideale Länge folgt der Plattform: auf Xbox eher kürzer, auf Discord und Steam etwas freier. Coole Namen für Mädchen halten denselben harten Rhythmus und verzichten auf übertriebene Softness. Der Wechsel des Xbox-Gamertags ist über die Kontoeinstellungen möglich, unterliegt aber Cooldown-Regeln. Verbotene Wörter richten sich nach den Community-Standards der jeweiligen Plattform und ändern sich. Gamertag und Username sind nicht identisch: Der eine ist plattformunique und eng begrenzt, der andere oft freier. Ein Team-Name braucht einen gemeinsamen Kern und kurze, klare Unterscheidungsmerkmale.</p>\n\n<p>Wer tiefer in fantasy-orientierte oder spielspezifische Namen eintauchen will, findet im Hub unter <a href=\"/de/fantasy-namensgenerator\">Fantasy-Namensgenerator</a> und den Geschwisterseiten <a href=\"/de/wow-namensgenerator\">WoW-Namensgenerator</a> sowie <a href=\"/de/fantasy-namen-weiblich\">Fantasy-Namen weiblich</a> weitere Generatoren, die auf denselben phonetischen Prinzipien aufbauen.</p>\n\n<p>— Chris / Überarbeitet September 2026</p>",
+    "faq_items": [
+      {
+        "q": "Wie finde ich einen guten Gamer-Namen?",
+        "a": "Lege die Plattform fest, wähle eine Lautfarbe (aggressiv, mystisch, neutral) und prüfe Verfügbarkeit sowie Aussprechbarkeit im Voice-Chat."
+      },
+      {
+        "q": "Was macht einen Gamer-Namen einzigartig?",
+        "a": "Die richtige Silbenfolge, die in deutschen Lobbys noch nicht überstrapaziert ist, kombiniert mit Plattform-Passung."
+      },
+      {
+        "q": "Wie lang sollte ein Gamertag sein?",
+        "a": "Er folgt der Plattform: Xbox maximal 12 Zeichen, PSN 3–16, Discord 2–32, Steam freier."
+      },
+      {
+        "q": "Was sind coole Gamer-Namen für Mädchen?",
+        "a": "Namen, die denselben harten Rhythmus behalten und überlange, weiche Endungen vermeiden."
+      },
+      {
+        "q": "Wie ändere ich meinen Xbox Gamertag?",
+        "a": "Über die Kontoeinstellungen; es gelten Cooldown-Regeln."
+      },
+      {
+        "q": "Gibt es verbotene Wörter in Gamer-Namen?",
+        "a": "Ja, sie richten sich nach den Community-Standards der jeweiligen Plattform und ändern sich."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen Gamertag und Username?",
+        "a": "Gamertag ist plattformunique und eng begrenzt, Username oft freier und auf mehreren Diensten nutzbar."
+      },
+      {
+        "q": "Wie erstelle ich einen Team-Namen?",
+        "a": "Definiere einen gemeinsamen Kern und hänge kurze, klare Unterscheidungsmerkmale an."
+      }
+    ],
+    "footer_links": [
+      {
+        "label": "Fantasy Namensgenerator",
+        "url": "fantasy-namensgenerator.html"
+      },
+      {
+        "label": "WoW Namensgenerator",
+        "url": "wow-namensgenerator.html"
+      },
+      {
+        "label": "Fantasy Namen Weiblich",
+        "url": "fantasy-namen-weiblich.html"
+      }
+    ],
+    "tools_js_entry": {
+      "id": "gamer-namen-generator",
+      "name": "Gamer Namen Generator",
+      "desc": "Coole Gamer-Namen für Xbox, PSN, Steam und Discord — kostenlos.",
+      "category": "namen",
+      "tags": [
+        "gaming",
+        "gamertag",
+        "deutsch"
+      ],
+      "icon": "<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>",
+      "url": "gamer-namen-generator.html",
+      "volume": 3530,
+      "kd": 18,
+      "featured": false
+    },
+    "sitemap_priority": "0.8",
+    "name_table_heading": "45 Gamer-Namen — sofort verwendbar",
+    "name_table": [
+      {
+        "name": "Kryx",
+        "race": "Aggressiv",
+        "gender": "m",
+        "meaning": "Xbox / PSN"
+      },
+      {
+        "name": "Vrax",
+        "race": "Aggressiv",
+        "gender": "m",
+        "meaning": "Xbox / Discord"
+      },
+      {
+        "name": "Skarn",
+        "race": "Aggressiv",
+        "gender": "m",
+        "meaning": "Steam / Discord"
+      },
+      {
+        "name": "Dravx",
+        "race": "Aggressiv",
+        "gender": "m",
+        "meaning": "Xbox"
+      },
+      {
+        "name": "Nyxar",
+        "race": "Mystisch",
+        "gender": "n",
+        "meaning": "Discord"
+      },
+      {
+        "name": "Vaelor",
+        "race": "Mystisch",
+        "gender": "m",
+        "meaning": "Steam"
+      },
+      {
+        "name": "Rynex",
+        "race": "Mystisch",
+        "gender": "n",
+        "meaning": "PSN"
+      },
+      {
+        "name": "Loryx",
+        "race": "Mystisch",
+        "gender": "w",
+        "meaning": "Discord"
+      },
+      {
+        "name": "Krya",
+        "race": "Weiblich",
+        "gender": "w",
+        "meaning": "Xbox"
+      },
+      {
+        "name": "Vexa",
+        "race": "Weiblich",
+        "gender": "w",
+        "meaning": "PSN"
+      },
+      {
+        "name": "Nyra",
+        "race": "Weiblich",
+        "gender": "w",
+        "meaning": "Discord"
+      },
+      {
+        "name": "Skyla",
+        "race": "Weiblich",
+        "gender": "w",
+        "meaning": "Steam"
+      },
+      {
+        "name": "Draya",
+        "race": "Weiblich",
+        "gender": "w",
+        "meaning": "Xbox"
+      },
+      {
+        "name": "Teamax",
+        "race": "Team",
+        "gender": "n",
+        "meaning": "Discord"
+      },
+      {
+        "name": "Coreyx",
+        "race": "Team",
+        "gender": "n",
+        "meaning": "Steam"
+      },
+      {
+        "name": "Unitax",
+        "race": "Team",
+        "gender": "n",
+        "meaning": "PSN"
+      },
+      {
+        "name": "Packor",
+        "race": "Team",
+        "gender": "n",
+        "meaning": "Discord"
+      },
+      {
+        "name": "Squadyx",
+        "race": "Team",
+        "gender": "n",
+        "meaning": "Xbox"
+      },
+      {
+        "name": "Axen",
+        "race": "Neutral",
+        "gender": "m",
+        "meaning": "Xbox"
+      },
+      {
+        "name": "Vorn",
+        "race": "Neutral",
+        "gender": "m",
+        "meaning": "PSN"
+      },
+      {
+        "name": "Rusk",
+        "race": "Neutral",
+        "gender": "m",
+        "meaning": "Steam"
+      },
+      {
+        "name": "Keld",
+        "race": "Neutral",
+        "gender": "m",
+        "meaning": "Discord"
+      },
+      {
+        "name": "Myrn",
+        "race": "Neutral",
+        "gender": "n",
+        "meaning": "Discord"
+      },
+      {
+        "name": "Soren",
+        "race": "Neutral",
+        "gender": "m",
+        "meaning": "Steam"
+      },
+      {
+        "name": "Lyrx",
+        "race": "Neutral",
+        "gender": "w",
+        "meaning": "Xbox"
+      },
+      {
+        "name": "Veyra",
+        "race": "Weiblich",
+        "gender": "w",
+        "meaning": "Discord"
+      },
+      {
+        "name": "Krynn",
+        "race": "Aggressiv",
+        "gender": "m",
+        "meaning": "PSN"
+      },
+      {
+        "name": "Vraxor",
+        "race": "Aggressiv",
+        "gender": "m",
+        "meaning": "Steam"
+      },
+      {
+        "name": "Skryx",
+        "race": "Aggressiv",
+        "gender": "m",
+        "meaning": "Xbox"
+      },
+      {
+        "name": "Nyxel",
+        "race": "Mystisch",
+        "gender": "w",
+        "meaning": "Discord"
+      },
+      {
+        "name": "Vaelix",
+        "race": "Mystisch",
+        "gender": "n",
+        "meaning": "Steam"
+      },
+      {
+        "name": "Rynor",
+        "race": "Mystisch",
+        "gender": "m",
+        "meaning": "PSN"
+      },
+      {
+        "name": "Loryn",
+        "race": "Mystisch",
+        "gender": "w",
+        "meaning": "Xbox"
+      },
+      {
+        "name": "Kexya",
+        "race": "Weiblich",
+        "gender": "w",
+        "meaning": "Discord"
+      },
+      {
+        "name": "Vexor",
+        "race": "Aggressiv",
+        "gender": "m",
+        "meaning": "Steam"
+      },
+      {
+        "name": "Teamor",
+        "race": "Team",
+        "gender": "n",
+        "meaning": "Discord"
+      },
+      {
+        "name": "Corex",
+        "race": "Team",
+        "gender": "n",
+        "meaning": "Xbox"
+      },
+      {
+        "name": "Unitra",
+        "race": "Team",
+        "gender": "n",
+        "meaning": "PSN"
+      },
+      {
+        "name": "Packyx",
+        "race": "Team",
+        "gender": "n",
+        "meaning": "Steam"
+      },
+      {
+        "name": "Axyl",
+        "race": "Neutral",
+        "gender": "n",
+        "meaning": "Discord"
+      },
+      {
+        "name": "Vorx",
+        "race": "Neutral",
+        "gender": "m",
+        "meaning": "Xbox"
+      },
+      {
+        "name": "Ruska",
+        "race": "Neutral",
+        "gender": "w",
+        "meaning": "PSN"
+      },
+      {
+        "name": "Kelra",
+        "race": "Neutral",
+        "gender": "w",
+        "meaning": "Steam"
+      },
+      {
+        "name": "Myrxa",
+        "race": "Mystisch",
+        "gender": "w",
+        "meaning": "Discord"
+      },
+      {
+        "name": "Soryx",
+        "race": "Neutral",
+        "gender": "n",
+        "meaning": "Xbox"
+      }
+    ]
   }
 ]

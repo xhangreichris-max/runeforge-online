@@ -41,6 +41,18 @@ const RUNEFORGE_TOOLS = [
     kd: 17,
     featured: false
   },
+  {
+    id: "gamer-namen-generator",
+    name: "Gamer Namen Generator",
+    desc: "Coole Gamer-Namen für Xbox, PSN, Steam und Discord — kostenlos.",
+    category: "namen",
+    tags: ["gaming", "gamertag", "deutsch"],
+    icon: `<path d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>`,
+    url: "/de/gamer-namen-generator",
+    volume: 3530,
+    kd: 18,
+    featured: false
+  },
 ];
 
 // ── CATEGORY CONFIG ──────────────────────────────────────
