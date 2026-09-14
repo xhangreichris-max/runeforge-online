@@ -11,7 +11,8 @@ SITEMAPS = [
 
 def get_urls_from_sitemap(sitemap_url):
     urls = []
-    with urllib.request.urlopen(sitemap_url) as r:
+    req = urllib.request.Request(sitemap_url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req) as r:
         tree = ET.parse(r)
     ns = {'sm': 'https://www.sitemaps.org/schemas/sitemap/0.9'}
     for loc in tree.findall('.//sm:loc', ns):
