@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /template.html
+Disallow: /template-de.html
 
 Sitemap: https://runeforge.online/sitemap-index.xml
 Sitemap: https://runeforge.online/sitemap.xml
