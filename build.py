@@ -178,6 +178,7 @@ def build_page(template, page):
     replacements = {
         '{{META_TITLE}}':              page['meta_title'],
         '{{META_DESC}}':               page['meta_desc'],
+        '{{ROBOTS}}':                  page.get('robots', 'index, follow'),
         '{{PAGE_ID}}':                 page['id'],
         '{{HREFLANG_BLOCK}}':          build_hreflang_block(page),
         '{{PAGE_NAME}}':               page['page_name'],
@@ -224,6 +225,7 @@ def build_page_de(template, page):
     replacements = {
         '{{META_TITLE}}':              page['meta_title'],
         '{{META_DESC}}':               page['meta_desc'],
+        '{{ROBOTS}}':                  page.get('robots', 'index, follow'),
         '{{PAGE_ID}}':                 page['id'],
         '{{PAGE_NAME}}':               page['page_name'],
         '{{PAGE_NAME_LOWER}}':         page['page_name'].lower(),
