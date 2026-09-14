@@ -1,0 +1,58 @@
+name: IndexNow Ping
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.html'
+      - 'sitemap*.xml'
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Get changed HTML files
+        id: changed
+        run: |
+          CHANGED=$(git diff --name-only HEAD~1 HEAD \
+            | grep '\.html$' || true)
+          echo "files=$CHANGED" >> $GITHUB_OUTPUT
+
+      - name: Build URL list and ping IndexNow
+        if: steps.changed.outputs.files != ''
+        run: |
+          KEY="f1070114dd2941a781a77d3418ec5422"
+          BASE="https://runeforge.online"
+          URLS=""
+
+          while IFS= read -r file; do
+            if [ "$file" = "index.html" ]; then
+              url="$BASE/"
+            elif [ "$file" = "de/index.html" ]; then
+              url="$BASE/de/"
+            elif echo "$file" | grep -q "^de/"; then
+              slug="${file#de/}"
+              slug="${slug%.html}"
+              url="$BASE/de/$slug"
+            else
+              slug="${file%.html}"
+              url="$BASE/$slug"
+            fi
+            URLS="$URLS\"$url\","
+          done <<< "${{ steps.changed.outputs.files }}"
+
+          URLS="${URLS%,}"
+
+          curl -s -o /dev/null -w "%{http_code}" \
+            -X POST \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"host\": \"runeforge.online\",
+              \"key\": \"$KEY\",
+              \"keyLocation\": \"$BASE/$KEY.txt\",
+              \"urlList\": [$URLS]
+            }" \
+            https://api.indexnow.org/indexnow
